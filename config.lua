@@ -297,7 +297,7 @@ Config.Tasks.Pothole = {
     -- Props
     potholeModel = 'bkr_prop_asphalt_cracks_01a',
     coneModel = 'prop_roadcone02a',
-    rakeModel = 'prop_rake_01',
+    rakeModel = 'prop_ld_shovel',
     -- Cone placement positions around pothole (3 cones)
     coneOffsets = {
         vector3(2.5, 0.0, 0.0),
@@ -355,7 +355,7 @@ Config.Labels = {
     deployLadder = '~g~[E]~w~ Deploy Ladder',
     repairLight = '~g~[E]~w~ Repair Light',
     -- Task E
-    grabRake = '~g~[E]~w~ Grab Asphalt Rake',
+    grabRake = '~g~[E]~w~ Grab Shovel',
     placeCones = '~g~[E]~w~ Place Cones',
     startRepair = '~g~[E]~w~ Repair Pothole',
     -- Dispatch

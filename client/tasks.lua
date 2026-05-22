@@ -115,8 +115,15 @@ local function AttachToolToPed(ped, model, posX, posY, posZ, rotX, rotY, rotZ, b
 
     local modelHash = GetHashKey(model)
     RequestModel(modelHash)
+    local timeout = 0
     while not HasModelLoaded(modelHash) do
-        Wait(0)
+        timeout = timeout + 1
+        if timeout > 100 then
+            print(('[DPW] ERROR: Failed to load tool model: %s'):format(model))
+            SetModelAsNoLongerNeeded(modelHash)
+            return nil
+        end
+        Wait(100)
     end
 
     -- Create object at 0,0,0 like the working medkit pattern
@@ -184,7 +191,10 @@ function DPW.Tasks.SetupHydrant(task)
                 sleep = Config.Optimization.activeInterval
 
                 if DPW.IsNearVehicleTrunk() then
-                    DPW.Utils.DrawText3D(pedCoords + vector3(0, 0, 1.5), Config.Labels.fetchHydrant)
+                    local vehCoords = DPW.GetDutyVehicleCoords()
+                    if vehCoords then
+                        DPW.Utils.DrawText3D(vehCoords + vector3(0, 0, 1.5), Config.Labels.fetchHydrant)
+                    end
                     if DPW.Utils.IsEPressed() then
                         local success = DPW.Utils.ProgressBar(
                             'Fetching hydrant...',
@@ -319,7 +329,10 @@ function DPW.Tasks.SetupSidewalk(task)
                 sleep = Config.Optimization.activeInterval
 
                 if DPW.IsNearVehicleTrunk() then
-                    DPW.Utils.DrawText3D(pedCoords + vector3(0, 0, 1.5), Config.Labels.fetchJackhammer)
+                    local vehCoords = DPW.GetDutyVehicleCoords()
+                    if vehCoords then
+                        DPW.Utils.DrawText3D(vehCoords + vector3(0, 0, 1.5), Config.Labels.fetchJackhammer)
+                    end
                     if DPW.Utils.IsEPressed() then
                         local success = DPW.Utils.ProgressBar(
                             'Grabbing jackhammer...',
@@ -446,7 +459,10 @@ function DPW.Tasks.SetupTrafficSignal(task)
                 sleep = Config.Optimization.activeInterval
 
                 if DPW.IsNearVehicleTrunk() then
-                    DPW.Utils.DrawText3D(pedCoords + vector3(0, 0, 1.5), Config.Labels.fetchWiresRelays)
+                    local vehCoords = DPW.GetDutyVehicleCoords()
+                    if vehCoords then
+                        DPW.Utils.DrawText3D(vehCoords + vector3(0, 0, 1.5), Config.Labels.fetchWiresRelays)
+                    end
                     if DPW.Utils.IsEPressed() then
                         local success = DPW.Utils.ProgressBar(
                             'Grabbing wires and relays...',
@@ -677,7 +693,10 @@ function DPW.Tasks.SetupPothole(task)
                 sleep = Config.Optimization.activeInterval
 
                 if DPW.IsNearVehicleTrunk() then
-                    DPW.Utils.DrawText3D(pedCoords + vector3(0, 0, 1.5), Config.Labels.grabRake)
+                    local vehCoords = DPW.GetDutyVehicleCoords()
+                    if vehCoords then
+                        DPW.Utils.DrawText3D(vehCoords + vector3(0, 0, 1.5), Config.Labels.grabRake)
+                    end
                     if DPW.Utils.IsEPressed() then
                         local success = DPW.Utils.ProgressBar(
                             'Grabbing asphalt rake...',
@@ -687,7 +706,7 @@ function DPW.Tasks.SetupPothole(task)
                         )
                         if success then
                             -- Attach rake to player (direct create+attach)
-                            AttachToolToPed(ped, cfg.rakeModel, 0.2, 0.0, -0.15, -80.0, 0.0, 0.0)
+                            AttachToolToPed(ped, cfg.rakeModel, 0.1, 0.0, 0.0, 0.0, 0.0, 0.0)
                             activeTaskData.step = 3
                             DPW.Utils.Notify('Rake ready. Repair the pothole!')
                         end
