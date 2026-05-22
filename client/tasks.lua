@@ -292,7 +292,7 @@ end
 
 -- ============================================================================
 -- TASK B: BROKEN SIDEWALKS
--- Steps: 1=FetchJackhammer, 2=Drill, 3=Smooth
+-- Steps: 1=Inspect, 2=FetchJackhammer (from truck), 3=Drill, 4=Smooth
 -- ============================================================================
 
 function DPW.Tasks.SetupSidewalk(task)
@@ -321,8 +321,8 @@ function DPW.Tasks.SetupSidewalk(task)
             local dist = #(pedCoords - coords)
             local step = activeTaskData.step
 
-            -- STEP 1 is fetch from truck — handled OUTSIDE sidewalk-distance check
-            if step == 1 then
+            -- STEP 2 is fetch from truck — handled OUTSIDE sidewalk-distance check
+            if step == 2 then
                 sleep = Config.Optimization.activeInterval
 
                 if DPW.IsNearVehicleTrunk() then
@@ -340,7 +340,7 @@ function DPW.Tasks.SetupSidewalk(task)
                         if success then
                             -- Attach jackhammer prop to player (direct create+attach)
                             AttachToolToPed(ped, cfg.jackhammerModel, 0.1, 0.0, 0.0, 280.0, 0.0, 0.0)
-                            activeTaskData.step = 2
+                            activeTaskData.step = 3
                             DPW.Utils.Notify('Jackhammer ready. Start drilling the sidewalk!')
                         end
                     end
@@ -351,12 +351,28 @@ function DPW.Tasks.SetupSidewalk(task)
                     end
                 end
 
-            -- Steps 2 and 3 require being near the sidewalk
+            -- Steps 1, 3, and 4 require being near the sidewalk
             elseif dist < 30.0 then
                 sleep = Config.Optimization.activeInterval
 
                 if dist < Config.Optimization.interactionRange + 2.0 then
-                    if step == 2 then
+                    if step == 1 then
+                        -- Inspect the sidewalk
+                        DPW.Utils.DrawText3D(coords + vector3(0, 0, 1.5), Config.Labels.inspectSidewalk)
+                        if DPW.Utils.IsEPressed() then
+                            local success = DPW.Utils.ProgressBar(
+                                'Inspecting sidewalk damage...',
+                                5000,
+                                Config.Anims.grabFromTruck.dict,
+                                Config.Anims.grabFromTruck.anim
+                            )
+                            if success then
+                                activeTaskData.step = 2
+                                DPW.Utils.Notify('Sidewalk needs drilling. Grab a jackhammer from your truck.')
+                            end
+                        end
+
+                    elseif step == 3 then
                         -- Drill the damaged sidewalk
                         DPW.Utils.DrawText3D(coords + vector3(0, 0, 1.5), Config.Labels.startDrilling)
                         if DPW.Utils.IsEPressed() then
@@ -373,12 +389,12 @@ function DPW.Tasks.SetupSidewalk(task)
                             StopGameplayCamShaking(true)
 
                             if success then
-                                activeTaskData.step = 3
+                                activeTaskData.step = 4
                                 DPW.Utils.Notify('Drilling complete. Smooth the surface now.')
                             end
                         end
 
-                    elseif step == 3 then
+                    elseif step == 4 then
                         -- Smooth the surface
                         DPW.Utils.DrawText3D(coords + vector3(0, 0, 1.5), Config.Labels.startSmoothing)
                         if DPW.Utils.IsEPressed() then

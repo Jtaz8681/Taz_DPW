@@ -185,8 +185,8 @@ Config.Tasks.Sidewalk = {
         duration = 15000, -- 15 seconds
     },
     smoothAnim = {
-        dict = 'amb@world_human_street_drink@male@idle_a',
-        anim = 'idle_a',
+        dict = 'amb@prop_human_bum_bin@idle_b',
+        anim = 'idle_d',
         duration = 10000, -- 10 seconds
     },
     -- Audio
@@ -344,6 +344,7 @@ Config.Labels = {
     fetchHydrant = '~g~[E]~w~ Fetch New Hydrant',
     installHydrant = '~g~[E]~w~ Install New Hydrant',
     -- Task B
+    inspectSidewalk = '~g~[E]~w~ Inspect Sidewalk',
     fetchJackhammer = '~g~[E]~w~ Grab Jackhammer',
     startDrilling = '~g~[E]~w~ Start Drilling',
     startSmoothing = '~g~[E]~w~ Smooth Surface',
