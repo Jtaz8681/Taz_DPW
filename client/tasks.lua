@@ -518,7 +518,7 @@ function DPW.Tasks.SetupTrafficSignal(task)
                     if step == 1 then
                         DPW.Utils.DrawText3D(coords + vector3(0, 0, 2.5), Config.Labels.inspectSite)
                         if DPW.Utils.IsEPressed() then
-                            local success = DPW.Utils.ProgressBar('Investigating signal malfunction...', 5000, Config.Anims.grabFromTruck.dict, Config.Anims.grabFromTruck.anim)
+                            local success = DPW.Utils.ProgressBar('Investigating signal malfunction...', 5000, 'missmechanic', 'work_base')
                             if success then
                                 activeTaskData.step = 2
                                 DPW.Utils.Notify('Signal needs repair. Get traffic cones from your truck.')
@@ -652,7 +652,7 @@ function DPW.Tasks.SetupStreetlight(task)
                     if step == 1 then
                         DPW.Utils.DrawText3D(baseCoords + vector3(0, 0, 1.0), Config.Labels.inspectSite)
                         if DPW.Utils.IsEPressed() then
-                            local success = DPW.Utils.ProgressBar('Inspecting streetlight...', 5000, Config.Anims.grabFromTruck.dict, Config.Anims.grabFromTruck.anim)
+                            local success = DPW.Utils.ProgressBar('Inspecting streetlight...', 5000, 'missmechanic', 'work_base')
                             if success then
                                 activeTaskData.step = 2
                                 DPW.Utils.Notify('The bulb and ballast are dead. Get traffic cones from your truck.')
