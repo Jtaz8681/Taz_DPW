@@ -258,7 +258,7 @@ function DPW.Tasks.SetupHydrant(task)
                     DPW.Utils.DrawText3D(coords + vector3(0, 0, 1.0), Config.Labels.installHydrant)
                     if DPW.Utils.IsEPressed() then
                         -- Attach welding tool for installation animation
-                        AttachToolToPed(ped, 'prop_weld_torch', 0.1, 0.0, 0.0, 280.0, 0.0, 180.0)
+                        AttachToolToPed(ped, 'prop_weld_torch', 0.1, 0.0, 0.0, 280.0, 0.0, 225.0)
 
                         local success = DPW.Utils.ProgressBar(
                             'Installing new hydrant...',
@@ -532,7 +532,7 @@ function DPW.Tasks.SetupTrafficSignal(task)
                         local passed = DPW.Utils.SkillCheck(cfg.skillCheck)
                         if passed then
                             -- Attach welding tool before repair animation
-                            AttachToolToPed(ped, cfg.welderModel, 0.1, 0.0, 0.0, 280.0, 0.0, 180.0)
+                            AttachToolToPed(ped, cfg.welderModel, 0.1, 0.0, 0.0, 280.0, 0.0, 225.0)
 
                             local success = DPW.Utils.ProgressBar(
                                 'Repairing traffic signal...',
@@ -669,7 +669,7 @@ function DPW.Tasks.SetupStreetlight(task)
                             local passed = DPW.Utils.SkillCheck(cfg.skillCheck)
                             if passed then
                                 -- Attach welding tool before repair animation
-                                AttachToolToPed(ped, 'prop_weld_torch', 0.1, 0.0, 0.0, 280.0, 0.0, 180.0)
+                                AttachToolToPed(ped, 'prop_weld_torch', 0.1, 0.0, 0.0, 280.0, 0.0, 225.0)
 
                                 local success = DPW.Utils.ProgressBar(
                                     'Replacing bulb and repairing ballast...',
