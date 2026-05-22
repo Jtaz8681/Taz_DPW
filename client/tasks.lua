@@ -274,11 +274,8 @@ function DPW.Tasks.SetupHydrant(task)
                                 activeTaskData.attachedProp = nil
                             end
 
-                            -- Spawn permanent network-synced hydrant
-                            local newHydrant = DPW.Utils.SpawnNetworkedProp(cfg.hydrantModel, coords, true)
-                            if newHydrant then
-                                TrackProp(newHydrant)
-                            end
+                            -- Spawn permanent network-synced hydrant (NOT tracked — persists after task cleanup)
+                            DPW.Utils.SpawnNetworkedProp(cfg.hydrantModel, coords, true)
 
                             DPW.Utils.NotifySuccess('Hydrant repaired successfully!')
                             DPW.CompleteTask()
