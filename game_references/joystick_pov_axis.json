@@ -1,0 +1,154 @@
+{
+  "url_path": "/docs/game-references/input-mapper-parameter-ids/joystick_pov_axis/",
+  "full_url": "https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/joystick_pov_axis/",
+  "title": "joystick_pov_axis",
+  "slug": "joystick_pov_axis",
+  "parent_category": "input-mapper-parameter-ids",
+  "toc": [],
+  "tables": [
+    {
+      "headers": [
+        "Input Parameter",
+        "Input Description"
+      ],
+      "rows": [
+        [
+          "IOM\\_POV1\\_UP",
+          "*hardware dependent*"
+        ],
+        [
+          "IOM\\_POV1\\_RIGHT",
+          "*hardware dependent*"
+        ],
+        [
+          "IOM\\_POV1\\_DOWN",
+          "*hardware dependent*"
+        ],
+        [
+          "IOM\\_POV1\\_LEFT",
+          "*hardware dependent*"
+        ],
+        [
+          "IOM\\_POV2\\_UP",
+          "*hardware dependent*"
+        ],
+        [
+          "IOM\\_POV2\\_RIGHT",
+          "*hardware dependent*"
+        ],
+        [
+          "IOM\\_POV2\\_DOWN",
+          "*hardware dependent*"
+        ],
+        [
+          "IOM\\_POV2\\_LEFT",
+          "*hardware dependent*"
+        ],
+        [
+          "IOM\\_POV3\\_UP",
+          "*hardware dependent*"
+        ],
+        [
+          "IOM\\_POV3\\_RIGHT",
+          "*hardware dependent*"
+        ],
+        [
+          "IOM\\_POV3\\_DOWN",
+          "*hardware dependent*"
+        ],
+        [
+          "IOM\\_POV3\\_LEFT",
+          "*hardware dependent*"
+        ],
+        [
+          "IOM\\_POV4\\_UP",
+          "*hardware dependent*"
+        ],
+        [
+          "IOM\\_POV4\\_RIGHT",
+          "*hardware dependent*"
+        ],
+        [
+          "IOM\\_POV4\\_DOWN",
+          "*hardware dependent*"
+        ],
+        [
+          "IOM\\_POV4\\_LEFT",
+          "*hardware dependent*"
+        ]
+      ],
+      "data": [
+        {
+          "Input Parameter": "IOM\\_POV1\\_UP",
+          "Input Description": "*hardware dependent*"
+        },
+        {
+          "Input Parameter": "IOM\\_POV1\\_RIGHT",
+          "Input Description": "*hardware dependent*"
+        },
+        {
+          "Input Parameter": "IOM\\_POV1\\_DOWN",
+          "Input Description": "*hardware dependent*"
+        },
+        {
+          "Input Parameter": "IOM\\_POV1\\_LEFT",
+          "Input Description": "*hardware dependent*"
+        },
+        {
+          "Input Parameter": "IOM\\_POV2\\_UP",
+          "Input Description": "*hardware dependent*"
+        },
+        {
+          "Input Parameter": "IOM\\_POV2\\_RIGHT",
+          "Input Description": "*hardware dependent*"
+        },
+        {
+          "Input Parameter": "IOM\\_POV2\\_DOWN",
+          "Input Description": "*hardware dependent*"
+        },
+        {
+          "Input Parameter": "IOM\\_POV2\\_LEFT",
+          "Input Description": "*hardware dependent*"
+        },
+        {
+          "Input Parameter": "IOM\\_POV3\\_UP",
+          "Input Description": "*hardware dependent*"
+        },
+        {
+          "Input Parameter": "IOM\\_POV3\\_RIGHT",
+          "Input Description": "*hardware dependent*"
+        },
+        {
+          "Input Parameter": "IOM\\_POV3\\_DOWN",
+          "Input Description": "*hardware dependent*"
+        },
+        {
+          "Input Parameter": "IOM\\_POV3\\_LEFT",
+          "Input Description": "*hardware dependent*"
+        },
+        {
+          "Input Parameter": "IOM\\_POV4\\_UP",
+          "Input Description": "*hardware dependent*"
+        },
+        {
+          "Input Parameter": "IOM\\_POV4\\_RIGHT",
+          "Input Description": "*hardware dependent*"
+        },
+        {
+          "Input Parameter": "IOM\\_POV4\\_DOWN",
+          "Input Description": "*hardware dependent*"
+        },
+        {
+          "Input Parameter": "IOM\\_POV4\\_LEFT",
+          "Input Description": "*hardware dependent*"
+        }
+      ]
+    }
+  ],
+  "table_count": 1,
+  "total_table_rows": 16,
+  "css_items": [],
+  "css_item_count": 0,
+  "markdown": "| Input Parameter  | Input Description    |\n| ---------------- | -------------------- |\n| IOM\\_POV1\\_UP    | *hardware dependent* |\n| IOM\\_POV1\\_RIGHT | *hardware dependent* |\n| IOM\\_POV1\\_DOWN  | *hardware dependent* |\n| IOM\\_POV1\\_LEFT  | *hardware dependent* |\n| IOM\\_POV2\\_UP    | *hardware dependent* |\n| IOM\\_POV2\\_RIGHT | *hardware dependent* |\n| IOM\\_POV2\\_DOWN  | *hardware dependent* |\n| IOM\\_POV2\\_LEFT  | *hardware dependent* |\n| IOM\\_POV3\\_UP    | *hardware dependent* |\n| IOM\\_POV3\\_RIGHT | *hardware dependent* |\n| IOM\\_POV3\\_DOWN  | *hardware dependent* |\n| IOM\\_POV3\\_LEFT  | *hardware dependent* |\n| IOM\\_POV4\\_UP    | *hardware dependent* |\n| IOM\\_POV4\\_RIGHT | *hardware dependent* |\n| IOM\\_POV4\\_DOWN  | *hardware dependent* |\n| IOM\\_POV4\\_LEFT  | *hardware dependent* |",
+  "raw_html_length": 793
+}

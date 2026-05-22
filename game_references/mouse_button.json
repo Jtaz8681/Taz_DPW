@@ -1,0 +1,106 @@
+{
+  "url_path": "/docs/game-references/input-mapper-parameter-ids/mouse_button/",
+  "full_url": "https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/mouse_button/",
+  "title": "mouse_button",
+  "slug": "mouse_button",
+  "parent_category": "input-mapper-parameter-ids",
+  "toc": [],
+  "tables": [
+    {
+      "headers": [
+        "Input Parameter",
+        "Input Description"
+      ],
+      "rows": [
+        [
+          "MOUSE\\_LEFT",
+          "Mouse Button 0 (Left Click)"
+        ],
+        [
+          "MOUSE\\_RIGHT",
+          "Mouse Button 1 (Right Click)"
+        ],
+        [
+          "MOUSE\\_MIDDLE",
+          "Mouse Button 2 (Middle Click)"
+        ],
+        [
+          "MOUSE\\_EXTRABTN1",
+          "Mouse Button 3"
+        ],
+        [
+          "MOUSE\\_EXTRABTN2",
+          "Mouse Button 4"
+        ],
+        [
+          "MOUSE\\_EXTRABTN3",
+          "Mouse Button 5"
+        ],
+        [
+          "MOUSE\\_EXTRABTN4",
+          "Mouse Button 6"
+        ],
+        [
+          "MOUSE\\_EXTRABTN5",
+          "Mouse Button 7"
+        ],
+        [
+          "IOM\\_WHEEL\\_UP",
+          "Mouse Wheel Up"
+        ],
+        [
+          "IOM\\_WHEEL\\_DOWN",
+          "Mouse Wheel Down"
+        ]
+      ],
+      "data": [
+        {
+          "Input Parameter": "MOUSE\\_LEFT",
+          "Input Description": "Mouse Button 0 (Left Click)"
+        },
+        {
+          "Input Parameter": "MOUSE\\_RIGHT",
+          "Input Description": "Mouse Button 1 (Right Click)"
+        },
+        {
+          "Input Parameter": "MOUSE\\_MIDDLE",
+          "Input Description": "Mouse Button 2 (Middle Click)"
+        },
+        {
+          "Input Parameter": "MOUSE\\_EXTRABTN1",
+          "Input Description": "Mouse Button 3"
+        },
+        {
+          "Input Parameter": "MOUSE\\_EXTRABTN2",
+          "Input Description": "Mouse Button 4"
+        },
+        {
+          "Input Parameter": "MOUSE\\_EXTRABTN3",
+          "Input Description": "Mouse Button 5"
+        },
+        {
+          "Input Parameter": "MOUSE\\_EXTRABTN4",
+          "Input Description": "Mouse Button 6"
+        },
+        {
+          "Input Parameter": "MOUSE\\_EXTRABTN5",
+          "Input Description": "Mouse Button 7"
+        },
+        {
+          "Input Parameter": "IOM\\_WHEEL\\_UP",
+          "Input Description": "Mouse Wheel Up"
+        },
+        {
+          "Input Parameter": "IOM\\_WHEEL\\_DOWN",
+          "Input Description": "Mouse Wheel Down"
+        }
+      ]
+    }
+  ],
+  "table_count": 1,
+  "total_table_rows": 10,
+  "css_items": [],
+  "css_item_count": 0,
+  "markdown": "| Input Parameter             | Input Description             |\n| --------------------------- | ----------------------------- |\n| MOUSE\\_LEFT                 | Mouse Button 0 (Left Click)   |\n| MOUSE\\_RIGHT                | Mouse Button 1 (Right Click)  |\n| MOUSE\\_MIDDLE               | Mouse Button 2 (Middle Click) |\n| MOUSE\\_EXTRABTN1            | Mouse Button 3                |\n| MOUSE\\_EXTRABTN2            | Mouse Button 4                |\n| MOUSE\\_EXTRABTN3            | Mouse Button 5                |\n| MOUSE\\_EXTRABTN4            | Mouse Button 6                |\n| MOUSE\\_EXTRABTN5            | Mouse Button 7                |\n| IOM\\_WHEEL\\_UP              | Mouse Wheel Up                |\n| IOM\\_WHEEL\\_DOWN            | Mouse Wheel Down              |",
+  "raw_html_length": 769
+}

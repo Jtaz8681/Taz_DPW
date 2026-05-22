@@ -1,0 +1,266 @@
+{
+  "url_path": "/docs/game-references/input-mapper-parameter-ids/pad_axis/",
+  "full_url": "https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/pad_axis/",
+  "title": "pad_axis",
+  "slug": "pad_axis",
+  "parent_category": "input-mapper-parameter-ids",
+  "toc": [],
+  "tables": [
+    {
+      "headers": [
+        "Input Parameter",
+        "Input Description"
+      ],
+      "rows": [
+        [
+          "IOM_AXIS_LX",
+          "*unknown*"
+        ],
+        [
+          "IOM_AXIS_LY",
+          "*unknown*"
+        ],
+        [
+          "IOM_AXIS_RX",
+          "*unknown*"
+        ],
+        [
+          "IOM_AXIS_RY",
+          "*unknown*"
+        ],
+        [
+          "IOM_AXIS_LUP",
+          "*unknown*"
+        ],
+        [
+          "IOM_AXIS_LDOWN",
+          "*unknown*"
+        ],
+        [
+          "IOM_AXIS_LLEFT",
+          "*unknown*"
+        ],
+        [
+          "IOM_AXIS_LRIGHT",
+          "*unknown*"
+        ],
+        [
+          "IOM_AXIS_LUR",
+          "*unknown*"
+        ],
+        [
+          "IOM_AXIS_LUL",
+          "*unknown*"
+        ],
+        [
+          "IOM_AXIS_LDR",
+          "*unknown*"
+        ],
+        [
+          "IOM_AXIS_LDL",
+          "*unknown*"
+        ],
+        [
+          "IOM_AXIS_RUP",
+          "*unknown*"
+        ],
+        [
+          "IOM_AXIS_RDOWN",
+          "*unknown*"
+        ],
+        [
+          "IOM_AXIS_RLEFT",
+          "*unknown*"
+        ],
+        [
+          "IOM_AXIS_RRIGHT",
+          "*unknown*"
+        ],
+        [
+          "IOM_AXIS_RUR",
+          "*unknown*"
+        ],
+        [
+          "IOM_AXIS_RUL",
+          "*unknown*"
+        ],
+        [
+          "IOM_AXIS_RDR",
+          "*unknown*"
+        ],
+        [
+          "IOM_AXIS_RDL",
+          "*unknown*"
+        ],
+        [
+          "IOM_AXIS_DPADX",
+          "*unknown*"
+        ],
+        [
+          "IOM_AXIS_DPADY",
+          "*unknown*"
+        ],
+        [
+          "IOM_AXIS_LY_UP",
+          "*unknown*"
+        ],
+        [
+          "IOM_AXIS_LY_DOWN",
+          "*unknown*"
+        ],
+        [
+          "IOM_AXIS_LX_LEFT",
+          "*unknown*"
+        ],
+        [
+          "IOM_AXIS_LX_RIGHT",
+          "*unknown*"
+        ],
+        [
+          "IOM_AXIS_RY_UP",
+          "*unknown*"
+        ],
+        [
+          "IOM_AXIS_RY_DOWN",
+          "*unknown*"
+        ],
+        [
+          "IOM_AXIS_RX_LEFT",
+          "*unknown*"
+        ],
+        [
+          "IOM_AXIS_RX_RIGHT",
+          "*unknown*"
+        ]
+      ],
+      "data": [
+        {
+          "Input Parameter": "IOM_AXIS_LX",
+          "Input Description": "*unknown*"
+        },
+        {
+          "Input Parameter": "IOM_AXIS_LY",
+          "Input Description": "*unknown*"
+        },
+        {
+          "Input Parameter": "IOM_AXIS_RX",
+          "Input Description": "*unknown*"
+        },
+        {
+          "Input Parameter": "IOM_AXIS_RY",
+          "Input Description": "*unknown*"
+        },
+        {
+          "Input Parameter": "IOM_AXIS_LUP",
+          "Input Description": "*unknown*"
+        },
+        {
+          "Input Parameter": "IOM_AXIS_LDOWN",
+          "Input Description": "*unknown*"
+        },
+        {
+          "Input Parameter": "IOM_AXIS_LLEFT",
+          "Input Description": "*unknown*"
+        },
+        {
+          "Input Parameter": "IOM_AXIS_LRIGHT",
+          "Input Description": "*unknown*"
+        },
+        {
+          "Input Parameter": "IOM_AXIS_LUR",
+          "Input Description": "*unknown*"
+        },
+        {
+          "Input Parameter": "IOM_AXIS_LUL",
+          "Input Description": "*unknown*"
+        },
+        {
+          "Input Parameter": "IOM_AXIS_LDR",
+          "Input Description": "*unknown*"
+        },
+        {
+          "Input Parameter": "IOM_AXIS_LDL",
+          "Input Description": "*unknown*"
+        },
+        {
+          "Input Parameter": "IOM_AXIS_RUP",
+          "Input Description": "*unknown*"
+        },
+        {
+          "Input Parameter": "IOM_AXIS_RDOWN",
+          "Input Description": "*unknown*"
+        },
+        {
+          "Input Parameter": "IOM_AXIS_RLEFT",
+          "Input Description": "*unknown*"
+        },
+        {
+          "Input Parameter": "IOM_AXIS_RRIGHT",
+          "Input Description": "*unknown*"
+        },
+        {
+          "Input Parameter": "IOM_AXIS_RUR",
+          "Input Description": "*unknown*"
+        },
+        {
+          "Input Parameter": "IOM_AXIS_RUL",
+          "Input Description": "*unknown*"
+        },
+        {
+          "Input Parameter": "IOM_AXIS_RDR",
+          "Input Description": "*unknown*"
+        },
+        {
+          "Input Parameter": "IOM_AXIS_RDL",
+          "Input Description": "*unknown*"
+        },
+        {
+          "Input Parameter": "IOM_AXIS_DPADX",
+          "Input Description": "*unknown*"
+        },
+        {
+          "Input Parameter": "IOM_AXIS_DPADY",
+          "Input Description": "*unknown*"
+        },
+        {
+          "Input Parameter": "IOM_AXIS_LY_UP",
+          "Input Description": "*unknown*"
+        },
+        {
+          "Input Parameter": "IOM_AXIS_LY_DOWN",
+          "Input Description": "*unknown*"
+        },
+        {
+          "Input Parameter": "IOM_AXIS_LX_LEFT",
+          "Input Description": "*unknown*"
+        },
+        {
+          "Input Parameter": "IOM_AXIS_LX_RIGHT",
+          "Input Description": "*unknown*"
+        },
+        {
+          "Input Parameter": "IOM_AXIS_RY_UP",
+          "Input Description": "*unknown*"
+        },
+        {
+          "Input Parameter": "IOM_AXIS_RY_DOWN",
+          "Input Description": "*unknown*"
+        },
+        {
+          "Input Parameter": "IOM_AXIS_RX_LEFT",
+          "Input Description": "*unknown*"
+        },
+        {
+          "Input Parameter": "IOM_AXIS_RX_RIGHT",
+          "Input Description": "*unknown*"
+        }
+      ]
+    }
+  ],
+  "table_count": 1,
+  "total_table_rows": 30,
+  "css_items": [],
+  "css_item_count": 0,
+  "markdown": "| Input Parameter   | Input Description |\n| ----------------- | ----------------- |\n| IOM_AXIS_LX       | *unknown*         |\n| IOM_AXIS_LY       | *unknown*         |\n| IOM_AXIS_RX       | *unknown*         |\n| IOM_AXIS_RY       | *unknown*         |\n| IOM_AXIS_LUP      | *unknown*         |\n| IOM_AXIS_LDOWN    | *unknown*         |\n| IOM_AXIS_LLEFT    | *unknown*         |\n| IOM_AXIS_LRIGHT   | *unknown*         |\n| IOM_AXIS_LUR      | *unknown*         |\n| IOM_AXIS_LUL      | *unknown*         |\n| IOM_AXIS_LDR      | *unknown*         |\n| IOM_AXIS_LDL      | *unknown*         |\n| IOM_AXIS_RUP      | *unknown*         |\n| IOM_AXIS_RDOWN    | *unknown*         |\n| IOM_AXIS_RLEFT    | *unknown*         |\n| IOM_AXIS_RRIGHT   | *unknown*         |\n| IOM_AXIS_RUR      | *unknown*         |\n| IOM_AXIS_RUL      | *unknown*         |\n| IOM_AXIS_RDR      | *unknown*         |\n| IOM_AXIS_RDL      | *unknown*         |\n| IOM_AXIS_DPADX    | *unknown*         |\n| IOM_AXIS_DPADY    | *unknown*         |\n| IOM_AXIS_LY_UP    | *unknown*         |\n| IOM_AXIS_LY_DOWN  | *unknown*         |\n| IOM_AXIS_LX_LEFT  | *unknown*         |\n| IOM_AXIS_LX_RIGHT | *unknown*         |\n| IOM_AXIS_RY_UP    | *unknown*         |\n| IOM_AXIS_RY_DOWN  | *unknown*         |\n| IOM_AXIS_RX_LEFT  | *unknown*         |\n| IOM_AXIS_RX_RIGHT | *unknown*         |",
+  "raw_html_length": 1345
+}

@@ -1,0 +1,234 @@
+{
+  "url_path": "/docs/game-references/input-mapper-parameter-ids/",
+  "full_url": "https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/",
+  "title": "input-mapper-parameter-ids",
+  "slug": "input-mapper-parameter-ids",
+  "parent_category": null,
+  "toc": [],
+  "tables": [
+    {
+      "headers": [
+        "Input Mapper",
+        "Description"
+      ],
+      "rows": [
+        [
+          "[DIGITALBUTTON_AXIS][digitalbutton_axis]",
+          "Controller button input as axis input"
+        ],
+        [
+          "[GAME_CONTROLLED][game_controlled]",
+          "Game controlled input"
+        ],
+        [
+          "[JOYSTICK_AXIS][joystick_axis]",
+          "Joystick / flight stick axis input"
+        ],
+        [
+          "[JOYSTICK_AXIS_NEGATIVE][joystick_axis_negative]",
+          "Joystick / flight stick axis input (always negative)"
+        ],
+        [
+          "[JOYSTICK_AXIS_POSITIVE][joystick_axis_positive]",
+          "Joystick / flight stick axis input (always positive)"
+        ],
+        [
+          "[JOYSTICK_BUTTON][joystick_button]",
+          "Joystick / flight stick button input"
+        ],
+        [
+          "[JOYSTICK_IAXIS][joystick_iaxis]",
+          "Joystick / flight stick axis input (inverted)"
+        ],
+        [
+          "[JOYSTICK_POV][joystick_pov]",
+          "Joystick / flight stick point of view input"
+        ],
+        [
+          "[JOYSTICK_POV_AXIS][joystick_pov_axis]",
+          "Joystick / flight stick point of view axis input"
+        ],
+        [
+          "[KEYBOARD][keyboard]",
+          "Keyboard input (including the Xbox Controller Chatpad)"
+        ],
+        [
+          "[MKB_AXIS][mkb_axis]",
+          "Mouse & keyboard input as axis input"
+        ],
+        [
+          "[MOUSE_ABSOLUTEAXIS][mouse_absoluteaxis]",
+          "Mouse axis input (absolute)"
+        ],
+        [
+          "[MOUSE_BUTTON][mouse_button]",
+          "Mouse button input"
+        ],
+        [
+          "[MOUSE_BUTTONANY][mouse_buttonany]",
+          "Mouse button input (no known difference from MOUSE_BUTTON)"
+        ],
+        [
+          "[MOUSE_CENTEREDAXIS][mouse_centeredaxis]",
+          "Mouse axis input (centered)"
+        ],
+        [
+          "[MOUSE_RELATIVEAXIS][mouse_relativeaxis]",
+          "Mouse axis input (relative)"
+        ],
+        [
+          "[MOUSE_SCALEDAXIS][mouse_scaledaxis]",
+          "Mouse axis input (scaled)"
+        ],
+        [
+          "[MOUSE_NORMALIZED][mouse_normalized]",
+          "Mouse axis input (normalized)"
+        ],
+        [
+          "[MOUSE_WHEEL][mouse_wheel]",
+          "Mouse wheel input"
+        ],
+        [
+          "[PAD_ANALOGBUTTON][pad_analogbutton]",
+          "Controller trigger input"
+        ],
+        [
+          "[PAD_AXIS][pad_axis]",
+          "Controller axis input"
+        ],
+        [
+          "[PAD_DEBUGBUTTON][pad_debugbutton]",
+          "Controller button input (debug interface, non functional)"
+        ],
+        [
+          "[PAD_DIGITALBUTTON][pad_digitalbutton]",
+          "Controller button input"
+        ],
+        [
+          "[PAD_DIGITALBUTTONANY][pad_digitalbuttonany]",
+          "Controller button input (no known difference from PAD_DIGITALBUTTON)"
+        ],
+        [
+          "[TOUCHPAD_ABSOLUTE_AXIS][touchpad_absolute_axis]",
+          "PS4/5 controller touchpad axis input (absolute)"
+        ],
+        [
+          "[TOUCHPAD_CENTERED_AXIS][touchpad_centered_axis]",
+          "PS4/5 controller touchpad axis input (centered)"
+        ]
+      ],
+      "data": [
+        {
+          "Input Mapper": "[DIGITALBUTTON_AXIS][digitalbutton_axis]",
+          "Description": "Controller button input as axis input"
+        },
+        {
+          "Input Mapper": "[GAME_CONTROLLED][game_controlled]",
+          "Description": "Game controlled input"
+        },
+        {
+          "Input Mapper": "[JOYSTICK_AXIS][joystick_axis]",
+          "Description": "Joystick / flight stick axis input"
+        },
+        {
+          "Input Mapper": "[JOYSTICK_AXIS_NEGATIVE][joystick_axis_negative]",
+          "Description": "Joystick / flight stick axis input (always negative)"
+        },
+        {
+          "Input Mapper": "[JOYSTICK_AXIS_POSITIVE][joystick_axis_positive]",
+          "Description": "Joystick / flight stick axis input (always positive)"
+        },
+        {
+          "Input Mapper": "[JOYSTICK_BUTTON][joystick_button]",
+          "Description": "Joystick / flight stick button input"
+        },
+        {
+          "Input Mapper": "[JOYSTICK_IAXIS][joystick_iaxis]",
+          "Description": "Joystick / flight stick axis input (inverted)"
+        },
+        {
+          "Input Mapper": "[JOYSTICK_POV][joystick_pov]",
+          "Description": "Joystick / flight stick point of view input"
+        },
+        {
+          "Input Mapper": "[JOYSTICK_POV_AXIS][joystick_pov_axis]",
+          "Description": "Joystick / flight stick point of view axis input"
+        },
+        {
+          "Input Mapper": "[KEYBOARD][keyboard]",
+          "Description": "Keyboard input (including the Xbox Controller Chatpad)"
+        },
+        {
+          "Input Mapper": "[MKB_AXIS][mkb_axis]",
+          "Description": "Mouse & keyboard input as axis input"
+        },
+        {
+          "Input Mapper": "[MOUSE_ABSOLUTEAXIS][mouse_absoluteaxis]",
+          "Description": "Mouse axis input (absolute)"
+        },
+        {
+          "Input Mapper": "[MOUSE_BUTTON][mouse_button]",
+          "Description": "Mouse button input"
+        },
+        {
+          "Input Mapper": "[MOUSE_BUTTONANY][mouse_buttonany]",
+          "Description": "Mouse button input (no known difference from MOUSE_BUTTON)"
+        },
+        {
+          "Input Mapper": "[MOUSE_CENTEREDAXIS][mouse_centeredaxis]",
+          "Description": "Mouse axis input (centered)"
+        },
+        {
+          "Input Mapper": "[MOUSE_RELATIVEAXIS][mouse_relativeaxis]",
+          "Description": "Mouse axis input (relative)"
+        },
+        {
+          "Input Mapper": "[MOUSE_SCALEDAXIS][mouse_scaledaxis]",
+          "Description": "Mouse axis input (scaled)"
+        },
+        {
+          "Input Mapper": "[MOUSE_NORMALIZED][mouse_normalized]",
+          "Description": "Mouse axis input (normalized)"
+        },
+        {
+          "Input Mapper": "[MOUSE_WHEEL][mouse_wheel]",
+          "Description": "Mouse wheel input"
+        },
+        {
+          "Input Mapper": "[PAD_ANALOGBUTTON][pad_analogbutton]",
+          "Description": "Controller trigger input"
+        },
+        {
+          "Input Mapper": "[PAD_AXIS][pad_axis]",
+          "Description": "Controller axis input"
+        },
+        {
+          "Input Mapper": "[PAD_DEBUGBUTTON][pad_debugbutton]",
+          "Description": "Controller button input (debug interface, non functional)"
+        },
+        {
+          "Input Mapper": "[PAD_DIGITALBUTTON][pad_digitalbutton]",
+          "Description": "Controller button input"
+        },
+        {
+          "Input Mapper": "[PAD_DIGITALBUTTONANY][pad_digitalbuttonany]",
+          "Description": "Controller button input (no known difference from PAD_DIGITALBUTTON)"
+        },
+        {
+          "Input Mapper": "[TOUCHPAD_ABSOLUTE_AXIS][touchpad_absolute_axis]",
+          "Description": "PS4/5 controller touchpad axis input (absolute)"
+        },
+        {
+          "Input Mapper": "[TOUCHPAD_CENTERED_AXIS][touchpad_centered_axis]",
+          "Description": "PS4/5 controller touchpad axis input (centered)"
+        }
+      ]
+    }
+  ],
+  "table_count": 1,
+  "total_table_rows": 26,
+  "css_items": [],
+  "css_item_count": 0,
+  "markdown": "Descriptions are guessed from known names. Axis inputs have no use in FiveM currently.\n\n| Input Mapper                                     | Description                                                          |\n| ------------------------------------------------ | -------------------------------------------------------------------- |\n| [DIGITALBUTTON_AXIS][digitalbutton_axis]         | Controller button input as axis input                                |\n| [GAME_CONTROLLED][game_controlled]               | Game controlled input                                                |\n| [JOYSTICK_AXIS][joystick_axis]                   | Joystick / flight stick axis input                                   |\n| [JOYSTICK_AXIS_NEGATIVE][joystick_axis_negative] | Joystick / flight stick axis input (always negative)                 |\n| [JOYSTICK_AXIS_POSITIVE][joystick_axis_positive] | Joystick / flight stick axis input (always positive)                 |\n| [JOYSTICK_BUTTON][joystick_button]               | Joystick / flight stick button input                                 |\n| [JOYSTICK_IAXIS][joystick_iaxis]                 | Joystick / flight stick axis input (inverted)                        |\n| [JOYSTICK_POV][joystick_pov]                     | Joystick / flight stick point of view input                          |\n| [JOYSTICK_POV_AXIS][joystick_pov_axis]           | Joystick / flight stick point of view axis input                     |\n| [KEYBOARD][keyboard]                             | Keyboard input (including the Xbox Controller Chatpad)               |\n| [MKB_AXIS][mkb_axis]                             | Mouse & keyboard input as axis input                                 |\n| [MOUSE_ABSOLUTEAXIS][mouse_absoluteaxis]         | Mouse axis input (absolute)                                          |\n| [MOUSE_BUTTON][mouse_button]                     | Mouse button input                                                   |\n| [MOUSE_BUTTONANY][mouse_buttonany]               | Mouse button input (no known difference from MOUSE_BUTTON)           |\n| [MOUSE_CENTEREDAXIS][mouse_centeredaxis]         | Mouse axis input (centered)                                          |\n| [MOUSE_RELATIVEAXIS][mouse_relativeaxis]         | Mouse axis input (relative)                                          |\n| [MOUSE_SCALEDAXIS][mouse_scaledaxis]             | Mouse axis input (scaled)                                            |\n| [MOUSE_NORMALIZED][mouse_normalized]             | Mouse axis input (normalized)                                        |\n| [MOUSE_WHEEL][mouse_wheel]                       | Mouse wheel input                                                    |\n| [PAD_ANALOGBUTTON][pad_analogbutton]             | Controller trigger input                                             |\n| [PAD_AXIS][pad_axis]                             | Controller axis input                                                |\n| [PAD_DEBUGBUTTON][pad_debugbutton]               | Controller button input (debug interface, non functional)            |\n| [PAD_DIGITALBUTTON][pad_digitalbutton]           | Controller button input                                              |\n| [PAD_DIGITALBUTTONANY][pad_digitalbuttonany]     | Controller button input (no known difference from PAD_DIGITALBUTTON) |\n| [TOUCHPAD_ABSOLUTE_AXIS][touchpad_absolute_axis] | PS4/5 controller touchpad axis input (absolute)                      |\n| [TOUCHPAD_CENTERED_AXIS][touchpad_centered_axis] | PS4/5 controller touchpad axis input (centered)                      |\n\n[digitalbutton_axis]: /docs/game-references/input-mapper-parameter-ids/digitalbutton_axis/\n[game_controlled]: /docs/game-references/input-mapper-parameter-ids/game_controlled/\n[joystick_axis]: /docs/game-references/input-mapper-parameter-ids/joystick_axis/\n[joystick_axis_negative]: /docs/game-references/input-mapper-parameter-ids/joystick_axis_negative/\n[joystick_axis_positive]: /docs/game-references/input-mapper-parameter-ids/joystick_axis_positive/\n[joystick_button]: /docs/game-references/input-mapper-parameter-ids/joystick_button/\n[joystick_iaxis]: /docs/game-references/input-mapper-parameter-ids/joystick_iaxis/\n[joystick_pov]: /docs/game-references/input-mapper-parameter-ids/joystick_pov/\n[joystick_pov_axis]: /docs/game-references/input-mapper-parameter-ids/joystick_pov_axis/\n[keyboard]: /docs/game-references/input-mapper-parameter-ids/keyboard/\n[mkb_axis]: /docs/game-references/input-mapper-parameter-ids/mkb_axis/\n[mouse_absoluteaxis]: /docs/game-references/input-mapper-parameter-ids/mouse_absoluteaxis/\n[mouse_button]: /docs/game-references/input-mapper-parameter-ids/mouse_button/\n[mouse_buttonany]: /docs/game-references/input-mapper-parameter-ids/mouse_buttonany/\n[mouse_centeredaxis]: /docs/game-references/input-mapper-parameter-ids/mouse_centeredaxis/\n[mouse_relativeaxis]: /docs/game-references/input-mapper-parameter-ids/mouse_relativeaxis/\n[mouse_scaledaxis]: /docs/game-references/input-mapper-parameter-ids/mouse_scaledaxis/\n[mouse_normalized]: /docs/game-references/input-mapper-parameter-ids/mouse_normalized/\n[mouse_wheel]: /docs/game-references/input-mapper-parameter-ids/mouse_wheel/\n[pad_analogbutton]: /docs/game-references/input-mapper-parameter-ids/pad_analogbutton/\n[pad_axis]: /docs/game-references/input-mapper-parameter-ids/pad_axis/\n[pad_debugbutton]: /docs/game-references/input-mapper-parameter-ids/pad_debugbutton/\n[pad_digitalbutton]: /docs/game-references/input-mapper-parameter-ids/pad_digitalbutton/\n[pad_digitalbuttonany]: /docs/game-references/input-mapper-parameter-ids/pad_digitalbuttonany/\n[touchpad_absolute_axis]: /docs/game-references/input-mapper-parameter-ids/touchpad_absolute_axis/\n[touchpad_centered_axis]: /docs/game-references/input-mapper-parameter-ids/touchpad_centered_axis/",
+  "raw_html_length": 5808
+}

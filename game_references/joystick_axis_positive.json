@@ -1,0 +1,90 @@
+{
+  "url_path": "/docs/game-references/input-mapper-parameter-ids/joystick_axis_positive/",
+  "full_url": "https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/joystick_axis_positive/",
+  "title": "joystick_axis_positive",
+  "slug": "joystick_axis_positive",
+  "parent_category": "input-mapper-parameter-ids",
+  "toc": [],
+  "tables": [
+    {
+      "headers": [
+        "Input Parameter",
+        "Input Description"
+      ],
+      "rows": [
+        [
+          "IOM_JOYSTICK_AXIS1",
+          "*hardware dependent*"
+        ],
+        [
+          "IOM_JOYSTICK_AXIS2",
+          "*hardware dependent*"
+        ],
+        [
+          "IOM_JOYSTICK_AXIS3",
+          "*hardware dependent*"
+        ],
+        [
+          "IOM_JOYSTICK_AXIS4",
+          "*hardware dependent*"
+        ],
+        [
+          "IOM_JOYSTICK_AXIS5",
+          "*hardware dependent*"
+        ],
+        [
+          "IOM_JOYSTICK_AXIS6",
+          "*hardware dependent*"
+        ],
+        [
+          "IOM_JOYSTICK_AXIS7",
+          "*hardware dependent*"
+        ],
+        [
+          "IOM_JOYSTICK_AXIS8",
+          "*hardware dependent*"
+        ]
+      ],
+      "data": [
+        {
+          "Input Parameter": "IOM_JOYSTICK_AXIS1",
+          "Input Description": "*hardware dependent*"
+        },
+        {
+          "Input Parameter": "IOM_JOYSTICK_AXIS2",
+          "Input Description": "*hardware dependent*"
+        },
+        {
+          "Input Parameter": "IOM_JOYSTICK_AXIS3",
+          "Input Description": "*hardware dependent*"
+        },
+        {
+          "Input Parameter": "IOM_JOYSTICK_AXIS4",
+          "Input Description": "*hardware dependent*"
+        },
+        {
+          "Input Parameter": "IOM_JOYSTICK_AXIS5",
+          "Input Description": "*hardware dependent*"
+        },
+        {
+          "Input Parameter": "IOM_JOYSTICK_AXIS6",
+          "Input Description": "*hardware dependent*"
+        },
+        {
+          "Input Parameter": "IOM_JOYSTICK_AXIS7",
+          "Input Description": "*hardware dependent*"
+        },
+        {
+          "Input Parameter": "IOM_JOYSTICK_AXIS8",
+          "Input Description": "*hardware dependent*"
+        }
+      ]
+    }
+  ],
+  "table_count": 1,
+  "total_table_rows": 8,
+  "css_items": [],
+  "css_item_count": 0,
+  "markdown": "| Input Parameter    | Input Description    |\n| ------------------ | -------------------- |\n| IOM_JOYSTICK_AXIS1 | *hardware dependent* |\n| IOM_JOYSTICK_AXIS2 | *hardware dependent* |\n| IOM_JOYSTICK_AXIS3 | *hardware dependent* |\n| IOM_JOYSTICK_AXIS4 | *hardware dependent* |\n| IOM_JOYSTICK_AXIS5 | *hardware dependent* |\n| IOM_JOYSTICK_AXIS6 | *hardware dependent* |\n| IOM_JOYSTICK_AXIS7 | *hardware dependent* |\n| IOM_JOYSTICK_AXIS8 | *hardware dependent* |",
+  "raw_html_length": 461
+}

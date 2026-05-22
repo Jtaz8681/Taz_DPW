@@ -1,0 +1,1106 @@
+{
+  "url_path": "/docs/game-references/input-mapper-parameter-ids/keyboard/",
+  "full_url": "https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/",
+  "title": "keyboard",
+  "slug": "keyboard",
+  "parent_category": "input-mapper-parameter-ids",
+  "toc": [],
+  "tables": [
+    {
+      "headers": [
+        "Input Parameter",
+        "Input Description"
+      ],
+      "rows": [
+        [
+          "BACK",
+          "Backspace"
+        ],
+        [
+          "TAB",
+          "Tab"
+        ],
+        [
+          "RETURN",
+          "Enter"
+        ],
+        [
+          "PAUSE",
+          "Pause Break"
+        ],
+        [
+          "CAPITAL",
+          "Caps Lock"
+        ],
+        [
+          "ESCAPE",
+          "Escape"
+        ],
+        [
+          "SPACE",
+          "Space bar"
+        ],
+        [
+          "PAGEUP",
+          "Page Up"
+        ],
+        [
+          "PRIOR",
+          "Page Up"
+        ],
+        [
+          "PAGEDOWN",
+          "Page Down"
+        ],
+        [
+          "NEXT",
+          "Page Down"
+        ],
+        [
+          "END",
+          "End"
+        ],
+        [
+          "HOME",
+          "Home"
+        ],
+        [
+          "LEFT",
+          "Left Arrow"
+        ],
+        [
+          "UP",
+          "Up Arrow"
+        ],
+        [
+          "RIGHT",
+          "Right Arrow"
+        ],
+        [
+          "DOWN",
+          "Down Arrow"
+        ],
+        [
+          "SYSRQ",
+          "Print Screen"
+        ],
+        [
+          "SNAPSHOT",
+          "Print Screen"
+        ],
+        [
+          "INSERT",
+          "Insert"
+        ],
+        [
+          "DELETE",
+          "Delete"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "1"
+        ],
+        [
+          "2",
+          "2"
+        ],
+        [
+          "3",
+          "3"
+        ],
+        [
+          "4",
+          "4"
+        ],
+        [
+          "5",
+          "5"
+        ],
+        [
+          "6",
+          "6"
+        ],
+        [
+          "7",
+          "7"
+        ],
+        [
+          "8",
+          "8"
+        ],
+        [
+          "9",
+          "9"
+        ],
+        [
+          "A",
+          "A"
+        ],
+        [
+          "B",
+          "B"
+        ],
+        [
+          "C",
+          "C"
+        ],
+        [
+          "D",
+          "D"
+        ],
+        [
+          "E",
+          "E"
+        ],
+        [
+          "F",
+          "F"
+        ],
+        [
+          "G",
+          "G"
+        ],
+        [
+          "H",
+          "H"
+        ],
+        [
+          "I",
+          "I"
+        ],
+        [
+          "J",
+          "J"
+        ],
+        [
+          "K",
+          "K"
+        ],
+        [
+          "L",
+          "L"
+        ],
+        [
+          "M",
+          "M"
+        ],
+        [
+          "N",
+          "N"
+        ],
+        [
+          "O",
+          "O"
+        ],
+        [
+          "P",
+          "P"
+        ],
+        [
+          "Q",
+          "Q"
+        ],
+        [
+          "R",
+          "R"
+        ],
+        [
+          "S",
+          "S"
+        ],
+        [
+          "T",
+          "T"
+        ],
+        [
+          "U",
+          "U"
+        ],
+        [
+          "V",
+          "V"
+        ],
+        [
+          "W",
+          "W"
+        ],
+        [
+          "X",
+          "X"
+        ],
+        [
+          "Y",
+          "Y"
+        ],
+        [
+          "Z",
+          "Z"
+        ],
+        [
+          "LWIN",
+          "Left OS/Windows Key"
+        ],
+        [
+          "RWIN",
+          "Right OS/Windows Key"
+        ],
+        [
+          "APPS",
+          "Context Menu Key"
+        ],
+        [
+          "NUMPAD0",
+          "Numpad 0"
+        ],
+        [
+          "NUMPAD1",
+          "Numpad 1"
+        ],
+        [
+          "NUMPAD2",
+          "Numpad 2"
+        ],
+        [
+          "NUMPAD3",
+          "Numpad 3"
+        ],
+        [
+          "NUMPAD4",
+          "Numpad 4"
+        ],
+        [
+          "NUMPAD5",
+          "Numpad 5"
+        ],
+        [
+          "NUMPAD6",
+          "Numpad 6"
+        ],
+        [
+          "NUMPAD7",
+          "Numpad 7"
+        ],
+        [
+          "NUMPAD8",
+          "Numpad 8"
+        ],
+        [
+          "NUMPAD9",
+          "Numpad 9"
+        ],
+        [
+          "MULTIPLY",
+          "Numpad Multiply"
+        ],
+        [
+          "ADD",
+          "Numpad Plus"
+        ],
+        [
+          "SUBTRACT",
+          "Numpad Subtract"
+        ],
+        [
+          "DECIMAL",
+          "Numpad Decimal"
+        ],
+        [
+          "DIVIDE",
+          "Numpad Slash"
+        ],
+        [
+          "NUMPADEQUALS",
+          "Numpad Equals"
+        ],
+        [
+          "NUMPADENTER",
+          "Numpad Enter"
+        ],
+        [
+          "F1",
+          "F1"
+        ],
+        [
+          "F2",
+          "F2"
+        ],
+        [
+          "F3",
+          "F3"
+        ],
+        [
+          "F4",
+          "F4"
+        ],
+        [
+          "F5",
+          "F5"
+        ],
+        [
+          "F6",
+          "F6"
+        ],
+        [
+          "F7",
+          "F7"
+        ],
+        [
+          "F8",
+          "F8"
+        ],
+        [
+          "F9",
+          "F9"
+        ],
+        [
+          "F10",
+          "F10"
+        ],
+        [
+          "F11",
+          "F11"
+        ],
+        [
+          "F12",
+          "F12"
+        ],
+        [
+          "F13",
+          "F13"
+        ],
+        [
+          "F14",
+          "F14"
+        ],
+        [
+          "F15",
+          "F15"
+        ],
+        [
+          "F16",
+          "F16"
+        ],
+        [
+          "F17",
+          "F17"
+        ],
+        [
+          "F18",
+          "F18"
+        ],
+        [
+          "F19",
+          "F19"
+        ],
+        [
+          "F20",
+          "F20"
+        ],
+        [
+          "F21",
+          "F21"
+        ],
+        [
+          "F22",
+          "F22"
+        ],
+        [
+          "F23",
+          "F23"
+        ],
+        [
+          "F24",
+          "F24"
+        ],
+        [
+          "NUMLOCK",
+          "Num Lock"
+        ],
+        [
+          "SCROLL",
+          "Scroll Lock"
+        ],
+        [
+          "LSHIFT",
+          "Left Shift"
+        ],
+        [
+          "RSHIFT",
+          "Right Shift"
+        ],
+        [
+          "LCONTROL",
+          "Left Control"
+        ],
+        [
+          "RCONTROL",
+          "Right Control"
+        ],
+        [
+          "LMENU",
+          "Left Alt"
+        ],
+        [
+          "RMENU",
+          "Right Alt"
+        ],
+        [
+          "OEM\\_1",
+          ";"
+        ],
+        [
+          "SEMICOLON",
+          ";"
+        ],
+        [
+          "EQUALS",
+          "="
+        ],
+        [
+          "PLUS",
+          "+"
+        ],
+        [
+          "COMMA",
+          ","
+        ],
+        [
+          "MINUS",
+          "-"
+        ],
+        [
+          "PERIOD",
+          "."
+        ],
+        [
+          "SLASH",
+          "/"
+        ],
+        [
+          "OEM\\_2",
+          "/"
+        ],
+        [
+          "OEM\\_3",
+          "\\`"
+        ],
+        [
+          "GRAVE",
+          "\\`"
+        ],
+        [
+          "LBRACKET",
+          "\\["
+        ],
+        [
+          "OEM\\_4",
+          "\\["
+        ],
+        [
+          "OEM\\_5",
+          "\\\\"
+        ],
+        [
+          "BACKSLASH",
+          "\\\\"
+        ],
+        [
+          "OEM\\_6",
+          "\\]"
+        ],
+        [
+          "RBRACKET",
+          "\\]"
+        ],
+        [
+          "APOSTROPHE",
+          "'"
+        ],
+        [
+          "OEM\\_7",
+          "'"
+        ],
+        [
+          "OEM\\_102",
+          "The \"angle bracket key\" or the backslash key on an RT 102-key keyboard"
+        ],
+        [
+          "RAGE\\_EXTRA1",
+          "*unknown*"
+        ],
+        [
+          "RAGE\\_EXTRA2",
+          "*unknown*"
+        ],
+        [
+          "RAGE\\_EXTRA3",
+          "*unknown*"
+        ],
+        [
+          "RAGE\\_EXTRA4",
+          "*unknown*"
+        ],
+        [
+          "CHATPAD\\_GREEN\\_SHIFT",
+          "Xbox Chatpad Green Button"
+        ],
+        [
+          "CHATPAD\\_ORANGE\\_SHIFT",
+          "Xbox Chatpad Orange Button"
+        ]
+      ],
+      "data": [
+        {
+          "Input Parameter": "BACK",
+          "Input Description": "Backspace"
+        },
+        {
+          "Input Parameter": "TAB",
+          "Input Description": "Tab"
+        },
+        {
+          "Input Parameter": "RETURN",
+          "Input Description": "Enter"
+        },
+        {
+          "Input Parameter": "PAUSE",
+          "Input Description": "Pause Break"
+        },
+        {
+          "Input Parameter": "CAPITAL",
+          "Input Description": "Caps Lock"
+        },
+        {
+          "Input Parameter": "ESCAPE",
+          "Input Description": "Escape"
+        },
+        {
+          "Input Parameter": "SPACE",
+          "Input Description": "Space bar"
+        },
+        {
+          "Input Parameter": "PAGEUP",
+          "Input Description": "Page Up"
+        },
+        {
+          "Input Parameter": "PRIOR",
+          "Input Description": "Page Up"
+        },
+        {
+          "Input Parameter": "PAGEDOWN",
+          "Input Description": "Page Down"
+        },
+        {
+          "Input Parameter": "NEXT",
+          "Input Description": "Page Down"
+        },
+        {
+          "Input Parameter": "END",
+          "Input Description": "End"
+        },
+        {
+          "Input Parameter": "HOME",
+          "Input Description": "Home"
+        },
+        {
+          "Input Parameter": "LEFT",
+          "Input Description": "Left Arrow"
+        },
+        {
+          "Input Parameter": "UP",
+          "Input Description": "Up Arrow"
+        },
+        {
+          "Input Parameter": "RIGHT",
+          "Input Description": "Right Arrow"
+        },
+        {
+          "Input Parameter": "DOWN",
+          "Input Description": "Down Arrow"
+        },
+        {
+          "Input Parameter": "SYSRQ",
+          "Input Description": "Print Screen"
+        },
+        {
+          "Input Parameter": "SNAPSHOT",
+          "Input Description": "Print Screen"
+        },
+        {
+          "Input Parameter": "INSERT",
+          "Input Description": "Insert"
+        },
+        {
+          "Input Parameter": "DELETE",
+          "Input Description": "Delete"
+        },
+        {
+          "Input Parameter": "0",
+          "Input Description": "0"
+        },
+        {
+          "Input Parameter": "1",
+          "Input Description": "1"
+        },
+        {
+          "Input Parameter": "2",
+          "Input Description": "2"
+        },
+        {
+          "Input Parameter": "3",
+          "Input Description": "3"
+        },
+        {
+          "Input Parameter": "4",
+          "Input Description": "4"
+        },
+        {
+          "Input Parameter": "5",
+          "Input Description": "5"
+        },
+        {
+          "Input Parameter": "6",
+          "Input Description": "6"
+        },
+        {
+          "Input Parameter": "7",
+          "Input Description": "7"
+        },
+        {
+          "Input Parameter": "8",
+          "Input Description": "8"
+        },
+        {
+          "Input Parameter": "9",
+          "Input Description": "9"
+        },
+        {
+          "Input Parameter": "A",
+          "Input Description": "A"
+        },
+        {
+          "Input Parameter": "B",
+          "Input Description": "B"
+        },
+        {
+          "Input Parameter": "C",
+          "Input Description": "C"
+        },
+        {
+          "Input Parameter": "D",
+          "Input Description": "D"
+        },
+        {
+          "Input Parameter": "E",
+          "Input Description": "E"
+        },
+        {
+          "Input Parameter": "F",
+          "Input Description": "F"
+        },
+        {
+          "Input Parameter": "G",
+          "Input Description": "G"
+        },
+        {
+          "Input Parameter": "H",
+          "Input Description": "H"
+        },
+        {
+          "Input Parameter": "I",
+          "Input Description": "I"
+        },
+        {
+          "Input Parameter": "J",
+          "Input Description": "J"
+        },
+        {
+          "Input Parameter": "K",
+          "Input Description": "K"
+        },
+        {
+          "Input Parameter": "L",
+          "Input Description": "L"
+        },
+        {
+          "Input Parameter": "M",
+          "Input Description": "M"
+        },
+        {
+          "Input Parameter": "N",
+          "Input Description": "N"
+        },
+        {
+          "Input Parameter": "O",
+          "Input Description": "O"
+        },
+        {
+          "Input Parameter": "P",
+          "Input Description": "P"
+        },
+        {
+          "Input Parameter": "Q",
+          "Input Description": "Q"
+        },
+        {
+          "Input Parameter": "R",
+          "Input Description": "R"
+        },
+        {
+          "Input Parameter": "S",
+          "Input Description": "S"
+        },
+        {
+          "Input Parameter": "T",
+          "Input Description": "T"
+        },
+        {
+          "Input Parameter": "U",
+          "Input Description": "U"
+        },
+        {
+          "Input Parameter": "V",
+          "Input Description": "V"
+        },
+        {
+          "Input Parameter": "W",
+          "Input Description": "W"
+        },
+        {
+          "Input Parameter": "X",
+          "Input Description": "X"
+        },
+        {
+          "Input Parameter": "Y",
+          "Input Description": "Y"
+        },
+        {
+          "Input Parameter": "Z",
+          "Input Description": "Z"
+        },
+        {
+          "Input Parameter": "LWIN",
+          "Input Description": "Left OS/Windows Key"
+        },
+        {
+          "Input Parameter": "RWIN",
+          "Input Description": "Right OS/Windows Key"
+        },
+        {
+          "Input Parameter": "APPS",
+          "Input Description": "Context Menu Key"
+        },
+        {
+          "Input Parameter": "NUMPAD0",
+          "Input Description": "Numpad 0"
+        },
+        {
+          "Input Parameter": "NUMPAD1",
+          "Input Description": "Numpad 1"
+        },
+        {
+          "Input Parameter": "NUMPAD2",
+          "Input Description": "Numpad 2"
+        },
+        {
+          "Input Parameter": "NUMPAD3",
+          "Input Description": "Numpad 3"
+        },
+        {
+          "Input Parameter": "NUMPAD4",
+          "Input Description": "Numpad 4"
+        },
+        {
+          "Input Parameter": "NUMPAD5",
+          "Input Description": "Numpad 5"
+        },
+        {
+          "Input Parameter": "NUMPAD6",
+          "Input Description": "Numpad 6"
+        },
+        {
+          "Input Parameter": "NUMPAD7",
+          "Input Description": "Numpad 7"
+        },
+        {
+          "Input Parameter": "NUMPAD8",
+          "Input Description": "Numpad 8"
+        },
+        {
+          "Input Parameter": "NUMPAD9",
+          "Input Description": "Numpad 9"
+        },
+        {
+          "Input Parameter": "MULTIPLY",
+          "Input Description": "Numpad Multiply"
+        },
+        {
+          "Input Parameter": "ADD",
+          "Input Description": "Numpad Plus"
+        },
+        {
+          "Input Parameter": "SUBTRACT",
+          "Input Description": "Numpad Subtract"
+        },
+        {
+          "Input Parameter": "DECIMAL",
+          "Input Description": "Numpad Decimal"
+        },
+        {
+          "Input Parameter": "DIVIDE",
+          "Input Description": "Numpad Slash"
+        },
+        {
+          "Input Parameter": "NUMPADEQUALS",
+          "Input Description": "Numpad Equals"
+        },
+        {
+          "Input Parameter": "NUMPADENTER",
+          "Input Description": "Numpad Enter"
+        },
+        {
+          "Input Parameter": "F1",
+          "Input Description": "F1"
+        },
+        {
+          "Input Parameter": "F2",
+          "Input Description": "F2"
+        },
+        {
+          "Input Parameter": "F3",
+          "Input Description": "F3"
+        },
+        {
+          "Input Parameter": "F4",
+          "Input Description": "F4"
+        },
+        {
+          "Input Parameter": "F5",
+          "Input Description": "F5"
+        },
+        {
+          "Input Parameter": "F6",
+          "Input Description": "F6"
+        },
+        {
+          "Input Parameter": "F7",
+          "Input Description": "F7"
+        },
+        {
+          "Input Parameter": "F8",
+          "Input Description": "F8"
+        },
+        {
+          "Input Parameter": "F9",
+          "Input Description": "F9"
+        },
+        {
+          "Input Parameter": "F10",
+          "Input Description": "F10"
+        },
+        {
+          "Input Parameter": "F11",
+          "Input Description": "F11"
+        },
+        {
+          "Input Parameter": "F12",
+          "Input Description": "F12"
+        },
+        {
+          "Input Parameter": "F13",
+          "Input Description": "F13"
+        },
+        {
+          "Input Parameter": "F14",
+          "Input Description": "F14"
+        },
+        {
+          "Input Parameter": "F15",
+          "Input Description": "F15"
+        },
+        {
+          "Input Parameter": "F16",
+          "Input Description": "F16"
+        },
+        {
+          "Input Parameter": "F17",
+          "Input Description": "F17"
+        },
+        {
+          "Input Parameter": "F18",
+          "Input Description": "F18"
+        },
+        {
+          "Input Parameter": "F19",
+          "Input Description": "F19"
+        },
+        {
+          "Input Parameter": "F20",
+          "Input Description": "F20"
+        },
+        {
+          "Input Parameter": "F21",
+          "Input Description": "F21"
+        },
+        {
+          "Input Parameter": "F22",
+          "Input Description": "F22"
+        },
+        {
+          "Input Parameter": "F23",
+          "Input Description": "F23"
+        },
+        {
+          "Input Parameter": "F24",
+          "Input Description": "F24"
+        },
+        {
+          "Input Parameter": "NUMLOCK",
+          "Input Description": "Num Lock"
+        },
+        {
+          "Input Parameter": "SCROLL",
+          "Input Description": "Scroll Lock"
+        },
+        {
+          "Input Parameter": "LSHIFT",
+          "Input Description": "Left Shift"
+        },
+        {
+          "Input Parameter": "RSHIFT",
+          "Input Description": "Right Shift"
+        },
+        {
+          "Input Parameter": "LCONTROL",
+          "Input Description": "Left Control"
+        },
+        {
+          "Input Parameter": "RCONTROL",
+          "Input Description": "Right Control"
+        },
+        {
+          "Input Parameter": "LMENU",
+          "Input Description": "Left Alt"
+        },
+        {
+          "Input Parameter": "RMENU",
+          "Input Description": "Right Alt"
+        },
+        {
+          "Input Parameter": "OEM\\_1",
+          "Input Description": ";"
+        },
+        {
+          "Input Parameter": "SEMICOLON",
+          "Input Description": ";"
+        },
+        {
+          "Input Parameter": "EQUALS",
+          "Input Description": "="
+        },
+        {
+          "Input Parameter": "PLUS",
+          "Input Description": "+"
+        },
+        {
+          "Input Parameter": "COMMA",
+          "Input Description": ","
+        },
+        {
+          "Input Parameter": "MINUS",
+          "Input Description": "-"
+        },
+        {
+          "Input Parameter": "PERIOD",
+          "Input Description": "."
+        },
+        {
+          "Input Parameter": "SLASH",
+          "Input Description": "/"
+        },
+        {
+          "Input Parameter": "OEM\\_2",
+          "Input Description": "/"
+        },
+        {
+          "Input Parameter": "OEM\\_3",
+          "Input Description": "\\`"
+        },
+        {
+          "Input Parameter": "GRAVE",
+          "Input Description": "\\`"
+        },
+        {
+          "Input Parameter": "LBRACKET",
+          "Input Description": "\\["
+        },
+        {
+          "Input Parameter": "OEM\\_4",
+          "Input Description": "\\["
+        },
+        {
+          "Input Parameter": "OEM\\_5",
+          "Input Description": "\\\\"
+        },
+        {
+          "Input Parameter": "BACKSLASH",
+          "Input Description": "\\\\"
+        },
+        {
+          "Input Parameter": "OEM\\_6",
+          "Input Description": "\\]"
+        },
+        {
+          "Input Parameter": "RBRACKET",
+          "Input Description": "\\]"
+        },
+        {
+          "Input Parameter": "APOSTROPHE",
+          "Input Description": "'"
+        },
+        {
+          "Input Parameter": "OEM\\_7",
+          "Input Description": "'"
+        },
+        {
+          "Input Parameter": "OEM\\_102",
+          "Input Description": "The \"angle bracket key\" or the backslash key on an RT 102-key keyboard"
+        },
+        {
+          "Input Parameter": "RAGE\\_EXTRA1",
+          "Input Description": "*unknown*"
+        },
+        {
+          "Input Parameter": "RAGE\\_EXTRA2",
+          "Input Description": "*unknown*"
+        },
+        {
+          "Input Parameter": "RAGE\\_EXTRA3",
+          "Input Description": "*unknown*"
+        },
+        {
+          "Input Parameter": "RAGE\\_EXTRA4",
+          "Input Description": "*unknown*"
+        },
+        {
+          "Input Parameter": "CHATPAD\\_GREEN\\_SHIFT",
+          "Input Description": "Xbox Chatpad Green Button"
+        },
+        {
+          "Input Parameter": "CHATPAD\\_ORANGE\\_SHIFT",
+          "Input Description": "Xbox Chatpad Orange Button"
+        }
+      ]
+    }
+  ],
+  "table_count": 1,
+  "total_table_rows": 135,
+  "css_items": [],
+  "css_item_count": 0,
+  "markdown": "| Input Parameter             | Input Description                                                      |\n| --------------------------- | ---------------------------------------------------------------------- |\n| BACK                        | Backspace                                                              |\n| TAB                         | Tab                                                                    |\n| RETURN                      | Enter                                                                  |\n| PAUSE                       | Pause Break                                                            |\n| CAPITAL                     | Caps Lock                                                              |\n| ESCAPE                      | Escape                                                                 |\n| SPACE                       | Space bar                                                              |\n| PAGEUP                      | Page Up                                                                |\n| PRIOR                       | Page Up                                                                |\n| PAGEDOWN                    | Page Down                                                              |\n| NEXT                        | Page Down                                                              |\n| END                         | End                                                                    |\n| HOME                        | Home                                                                   |\n| LEFT                        | Left Arrow                                                             |\n| UP                          | Up Arrow                                                               |\n| RIGHT                       | Right Arrow                                                            |\n| DOWN                        | Down Arrow                                                             |\n| SYSRQ                       | Print Screen                                                           |\n| SNAPSHOT                    | Print Screen                                                           |\n| INSERT                      | Insert                                                                 |\n| DELETE                      | Delete                                                                 |\n| 0                           | 0                                                                      |\n| 1                           | 1                                                                      |\n| 2                           | 2                                                                      |\n| 3                           | 3                                                                      |\n| 4                           | 4                                                                      |\n| 5                           | 5                                                                      |\n| 6                           | 6                                                                      |\n| 7                           | 7                                                                      |\n| 8                           | 8                                                                      |\n| 9                           | 9                                                                      |\n| A                           | A                                                                      |\n| B                           | B                                                                      |\n| C                           | C                                                                      |\n| D                           | D                                                                      |\n| E                           | E                                                                      |\n| F                           | F                                                                      |\n| G                           | G                                                                      |\n| H                           | H                                                                      |\n| I                           | I                                                                      |\n| J                           | J                                                                      |\n| K                           | K                                                                      |\n| L                           | L                                                                      |\n| M                           | M                                                                      |\n| N                           | N                                                                      |\n| O                           | O                                                                      |\n| P                           | P                                                                      |\n| Q                           | Q                                                                      |\n| R                           | R                                                                      |\n| S                           | S                                                                      |\n| T                           | T                                                                      |\n| U                           | U                                                                      |\n| V                           | V                                                                      |\n| W                           | W                                                                      |\n| X                           | X                                                                      |\n| Y                           | Y                                                                      |\n| Z                           | Z                                                                      |\n| LWIN                        | Left OS/Windows Key                                                    |\n| RWIN                        | Right OS/Windows Key                                                   |\n| APPS                        | Context Menu Key                                                       |\n| NUMPAD0                     | Numpad 0                                                               |\n| NUMPAD1                     | Numpad 1                                                               |\n| NUMPAD2                     | Numpad 2                                                               |\n| NUMPAD3                     | Numpad 3                                                               |\n| NUMPAD4                     | Numpad 4                                                               |\n| NUMPAD5                     | Numpad 5                                                               |\n| NUMPAD6                     | Numpad 6                                                               |\n| NUMPAD7                     | Numpad 7                                                               |\n| NUMPAD8                     | Numpad 8                                                               |\n| NUMPAD9                     | Numpad 9                                                               |\n| MULTIPLY                    | Numpad Multiply                                                        |\n| ADD                         | Numpad Plus                                                            |\n| SUBTRACT                    | Numpad Subtract                                                        |\n| DECIMAL                     | Numpad Decimal                                                         |\n| DIVIDE                      | Numpad Slash                                                           |\n| NUMPADEQUALS                | Numpad Equals                                                          |\n| NUMPADENTER                 | Numpad Enter                                                           |\n| F1                          | F1                                                                     |\n| F2                          | F2                                                                     |\n| F3                          | F3                                                                     |\n| F4                          | F4                                                                     |\n| F5                          | F5                                                                     |\n| F6                          | F6                                                                     |\n| F7                          | F7                                                                     |\n| F8                          | F8                                                                     |\n| F9                          | F9                                                                     |\n| F10                         | F10                                                                    |\n| F11                         | F11                                                                    |\n| F12                         | F12                                                                    |\n| F13                         | F13                                                                    |\n| F14                         | F14                                                                    |\n| F15                         | F15                                                                    |\n| F16                         | F16                                                                    |\n| F17                         | F17                                                                    |\n| F18                         | F18                                                                    |\n| F19                         | F19                                                                    |\n| F20                         | F20                                                                    |\n| F21                         | F21                                                                    |\n| F22                         | F22                                                                    |\n| F23                         | F23                                                                    |\n| F24                         | F24                                                                    |\n| NUMLOCK                     | Num Lock                                                               |\n| SCROLL                      | Scroll Lock                                                            |\n| LSHIFT                      | Left Shift                                                             |\n| RSHIFT                      | Right Shift                                                            |\n| LCONTROL                    | Left Control                                                           |\n| RCONTROL                    | Right Control                                                          |\n| LMENU                       | Left Alt                                                               |\n| RMENU                       | Right Alt                                                              |\n| OEM\\_1                      | ;                                                                      |\n| SEMICOLON                   | ;                                                                      |\n| EQUALS                      | =                                                                      |\n| PLUS                        | +                                                                      |\n| COMMA                       | ,                                                                      |\n| MINUS                       | -                                                                      |\n| PERIOD                      | .                                                                      |\n| SLASH                       | /                                                                      |\n| OEM\\_2                      | /                                                                      |\n| OEM\\_3                      | \\`                                                                     |\n| GRAVE                       | \\`                                                                     |\n| LBRACKET                    | \\[                                                                     |\n| OEM\\_4                      | \\[                                                                     |\n| OEM\\_5                      | \\\\                                                                     |\n| BACKSLASH                   | \\\\                                                                     |\n| OEM\\_6                      | \\]                                                                     |\n| RBRACKET                    | \\]                                                                     |\n| APOSTROPHE                  | '                                                                      |\n| OEM\\_7                      | '                                                                      |\n| OEM\\_102                    | The \"angle bracket key\" or the backslash key on an RT 102-key keyboard |\n| RAGE\\_EXTRA1                | *unknown*                                                              |\n| RAGE\\_EXTRA2                | *unknown*                                                              |\n| RAGE\\_EXTRA3                | *unknown*                                                              |\n| RAGE\\_EXTRA4                | *unknown*                                                              |\n| CHATPAD\\_GREEN\\_SHIFT       | Xbox Chatpad Green Button                                              |\n| CHATPAD\\_ORANGE\\_SHIFT      | Xbox Chatpad Orange Button                                             |",
+  "raw_html_length": 14386
+}

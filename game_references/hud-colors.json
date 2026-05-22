@@ -1,0 +1,1926 @@
+{
+  "url_path": "/docs/game-references/hud-colors/",
+  "full_url": "https://docs.fivem.net/docs/game-references/hud-colors/",
+  "title": "hud-colors",
+  "slug": "hud-colors",
+  "parent_category": null,
+  "toc": [],
+  "tables": [],
+  "table_count": 0,
+  "total_table_rows": 0,
+  "css_items": [],
+  "css_item_count": 0,
+  "markdown": "This page lists the default HUD colors as defined in `common:/data/ui/hudcolor.dat`, which can be overridden or obtained\nusing the following native commands:\n\n* GET_HUD_COLOUR\n* REPLACE_HUD_COLOUR\n* REPLACE_HUD_COLOUR_WITH_RGBA\n\ntd.color {\n    background-image: linear-gradient(0deg, var(--color) 0%, var(--color) 100%), url('data:image/svg+xml,\\\n   \\\n            \\\n            \\\n            '), linear-gradient(0deg, #fff 0%, #fff 100%);\n    background-size: 30px 30px;\n    background-position: center;\n}\n\n## List of default colors\n\nColor\n\nIndex\n\nName\n\nRGBA\n\n    \n        \n         \n        0\n        HUD_COLOUR_PURE_WHITE\n        rgba(255, 255, 255, 255)\n    \n    \n         \n        1\n        HUD_COLOUR_WHITE\n        rgba(240, 240, 240, 255)\n    \n    \n         \n        2\n        HUD_COLOUR_BLACK\n        rgba(0, 0, 0, 255)\n    \n    \n         \n        3\n        HUD_COLOUR_GREY\n        rgba(155, 155, 155, 255)\n    \n    \n         \n        4\n        HUD_COLOUR_GREYLIGHT\n        rgba(205, 205, 205, 255)\n    \n    \n         \n        5\n        HUD_COLOUR_GREYDARK\n        rgba(77, 77, 77, 255)\n    \n    \n         \n        6\n        HUD_COLOUR_RED\n        rgba(224, 50, 50, 255)\n    \n    \n         \n        7\n        HUD_COLOUR_REDLIGHT\n        rgba(240, 153, 153, 255)\n    \n    \n         \n        8\n        HUD_COLOUR_REDDARK\n        rgba(112, 25, 25, 255)\n    \n    \n         \n        9\n        HUD_COLOUR_BLUE\n        rgba(93, 182, 229, 255)\n    \n    \n         \n        10\n        HUD_COLOUR_BLUELIGHT\n        rgba(174, 219, 242, 255)\n    \n    \n         \n        11\n        HUD_COLOUR_BLUEDARK\n        rgba(47, 92, 115, 255)\n    \n    \n         \n        12\n        HUD_COLOUR_YELLOW\n        rgba(240, 200, 80, 255)\n    \n    \n         \n        13\n        HUD_COLOUR_YELLOWLIGHT\n        rgba(254, 235, 169, 255)\n    \n    \n         \n        14\n        HUD_COLOUR_YELLOWDARK\n        rgba(126, 107, 41, 255)\n    \n    \n         \n        15\n        HUD_COLOUR_ORANGE\n        rgba(255, 133, 85, 255)\n    \n    \n         \n        16\n        HUD_COLOUR_ORANGELIGHT\n        rgba(255, 194, 170, 255)\n    \n    \n         \n        17\n        HUD_COLOUR_ORANGEDARK\n        rgba(127, 66, 42, 255)\n    \n    \n         \n        18\n        HUD_COLOUR_GREEN\n        rgba(114, 204, 114, 255)\n    \n    \n         \n        19\n        HUD_COLOUR_GREENLIGHT\n        rgba(185, 230, 185, 255)\n    \n    \n         \n        20\n        HUD_COLOUR_GREENDARK\n        rgba(57, 102, 57, 255)\n    \n    \n         \n        21\n        HUD_COLOUR_PURPLE\n        rgba(132, 102, 226, 255)\n    \n    \n         \n        22\n        HUD_COLOUR_PURPLELIGHT\n        rgba(192, 179, 239, 255)\n    \n    \n         \n        23\n        HUD_COLOUR_PURPLEDARK\n        rgba(67, 57, 111, 255)\n    \n    \n         \n        24\n        HUD_COLOUR_PINK\n        rgba(203, 54, 148, 255)\n    \n    \n         \n        25\n        HUD_COLOUR_RADAR_HEALTH\n        rgba(53, 154, 71, 255)\n    \n    \n         \n        26\n        HUD_COLOUR_RADAR_ARMOUR\n        [HUD_COLOUR_BLUE](#hud_colour_blue)\n    \n    \n         \n        27\n        HUD_COLOUR_RADAR_DAMAGE\n        rgba(235, 36, 39, 255)\n    \n    \n         \n        28\n        HUD_COLOUR_NET_PLAYER1\n        rgba(194, 80, 80, 255)\n    \n    \n         \n        29\n        HUD_COLOUR_NET_PLAYER2\n        rgba(156, 110, 175, 255)\n    \n    \n         \n        30\n        HUD_COLOUR_NET_PLAYER3\n        rgba(255, 123, 196, 255)\n    \n    \n         \n        31\n        HUD_COLOUR_NET_PLAYER4\n        rgba(247, 159, 123, 255)\n    \n    \n         \n        32\n        HUD_COLOUR_NET_PLAYER5\n        rgba(178, 144, 132, 255)\n    \n    \n         \n        33\n        HUD_COLOUR_NET_PLAYER6\n        rgba(141, 206, 167, 255)\n    \n    \n         \n        34\n        HUD_COLOUR_NET_PLAYER7\n        rgba(113, 169, 175, 255)\n    \n    \n         \n        35\n        HUD_COLOUR_NET_PLAYER8\n        rgba(211, 209, 231, 255)\n    \n    \n         \n        36\n        HUD_COLOUR_NET_PLAYER9\n        rgba(144, 127, 153, 255)\n    \n    \n         \n        37\n        HUD_COLOUR_NET_PLAYER10\n        rgba(106, 196, 191, 255)\n    \n    \n         \n        38\n        HUD_COLOUR_NET_PLAYER11\n        rgba(214, 196, 153, 255)\n    \n    \n         \n        39\n        HUD_COLOUR_NET_PLAYER12\n        rgba(234, 142, 80, 255)\n    \n    \n         \n        40\n        HUD_COLOUR_NET_PLAYER13\n        rgba(152, 203, 234, 255)\n    \n    \n         \n        41\n        HUD_COLOUR_NET_PLAYER14\n        rgba(178, 98, 135, 255)\n    \n    \n         \n        42\n        HUD_COLOUR_NET_PLAYER15\n        rgba(144, 142, 122, 255)\n    \n    \n         \n        43\n        HUD_COLOUR_NET_PLAYER16\n        rgba(166, 117, 94, 255)\n    \n    \n         \n        44\n        HUD_COLOUR_NET_PLAYER17\n        rgba(175, 168, 168, 255)\n    \n    \n         \n        45\n        HUD_COLOUR_NET_PLAYER18\n        rgba(232, 142, 155, 255)\n    \n    \n         \n        46\n        HUD_COLOUR_NET_PLAYER19\n        rgba(187, 214, 91, 255)\n    \n    \n         \n        47\n        HUD_COLOUR_NET_PLAYER20\n        rgba(12, 123, 86, 255)\n    \n    \n         \n        48\n        HUD_COLOUR_NET_PLAYER21\n        rgba(123, 196, 255, 255)\n    \n    \n         \n        49\n        HUD_COLOUR_NET_PLAYER22\n        rgba(171, 60, 230, 255)\n    \n    \n         \n        50\n        HUD_COLOUR_NET_PLAYER23\n        rgba(206, 169, 13, 255)\n    \n    \n         \n        51\n        HUD_COLOUR_NET_PLAYER24\n        rgba(71, 99, 173, 255)\n    \n    \n         \n        52\n        HUD_COLOUR_NET_PLAYER25\n        rgba(42, 166, 185, 255)\n    \n    \n         \n        53\n        HUD_COLOUR_NET_PLAYER26\n        rgba(186, 157, 125, 255)\n    \n    \n         \n        54\n        HUD_COLOUR_NET_PLAYER27\n        rgba(201, 225, 255, 255)\n    \n    \n         \n        55\n        HUD_COLOUR_NET_PLAYER28\n        rgba(240, 240, 150, 255)\n    \n    \n         \n        56\n        HUD_COLOUR_NET_PLAYER29\n        rgba(237, 140, 161, 255)\n    \n    \n         \n        57\n        HUD_COLOUR_NET_PLAYER30\n        rgba(249, 138, 138, 255)\n    \n    \n         \n        58\n        HUD_COLOUR_NET_PLAYER31\n        rgba(252, 239, 166, 255)\n    \n    \n         \n        59\n        HUD_COLOUR_NET_PLAYER32\n        rgba(240, 240, 240, 255)\n    \n    \n         \n        60\n        HUD_COLOUR_SIMPLEBLIP_DEFAULT\n        rgba(159, 201, 166, 255)\n    \n    \n         \n        61\n        HUD_COLOUR_MENU_BLUE\n        rgba(140, 140, 140, 255)\n    \n    \n         \n        62\n        HUD_COLOUR_MENU_GREY_LIGHT\n        [HUD_COLOUR_MENU_BLUE](#hud_colour_menu_blue)\n    \n    \n         \n        63\n        HUD_COLOUR_MENU_BLUE_EXTRA_DARK\n        rgba(40, 40, 40, 255)\n    \n    \n         \n        64\n        HUD_COLOUR_MENU_YELLOW\n        rgba(240, 160, 0, 255)\n    \n    \n         \n        65\n        HUD_COLOUR_MENU_YELLOW_DARK\n        [HUD_COLOUR_MENU_YELLOW](#hud_colour_menu_yellow)\n    \n    \n         \n        66\n        HUD_COLOUR_MENU_GREEN\n        [HUD_COLOUR_MENU_YELLOW](#hud_colour_menu_yellow)\n    \n    \n         \n        67\n        HUD_COLOUR_MENU_GREY\n        rgba(140, 140, 140, 255)\n    \n    \n         \n        68\n        HUD_COLOUR_MENU_GREY_DARK\n        rgba(60, 60, 60, 255)\n    \n    \n         \n        69\n        HUD_COLOUR_MENU_HIGHLIGHT\n        rgba(30, 30, 30, 255)\n    \n    \n         \n        70\n        HUD_COLOUR_MENU_STANDARD\n        rgba(140, 140, 140, 255)\n    \n    \n         \n        71\n        HUD_COLOUR_MENU_DIMMED\n        rgba(75, 75, 75, 255)\n    \n    \n         \n        72\n        HUD_COLOUR_MENU_EXTRA_DIMMED\n        rgba(50, 50, 50, 255)\n    \n    \n         \n        73\n        HUD_COLOUR_BRIEF_TITLE\n        rgba(95, 95, 95, 255)\n    \n    \n         \n        74\n        HUD_COLOUR_MID_GREY_MP\n        rgba(100, 100, 100, 255)\n    \n    \n         \n        75\n        HUD_COLOUR_NET_PLAYER1_DARK\n        rgba(93, 39, 39, 255)\n    \n    \n         \n        76\n        HUD_COLOUR_NET_PLAYER2_DARK\n        rgba(77, 55, 89, 255)\n    \n    \n         \n        77\n        HUD_COLOUR_NET_PLAYER3_DARK\n        rgba(124, 62, 99, 255)\n    \n    \n         \n        78\n        HUD_COLOUR_NET_PLAYER4_DARK\n        rgba(120, 80, 80, 255)\n    \n    \n         \n        79\n        HUD_COLOUR_NET_PLAYER5_DARK\n        rgba(87, 72, 66, 255)\n    \n    \n         \n        80\n        HUD_COLOUR_NET_PLAYER6_DARK\n        rgba(74, 103, 83, 255)\n    \n    \n         \n        81\n        HUD_COLOUR_NET_PLAYER7_DARK\n        rgba(60, 85, 88, 255)\n    \n    \n         \n        82\n        HUD_COLOUR_NET_PLAYER8_DARK\n        rgba(105, 105, 64, 255)\n    \n    \n         \n        83\n        HUD_COLOUR_NET_PLAYER9_DARK\n        rgba(72, 63, 76, 255)\n    \n    \n         \n        84\n        HUD_COLOUR_NET_PLAYER10_DARK\n        rgba(53, 98, 95, 255)\n    \n    \n         \n        85\n        HUD_COLOUR_NET_PLAYER11_DARK\n        rgba(107, 98, 76, 255)\n    \n    \n         \n        86\n        HUD_COLOUR_NET_PLAYER12_DARK\n        rgba(117, 71, 40, 255)\n    \n    \n         \n        87\n        HUD_COLOUR_NET_PLAYER13_DARK\n        rgba(76, 101, 117, 255)\n    \n    \n         \n        88\n        HUD_COLOUR_NET_PLAYER14_DARK\n        rgba(65, 35, 47, 255)\n    \n    \n         \n        89\n        HUD_COLOUR_NET_PLAYER15_DARK\n        rgba(72, 71, 61, 255)\n    \n    \n         \n        90\n        HUD_COLOUR_NET_PLAYER16_DARK\n        rgba(85, 58, 47, 255)\n    \n    \n         \n        91\n        HUD_COLOUR_NET_PLAYER17_DARK\n        rgba(87, 84, 84, 255)\n    \n    \n         \n        92\n        HUD_COLOUR_NET_PLAYER18_DARK\n        rgba(116, 71, 77, 255)\n    \n    \n         \n        93\n        HUD_COLOUR_NET_PLAYER19_DARK\n        rgba(93, 107, 45, 255)\n    \n    \n         \n        94\n        HUD_COLOUR_NET_PLAYER20_DARK\n        rgba(6, 61, 43, 255)\n    \n    \n         \n        95\n        HUD_COLOUR_NET_PLAYER21_DARK\n        rgba(61, 98, 127, 255)\n    \n    \n         \n        96\n        HUD_COLOUR_NET_PLAYER22_DARK\n        rgba(85, 30, 115, 255)\n    \n    \n         \n        97\n        HUD_COLOUR_NET_PLAYER23_DARK\n        rgba(103, 84, 6, 255)\n    \n    \n         \n        98\n        HUD_COLOUR_NET_PLAYER24_DARK\n        rgba(35, 49, 86, 255)\n    \n    \n         \n        99\n        HUD_COLOUR_NET_PLAYER25_DARK\n        rgba(21, 83, 92, 255)\n    \n    \n         \n        100\n        HUD_COLOUR_NET_PLAYER26_DARK\n        rgba(93, 98, 62, 255)\n    \n    \n         \n        101\n        HUD_COLOUR_NET_PLAYER27_DARK\n        rgba(100, 112, 127, 255)\n    \n    \n         \n        102\n        HUD_COLOUR_NET_PLAYER28_DARK\n        rgba(120, 120, 75, 255)\n    \n    \n         \n        103\n        HUD_COLOUR_NET_PLAYER29_DARK\n        rgba(152, 76, 93, 255)\n    \n    \n         \n        104\n        HUD_COLOUR_NET_PLAYER30_DARK\n        rgba(124, 69, 69, 255)\n    \n    \n         \n        105\n        HUD_COLOUR_NET_PLAYER31_DARK\n        rgba(10, 43, 50, 255)\n    \n    \n         \n        106\n        HUD_COLOUR_NET_PLAYER32_DARK\n        rgba(95, 95, 10, 255)\n    \n    \n         \n        107\n        HUD_COLOUR_BRONZE\n        rgba(180, 130, 97, 255)\n    \n    \n         \n        108\n        HUD_COLOUR_SILVER\n        rgba(150, 153, 161, 255)\n    \n    \n         \n        109\n        HUD_COLOUR_GOLD\n        rgba(214, 181, 99, 255)\n    \n    \n         \n        110\n        HUD_COLOUR_PLATINUM\n        rgba(166, 221, 190, 255)\n    \n    \n         \n        111\n        HUD_COLOUR_GANG1\n        rgba(29, 100, 153, 255)\n    \n    \n         \n        112\n        HUD_COLOUR_GANG2\n        rgba(214, 116, 15, 255)\n    \n    \n         \n        113\n        HUD_COLOUR_GANG3\n        rgba(135, 125, 142, 255)\n    \n    \n         \n        114\n        HUD_COLOUR_GANG4\n        rgba(229, 119, 185, 255)\n    \n    \n         \n        115\n        HUD_COLOUR_SAME_CREW\n        rgba(252, 239, 166, 255)\n    \n    \n         \n        116\n        HUD_COLOUR_FREEMODE\n        rgba(45, 110, 185, 255)\n    \n    \n         \n        117\n        HUD_COLOUR_PAUSE_BG\n        rgba(0, 0, 0, 186)\n    \n    \n         \n        118\n        HUD_COLOUR_FRIENDLY\n        rgba(93, 182, 229, 255)\n    \n    \n         \n        119\n        HUD_COLOUR_ENEMY\n        rgba(194, 80, 80, 255)\n    \n    \n         \n        120\n        HUD_COLOUR_LOCATION\n        [HUD_COLOUR_YELLOW](#hud_colour_yellow)\n    \n    \n         \n        121\n        HUD_COLOUR_PICKUP\n        [HUD_COLOUR_GREEN](#hud_colour_green)\n    \n    \n         \n        122\n        HUD_COLOUR_PAUSE_SINGLEPLAYER\n        [HUD_COLOUR_GREEN](#hud_colour_green)\n    \n    \n         \n        123\n        HUD_COLOUR_FREEMODE_DARK\n        rgba(22, 55, 92, 255)\n    \n    \n         \n        124\n        HUD_COLOUR_INACTIVE_MISSION\n        rgba(154, 154, 154, 255)\n    \n    \n         \n        125\n        HUD_COLOUR_DAMAGE\n        rgba(194, 80, 80, 255)\n    \n    \n         \n        126\n        HUD_COLOUR_PINKLIGHT\n        rgba(252, 115, 201, 255)\n    \n    \n         \n        127\n        HUD_COLOUR_PM_MITEM_HIGHLIGHT\n        rgba(252, 177, 49, 255)\n    \n    \n         \n        128\n        HUD_COLOUR_SCRIPT_VARIABLE\n        rgba(0, 0, 0, 255)\n    \n    \n         \n        129\n        HUD_COLOUR_YOGA\n        rgba(109, 247, 204, 255)\n    \n    \n         \n        130\n        HUD_COLOUR_TENNIS\n        rgba(241, 101, 34, 255)\n    \n    \n         \n        131\n        HUD_COLOUR_GOLF\n        rgba(214, 189, 97, 255)\n    \n    \n         \n        132\n        HUD_COLOUR_SHOOTING_RANGE\n        [HUD_COLOUR_REDDARK](#hud_colour_reddark)\n    \n    \n         \n        133\n        HUD_COLOUR_FLIGHT_SCHOOL\n        [HUD_COLOUR_BLUEDARK](#hud_colour_bluedark)\n    \n    \n         \n        134\n        HUD_COLOUR_NORTH_BLUE\n        [HUD_COLOUR_BLUE](#hud_colour_blue)\n    \n    \n         \n        135\n        HUD_COLOUR_SOCIAL_CLUB\n        rgba(234, 153, 28, 255)\n    \n    \n         \n        136\n        HUD_COLOUR_PLATFORM_BLUE\n        rgba(11, 55, 123, 255)\n    \n    \n         \n        137\n        HUD_COLOUR_PLATFORM_GREEN\n        rgba(146, 200, 62, 255)\n    \n    \n         \n        138\n        HUD_COLOUR_PLATFORM_GREY\n        rgba(234, 153, 28, 255)\n    \n    \n         \n        139\n        HUD_COLOUR_FACEBOOK_BLUE\n        rgba(66, 89, 148, 255)\n    \n    \n         \n        140\n        HUD_COLOUR_INGAME_BG\n        rgba(0, 0, 0, 186)\n    \n    \n         \n        141\n        HUD_COLOUR_DARTS\n        [HUD_COLOUR_GREEN](#hud_colour_green)\n    \n    \n         \n        142\n        HUD_COLOUR_WAYPOINT\n        rgba(164, 76, 242, 255)\n    \n    \n         \n        143\n        HUD_COLOUR_MICHAEL\n        rgba(101, 180, 212, 255)\n    \n    \n         \n        144\n        HUD_COLOUR_FRANKLIN\n        rgba(171, 237, 171, 255)\n    \n    \n         \n        145\n        HUD_COLOUR_TREVOR\n        rgba(255, 163, 87, 255)\n    \n    \n         \n        146\n        HUD_COLOUR_GOLF_P1\n        [HUD_COLOUR_WHITE](#hud_colour_white)\n    \n    \n         \n        147\n        HUD_COLOUR_GOLF_P2\n        rgba(235, 239, 30, 255)\n    \n    \n         \n        148\n        HUD_COLOUR_GOLF_P3\n        rgba(255, 149, 14, 255)\n    \n    \n         \n        149\n        HUD_COLOUR_GOLF_P4\n        rgba(246, 60, 161, 255)\n    \n    \n         \n        150\n        HUD_COLOUR_WAYPOINTLIGHT\n        rgba(210, 166, 249, 255)\n    \n    \n         \n        151\n        HUD_COLOUR_WAYPOINTDARK\n        rgba(82, 38, 121, 255)\n    \n    \n         \n        152\n        HUD_COLOUR_PANEL_LIGHT\n        rgba(0, 0, 0, 77)\n    \n    \n         \n        153\n        HUD_COLOUR_MICHAEL_DARK\n        rgba(72, 103, 116, 255)\n    \n    \n         \n        154\n        HUD_COLOUR_FRANKLIN_DARK\n        rgba(85, 118, 85, 255)\n    \n    \n         \n        155\n        HUD_COLOUR_TREVOR_DARK\n        rgba(127, 81, 43, 255)\n    \n    \n         \n        156\n        HUD_COLOUR_OBJECTIVE_ROUTE\n        [HUD_COLOUR_YELLOW](#hud_colour_yellow)\n    \n    \n         \n        157\n        HUD_COLOUR_PAUSEMAP_TINT\n        rgba(0, 0, 0, 215)\n    \n    \n         \n        158\n        HUD_COLOUR_PAUSE_DESELECT\n        rgba(100, 100, 100, 127)\n    \n    \n         \n        159\n        HUD_COLOUR_PM_WEAPONS_PURCHASABLE\n        [HUD_COLOUR_FREEMODE](#hud_colour_freemode)\n    \n    \n         \n        160\n        HUD_COLOUR_PM_WEAPONS_LOCKED\n        rgba(240, 240, 240, 191)\n    \n    \n         \n        161\n        HUD_COLOUR_END_SCREEN_BG\n        [HUD_COLOUR_INGAME_BG](#hud_colour_ingame_bg)\n    \n    \n         \n        162\n        HUD_COLOUR_CHOP\n        [HUD_COLOUR_RED](#hud_colour_red)\n    \n    \n         \n        163\n        HUD_COLOUR_PAUSEMAP_TINT_HALF\n        rgba(0, 0, 0, 215)\n    \n    \n         \n        164\n        HUD_COLOUR_NORTH_BLUE_OFFICIAL\n        rgba(0, 71, 133, 255)\n    \n    \n         \n        165\n        HUD_COLOUR_SCRIPT_VARIABLE_2\n        rgba(0, 0, 0, 255)\n    \n    \n         \n        166\n        HUD_COLOUR_H\n        rgba(33, 118, 37, 255)\n    \n    \n         \n        167\n        HUD_COLOUR_HDARK\n        rgba(37, 102, 40, 255)\n    \n    \n         \n        168\n        HUD_COLOUR_T\n        rgba(234, 153, 28, 255)\n    \n    \n         \n        169\n        HUD_COLOUR_TDARK\n        rgba(225, 140, 8, 255)\n    \n    \n         \n        170\n        HUD_COLOUR_HSHARD\n        rgba(20, 40, 0, 255)\n    \n    \n         \n        171\n        HUD_COLOUR_CONTROLLER_MICHAEL\n        rgba(48, 255, 255, 255)\n    \n    \n         \n        172\n        HUD_COLOUR_CONTROLLER_FRANKLIN\n        rgba(48, 255, 0, 255)\n    \n    \n         \n        173\n        HUD_COLOUR_CONTROLLER_TREVOR\n        rgba(176, 80, 0, 255)\n    \n    \n         \n        174\n        HUD_COLOUR_CONTROLLER_CHOP\n        rgba(127, 0, 0, 255)\n    \n    \n         \n        175\n        HUD_COLOUR_VIDEO_EDITOR_VIDEO\n        rgba(53, 166, 224, 255)\n    \n    \n         \n        176\n        HUD_COLOUR_VIDEO_EDITOR_AUDIO\n        rgba(162, 79, 157, 255)\n    \n    \n         \n        177\n        HUD_COLOUR_VIDEO_EDITOR_TEXT\n        rgba(104, 192, 141, 255)\n    \n    \n         \n        178\n        HUD_COLOUR_HB_BLUE\n        rgba(29, 100, 153, 255)\n    \n    \n         \n        179\n        HUD_COLOUR_HB_YELLOW\n        rgba(234, 153, 28, 255)\n    \n    \n         \n        180\n        HUD_COLOUR_VIDEO_EDITOR_SCORE\n        rgba(240, 160, 1, 255)\n    \n    \n         \n        181\n        HUD_COLOUR_VIDEO_EDITOR_AUDIO_FADEOUT\n        rgba(59, 34, 57, 255)\n    \n    \n         \n        182\n        HUD_COLOUR_VIDEO_EDITOR_TEXT_FADEOUT\n        rgba(41, 68, 53, 255)\n    \n    \n         \n        183\n        HUD_COLOUR_VIDEO_EDITOR_SCORE_FADEOUT\n        rgba(82, 58, 10, 255)\n    \n    \n         \n        184\n        HUD_COLOUR_HEIST_BACKGROUND\n        rgba(37, 102, 40, 186)\n    \n    \n         \n        185\n        HUD_COLOUR_VIDEO_EDITOR_AMBIENT\n        [HUD_COLOUR_YELLOW](#hud_colour_yellow)\n    \n    \n         \n        186\n        HUD_COLOUR_VIDEO_EDITOR_AMBIENT_FADEOUT\n        rgba(80, 70, 34, 255)\n    \n    \n         \n        187\n        HUD_COLOUR_VIDEO_EDITOR_AMBIENT_DARK\n        [HUD_COLOUR_ORANGE](#hud_colour_orange)\n    \n    \n         \n        188\n        HUD_COLOUR_VIDEO_EDITOR_AMBIENT_LIGHT\n        [HUD_COLOUR_ORANGELIGHT](#hud_colour_orangelight)\n    \n    \n         \n        189\n        HUD_COLOUR_VIDEO_EDITOR_AMBIENT_MID\n        [HUD_COLOUR_ORANGE](#hud_colour_orange)\n    \n    \n         \n        190\n        HUD_COLOUR_LOW_FLOW\n        [HUD_COLOUR_YELLOW](#hud_colour_yellow)\n    \n    \n         \n        191\n        HUD_COLOUR_LOW_FLOW_DARK\n        [HUD_COLOUR_YELLOWDARK](#hud_colour_yellowdark)\n    \n    \n         \n        192\n        HUD_COLOUR_G1\n        rgba(247, 159, 123, 255)\n    \n    \n         \n        193\n        HUD_COLOUR_G2\n        rgba(226, 134, 187, 255)\n    \n    \n         \n        194\n        HUD_COLOUR_G3\n        rgba(239, 238, 151, 255)\n    \n    \n         \n        195\n        HUD_COLOUR_G4\n        rgba(113, 169, 175, 255)\n    \n    \n         \n        196\n        HUD_COLOUR_G5\n        rgba(160, 140, 193, 255)\n    \n    \n         \n        197\n        HUD_COLOUR_G6\n        rgba(141, 206, 167, 255)\n    \n    \n         \n        198\n        HUD_COLOUR_G7\n        rgba(181, 214, 234, 255)\n    \n    \n         \n        199\n        HUD_COLOUR_G8\n        rgba(178, 144, 132, 255)\n    \n    \n         \n        200\n        HUD_COLOUR_G9\n        rgba(0, 132, 114, 255)\n    \n    \n         \n        201\n        HUD_COLOUR_G10\n        rgba(216, 85, 117, 255)\n    \n    \n         \n        202\n        HUD_COLOUR_G11\n        rgba(30, 100, 152, 255)\n    \n    \n         \n        203\n        HUD_COLOUR_G12\n        rgba(43, 181, 117, 255)\n    \n    \n         \n        204\n        HUD_COLOUR_G13\n        rgba(233, 141, 79, 255)\n    \n    \n         \n        205\n        HUD_COLOUR_G14\n        rgba(137, 210, 215, 255)\n    \n    \n         \n        206\n        HUD_COLOUR_G15\n        rgba(134, 125, 141, 255)\n    \n    \n         \n        207\n        HUD_COLOUR_ADVERSARY\n        rgba(109, 34, 33, 255)\n    \n    \n         \n        208\n        HUD_COLOUR_DEGEN_RED\n        rgba(255, 0, 0, 255)\n    \n    \n         \n        209\n        HUD_COLOUR_DEGEN_YELLOW\n        rgba(255, 255, 0, 255)\n    \n    \n         \n        210\n        HUD_COLOUR_DEGEN_GREEN\n        rgba(0, 255, 0, 255)\n    \n    \n         \n        211\n        HUD_COLOUR_DEGEN_CYAN\n        rgba(0, 255, 255, 255)\n    \n    \n         \n        212\n        HUD_COLOUR_DEGEN_BLUE\n        rgba(0, 0, 255, 255)\n    \n    \n         \n        213\n        HUD_COLOUR_DEGEN_MAGENTA\n        rgba(255, 0, 255, 255)\n    \n    \n         \n        214\n        HUD_COLOUR_STUNT_1\n        rgba(38, 136, 234, 255)\n    \n    \n         \n        215\n        HUD_COLOUR_STUNT_2\n        [HUD_COLOUR_RED](#hud_colour_red)\n    \n    \n         \n        216\n        HUD_COLOUR_SPECIAL_RACE_SERIES\n        rgba(154, 178, 54, 255)\n    \n    \n         \n        217\n        HUD_COLOUR_SPECIAL_RACE_SERIES_DARK\n        rgba(93, 107, 45, 255)\n    \n    \n         \n        218\n        HUD_COLOUR_CS\n        rgba(206, 169, 13, 255)\n    \n    \n         \n        219\n        HUD_COLOUR_CS_DARK\n        rgba(103, 84, 6, 255)\n    \n    \n         \n        220\n        HUD_COLOUR_TECH_GREEN\n        rgba(0, 151, 151, 255)\n    \n    \n         \n        221\n        HUD_COLOUR_TECH_GREEN_DARK\n        rgba(5, 119, 113, 255)\n    \n    \n         \n        222\n        HUD_COLOUR_TECH_RED\n        rgba(151, 0, 0, 255)\n    \n    \n         \n        223\n        HUD_COLOUR_TECH_GREEN_VERY_DARK\n        rgba(0, 40, 40, 255)\n    \n    \n         \n        224\n        HUD_COLOUR_PLACEHOLDER_01\n        rgba(255, 255, 255, 255)\n    \n    \n         \n        225\n        HUD_COLOUR_PLACEHOLDER_02\n        rgba(255, 255, 255, 255)\n    \n    \n         \n        226\n        HUD_COLOUR_PLACEHOLDER_03\n        rgba(255, 255, 255, 255)\n    \n    \n         \n        227\n        HUD_COLOUR_PLACEHOLDER_04\n        rgba(255, 255, 255, 255)\n    \n    \n         \n        228\n        HUD_COLOUR_PLACEHOLDER_05\n        rgba(255, 255, 255, 255)\n    \n    \n         \n        229\n        HUD_COLOUR_PLACEHOLDER_06\n        rgba(255, 255, 255, 255)\n    \n    \n         \n        230\n        HUD_COLOUR_PLACEHOLDER_07\n        rgba(255, 255, 255, 255)\n    \n    \n         \n        231\n        HUD_COLOUR_PLACEHOLDER_08\n        rgba(255, 255, 255, 255)\n    \n    \n         \n        232\n        HUD_COLOUR_PLACEHOLDER_09\n        rgba(255, 255, 255, 255)\n    \n    \n         \n        233\n        HUD_COLOUR_PLACEHOLDER_10\n        rgba(255, 255, 255, 255)\n    \n    \n         \n        234\n        HUD_COLOUR_JUNK_ENERGY\n        rgba(29, 237, 195, 255)\n    \n    \n\n a.startsWith('HUD_')).map((line, idx) => {\n    const bits = line.replace(/\\s+/g, ' ').split(' ');\n\n    if (bits[1] !== 'RGBA') {\n        return {\n            idx,\n            name: bits[0],\n            alias: bits[1],\n        }\n    }\n\n    return {\n        idx,\n        name: bits[0],\n        r: parseInt(bits[2]),\n        g: parseInt(bits[3]),\n        b: parseInt(bits[4]),\n        a: parseInt(bits[5]),\n    };\n})\n\ncolorTable = Object.fromEntries(colors.map(color => [color.name, color]));\n\ncolors.map(color => {\n    if (color.alias) {\n        const otherColor = colorTable[color.alias];\n\n        return `\n    \n         \n        ${color.idx}\n        ${color.name}\n        [${otherColor.name}](#${otherColor.name.toLowerCase()})\n    `;\n    }\n\n    return `\n    \n         \n        ${color.idx}\n        ${color.name}\n        rgba(${color.r}, ${color.g}, ${color.b}, ${color.a})\n    `;\n}).join(\"\")\n-->",
+  "raw_html_length": 61425,
+  "hud_colors": [
+    {
+      "id": 0,
+      "name": "HUD_COLOUR_PURE_WHITE",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255,
+      "rgba": "255, 255, 255, 255"
+    },
+    {
+      "id": 1,
+      "name": "HUD_COLOUR_WHITE",
+      "r": 240,
+      "g": 240,
+      "b": 240,
+      "a": 255,
+      "rgba": "240, 240, 240, 255"
+    },
+    {
+      "id": 2,
+      "name": "HUD_COLOUR_BLACK",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255,
+      "rgba": "0, 0, 0, 255"
+    },
+    {
+      "id": 3,
+      "name": "HUD_COLOUR_GREY",
+      "r": 155,
+      "g": 155,
+      "b": 155,
+      "a": 255,
+      "rgba": "155, 155, 155, 255"
+    },
+    {
+      "id": 4,
+      "name": "HUD_COLOUR_GREYLIGHT",
+      "r": 205,
+      "g": 205,
+      "b": 205,
+      "a": 255,
+      "rgba": "205, 205, 205, 255"
+    },
+    {
+      "id": 5,
+      "name": "HUD_COLOUR_GREYDARK",
+      "r": 77,
+      "g": 77,
+      "b": 77,
+      "a": 255,
+      "rgba": "77, 77, 77, 255"
+    },
+    {
+      "id": 6,
+      "name": "HUD_COLOUR_RED",
+      "r": 224,
+      "g": 50,
+      "b": 50,
+      "a": 255,
+      "rgba": "224, 50, 50, 255"
+    },
+    {
+      "id": 7,
+      "name": "HUD_COLOUR_REDLIGHT",
+      "r": 240,
+      "g": 153,
+      "b": 153,
+      "a": 255,
+      "rgba": "240, 153, 153, 255"
+    },
+    {
+      "id": 8,
+      "name": "HUD_COLOUR_REDDARK",
+      "r": 112,
+      "g": 25,
+      "b": 25,
+      "a": 255,
+      "rgba": "112, 25, 25, 255"
+    },
+    {
+      "id": 9,
+      "name": "HUD_COLOUR_BLUE",
+      "r": 93,
+      "g": 182,
+      "b": 229,
+      "a": 255,
+      "rgba": "93, 182, 229, 255"
+    },
+    {
+      "id": 10,
+      "name": "HUD_COLOUR_BLUELIGHT",
+      "r": 174,
+      "g": 219,
+      "b": 242,
+      "a": 255,
+      "rgba": "174, 219, 242, 255"
+    },
+    {
+      "id": 11,
+      "name": "HUD_COLOUR_BLUEDARK",
+      "r": 47,
+      "g": 92,
+      "b": 115,
+      "a": 255,
+      "rgba": "47, 92, 115, 255"
+    },
+    {
+      "id": 12,
+      "name": "HUD_COLOUR_YELLOW",
+      "r": 240,
+      "g": 200,
+      "b": 80,
+      "a": 255,
+      "rgba": "240, 200, 80, 255"
+    },
+    {
+      "id": 13,
+      "name": "HUD_COLOUR_YELLOWLIGHT",
+      "r": 254,
+      "g": 235,
+      "b": 169,
+      "a": 255,
+      "rgba": "254, 235, 169, 255"
+    },
+    {
+      "id": 14,
+      "name": "HUD_COLOUR_YELLOWDARK",
+      "r": 126,
+      "g": 107,
+      "b": 41,
+      "a": 255,
+      "rgba": "126, 107, 41, 255"
+    },
+    {
+      "id": 15,
+      "name": "HUD_COLOUR_ORANGE",
+      "r": 255,
+      "g": 133,
+      "b": 85,
+      "a": 255,
+      "rgba": "255, 133, 85, 255"
+    },
+    {
+      "id": 16,
+      "name": "HUD_COLOUR_ORANGELIGHT",
+      "r": 255,
+      "g": 194,
+      "b": 170,
+      "a": 255,
+      "rgba": "255, 194, 170, 255"
+    },
+    {
+      "id": 17,
+      "name": "HUD_COLOUR_ORANGEDARK",
+      "r": 127,
+      "g": 66,
+      "b": 42,
+      "a": 255,
+      "rgba": "127, 66, 42, 255"
+    },
+    {
+      "id": 18,
+      "name": "HUD_COLOUR_GREEN",
+      "r": 114,
+      "g": 204,
+      "b": 114,
+      "a": 255,
+      "rgba": "114, 204, 114, 255"
+    },
+    {
+      "id": 19,
+      "name": "HUD_COLOUR_GREENLIGHT",
+      "r": 185,
+      "g": 230,
+      "b": 185,
+      "a": 255,
+      "rgba": "185, 230, 185, 255"
+    },
+    {
+      "id": 20,
+      "name": "HUD_COLOUR_GREENDARK",
+      "r": 57,
+      "g": 102,
+      "b": 57,
+      "a": 255,
+      "rgba": "57, 102, 57, 255"
+    },
+    {
+      "id": 21,
+      "name": "HUD_COLOUR_PURPLE",
+      "r": 132,
+      "g": 102,
+      "b": 226,
+      "a": 255,
+      "rgba": "132, 102, 226, 255"
+    },
+    {
+      "id": 22,
+      "name": "HUD_COLOUR_PURPLELIGHT",
+      "r": 192,
+      "g": 179,
+      "b": 239,
+      "a": 255,
+      "rgba": "192, 179, 239, 255"
+    },
+    {
+      "id": 23,
+      "name": "HUD_COLOUR_PURPLEDARK",
+      "r": 67,
+      "g": 57,
+      "b": 111,
+      "a": 255,
+      "rgba": "67, 57, 111, 255"
+    },
+    {
+      "id": 24,
+      "name": "HUD_COLOUR_PINK",
+      "r": 203,
+      "g": 54,
+      "b": 148,
+      "a": 255,
+      "rgba": "203, 54, 148, 255"
+    },
+    {
+      "id": 25,
+      "name": "HUD_COLOUR_RADAR_HEALTH",
+      "r": 53,
+      "g": 154,
+      "b": 71,
+      "a": 255,
+      "rgba": "53, 154, 71, 255"
+    },
+    {
+      "id": 27,
+      "name": "HUD_COLOUR_RADAR_DAMAGE",
+      "r": 235,
+      "g": 36,
+      "b": 39,
+      "a": 255,
+      "rgba": "235, 36, 39, 255"
+    },
+    {
+      "id": 28,
+      "name": "HUD_COLOUR_NET_PLAYER1",
+      "r": 194,
+      "g": 80,
+      "b": 80,
+      "a": 255,
+      "rgba": "194, 80, 80, 255"
+    },
+    {
+      "id": 29,
+      "name": "HUD_COLOUR_NET_PLAYER2",
+      "r": 156,
+      "g": 110,
+      "b": 175,
+      "a": 255,
+      "rgba": "156, 110, 175, 255"
+    },
+    {
+      "id": 30,
+      "name": "HUD_COLOUR_NET_PLAYER3",
+      "r": 255,
+      "g": 123,
+      "b": 196,
+      "a": 255,
+      "rgba": "255, 123, 196, 255"
+    },
+    {
+      "id": 31,
+      "name": "HUD_COLOUR_NET_PLAYER4",
+      "r": 247,
+      "g": 159,
+      "b": 123,
+      "a": 255,
+      "rgba": "247, 159, 123, 255"
+    },
+    {
+      "id": 32,
+      "name": "HUD_COLOUR_NET_PLAYER5",
+      "r": 178,
+      "g": 144,
+      "b": 132,
+      "a": 255,
+      "rgba": "178, 144, 132, 255"
+    },
+    {
+      "id": 33,
+      "name": "HUD_COLOUR_NET_PLAYER6",
+      "r": 141,
+      "g": 206,
+      "b": 167,
+      "a": 255,
+      "rgba": "141, 206, 167, 255"
+    },
+    {
+      "id": 34,
+      "name": "HUD_COLOUR_NET_PLAYER7",
+      "r": 113,
+      "g": 169,
+      "b": 175,
+      "a": 255,
+      "rgba": "113, 169, 175, 255"
+    },
+    {
+      "id": 35,
+      "name": "HUD_COLOUR_NET_PLAYER8",
+      "r": 211,
+      "g": 209,
+      "b": 231,
+      "a": 255,
+      "rgba": "211, 209, 231, 255"
+    },
+    {
+      "id": 36,
+      "name": "HUD_COLOUR_NET_PLAYER9",
+      "r": 144,
+      "g": 127,
+      "b": 153,
+      "a": 255,
+      "rgba": "144, 127, 153, 255"
+    },
+    {
+      "id": 37,
+      "name": "HUD_COLOUR_NET_PLAYER10",
+      "r": 106,
+      "g": 196,
+      "b": 191,
+      "a": 255,
+      "rgba": "106, 196, 191, 255"
+    },
+    {
+      "id": 38,
+      "name": "HUD_COLOUR_NET_PLAYER11",
+      "r": 214,
+      "g": 196,
+      "b": 153,
+      "a": 255,
+      "rgba": "214, 196, 153, 255"
+    },
+    {
+      "id": 39,
+      "name": "HUD_COLOUR_NET_PLAYER12",
+      "r": 234,
+      "g": 142,
+      "b": 80,
+      "a": 255,
+      "rgba": "234, 142, 80, 255"
+    },
+    {
+      "id": 40,
+      "name": "HUD_COLOUR_NET_PLAYER13",
+      "r": 152,
+      "g": 203,
+      "b": 234,
+      "a": 255,
+      "rgba": "152, 203, 234, 255"
+    },
+    {
+      "id": 41,
+      "name": "HUD_COLOUR_NET_PLAYER14",
+      "r": 178,
+      "g": 98,
+      "b": 135,
+      "a": 255,
+      "rgba": "178, 98, 135, 255"
+    },
+    {
+      "id": 42,
+      "name": "HUD_COLOUR_NET_PLAYER15",
+      "r": 144,
+      "g": 142,
+      "b": 122,
+      "a": 255,
+      "rgba": "144, 142, 122, 255"
+    },
+    {
+      "id": 43,
+      "name": "HUD_COLOUR_NET_PLAYER16",
+      "r": 166,
+      "g": 117,
+      "b": 94,
+      "a": 255,
+      "rgba": "166, 117, 94, 255"
+    },
+    {
+      "id": 44,
+      "name": "HUD_COLOUR_NET_PLAYER17",
+      "r": 175,
+      "g": 168,
+      "b": 168,
+      "a": 255,
+      "rgba": "175, 168, 168, 255"
+    },
+    {
+      "id": 45,
+      "name": "HUD_COLOUR_NET_PLAYER18",
+      "r": 232,
+      "g": 142,
+      "b": 155,
+      "a": 255,
+      "rgba": "232, 142, 155, 255"
+    },
+    {
+      "id": 46,
+      "name": "HUD_COLOUR_NET_PLAYER19",
+      "r": 187,
+      "g": 214,
+      "b": 91,
+      "a": 255,
+      "rgba": "187, 214, 91, 255"
+    },
+    {
+      "id": 47,
+      "name": "HUD_COLOUR_NET_PLAYER20",
+      "r": 12,
+      "g": 123,
+      "b": 86,
+      "a": 255,
+      "rgba": "12, 123, 86, 255"
+    },
+    {
+      "id": 48,
+      "name": "HUD_COLOUR_NET_PLAYER21",
+      "r": 123,
+      "g": 196,
+      "b": 255,
+      "a": 255,
+      "rgba": "123, 196, 255, 255"
+    },
+    {
+      "id": 49,
+      "name": "HUD_COLOUR_NET_PLAYER22",
+      "r": 171,
+      "g": 60,
+      "b": 230,
+      "a": 255,
+      "rgba": "171, 60, 230, 255"
+    },
+    {
+      "id": 50,
+      "name": "HUD_COLOUR_NET_PLAYER23",
+      "r": 206,
+      "g": 169,
+      "b": 13,
+      "a": 255,
+      "rgba": "206, 169, 13, 255"
+    },
+    {
+      "id": 51,
+      "name": "HUD_COLOUR_NET_PLAYER24",
+      "r": 71,
+      "g": 99,
+      "b": 173,
+      "a": 255,
+      "rgba": "71, 99, 173, 255"
+    },
+    {
+      "id": 52,
+      "name": "HUD_COLOUR_NET_PLAYER25",
+      "r": 42,
+      "g": 166,
+      "b": 185,
+      "a": 255,
+      "rgba": "42, 166, 185, 255"
+    },
+    {
+      "id": 53,
+      "name": "HUD_COLOUR_NET_PLAYER26",
+      "r": 186,
+      "g": 157,
+      "b": 125,
+      "a": 255,
+      "rgba": "186, 157, 125, 255"
+    },
+    {
+      "id": 54,
+      "name": "HUD_COLOUR_NET_PLAYER27",
+      "r": 201,
+      "g": 225,
+      "b": 255,
+      "a": 255,
+      "rgba": "201, 225, 255, 255"
+    },
+    {
+      "id": 55,
+      "name": "HUD_COLOUR_NET_PLAYER28",
+      "r": 240,
+      "g": 240,
+      "b": 150,
+      "a": 255,
+      "rgba": "240, 240, 150, 255"
+    },
+    {
+      "id": 56,
+      "name": "HUD_COLOUR_NET_PLAYER29",
+      "r": 237,
+      "g": 140,
+      "b": 161,
+      "a": 255,
+      "rgba": "237, 140, 161, 255"
+    },
+    {
+      "id": 57,
+      "name": "HUD_COLOUR_NET_PLAYER30",
+      "r": 249,
+      "g": 138,
+      "b": 138,
+      "a": 255,
+      "rgba": "249, 138, 138, 255"
+    },
+    {
+      "id": 58,
+      "name": "HUD_COLOUR_NET_PLAYER31",
+      "r": 252,
+      "g": 239,
+      "b": 166,
+      "a": 255,
+      "rgba": "252, 239, 166, 255"
+    },
+    {
+      "id": 59,
+      "name": "HUD_COLOUR_NET_PLAYER32",
+      "r": 240,
+      "g": 240,
+      "b": 240,
+      "a": 255,
+      "rgba": "240, 240, 240, 255"
+    },
+    {
+      "id": 60,
+      "name": "HUD_COLOUR_SIMPLEBLIP_DEFAULT",
+      "r": 159,
+      "g": 201,
+      "b": 166,
+      "a": 255,
+      "rgba": "159, 201, 166, 255"
+    },
+    {
+      "id": 61,
+      "name": "HUD_COLOUR_MENU_BLUE",
+      "r": 140,
+      "g": 140,
+      "b": 140,
+      "a": 255,
+      "rgba": "140, 140, 140, 255"
+    },
+    {
+      "id": 63,
+      "name": "HUD_COLOUR_MENU_BLUE_EXTRA_DARK",
+      "r": 40,
+      "g": 40,
+      "b": 40,
+      "a": 255,
+      "rgba": "40, 40, 40, 255"
+    },
+    {
+      "id": 64,
+      "name": "HUD_COLOUR_MENU_YELLOW",
+      "r": 240,
+      "g": 160,
+      "b": 0,
+      "a": 255,
+      "rgba": "240, 160, 0, 255"
+    },
+    {
+      "id": 67,
+      "name": "HUD_COLOUR_MENU_GREY",
+      "r": 140,
+      "g": 140,
+      "b": 140,
+      "a": 255,
+      "rgba": "140, 140, 140, 255"
+    },
+    {
+      "id": 68,
+      "name": "HUD_COLOUR_MENU_GREY_DARK",
+      "r": 60,
+      "g": 60,
+      "b": 60,
+      "a": 255,
+      "rgba": "60, 60, 60, 255"
+    },
+    {
+      "id": 69,
+      "name": "HUD_COLOUR_MENU_HIGHLIGHT",
+      "r": 30,
+      "g": 30,
+      "b": 30,
+      "a": 255,
+      "rgba": "30, 30, 30, 255"
+    },
+    {
+      "id": 70,
+      "name": "HUD_COLOUR_MENU_STANDARD",
+      "r": 140,
+      "g": 140,
+      "b": 140,
+      "a": 255,
+      "rgba": "140, 140, 140, 255"
+    },
+    {
+      "id": 71,
+      "name": "HUD_COLOUR_MENU_DIMMED",
+      "r": 75,
+      "g": 75,
+      "b": 75,
+      "a": 255,
+      "rgba": "75, 75, 75, 255"
+    },
+    {
+      "id": 72,
+      "name": "HUD_COLOUR_MENU_EXTRA_DIMMED",
+      "r": 50,
+      "g": 50,
+      "b": 50,
+      "a": 255,
+      "rgba": "50, 50, 50, 255"
+    },
+    {
+      "id": 73,
+      "name": "HUD_COLOUR_BRIEF_TITLE",
+      "r": 95,
+      "g": 95,
+      "b": 95,
+      "a": 255,
+      "rgba": "95, 95, 95, 255"
+    },
+    {
+      "id": 74,
+      "name": "HUD_COLOUR_MID_GREY_MP",
+      "r": 100,
+      "g": 100,
+      "b": 100,
+      "a": 255,
+      "rgba": "100, 100, 100, 255"
+    },
+    {
+      "id": 75,
+      "name": "HUD_COLOUR_NET_PLAYER1_DARK",
+      "r": 93,
+      "g": 39,
+      "b": 39,
+      "a": 255,
+      "rgba": "93, 39, 39, 255"
+    },
+    {
+      "id": 76,
+      "name": "HUD_COLOUR_NET_PLAYER2_DARK",
+      "r": 77,
+      "g": 55,
+      "b": 89,
+      "a": 255,
+      "rgba": "77, 55, 89, 255"
+    },
+    {
+      "id": 77,
+      "name": "HUD_COLOUR_NET_PLAYER3_DARK",
+      "r": 124,
+      "g": 62,
+      "b": 99,
+      "a": 255,
+      "rgba": "124, 62, 99, 255"
+    },
+    {
+      "id": 78,
+      "name": "HUD_COLOUR_NET_PLAYER4_DARK",
+      "r": 120,
+      "g": 80,
+      "b": 80,
+      "a": 255,
+      "rgba": "120, 80, 80, 255"
+    },
+    {
+      "id": 79,
+      "name": "HUD_COLOUR_NET_PLAYER5_DARK",
+      "r": 87,
+      "g": 72,
+      "b": 66,
+      "a": 255,
+      "rgba": "87, 72, 66, 255"
+    },
+    {
+      "id": 80,
+      "name": "HUD_COLOUR_NET_PLAYER6_DARK",
+      "r": 74,
+      "g": 103,
+      "b": 83,
+      "a": 255,
+      "rgba": "74, 103, 83, 255"
+    },
+    {
+      "id": 81,
+      "name": "HUD_COLOUR_NET_PLAYER7_DARK",
+      "r": 60,
+      "g": 85,
+      "b": 88,
+      "a": 255,
+      "rgba": "60, 85, 88, 255"
+    },
+    {
+      "id": 82,
+      "name": "HUD_COLOUR_NET_PLAYER8_DARK",
+      "r": 105,
+      "g": 105,
+      "b": 64,
+      "a": 255,
+      "rgba": "105, 105, 64, 255"
+    },
+    {
+      "id": 83,
+      "name": "HUD_COLOUR_NET_PLAYER9_DARK",
+      "r": 72,
+      "g": 63,
+      "b": 76,
+      "a": 255,
+      "rgba": "72, 63, 76, 255"
+    },
+    {
+      "id": 84,
+      "name": "HUD_COLOUR_NET_PLAYER10_DARK",
+      "r": 53,
+      "g": 98,
+      "b": 95,
+      "a": 255,
+      "rgba": "53, 98, 95, 255"
+    },
+    {
+      "id": 85,
+      "name": "HUD_COLOUR_NET_PLAYER11_DARK",
+      "r": 107,
+      "g": 98,
+      "b": 76,
+      "a": 255,
+      "rgba": "107, 98, 76, 255"
+    },
+    {
+      "id": 86,
+      "name": "HUD_COLOUR_NET_PLAYER12_DARK",
+      "r": 117,
+      "g": 71,
+      "b": 40,
+      "a": 255,
+      "rgba": "117, 71, 40, 255"
+    },
+    {
+      "id": 87,
+      "name": "HUD_COLOUR_NET_PLAYER13_DARK",
+      "r": 76,
+      "g": 101,
+      "b": 117,
+      "a": 255,
+      "rgba": "76, 101, 117, 255"
+    },
+    {
+      "id": 88,
+      "name": "HUD_COLOUR_NET_PLAYER14_DARK",
+      "r": 65,
+      "g": 35,
+      "b": 47,
+      "a": 255,
+      "rgba": "65, 35, 47, 255"
+    },
+    {
+      "id": 89,
+      "name": "HUD_COLOUR_NET_PLAYER15_DARK",
+      "r": 72,
+      "g": 71,
+      "b": 61,
+      "a": 255,
+      "rgba": "72, 71, 61, 255"
+    },
+    {
+      "id": 90,
+      "name": "HUD_COLOUR_NET_PLAYER16_DARK",
+      "r": 85,
+      "g": 58,
+      "b": 47,
+      "a": 255,
+      "rgba": "85, 58, 47, 255"
+    },
+    {
+      "id": 91,
+      "name": "HUD_COLOUR_NET_PLAYER17_DARK",
+      "r": 87,
+      "g": 84,
+      "b": 84,
+      "a": 255,
+      "rgba": "87, 84, 84, 255"
+    },
+    {
+      "id": 92,
+      "name": "HUD_COLOUR_NET_PLAYER18_DARK",
+      "r": 116,
+      "g": 71,
+      "b": 77,
+      "a": 255,
+      "rgba": "116, 71, 77, 255"
+    },
+    {
+      "id": 93,
+      "name": "HUD_COLOUR_NET_PLAYER19_DARK",
+      "r": 93,
+      "g": 107,
+      "b": 45,
+      "a": 255,
+      "rgba": "93, 107, 45, 255"
+    },
+    {
+      "id": 94,
+      "name": "HUD_COLOUR_NET_PLAYER20_DARK",
+      "r": 6,
+      "g": 61,
+      "b": 43,
+      "a": 255,
+      "rgba": "6, 61, 43, 255"
+    },
+    {
+      "id": 95,
+      "name": "HUD_COLOUR_NET_PLAYER21_DARK",
+      "r": 61,
+      "g": 98,
+      "b": 127,
+      "a": 255,
+      "rgba": "61, 98, 127, 255"
+    },
+    {
+      "id": 96,
+      "name": "HUD_COLOUR_NET_PLAYER22_DARK",
+      "r": 85,
+      "g": 30,
+      "b": 115,
+      "a": 255,
+      "rgba": "85, 30, 115, 255"
+    },
+    {
+      "id": 97,
+      "name": "HUD_COLOUR_NET_PLAYER23_DARK",
+      "r": 103,
+      "g": 84,
+      "b": 6,
+      "a": 255,
+      "rgba": "103, 84, 6, 255"
+    },
+    {
+      "id": 98,
+      "name": "HUD_COLOUR_NET_PLAYER24_DARK",
+      "r": 35,
+      "g": 49,
+      "b": 86,
+      "a": 255,
+      "rgba": "35, 49, 86, 255"
+    },
+    {
+      "id": 99,
+      "name": "HUD_COLOUR_NET_PLAYER25_DARK",
+      "r": 21,
+      "g": 83,
+      "b": 92,
+      "a": 255,
+      "rgba": "21, 83, 92, 255"
+    },
+    {
+      "id": 100,
+      "name": "HUD_COLOUR_NET_PLAYER26_DARK",
+      "r": 93,
+      "g": 98,
+      "b": 62,
+      "a": 255,
+      "rgba": "93, 98, 62, 255"
+    },
+    {
+      "id": 101,
+      "name": "HUD_COLOUR_NET_PLAYER27_DARK",
+      "r": 100,
+      "g": 112,
+      "b": 127,
+      "a": 255,
+      "rgba": "100, 112, 127, 255"
+    },
+    {
+      "id": 102,
+      "name": "HUD_COLOUR_NET_PLAYER28_DARK",
+      "r": 120,
+      "g": 120,
+      "b": 75,
+      "a": 255,
+      "rgba": "120, 120, 75, 255"
+    },
+    {
+      "id": 103,
+      "name": "HUD_COLOUR_NET_PLAYER29_DARK",
+      "r": 152,
+      "g": 76,
+      "b": 93,
+      "a": 255,
+      "rgba": "152, 76, 93, 255"
+    },
+    {
+      "id": 104,
+      "name": "HUD_COLOUR_NET_PLAYER30_DARK",
+      "r": 124,
+      "g": 69,
+      "b": 69,
+      "a": 255,
+      "rgba": "124, 69, 69, 255"
+    },
+    {
+      "id": 105,
+      "name": "HUD_COLOUR_NET_PLAYER31_DARK",
+      "r": 10,
+      "g": 43,
+      "b": 50,
+      "a": 255,
+      "rgba": "10, 43, 50, 255"
+    },
+    {
+      "id": 106,
+      "name": "HUD_COLOUR_NET_PLAYER32_DARK",
+      "r": 95,
+      "g": 95,
+      "b": 10,
+      "a": 255,
+      "rgba": "95, 95, 10, 255"
+    },
+    {
+      "id": 107,
+      "name": "HUD_COLOUR_BRONZE",
+      "r": 180,
+      "g": 130,
+      "b": 97,
+      "a": 255,
+      "rgba": "180, 130, 97, 255"
+    },
+    {
+      "id": 108,
+      "name": "HUD_COLOUR_SILVER",
+      "r": 150,
+      "g": 153,
+      "b": 161,
+      "a": 255,
+      "rgba": "150, 153, 161, 255"
+    },
+    {
+      "id": 109,
+      "name": "HUD_COLOUR_GOLD",
+      "r": 214,
+      "g": 181,
+      "b": 99,
+      "a": 255,
+      "rgba": "214, 181, 99, 255"
+    },
+    {
+      "id": 110,
+      "name": "HUD_COLOUR_PLATINUM",
+      "r": 166,
+      "g": 221,
+      "b": 190,
+      "a": 255,
+      "rgba": "166, 221, 190, 255"
+    },
+    {
+      "id": 111,
+      "name": "HUD_COLOUR_GANG1",
+      "r": 29,
+      "g": 100,
+      "b": 153,
+      "a": 255,
+      "rgba": "29, 100, 153, 255"
+    },
+    {
+      "id": 112,
+      "name": "HUD_COLOUR_GANG2",
+      "r": 214,
+      "g": 116,
+      "b": 15,
+      "a": 255,
+      "rgba": "214, 116, 15, 255"
+    },
+    {
+      "id": 113,
+      "name": "HUD_COLOUR_GANG3",
+      "r": 135,
+      "g": 125,
+      "b": 142,
+      "a": 255,
+      "rgba": "135, 125, 142, 255"
+    },
+    {
+      "id": 114,
+      "name": "HUD_COLOUR_GANG4",
+      "r": 229,
+      "g": 119,
+      "b": 185,
+      "a": 255,
+      "rgba": "229, 119, 185, 255"
+    },
+    {
+      "id": 115,
+      "name": "HUD_COLOUR_SAME_CREW",
+      "r": 252,
+      "g": 239,
+      "b": 166,
+      "a": 255,
+      "rgba": "252, 239, 166, 255"
+    },
+    {
+      "id": 116,
+      "name": "HUD_COLOUR_FREEMODE",
+      "r": 45,
+      "g": 110,
+      "b": 185,
+      "a": 255,
+      "rgba": "45, 110, 185, 255"
+    },
+    {
+      "id": 117,
+      "name": "HUD_COLOUR_PAUSE_BG",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 186,
+      "rgba": "0, 0, 0, 186"
+    },
+    {
+      "id": 118,
+      "name": "HUD_COLOUR_FRIENDLY",
+      "r": 93,
+      "g": 182,
+      "b": 229,
+      "a": 255,
+      "rgba": "93, 182, 229, 255"
+    },
+    {
+      "id": 119,
+      "name": "HUD_COLOUR_ENEMY",
+      "r": 194,
+      "g": 80,
+      "b": 80,
+      "a": 255,
+      "rgba": "194, 80, 80, 255"
+    },
+    {
+      "id": 123,
+      "name": "HUD_COLOUR_FREEMODE_DARK",
+      "r": 22,
+      "g": 55,
+      "b": 92,
+      "a": 255,
+      "rgba": "22, 55, 92, 255"
+    },
+    {
+      "id": 124,
+      "name": "HUD_COLOUR_INACTIVE_MISSION",
+      "r": 154,
+      "g": 154,
+      "b": 154,
+      "a": 255,
+      "rgba": "154, 154, 154, 255"
+    },
+    {
+      "id": 125,
+      "name": "HUD_COLOUR_DAMAGE",
+      "r": 194,
+      "g": 80,
+      "b": 80,
+      "a": 255,
+      "rgba": "194, 80, 80, 255"
+    },
+    {
+      "id": 126,
+      "name": "HUD_COLOUR_PINKLIGHT",
+      "r": 252,
+      "g": 115,
+      "b": 201,
+      "a": 255,
+      "rgba": "252, 115, 201, 255"
+    },
+    {
+      "id": 127,
+      "name": "HUD_COLOUR_PM_MITEM_HIGHLIGHT",
+      "r": 252,
+      "g": 177,
+      "b": 49,
+      "a": 255,
+      "rgba": "252, 177, 49, 255"
+    },
+    {
+      "id": 128,
+      "name": "HUD_COLOUR_SCRIPT_VARIABLE",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255,
+      "rgba": "0, 0, 0, 255"
+    },
+    {
+      "id": 129,
+      "name": "HUD_COLOUR_YOGA",
+      "r": 109,
+      "g": 247,
+      "b": 204,
+      "a": 255,
+      "rgba": "109, 247, 204, 255"
+    },
+    {
+      "id": 130,
+      "name": "HUD_COLOUR_TENNIS",
+      "r": 241,
+      "g": 101,
+      "b": 34,
+      "a": 255,
+      "rgba": "241, 101, 34, 255"
+    },
+    {
+      "id": 131,
+      "name": "HUD_COLOUR_GOLF",
+      "r": 214,
+      "g": 189,
+      "b": 97,
+      "a": 255,
+      "rgba": "214, 189, 97, 255"
+    },
+    {
+      "id": 135,
+      "name": "HUD_COLOUR_SOCIAL_CLUB",
+      "r": 234,
+      "g": 153,
+      "b": 28,
+      "a": 255,
+      "rgba": "234, 153, 28, 255"
+    },
+    {
+      "id": 136,
+      "name": "HUD_COLOUR_PLATFORM_BLUE",
+      "r": 11,
+      "g": 55,
+      "b": 123,
+      "a": 255,
+      "rgba": "11, 55, 123, 255"
+    },
+    {
+      "id": 137,
+      "name": "HUD_COLOUR_PLATFORM_GREEN",
+      "r": 146,
+      "g": 200,
+      "b": 62,
+      "a": 255,
+      "rgba": "146, 200, 62, 255"
+    },
+    {
+      "id": 138,
+      "name": "HUD_COLOUR_PLATFORM_GREY",
+      "r": 234,
+      "g": 153,
+      "b": 28,
+      "a": 255,
+      "rgba": "234, 153, 28, 255"
+    },
+    {
+      "id": 139,
+      "name": "HUD_COLOUR_FACEBOOK_BLUE",
+      "r": 66,
+      "g": 89,
+      "b": 148,
+      "a": 255,
+      "rgba": "66, 89, 148, 255"
+    },
+    {
+      "id": 140,
+      "name": "HUD_COLOUR_INGAME_BG",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 186,
+      "rgba": "0, 0, 0, 186"
+    },
+    {
+      "id": 142,
+      "name": "HUD_COLOUR_WAYPOINT",
+      "r": 164,
+      "g": 76,
+      "b": 242,
+      "a": 255,
+      "rgba": "164, 76, 242, 255"
+    },
+    {
+      "id": 143,
+      "name": "HUD_COLOUR_MICHAEL",
+      "r": 101,
+      "g": 180,
+      "b": 212,
+      "a": 255,
+      "rgba": "101, 180, 212, 255"
+    },
+    {
+      "id": 144,
+      "name": "HUD_COLOUR_FRANKLIN",
+      "r": 171,
+      "g": 237,
+      "b": 171,
+      "a": 255,
+      "rgba": "171, 237, 171, 255"
+    },
+    {
+      "id": 145,
+      "name": "HUD_COLOUR_TREVOR",
+      "r": 255,
+      "g": 163,
+      "b": 87,
+      "a": 255,
+      "rgba": "255, 163, 87, 255"
+    },
+    {
+      "id": 147,
+      "name": "HUD_COLOUR_GOLF_P2",
+      "r": 235,
+      "g": 239,
+      "b": 30,
+      "a": 255,
+      "rgba": "235, 239, 30, 255"
+    },
+    {
+      "id": 148,
+      "name": "HUD_COLOUR_GOLF_P3",
+      "r": 255,
+      "g": 149,
+      "b": 14,
+      "a": 255,
+      "rgba": "255, 149, 14, 255"
+    },
+    {
+      "id": 149,
+      "name": "HUD_COLOUR_GOLF_P4",
+      "r": 246,
+      "g": 60,
+      "b": 161,
+      "a": 255,
+      "rgba": "246, 60, 161, 255"
+    },
+    {
+      "id": 150,
+      "name": "HUD_COLOUR_WAYPOINTLIGHT",
+      "r": 210,
+      "g": 166,
+      "b": 249,
+      "a": 255,
+      "rgba": "210, 166, 249, 255"
+    },
+    {
+      "id": 151,
+      "name": "HUD_COLOUR_WAYPOINTDARK",
+      "r": 82,
+      "g": 38,
+      "b": 121,
+      "a": 255,
+      "rgba": "82, 38, 121, 255"
+    },
+    {
+      "id": 152,
+      "name": "HUD_COLOUR_PANEL_LIGHT",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 77,
+      "rgba": "0, 0, 0, 77"
+    },
+    {
+      "id": 153,
+      "name": "HUD_COLOUR_MICHAEL_DARK",
+      "r": 72,
+      "g": 103,
+      "b": 116,
+      "a": 255,
+      "rgba": "72, 103, 116, 255"
+    },
+    {
+      "id": 154,
+      "name": "HUD_COLOUR_FRANKLIN_DARK",
+      "r": 85,
+      "g": 118,
+      "b": 85,
+      "a": 255,
+      "rgba": "85, 118, 85, 255"
+    },
+    {
+      "id": 155,
+      "name": "HUD_COLOUR_TREVOR_DARK",
+      "r": 127,
+      "g": 81,
+      "b": 43,
+      "a": 255,
+      "rgba": "127, 81, 43, 255"
+    },
+    {
+      "id": 157,
+      "name": "HUD_COLOUR_PAUSEMAP_TINT",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 215,
+      "rgba": "0, 0, 0, 215"
+    },
+    {
+      "id": 158,
+      "name": "HUD_COLOUR_PAUSE_DESELECT",
+      "r": 100,
+      "g": 100,
+      "b": 100,
+      "a": 127,
+      "rgba": "100, 100, 100, 127"
+    },
+    {
+      "id": 160,
+      "name": "HUD_COLOUR_PM_WEAPONS_LOCKED",
+      "r": 240,
+      "g": 240,
+      "b": 240,
+      "a": 191,
+      "rgba": "240, 240, 240, 191"
+    },
+    {
+      "id": 163,
+      "name": "HUD_COLOUR_PAUSEMAP_TINT_HALF",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 215,
+      "rgba": "0, 0, 0, 215"
+    },
+    {
+      "id": 164,
+      "name": "HUD_COLOUR_NORTH_BLUE_OFFICIAL",
+      "r": 0,
+      "g": 71,
+      "b": 133,
+      "a": 255,
+      "rgba": "0, 71, 133, 255"
+    },
+    {
+      "id": 165,
+      "name": "HUD_COLOUR_SCRIPT_VARIABLE_2",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255,
+      "rgba": "0, 0, 0, 255"
+    },
+    {
+      "id": 166,
+      "name": "HUD_COLOUR_H",
+      "r": 33,
+      "g": 118,
+      "b": 37,
+      "a": 255,
+      "rgba": "33, 118, 37, 255"
+    },
+    {
+      "id": 167,
+      "name": "HUD_COLOUR_HDARK",
+      "r": 37,
+      "g": 102,
+      "b": 40,
+      "a": 255,
+      "rgba": "37, 102, 40, 255"
+    },
+    {
+      "id": 168,
+      "name": "HUD_COLOUR_T",
+      "r": 234,
+      "g": 153,
+      "b": 28,
+      "a": 255,
+      "rgba": "234, 153, 28, 255"
+    },
+    {
+      "id": 169,
+      "name": "HUD_COLOUR_TDARK",
+      "r": 225,
+      "g": 140,
+      "b": 8,
+      "a": 255,
+      "rgba": "225, 140, 8, 255"
+    },
+    {
+      "id": 170,
+      "name": "HUD_COLOUR_HSHARD",
+      "r": 20,
+      "g": 40,
+      "b": 0,
+      "a": 255,
+      "rgba": "20, 40, 0, 255"
+    },
+    {
+      "id": 171,
+      "name": "HUD_COLOUR_CONTROLLER_MICHAEL",
+      "r": 48,
+      "g": 255,
+      "b": 255,
+      "a": 255,
+      "rgba": "48, 255, 255, 255"
+    },
+    {
+      "id": 172,
+      "name": "HUD_COLOUR_CONTROLLER_FRANKLIN",
+      "r": 48,
+      "g": 255,
+      "b": 0,
+      "a": 255,
+      "rgba": "48, 255, 0, 255"
+    },
+    {
+      "id": 173,
+      "name": "HUD_COLOUR_CONTROLLER_TREVOR",
+      "r": 176,
+      "g": 80,
+      "b": 0,
+      "a": 255,
+      "rgba": "176, 80, 0, 255"
+    },
+    {
+      "id": 174,
+      "name": "HUD_COLOUR_CONTROLLER_CHOP",
+      "r": 127,
+      "g": 0,
+      "b": 0,
+      "a": 255,
+      "rgba": "127, 0, 0, 255"
+    },
+    {
+      "id": 175,
+      "name": "HUD_COLOUR_VIDEO_EDITOR_VIDEO",
+      "r": 53,
+      "g": 166,
+      "b": 224,
+      "a": 255,
+      "rgba": "53, 166, 224, 255"
+    },
+    {
+      "id": 176,
+      "name": "HUD_COLOUR_VIDEO_EDITOR_AUDIO",
+      "r": 162,
+      "g": 79,
+      "b": 157,
+      "a": 255,
+      "rgba": "162, 79, 157, 255"
+    },
+    {
+      "id": 177,
+      "name": "HUD_COLOUR_VIDEO_EDITOR_TEXT",
+      "r": 104,
+      "g": 192,
+      "b": 141,
+      "a": 255,
+      "rgba": "104, 192, 141, 255"
+    },
+    {
+      "id": 178,
+      "name": "HUD_COLOUR_HB_BLUE",
+      "r": 29,
+      "g": 100,
+      "b": 153,
+      "a": 255,
+      "rgba": "29, 100, 153, 255"
+    },
+    {
+      "id": 179,
+      "name": "HUD_COLOUR_HB_YELLOW",
+      "r": 234,
+      "g": 153,
+      "b": 28,
+      "a": 255,
+      "rgba": "234, 153, 28, 255"
+    },
+    {
+      "id": 180,
+      "name": "HUD_COLOUR_VIDEO_EDITOR_SCORE",
+      "r": 240,
+      "g": 160,
+      "b": 1,
+      "a": 255,
+      "rgba": "240, 160, 1, 255"
+    },
+    {
+      "id": 181,
+      "name": "HUD_COLOUR_VIDEO_EDITOR_AUDIO_FADEOUT",
+      "r": 59,
+      "g": 34,
+      "b": 57,
+      "a": 255,
+      "rgba": "59, 34, 57, 255"
+    },
+    {
+      "id": 182,
+      "name": "HUD_COLOUR_VIDEO_EDITOR_TEXT_FADEOUT",
+      "r": 41,
+      "g": 68,
+      "b": 53,
+      "a": 255,
+      "rgba": "41, 68, 53, 255"
+    },
+    {
+      "id": 183,
+      "name": "HUD_COLOUR_VIDEO_EDITOR_SCORE_FADEOUT",
+      "r": 82,
+      "g": 58,
+      "b": 10,
+      "a": 255,
+      "rgba": "82, 58, 10, 255"
+    },
+    {
+      "id": 184,
+      "name": "HUD_COLOUR_HEIST_BACKGROUND",
+      "r": 37,
+      "g": 102,
+      "b": 40,
+      "a": 186,
+      "rgba": "37, 102, 40, 186"
+    },
+    {
+      "id": 186,
+      "name": "HUD_COLOUR_VIDEO_EDITOR_AMBIENT_FADEOUT",
+      "r": 80,
+      "g": 70,
+      "b": 34,
+      "a": 255,
+      "rgba": "80, 70, 34, 255"
+    },
+    {
+      "id": 192,
+      "name": "HUD_COLOUR_G1",
+      "r": 247,
+      "g": 159,
+      "b": 123,
+      "a": 255,
+      "rgba": "247, 159, 123, 255"
+    },
+    {
+      "id": 193,
+      "name": "HUD_COLOUR_G2",
+      "r": 226,
+      "g": 134,
+      "b": 187,
+      "a": 255,
+      "rgba": "226, 134, 187, 255"
+    },
+    {
+      "id": 194,
+      "name": "HUD_COLOUR_G3",
+      "r": 239,
+      "g": 238,
+      "b": 151,
+      "a": 255,
+      "rgba": "239, 238, 151, 255"
+    },
+    {
+      "id": 195,
+      "name": "HUD_COLOUR_G4",
+      "r": 113,
+      "g": 169,
+      "b": 175,
+      "a": 255,
+      "rgba": "113, 169, 175, 255"
+    },
+    {
+      "id": 196,
+      "name": "HUD_COLOUR_G5",
+      "r": 160,
+      "g": 140,
+      "b": 193,
+      "a": 255,
+      "rgba": "160, 140, 193, 255"
+    },
+    {
+      "id": 197,
+      "name": "HUD_COLOUR_G6",
+      "r": 141,
+      "g": 206,
+      "b": 167,
+      "a": 255,
+      "rgba": "141, 206, 167, 255"
+    },
+    {
+      "id": 198,
+      "name": "HUD_COLOUR_G7",
+      "r": 181,
+      "g": 214,
+      "b": 234,
+      "a": 255,
+      "rgba": "181, 214, 234, 255"
+    },
+    {
+      "id": 199,
+      "name": "HUD_COLOUR_G8",
+      "r": 178,
+      "g": 144,
+      "b": 132,
+      "a": 255,
+      "rgba": "178, 144, 132, 255"
+    },
+    {
+      "id": 200,
+      "name": "HUD_COLOUR_G9",
+      "r": 0,
+      "g": 132,
+      "b": 114,
+      "a": 255,
+      "rgba": "0, 132, 114, 255"
+    },
+    {
+      "id": 201,
+      "name": "HUD_COLOUR_G10",
+      "r": 216,
+      "g": 85,
+      "b": 117,
+      "a": 255,
+      "rgba": "216, 85, 117, 255"
+    },
+    {
+      "id": 202,
+      "name": "HUD_COLOUR_G11",
+      "r": 30,
+      "g": 100,
+      "b": 152,
+      "a": 255,
+      "rgba": "30, 100, 152, 255"
+    },
+    {
+      "id": 203,
+      "name": "HUD_COLOUR_G12",
+      "r": 43,
+      "g": 181,
+      "b": 117,
+      "a": 255,
+      "rgba": "43, 181, 117, 255"
+    },
+    {
+      "id": 204,
+      "name": "HUD_COLOUR_G13",
+      "r": 233,
+      "g": 141,
+      "b": 79,
+      "a": 255,
+      "rgba": "233, 141, 79, 255"
+    },
+    {
+      "id": 205,
+      "name": "HUD_COLOUR_G14",
+      "r": 137,
+      "g": 210,
+      "b": 215,
+      "a": 255,
+      "rgba": "137, 210, 215, 255"
+    },
+    {
+      "id": 206,
+      "name": "HUD_COLOUR_G15",
+      "r": 134,
+      "g": 125,
+      "b": 141,
+      "a": 255,
+      "rgba": "134, 125, 141, 255"
+    },
+    {
+      "id": 207,
+      "name": "HUD_COLOUR_ADVERSARY",
+      "r": 109,
+      "g": 34,
+      "b": 33,
+      "a": 255,
+      "rgba": "109, 34, 33, 255"
+    },
+    {
+      "id": 208,
+      "name": "HUD_COLOUR_DEGEN_RED",
+      "r": 255,
+      "g": 0,
+      "b": 0,
+      "a": 255,
+      "rgba": "255, 0, 0, 255"
+    },
+    {
+      "id": 209,
+      "name": "HUD_COLOUR_DEGEN_YELLOW",
+      "r": 255,
+      "g": 255,
+      "b": 0,
+      "a": 255,
+      "rgba": "255, 255, 0, 255"
+    },
+    {
+      "id": 210,
+      "name": "HUD_COLOUR_DEGEN_GREEN",
+      "r": 0,
+      "g": 255,
+      "b": 0,
+      "a": 255,
+      "rgba": "0, 255, 0, 255"
+    },
+    {
+      "id": 211,
+      "name": "HUD_COLOUR_DEGEN_CYAN",
+      "r": 0,
+      "g": 255,
+      "b": 255,
+      "a": 255,
+      "rgba": "0, 255, 255, 255"
+    },
+    {
+      "id": 212,
+      "name": "HUD_COLOUR_DEGEN_BLUE",
+      "r": 0,
+      "g": 0,
+      "b": 255,
+      "a": 255,
+      "rgba": "0, 0, 255, 255"
+    },
+    {
+      "id": 213,
+      "name": "HUD_COLOUR_DEGEN_MAGENTA",
+      "r": 255,
+      "g": 0,
+      "b": 255,
+      "a": 255,
+      "rgba": "255, 0, 255, 255"
+    },
+    {
+      "id": 214,
+      "name": "HUD_COLOUR_STUNT_1",
+      "r": 38,
+      "g": 136,
+      "b": 234,
+      "a": 255,
+      "rgba": "38, 136, 234, 255"
+    },
+    {
+      "id": 216,
+      "name": "HUD_COLOUR_SPECIAL_RACE_SERIES",
+      "r": 154,
+      "g": 178,
+      "b": 54,
+      "a": 255,
+      "rgba": "154, 178, 54, 255"
+    },
+    {
+      "id": 217,
+      "name": "HUD_COLOUR_SPECIAL_RACE_SERIES_DARK",
+      "r": 93,
+      "g": 107,
+      "b": 45,
+      "a": 255,
+      "rgba": "93, 107, 45, 255"
+    },
+    {
+      "id": 218,
+      "name": "HUD_COLOUR_CS",
+      "r": 206,
+      "g": 169,
+      "b": 13,
+      "a": 255,
+      "rgba": "206, 169, 13, 255"
+    },
+    {
+      "id": 219,
+      "name": "HUD_COLOUR_CS_DARK",
+      "r": 103,
+      "g": 84,
+      "b": 6,
+      "a": 255,
+      "rgba": "103, 84, 6, 255"
+    },
+    {
+      "id": 220,
+      "name": "HUD_COLOUR_TECH_GREEN",
+      "r": 0,
+      "g": 151,
+      "b": 151,
+      "a": 255,
+      "rgba": "0, 151, 151, 255"
+    },
+    {
+      "id": 221,
+      "name": "HUD_COLOUR_TECH_GREEN_DARK",
+      "r": 5,
+      "g": 119,
+      "b": 113,
+      "a": 255,
+      "rgba": "5, 119, 113, 255"
+    },
+    {
+      "id": 222,
+      "name": "HUD_COLOUR_TECH_RED",
+      "r": 151,
+      "g": 0,
+      "b": 0,
+      "a": 255,
+      "rgba": "151, 0, 0, 255"
+    },
+    {
+      "id": 223,
+      "name": "HUD_COLOUR_TECH_GREEN_VERY_DARK",
+      "r": 0,
+      "g": 40,
+      "b": 40,
+      "a": 255,
+      "rgba": "0, 40, 40, 255"
+    },
+    {
+      "id": 224,
+      "name": "HUD_COLOUR_PLACEHOLDER_01",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255,
+      "rgba": "255, 255, 255, 255"
+    },
+    {
+      "id": 225,
+      "name": "HUD_COLOUR_PLACEHOLDER_02",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255,
+      "rgba": "255, 255, 255, 255"
+    },
+    {
+      "id": 226,
+      "name": "HUD_COLOUR_PLACEHOLDER_03",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255,
+      "rgba": "255, 255, 255, 255"
+    },
+    {
+      "id": 227,
+      "name": "HUD_COLOUR_PLACEHOLDER_04",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255,
+      "rgba": "255, 255, 255, 255"
+    },
+    {
+      "id": 228,
+      "name": "HUD_COLOUR_PLACEHOLDER_05",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255,
+      "rgba": "255, 255, 255, 255"
+    },
+    {
+      "id": 229,
+      "name": "HUD_COLOUR_PLACEHOLDER_06",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255,
+      "rgba": "255, 255, 255, 255"
+    },
+    {
+      "id": 230,
+      "name": "HUD_COLOUR_PLACEHOLDER_07",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255,
+      "rgba": "255, 255, 255, 255"
+    },
+    {
+      "id": 231,
+      "name": "HUD_COLOUR_PLACEHOLDER_08",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255,
+      "rgba": "255, 255, 255, 255"
+    },
+    {
+      "id": 232,
+      "name": "HUD_COLOUR_PLACEHOLDER_09",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255,
+      "rgba": "255, 255, 255, 255"
+    },
+    {
+      "id": 233,
+      "name": "HUD_COLOUR_PLACEHOLDER_10",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255,
+      "rgba": "255, 255, 255, 255"
+    },
+    {
+      "id": 234,
+      "name": "HUD_COLOUR_JUNK_ENERGY",
+      "r": 29,
+      "g": 237,
+      "b": 195,
+      "a": 255,
+      "rgba": "29, 237, 195, 255"
+    }
+  ],
+  "hud_colors_count": 212
+}

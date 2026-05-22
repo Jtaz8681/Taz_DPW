@@ -1,0 +1,1275 @@
+{
+  "url_path": "/docs/game-references/data-files/",
+  "full_url": "https://docs.fivem.net/docs/game-references/data-files/",
+  "title": "data-files",
+  "slug": "data-files",
+  "parent_category": null,
+  "toc": [],
+  "tables": [
+    {
+      "headers": [
+        "Key",
+        "File type",
+        "Root element",
+        "Mounter",
+        "Example"
+      ],
+      "rows": [
+        [
+          "`ACTION_TABLE_DEFINITIONS`",
+          "",
+          "",
+          "CActionInfoDataFileMounter",
+          ""
+        ],
+        [
+          "`ALTERNATE_VARIATIONS_FILE`",
+          "",
+          "",
+          "CPedVariationStreamFileMounter",
+          "`dlc_mpbattlecrc:/common/data/pedalternatevariations.meta`"
+        ],
+        [
+          "`AMB_PROCEDURAL_BLOOD_FILE`",
+          "",
+          "",
+          "CVFXBloodFileMounter",
+          ""
+        ],
+        [
+          "`AMBIENT_PED_MODEL_SET_FILE`",
+          "",
+          "",
+          "AmbientModelSetMounter",
+          ""
+        ],
+        [
+          "`AMBIENT_PROP_MODEL_SET_FILE`",
+          "",
+          "",
+          "AmbientModelSetMounter",
+          ""
+        ],
+        [
+          "`AMBIENT_VEHICLE_MODEL_SET_FILE`",
+          "",
+          "",
+          "AmbientModelSetMounter",
+          ""
+        ],
+        [
+          "`AUDIO_CURVEDATA`",
+          "",
+          "",
+          "audMetadataDataFileMounter",
+          ""
+        ],
+        [
+          "`AUDIO_DYNAMIXDATA`",
+          "",
+          "",
+          "audMetadataDataFileMounter",
+          ""
+        ],
+        [
+          "`AUDIO_GAMEDATA`",
+          "",
+          "",
+          "audMetadataDataFileMounter",
+          "`x64:/audio/audio_rel/config/game.dat151.rel`"
+        ],
+        [
+          "`AUDIO_SOUNDDATA`",
+          "",
+          "",
+          "audMetadataDataFileMounter",
+          "`x64:/audio/audio_rel/config/sounds.dat54.rel`"
+        ],
+        [
+          "`AUDIO_SPEECHDATA`",
+          "",
+          "",
+          "audSpeechDataFileMounter",
+          "`x64:/audio/audio_rel/config/dlc_gtao_speech.dat4.rel`"
+        ],
+        [
+          "`AUDIO_SYNTHDATA`",
+          "",
+          "",
+          "audMetadataDataFileMounter",
+          ""
+        ],
+        [
+          "`AUDIO_WAVEPACK`",
+          "Folder containing wave packs",
+          "N/A",
+          "audWavePackDataFileMounter",
+          "`dlcmpheist:/x64/audio/sfx/`"
+        ],
+        [
+          "`CARCOLS_FILE`",
+          "Vehicle model variation data",
+          "CVehicleModelInfoVarGlobal",
+          "CVehicleColorsDataFileMounter",
+          "`dlcmpheist:/common/data/carcols.meta`"
+        ],
+        [
+          "`CLIP_SETS_FILE`",
+          "",
+          "",
+          "CExtraContentFileMounter",
+          "`dlc_mpbattle:/common/data/anim/clip_sets/clip_sets.xml`"
+        ],
+        [
+          "`COMBAT_BEHAVIOUR_OVERRIDE_FILE`",
+          "",
+          "",
+          "CCombatInfoDataFileMounter",
+          "`common:/data/ai/combatbehaviour.meta`"
+        ],
+        [
+          "`CONDITIONAL_ANIMS_FILE`",
+          "",
+          "",
+          "ConditionalAnimationsMounter",
+          "`dlcmpheist:/common/data/ai/conditionalanims.meta`"
+        ],
+        [
+          "`CONTENT_UNLOCKING_META_FILE`",
+          "",
+          "",
+          "CExtraContentFileMounter",
+          ""
+        ],
+        [
+          "`DLC_ITYP_REQUEST`",
+          "Equivalent of `PERMANENT_ITYP_FILE`",
+          "N/A",
+          "CDLCItypFileMounter",
+          "`dummy/v_common.ityp`"
+        ],
+        [
+          "`DLC_POP_GROUPS`",
+          "Population groups",
+          "CPopGroupList",
+          "CPopulationDataFileMounter",
+          "`x64a:/data/popgroups.ymt`"
+        ],
+        [
+          "`DLC_SCRIPT_METAFILE`",
+          "",
+          "",
+          "CDLCScriptDataMounter",
+          ""
+        ],
+        [
+          "`DLC_WEAPON_PICKUPS`",
+          "",
+          "",
+          "CPickupDataManagerMounter",
+          "`dlc_mpchristmas2018crc:/common/data/pickups.meta`"
+        ],
+        [
+          "`DRIVER_RULES_STD_FILE`",
+          "",
+          "",
+          "ScenarioInfoMounter",
+          ""
+        ],
+        [
+          "`EVENTS_OVERRIDE_FILE`",
+          "Ped event metadata",
+          "CEventDataManager",
+          "CEventDataFileMounter",
+          "`common:/data/events.meta`"
+        ],
+        [
+          "`EXPLOSION_INFO_FILE`",
+          "",
+          "CExplosionInfoManager",
+          "CExplosionFileMounter",
+          "`dlc_mpchristmas2017crc:/common/data/explosion.meta`"
+        ],
+        [
+          "`EXPLOSIONFX_FILE`",
+          "",
+          "",
+          "CVfxExplosionFileMounter",
+          ""
+        ],
+        [
+          "`EXPRESSION_SETS_FILE`",
+          "",
+          "",
+          "CExtraContentFileMounter",
+          ""
+        ],
+        [
+          "`EXTRA_FOLDER_MOUNT_DATA`",
+          "",
+          "",
+          "CExtraContentFileMounter",
+          ""
+        ],
+        [
+          "`EXTRA_TITLE_UPDATE_DATA`",
+          "",
+          "",
+          "CExtraContentFileMounter",
+          ""
+        ],
+        [
+          "`FACIAL_CLIPSET_GROUPS_FILE`",
+          "",
+          "",
+          "CExtraContentFileMounter",
+          ""
+        ],
+        [
+          "`GTXD_PARENTING_DATA`",
+          "TXD parent/child relationships for maps",
+          "CMapParentTxds",
+          "CExtraContentFileMounter",
+          "`dlcmpheist:/common/data/gtxd.meta`"
+        ],
+        [
+          "`HANDLING_FILE`",
+          "Handling data XML",
+          "CHandlingDataMgr",
+          "CVehicleHandlingFileMounter",
+          "`dlcmpheist:/common/data/handling.meta`"
+        ],
+        [
+          "`INTERIOR_PROXY_ORDER_FILE`",
+          "",
+          "",
+          "CInteriorProxyFileMounter",
+          "`dlc_mpgunrunning:/common/data/interiorproxies.meta`"
+        ],
+        [
+          "`LEVEL_STREAMING_FILE`",
+          "",
+          "",
+          "CExtraContentFileMounter",
+          ""
+        ],
+        [
+          "`LOADOUTS_FILE`",
+          "",
+          "CPedInventoryLoadOutManager",
+          "CExtraContentFileMounter",
+          "`dlc_mpgunrunningcrc:/common/data/ai/loadouts.meta`"
+        ],
+        [
+          "`MOVE_NETWORK_DEFS`",
+          "",
+          "fwMoveNetworkDefs",
+          "CExtraContentFileMounter",
+          "`dlcmpheist:/common/data/anim/networkdefs.meta`"
+        ],
+        [
+          "`MP_STATS_DISPLAY_LIST_FILE`",
+          "",
+          "",
+          "CStatsDisplayListFileMounter",
+          ""
+        ],
+        [
+          "`MP_STATS_UI_LIST_FILE`",
+          "",
+          "",
+          "CStatsUIListFileMounter",
+          ""
+        ],
+        [
+          "`NM_TUNING_FILE`",
+          "",
+          "",
+          "CExtraContentFileMounter",
+          ""
+        ],
+        [
+          "`OVERLAY_INFO_FILE`",
+          "",
+          "",
+          "CExtraContentFileMounter",
+          "`dlc_mpbattle:/common/data/overlayinfo.xml`"
+        ],
+        [
+          "`PED_BOUNDS_FILE`",
+          "",
+          "",
+          "CPedModelMetaDataFileMounter",
+          ""
+        ],
+        [
+          "`PED_BRAWLING_STYLE_FILE`",
+          "",
+          "",
+          "CBrawlingStyleMetaDataFileMounter",
+          ""
+        ],
+        [
+          "`PED_COMPONENT_SETS_FILE`",
+          "",
+          "",
+          "CPedModelMetaDataFileMounter",
+          ""
+        ],
+        [
+          "`PED_DAMAGE_APPEND_FILE`",
+          "",
+          "",
+          "CPedDamageDataMounter",
+          "`dlcmpheist:/common/data/effects/peds/peddamage.xml`"
+        ],
+        [
+          "`PED_DAMAGE_OVERRIDE_FILE`",
+          "",
+          "",
+          "CPedDamageDataMounter",
+          ""
+        ],
+        [
+          "`PED_FIRST_PERSON_ALTERNATE_DATA`",
+          "",
+          "",
+          "CPedVariationStreamFileMounter",
+          ""
+        ],
+        [
+          "`PED_FIRST_PERSON_ASSET_DATA`",
+          "",
+          "",
+          "CPedVariationStreamFileMounter",
+          "`dlc_mpbattle:/common/data/effects/peds/first_person.meta`"
+        ],
+        [
+          "`PED_METADATA_FILE`",
+          "",
+          "",
+          "CPedModelMetaDataFileMounter",
+          "`dlcgunrunning:/common/data/peds.meta`"
+        ],
+        [
+          "`PED_OVERLAY_FILE`",
+          "",
+          "",
+          "CPedDecorationsDataFileMounter",
+          "`dlcmpheistcrc:/common/data/effects/peds/mpheist_overlays.xml`"
+        ],
+        [
+          "`PED_PERCEPTION_FILE`",
+          "",
+          "",
+          "CPedModelMetaDataFileMounter",
+          ""
+        ],
+        [
+          "`PED_PERSONALITY_FILE`",
+          "",
+          "",
+          "CPedModelMetaDataFileMounter",
+          "`dlcgunrunning:/common/data/pedpersonality.meta`"
+        ],
+        [
+          "`PED_TASK_DATA_FILE`",
+          "",
+          "",
+          "CPedModelMetaDataFileMounter",
+          ""
+        ],
+        [
+          "`PEDSTREAM_FILE`",
+          "",
+          "",
+          "CPedVariationStreamFileMounter",
+          ""
+        ],
+        [
+          "`POPSCHED_FILE`",
+          "Population scheduling data override",
+          "N/A",
+          "CPopulationDataFileMounter",
+          "`common:/data/levels/gta5/popcycle.dat`"
+        ],
+        [
+          "`PTFXASSETINFO_FILE`",
+          "",
+          "",
+          "CVisualEffectsFileMounter",
+          "`dlc_mpchristmas2017:/common/data/effects/ptfxassetinfo.meta`"
+        ],
+        [
+          "`SCALEFORM_DLC_FILE`",
+          "",
+          "",
+          "CScaleformPreallocationDataFileMounter",
+          ""
+        ],
+        [
+          "`SCALEFORM_PREALLOC_FILE`",
+          "",
+          "",
+          "CScaleformPreallocationDataFileMounter",
+          ""
+        ],
+        [
+          "`SCENARIO_INFO_FILE`",
+          "",
+          "",
+          "ScenarioInfoMounter",
+          "`dlcmpheist:/common/data/ai/scenarios.meta`"
+        ],
+        [
+          "`SCENARIO_POINTS_FILE`",
+          "",
+          "",
+          "ScenarioPointMounter",
+          ""
+        ],
+        [
+          "`SCENARIO_POINTS_OVERRIDE_FILE`",
+          "",
+          "",
+          "ScenarioPointMounter",
+          ""
+        ],
+        [
+          "`SCENARIO_POINTS_PSO_FILE`",
+          "",
+          "",
+          "ScenarioPointMounter",
+          ""
+        ],
+        [
+          "`SCENARIO_POINTS_OVERRIDE_PSO_FILE`",
+          "Scenario Points Manifest",
+          "CScenarioPointManifest",
+          "ScenarioPointMounter",
+          "`x64a:/levels/gta5/sp_manifest.ymt`"
+        ],
+        [
+          "`SCRIPT_BRAIN_FILE`",
+          "",
+          "",
+          "CScriptBrainFileMounter",
+          ""
+        ],
+        [
+          "`SCRIPTFX_FILE`",
+          "",
+          "",
+          "CVFXScriptFileMounter",
+          ""
+        ],
+        [
+          "`SHOP_PED_APPAREL_META_FILE`",
+          "",
+          "",
+          "CExtraMetaDataFileMounter",
+          "`dlc_mpimportexport:/common/data/mp_m_freemode_01_impexp_shop.meta`"
+        ],
+        [
+          "`SP_STATS_DISPLAY_LIST_FILE`",
+          "",
+          "",
+          "CStatsDisplayListFileMounter",
+          ""
+        ],
+        [
+          "`SP_STATS_UI_LIST_FILE`",
+          "",
+          "",
+          "CStatsUIListFileMounter",
+          ""
+        ],
+        [
+          "`STREAMING_REQUEST_LISTS_FILE`",
+          "",
+          "",
+          "SRLMounter",
+          "`dlcmpheist:/common/data/srllist.meta`"
+        ],
+        [
+          "`TATTOO_SHOP_DLC_FILE`",
+          "",
+          "",
+          "CExtraMetaDataFileMounter",
+          "`dlc_mpchristmas2018crc:/common/data/shop_tattoo.meta`"
+        ],
+        [
+          "`TEXTFILE_METAFILE`",
+          "",
+          "",
+          "CExtraContentFileMounter",
+          ""
+        ],
+        [
+          "`TIMECYCLEMOD_FILE`",
+          "Timecycle Mod",
+          "",
+          "TimeCycleFileMounter",
+          "`common:/data/timecycle/timecycle_mods_1.xml`"
+        ],
+        [
+          "`TRAINCONFIGS_FILE`",
+          "Train config",
+          "",
+          "CTrainConfigFileMounter",
+          "`common:/data/levels/gta5/trains.xml`"
+        ],
+        [
+          "`TRAINTRACK_FILE`",
+          "Train tracks",
+          "",
+          "CTrainConfigFileMounter",
+          "`common:/data/levels/gta5/traintracks.xml`"
+        ],
+        [
+          "`VEHICLE_LAYOUTS_FILE`",
+          "",
+          "",
+          "CVehicleMetadataFileMounter",
+          "`dlc_mpsmugglercrc:/common/data/ai/vehiclelayouts.meta`"
+        ],
+        [
+          "`VEHICLE_METADATA_FILE`",
+          "",
+          "",
+          "CVehicleMetaDataFileMounter",
+          "`dlc_mpchristmas2018crc:/common/data/levels/gta5/vehicles.meta`"
+        ],
+        [
+          "`VEHICLE_SHOP_DLC_FILE`",
+          "",
+          "",
+          "CExtraContentFileMounter",
+          "`dlc_mpchristmas2018crc:/common/data/shop_vehicle.meta`"
+        ],
+        [
+          "`VEHICLE_VARIATION_FILE`",
+          "",
+          "",
+          "CVehicleVariationDataFileMounter",
+          "`dlc_mpchristmas2018:/common/data/carvariations.meta`"
+        ],
+        [
+          "`VEHICLEEXTRAS_FILE`",
+          "",
+          "",
+          "CVehicleExtrasFileMounter",
+          "`common:/data/vehicleextras.dat`"
+        ],
+        [
+          "`VFXVEHICLEINFO_FILE`",
+          "",
+          "",
+          "CVfxVehicleInfoFileMounter",
+          "`x64w:/dlcpacks/mppilot/dlc/common/data/effects/vfxvehicleinfo.meta`"
+        ],
+        [
+          "`WEAPON_ANIMATIONS_FILE`",
+          "",
+          "",
+          "CWeaponAnimationsDataFileMounter",
+          "`dlc_mpbikercrc:/common/data/ai/weaponanimations.meta`"
+        ],
+        [
+          "`WEAPON_METADATA_FILE`",
+          "",
+          "",
+          "CWeaponMetaDataFileMounter",
+          "`dlcmphalloweencrc:/common/data/weaponarchetypes.meta`"
+        ],
+        [
+          "`WEAPON_SHOP_INFO_METADATA_FILE`",
+          "",
+          "",
+          "CExtraMetaDataFileMounter",
+          ""
+        ],
+        [
+          "`WEAPONCOMPONENTSINFO_FILE`",
+          "",
+          "",
+          "CWeaponComponentDataFileMounter",
+          "`dlc_mpbikercrc:/common/data/ai/weaponcomponents.meta`"
+        ],
+        [
+          "`WEAPONINFO_FILE_PATCH`",
+          "",
+          "",
+          "CWeaponInfoDataFileMounter",
+          ""
+        ],
+        [
+          "`WEAPONINFO_FILE`",
+          "",
+          "",
+          "CWeaponInfoDataFileMounter",
+          "`dlc_mpbikercrc:/common/data/ai/weaponpipebomb.meta`"
+        ],
+        [
+          "`ZONEBIND_FILE`",
+          "",
+          "CPopZoneData",
+          "CPopulationDataFileMounter",
+          "`x64a:/levels/gta5/zonebind.ymt`"
+        ],
+        [
+          "`FIVEM_LOVES_YOU_447B37BE29496FA0`",
+          "",
+          "",
+          "CExtraContentFileMounter",
+          ""
+        ],
+        [
+          "`FIVEM_LOVES_YOU_1F764C843460150`",
+          "",
+          "",
+          "CIplCullboxFileMounter",
+          ""
+        ],
+        [
+          "`FIVEM_LOVES_YOU_9605D14551590909`",
+          "",
+          "",
+          "CPopulationDataFileMounter",
+          ""
+        ]
+      ],
+      "data": [
+        {
+          "Key": "`ACTION_TABLE_DEFINITIONS`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "CActionInfoDataFileMounter",
+          "Example": ""
+        },
+        {
+          "Key": "`ALTERNATE_VARIATIONS_FILE`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "CPedVariationStreamFileMounter",
+          "Example": "`dlc_mpbattlecrc:/common/data/pedalternatevariations.meta`"
+        },
+        {
+          "Key": "`AMB_PROCEDURAL_BLOOD_FILE`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "CVFXBloodFileMounter",
+          "Example": ""
+        },
+        {
+          "Key": "`AMBIENT_PED_MODEL_SET_FILE`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "AmbientModelSetMounter",
+          "Example": ""
+        },
+        {
+          "Key": "`AMBIENT_PROP_MODEL_SET_FILE`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "AmbientModelSetMounter",
+          "Example": ""
+        },
+        {
+          "Key": "`AMBIENT_VEHICLE_MODEL_SET_FILE`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "AmbientModelSetMounter",
+          "Example": ""
+        },
+        {
+          "Key": "`AUDIO_CURVEDATA`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "audMetadataDataFileMounter",
+          "Example": ""
+        },
+        {
+          "Key": "`AUDIO_DYNAMIXDATA`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "audMetadataDataFileMounter",
+          "Example": ""
+        },
+        {
+          "Key": "`AUDIO_GAMEDATA`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "audMetadataDataFileMounter",
+          "Example": "`x64:/audio/audio_rel/config/game.dat151.rel`"
+        },
+        {
+          "Key": "`AUDIO_SOUNDDATA`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "audMetadataDataFileMounter",
+          "Example": "`x64:/audio/audio_rel/config/sounds.dat54.rel`"
+        },
+        {
+          "Key": "`AUDIO_SPEECHDATA`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "audSpeechDataFileMounter",
+          "Example": "`x64:/audio/audio_rel/config/dlc_gtao_speech.dat4.rel`"
+        },
+        {
+          "Key": "`AUDIO_SYNTHDATA`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "audMetadataDataFileMounter",
+          "Example": ""
+        },
+        {
+          "Key": "`AUDIO_WAVEPACK`",
+          "File type": "Folder containing wave packs",
+          "Root element": "N/A",
+          "Mounter": "audWavePackDataFileMounter",
+          "Example": "`dlcmpheist:/x64/audio/sfx/`"
+        },
+        {
+          "Key": "`CARCOLS_FILE`",
+          "File type": "Vehicle model variation data",
+          "Root element": "CVehicleModelInfoVarGlobal",
+          "Mounter": "CVehicleColorsDataFileMounter",
+          "Example": "`dlcmpheist:/common/data/carcols.meta`"
+        },
+        {
+          "Key": "`CLIP_SETS_FILE`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "CExtraContentFileMounter",
+          "Example": "`dlc_mpbattle:/common/data/anim/clip_sets/clip_sets.xml`"
+        },
+        {
+          "Key": "`COMBAT_BEHAVIOUR_OVERRIDE_FILE`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "CCombatInfoDataFileMounter",
+          "Example": "`common:/data/ai/combatbehaviour.meta`"
+        },
+        {
+          "Key": "`CONDITIONAL_ANIMS_FILE`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "ConditionalAnimationsMounter",
+          "Example": "`dlcmpheist:/common/data/ai/conditionalanims.meta`"
+        },
+        {
+          "Key": "`CONTENT_UNLOCKING_META_FILE`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "CExtraContentFileMounter",
+          "Example": ""
+        },
+        {
+          "Key": "`DLC_ITYP_REQUEST`",
+          "File type": "Equivalent of `PERMANENT_ITYP_FILE`",
+          "Root element": "N/A",
+          "Mounter": "CDLCItypFileMounter",
+          "Example": "`dummy/v_common.ityp`"
+        },
+        {
+          "Key": "`DLC_POP_GROUPS`",
+          "File type": "Population groups",
+          "Root element": "CPopGroupList",
+          "Mounter": "CPopulationDataFileMounter",
+          "Example": "`x64a:/data/popgroups.ymt`"
+        },
+        {
+          "Key": "`DLC_SCRIPT_METAFILE`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "CDLCScriptDataMounter",
+          "Example": ""
+        },
+        {
+          "Key": "`DLC_WEAPON_PICKUPS`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "CPickupDataManagerMounter",
+          "Example": "`dlc_mpchristmas2018crc:/common/data/pickups.meta`"
+        },
+        {
+          "Key": "`DRIVER_RULES_STD_FILE`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "ScenarioInfoMounter",
+          "Example": ""
+        },
+        {
+          "Key": "`EVENTS_OVERRIDE_FILE`",
+          "File type": "Ped event metadata",
+          "Root element": "CEventDataManager",
+          "Mounter": "CEventDataFileMounter",
+          "Example": "`common:/data/events.meta`"
+        },
+        {
+          "Key": "`EXPLOSION_INFO_FILE`",
+          "File type": "",
+          "Root element": "CExplosionInfoManager",
+          "Mounter": "CExplosionFileMounter",
+          "Example": "`dlc_mpchristmas2017crc:/common/data/explosion.meta`"
+        },
+        {
+          "Key": "`EXPLOSIONFX_FILE`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "CVfxExplosionFileMounter",
+          "Example": ""
+        },
+        {
+          "Key": "`EXPRESSION_SETS_FILE`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "CExtraContentFileMounter",
+          "Example": ""
+        },
+        {
+          "Key": "`EXTRA_FOLDER_MOUNT_DATA`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "CExtraContentFileMounter",
+          "Example": ""
+        },
+        {
+          "Key": "`EXTRA_TITLE_UPDATE_DATA`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "CExtraContentFileMounter",
+          "Example": ""
+        },
+        {
+          "Key": "`FACIAL_CLIPSET_GROUPS_FILE`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "CExtraContentFileMounter",
+          "Example": ""
+        },
+        {
+          "Key": "`GTXD_PARENTING_DATA`",
+          "File type": "TXD parent/child relationships for maps",
+          "Root element": "CMapParentTxds",
+          "Mounter": "CExtraContentFileMounter",
+          "Example": "`dlcmpheist:/common/data/gtxd.meta`"
+        },
+        {
+          "Key": "`HANDLING_FILE`",
+          "File type": "Handling data XML",
+          "Root element": "CHandlingDataMgr",
+          "Mounter": "CVehicleHandlingFileMounter",
+          "Example": "`dlcmpheist:/common/data/handling.meta`"
+        },
+        {
+          "Key": "`INTERIOR_PROXY_ORDER_FILE`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "CInteriorProxyFileMounter",
+          "Example": "`dlc_mpgunrunning:/common/data/interiorproxies.meta`"
+        },
+        {
+          "Key": "`LEVEL_STREAMING_FILE`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "CExtraContentFileMounter",
+          "Example": ""
+        },
+        {
+          "Key": "`LOADOUTS_FILE`",
+          "File type": "",
+          "Root element": "CPedInventoryLoadOutManager",
+          "Mounter": "CExtraContentFileMounter",
+          "Example": "`dlc_mpgunrunningcrc:/common/data/ai/loadouts.meta`"
+        },
+        {
+          "Key": "`MOVE_NETWORK_DEFS`",
+          "File type": "",
+          "Root element": "fwMoveNetworkDefs",
+          "Mounter": "CExtraContentFileMounter",
+          "Example": "`dlcmpheist:/common/data/anim/networkdefs.meta`"
+        },
+        {
+          "Key": "`MP_STATS_DISPLAY_LIST_FILE`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "CStatsDisplayListFileMounter",
+          "Example": ""
+        },
+        {
+          "Key": "`MP_STATS_UI_LIST_FILE`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "CStatsUIListFileMounter",
+          "Example": ""
+        },
+        {
+          "Key": "`NM_TUNING_FILE`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "CExtraContentFileMounter",
+          "Example": ""
+        },
+        {
+          "Key": "`OVERLAY_INFO_FILE`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "CExtraContentFileMounter",
+          "Example": "`dlc_mpbattle:/common/data/overlayinfo.xml`"
+        },
+        {
+          "Key": "`PED_BOUNDS_FILE`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "CPedModelMetaDataFileMounter",
+          "Example": ""
+        },
+        {
+          "Key": "`PED_BRAWLING_STYLE_FILE`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "CBrawlingStyleMetaDataFileMounter",
+          "Example": ""
+        },
+        {
+          "Key": "`PED_COMPONENT_SETS_FILE`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "CPedModelMetaDataFileMounter",
+          "Example": ""
+        },
+        {
+          "Key": "`PED_DAMAGE_APPEND_FILE`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "CPedDamageDataMounter",
+          "Example": "`dlcmpheist:/common/data/effects/peds/peddamage.xml`"
+        },
+        {
+          "Key": "`PED_DAMAGE_OVERRIDE_FILE`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "CPedDamageDataMounter",
+          "Example": ""
+        },
+        {
+          "Key": "`PED_FIRST_PERSON_ALTERNATE_DATA`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "CPedVariationStreamFileMounter",
+          "Example": ""
+        },
+        {
+          "Key": "`PED_FIRST_PERSON_ASSET_DATA`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "CPedVariationStreamFileMounter",
+          "Example": "`dlc_mpbattle:/common/data/effects/peds/first_person.meta`"
+        },
+        {
+          "Key": "`PED_METADATA_FILE`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "CPedModelMetaDataFileMounter",
+          "Example": "`dlcgunrunning:/common/data/peds.meta`"
+        },
+        {
+          "Key": "`PED_OVERLAY_FILE`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "CPedDecorationsDataFileMounter",
+          "Example": "`dlcmpheistcrc:/common/data/effects/peds/mpheist_overlays.xml`"
+        },
+        {
+          "Key": "`PED_PERCEPTION_FILE`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "CPedModelMetaDataFileMounter",
+          "Example": ""
+        },
+        {
+          "Key": "`PED_PERSONALITY_FILE`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "CPedModelMetaDataFileMounter",
+          "Example": "`dlcgunrunning:/common/data/pedpersonality.meta`"
+        },
+        {
+          "Key": "`PED_TASK_DATA_FILE`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "CPedModelMetaDataFileMounter",
+          "Example": ""
+        },
+        {
+          "Key": "`PEDSTREAM_FILE`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "CPedVariationStreamFileMounter",
+          "Example": ""
+        },
+        {
+          "Key": "`POPSCHED_FILE`",
+          "File type": "Population scheduling data override",
+          "Root element": "N/A",
+          "Mounter": "CPopulationDataFileMounter",
+          "Example": "`common:/data/levels/gta5/popcycle.dat`"
+        },
+        {
+          "Key": "`PTFXASSETINFO_FILE`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "CVisualEffectsFileMounter",
+          "Example": "`dlc_mpchristmas2017:/common/data/effects/ptfxassetinfo.meta`"
+        },
+        {
+          "Key": "`SCALEFORM_DLC_FILE`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "CScaleformPreallocationDataFileMounter",
+          "Example": ""
+        },
+        {
+          "Key": "`SCALEFORM_PREALLOC_FILE`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "CScaleformPreallocationDataFileMounter",
+          "Example": ""
+        },
+        {
+          "Key": "`SCENARIO_INFO_FILE`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "ScenarioInfoMounter",
+          "Example": "`dlcmpheist:/common/data/ai/scenarios.meta`"
+        },
+        {
+          "Key": "`SCENARIO_POINTS_FILE`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "ScenarioPointMounter",
+          "Example": ""
+        },
+        {
+          "Key": "`SCENARIO_POINTS_OVERRIDE_FILE`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "ScenarioPointMounter",
+          "Example": ""
+        },
+        {
+          "Key": "`SCENARIO_POINTS_PSO_FILE`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "ScenarioPointMounter",
+          "Example": ""
+        },
+        {
+          "Key": "`SCENARIO_POINTS_OVERRIDE_PSO_FILE`",
+          "File type": "Scenario Points Manifest",
+          "Root element": "CScenarioPointManifest",
+          "Mounter": "ScenarioPointMounter",
+          "Example": "`x64a:/levels/gta5/sp_manifest.ymt`"
+        },
+        {
+          "Key": "`SCRIPT_BRAIN_FILE`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "CScriptBrainFileMounter",
+          "Example": ""
+        },
+        {
+          "Key": "`SCRIPTFX_FILE`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "CVFXScriptFileMounter",
+          "Example": ""
+        },
+        {
+          "Key": "`SHOP_PED_APPAREL_META_FILE`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "CExtraMetaDataFileMounter",
+          "Example": "`dlc_mpimportexport:/common/data/mp_m_freemode_01_impexp_shop.meta`"
+        },
+        {
+          "Key": "`SP_STATS_DISPLAY_LIST_FILE`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "CStatsDisplayListFileMounter",
+          "Example": ""
+        },
+        {
+          "Key": "`SP_STATS_UI_LIST_FILE`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "CStatsUIListFileMounter",
+          "Example": ""
+        },
+        {
+          "Key": "`STREAMING_REQUEST_LISTS_FILE`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "SRLMounter",
+          "Example": "`dlcmpheist:/common/data/srllist.meta`"
+        },
+        {
+          "Key": "`TATTOO_SHOP_DLC_FILE`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "CExtraMetaDataFileMounter",
+          "Example": "`dlc_mpchristmas2018crc:/common/data/shop_tattoo.meta`"
+        },
+        {
+          "Key": "`TEXTFILE_METAFILE`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "CExtraContentFileMounter",
+          "Example": ""
+        },
+        {
+          "Key": "`TIMECYCLEMOD_FILE`",
+          "File type": "Timecycle Mod",
+          "Root element": "",
+          "Mounter": "TimeCycleFileMounter",
+          "Example": "`common:/data/timecycle/timecycle_mods_1.xml`"
+        },
+        {
+          "Key": "`TRAINCONFIGS_FILE`",
+          "File type": "Train config",
+          "Root element": "",
+          "Mounter": "CTrainConfigFileMounter",
+          "Example": "`common:/data/levels/gta5/trains.xml`"
+        },
+        {
+          "Key": "`TRAINTRACK_FILE`",
+          "File type": "Train tracks",
+          "Root element": "",
+          "Mounter": "CTrainConfigFileMounter",
+          "Example": "`common:/data/levels/gta5/traintracks.xml`"
+        },
+        {
+          "Key": "`VEHICLE_LAYOUTS_FILE`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "CVehicleMetadataFileMounter",
+          "Example": "`dlc_mpsmugglercrc:/common/data/ai/vehiclelayouts.meta`"
+        },
+        {
+          "Key": "`VEHICLE_METADATA_FILE`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "CVehicleMetaDataFileMounter",
+          "Example": "`dlc_mpchristmas2018crc:/common/data/levels/gta5/vehicles.meta`"
+        },
+        {
+          "Key": "`VEHICLE_SHOP_DLC_FILE`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "CExtraContentFileMounter",
+          "Example": "`dlc_mpchristmas2018crc:/common/data/shop_vehicle.meta`"
+        },
+        {
+          "Key": "`VEHICLE_VARIATION_FILE`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "CVehicleVariationDataFileMounter",
+          "Example": "`dlc_mpchristmas2018:/common/data/carvariations.meta`"
+        },
+        {
+          "Key": "`VEHICLEEXTRAS_FILE`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "CVehicleExtrasFileMounter",
+          "Example": "`common:/data/vehicleextras.dat`"
+        },
+        {
+          "Key": "`VFXVEHICLEINFO_FILE`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "CVfxVehicleInfoFileMounter",
+          "Example": "`x64w:/dlcpacks/mppilot/dlc/common/data/effects/vfxvehicleinfo.meta`"
+        },
+        {
+          "Key": "`WEAPON_ANIMATIONS_FILE`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "CWeaponAnimationsDataFileMounter",
+          "Example": "`dlc_mpbikercrc:/common/data/ai/weaponanimations.meta`"
+        },
+        {
+          "Key": "`WEAPON_METADATA_FILE`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "CWeaponMetaDataFileMounter",
+          "Example": "`dlcmphalloweencrc:/common/data/weaponarchetypes.meta`"
+        },
+        {
+          "Key": "`WEAPON_SHOP_INFO_METADATA_FILE`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "CExtraMetaDataFileMounter",
+          "Example": ""
+        },
+        {
+          "Key": "`WEAPONCOMPONENTSINFO_FILE`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "CWeaponComponentDataFileMounter",
+          "Example": "`dlc_mpbikercrc:/common/data/ai/weaponcomponents.meta`"
+        },
+        {
+          "Key": "`WEAPONINFO_FILE_PATCH`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "CWeaponInfoDataFileMounter",
+          "Example": ""
+        },
+        {
+          "Key": "`WEAPONINFO_FILE`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "CWeaponInfoDataFileMounter",
+          "Example": "`dlc_mpbikercrc:/common/data/ai/weaponpipebomb.meta`"
+        },
+        {
+          "Key": "`ZONEBIND_FILE`",
+          "File type": "",
+          "Root element": "CPopZoneData",
+          "Mounter": "CPopulationDataFileMounter",
+          "Example": "`x64a:/levels/gta5/zonebind.ymt`"
+        },
+        {
+          "Key": "`FIVEM_LOVES_YOU_447B37BE29496FA0`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "CExtraContentFileMounter",
+          "Example": ""
+        },
+        {
+          "Key": "`FIVEM_LOVES_YOU_1F764C843460150`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "CIplCullboxFileMounter",
+          "Example": ""
+        },
+        {
+          "Key": "`FIVEM_LOVES_YOU_9605D14551590909`",
+          "File type": "",
+          "Root element": "",
+          "Mounter": "CPopulationDataFileMounter",
+          "Example": ""
+        }
+      ]
+    }
+  ],
+  "table_count": 1,
+  "total_table_rows": 89,
+  "css_items": [],
+  "css_item_count": 0,
+  "markdown": "A **data file** is an entry in the [resource manifest](/docs/scripting-manual/introduction/introduction-to-resources/#the-resource-manifest) that references a file to load in the game extra content mounting system.\n\nData file types\n---------------\n\n| Key                                                                                   | File type                                                                    | Root element               | Mounter                                | Example                                                                              |\n|---------------------------------------------------------------------------------------|------------------------------------------------------------------------------|----------------------------|----------------------------------------|--------------------------------------------------------------------------------------|\n| `ACTION_TABLE_DEFINITIONS`                 |                                                                              |                            | CActionInfoDataFileMounter             |                                                                                      |\n| `ALTERNATE_VARIATIONS_FILE`               |                                                                              |                            | CPedVariationStreamFileMounter         | `dlc_mpbattlecrc:/common/data/pedalternatevariations.meta`                           |\n| `AMB_PROCEDURAL_BLOOD_FILE`               |                                                                              |                            | CVFXBloodFileMounter                   |                                                                                      |\n| `AMBIENT_PED_MODEL_SET_FILE`             |                                                                              |                            | AmbientModelSetMounter                 |                                                                                      |\n| `AMBIENT_PROP_MODEL_SET_FILE`           |                                                                              |                            | AmbientModelSetMounter                 |                                                                                      |\n| `AMBIENT_VEHICLE_MODEL_SET_FILE`     |                                                                              |                            | AmbientModelSetMounter                 |                                                                                      |\n| `AUDIO_CURVEDATA`                                   |                                                                              |                            | audMetadataDataFileMounter             |                                                                                      |\n| `AUDIO_DYNAMIXDATA`                               |                                                                              |                            | audMetadataDataFileMounter             |                                                                                      |\n| `AUDIO_GAMEDATA`                                     |                                                                              |                            | audMetadataDataFileMounter             | `x64:/audio/audio_rel/config/game.dat151.rel`                                        |\n| `AUDIO_SOUNDDATA`                                   |                                                                              |                            | audMetadataDataFileMounter             | `x64:/audio/audio_rel/config/sounds.dat54.rel`                                       |\n| `AUDIO_SPEECHDATA`                                 |                                                                              |                            | audSpeechDataFileMounter               | `x64:/audio/audio_rel/config/dlc_gtao_speech.dat4.rel`                               |\n| `AUDIO_SYNTHDATA`                                   |                                                                              |                            | audMetadataDataFileMounter             |                                                                                      |\n| `AUDIO_WAVEPACK`                                     | Folder containing wave packs                                                 | N/A                        | audWavePackDataFileMounter             | `dlcmpheist:/x64/audio/sfx/`                                                         |\n| `CARCOLS_FILE`                                         | Vehicle model variation data                                                 | CVehicleModelInfoVarGlobal | CVehicleColorsDataFileMounter          | `dlcmpheist:/common/data/carcols.meta`                                               |\n| `CLIP_SETS_FILE`                                     |                                                                              |                            | CExtraContentFileMounter               | `dlc_mpbattle:/common/data/anim/clip_sets/clip_sets.xml`                             |\n| `COMBAT_BEHAVIOUR_OVERRIDE_FILE`     |                                                                              |                            | CCombatInfoDataFileMounter             | `common:/data/ai/combatbehaviour.meta`                                               |\n| `CONDITIONAL_ANIMS_FILE`                     |                                                                              |                            | ConditionalAnimationsMounter           | `dlcmpheist:/common/data/ai/conditionalanims.meta`                                   |\n| `CONTENT_UNLOCKING_META_FILE`           |                                                                              |                            | CExtraContentFileMounter               |                                                                                      |\n| `DLC_ITYP_REQUEST`                                 | Equivalent of `PERMANENT_ITYP_FILE`                                          | N/A                        | CDLCItypFileMounter                    | `dummy/v_common.ityp`                                                                |\n| `DLC_POP_GROUPS`                                     | Population groups                                                            | CPopGroupList              | CPopulationDataFileMounter             | `x64a:/data/popgroups.ymt`  |\n| `DLC_SCRIPT_METAFILE`                           |                                                                              |                            | CDLCScriptDataMounter                  |                                                                                      |\n| `DLC_WEAPON_PICKUPS`                             |                                                                              |                            | CPickupDataManagerMounter              | `dlc_mpchristmas2018crc:/common/data/pickups.meta`                                   |\n| `DRIVER_RULES_STD_FILE`                       |                                                                              |                            | ScenarioInfoMounter                    |                                                                                      |\n| `EVENTS_OVERRIDE_FILE`                         | Ped event metadata                                                           | CEventDataManager          | CEventDataFileMounter                  | `common:/data/events.meta`                                                           |\n| `EXPLOSION_INFO_FILE`                           |                                                                              | CExplosionInfoManager      | CExplosionFileMounter                  | `dlc_mpchristmas2017crc:/common/data/explosion.meta`                                 |\n| `EXPLOSIONFX_FILE`                                 |                                                                              |                            | CVfxExplosionFileMounter               |                                                                                      |\n| `EXPRESSION_SETS_FILE`                         |                                                                              |                            | CExtraContentFileMounter               |                                                                                      |\n| `EXTRA_FOLDER_MOUNT_DATA`                   |                                                                              |                            | CExtraContentFileMounter               |                                                                                      |\n| `EXTRA_TITLE_UPDATE_DATA`                   |                                                                              |                            | CExtraContentFileMounter               |                                                                                      |\n| `FACIAL_CLIPSET_GROUPS_FILE`             |                                                                              |                            | CExtraContentFileMounter               |                                                                                      |\n| `GTXD_PARENTING_DATA`                           | TXD parent/child relationships for maps                                      | CMapParentTxds             | CExtraContentFileMounter               | `dlcmpheist:/common/data/gtxd.meta`                                                  |\n| `HANDLING_FILE`                                       | Handling data XML                                                            | CHandlingDataMgr           | CVehicleHandlingFileMounter            | `dlcmpheist:/common/data/handling.meta`                                              |\n| `INTERIOR_PROXY_ORDER_FILE`               |                                                                              |                            | CInteriorProxyFileMounter              | `dlc_mpgunrunning:/common/data/interiorproxies.meta`                                 |\n| `LEVEL_STREAMING_FILE`                         |                                                                              |                            | CExtraContentFileMounter               |                                                                                      |\n| `LOADOUTS_FILE`                                       |                                                                              | CPedInventoryLoadOutManager| CExtraContentFileMounter               | `dlc_mpgunrunningcrc:/common/data/ai/loadouts.meta`                                  |\n| `MOVE_NETWORK_DEFS`                               |                                                                              | fwMoveNetworkDefs          | CExtraContentFileMounter               | `dlcmpheist:/common/data/anim/networkdefs.meta`                                      |\n| `MP_STATS_DISPLAY_LIST_FILE`             |                                                                              |                            | CStatsDisplayListFileMounter           |                                                                                      |\n| `MP_STATS_UI_LIST_FILE`                       |                                                                              |                            | CStatsUIListFileMounter                |                                                                                      |\n| `NM_TUNING_FILE`                                     |                                                                              |                            | CExtraContentFileMounter               |                                                                                      |\n| `OVERLAY_INFO_FILE`                               |                                                                              |                            | CExtraContentFileMounter               | `dlc_mpbattle:/common/data/overlayinfo.xml`                                          |\n| `PED_BOUNDS_FILE`                                   |                                                                              |                            | CPedModelMetaDataFileMounter           |                                                                                      |\n| `PED_BRAWLING_STYLE_FILE`                   |                                                                              |                            | CBrawlingStyleMetaDataFileMounter      |                                                                                      |\n| `PED_COMPONENT_SETS_FILE`                   |                                                                              |                            | CPedModelMetaDataFileMounter           |                                                                                      |\n| `PED_DAMAGE_APPEND_FILE`                     |                                                                              |                            | CPedDamageDataMounter                  | `dlcmpheist:/common/data/effects/peds/peddamage.xml`                                 |\n| `PED_DAMAGE_OVERRIDE_FILE`                 |                                                                              |                            | CPedDamageDataMounter                  |                                                                                      |\n| `PED_FIRST_PERSON_ALTERNATE_DATA`   |                                                                              |                            | CPedVariationStreamFileMounter         |                                                                                      |\n| `PED_FIRST_PERSON_ASSET_DATA`           |                                                                              |                            | CPedVariationStreamFileMounter         | `dlc_mpbattle:/common/data/effects/peds/first_person.meta`                           |\n| `PED_METADATA_FILE`                               |                                                                              |                            | CPedModelMetaDataFileMounter           | `dlcgunrunning:/common/data/peds.meta`                                               |\n| `PED_OVERLAY_FILE`                                 |                                                                              |                            | CPedDecorationsDataFileMounter         | `dlcmpheistcrc:/common/data/effects/peds/mpheist_overlays.xml`                       |\n| `PED_PERCEPTION_FILE`                           |                                                                              |                            | CPedModelMetaDataFileMounter           |                                                                                      |\n| `PED_PERSONALITY_FILE`                         |                                                                              |                            | CPedModelMetaDataFileMounter           | `dlcgunrunning:/common/data/pedpersonality.meta`                                     |\n| `PED_TASK_DATA_FILE`                             |                                                                              |                            | CPedModelMetaDataFileMounter           |                                                                                      |\n| `PEDSTREAM_FILE`                                     |                                                                              |                            | CPedVariationStreamFileMounter         |                                                                                      |\n| `POPSCHED_FILE`                                       | Population scheduling data override                                          | N/A                        | CPopulationDataFileMounter             | `common:/data/levels/gta5/popcycle.dat`                                              |\n| `PTFXASSETINFO_FILE`                             |                                                                              |                            | CVisualEffectsFileMounter              | `dlc_mpchristmas2017:/common/data/effects/ptfxassetinfo.meta`                        |\n| `SCALEFORM_DLC_FILE`                             |                                                                              |                            | CScaleformPreallocationDataFileMounter |                                                                                      |\n| `SCALEFORM_PREALLOC_FILE`                   |                                                                              |                            | CScaleformPreallocationDataFileMounter |                                                                                      |\n| `SCENARIO_INFO_FILE`                             |                                                                              |                            | ScenarioInfoMounter                    | `dlcmpheist:/common/data/ai/scenarios.meta`                                          |\n| `SCENARIO_POINTS_FILE`                         |                                                                              |                            | ScenarioPointMounter                   |                                                                                      |\n| `SCENARIO_POINTS_OVERRIDE_FILE`       |                                                                              |                            | ScenarioPointMounter                   |                                                                                      |\n| `SCENARIO_POINTS_PSO_FILE`                 |                                                                              |                            | ScenarioPointMounter                   |                                                                                      |\n| `SCENARIO_POINTS_OVERRIDE_PSO_FILE` | Scenario Points Manifest                                                   | CScenarioPointManifest     | ScenarioPointMounter                   | `x64a:/levels/gta5/sp_manifest.ymt`                                                  |\n| `SCRIPT_BRAIN_FILE`                               |                                                                              |                            | CScriptBrainFileMounter                |                                                                                      |\n| `SCRIPTFX_FILE`                                       |                                                                              |                            | CVFXScriptFileMounter                  |                                                                                      |\n| `SHOP_PED_APPAREL_META_FILE`             |                                                                              |                            | CExtraMetaDataFileMounter              | `dlc_mpimportexport:/common/data/mp_m_freemode_01_impexp_shop.meta`                  |\n| `SP_STATS_DISPLAY_LIST_FILE`             |                                                                              |                            | CStatsDisplayListFileMounter           |                                                                                      |\n| `SP_STATS_UI_LIST_FILE`                       |                                                                              |                            | CStatsUIListFileMounter                |                                                                                      |\n| `STREAMING_REQUEST_LISTS_FILE`         |                                                                              |                            | SRLMounter                             | `dlcmpheist:/common/data/srllist.meta`                                               |\n| `TATTOO_SHOP_DLC_FILE`                         |                                                                              |                            | CExtraMetaDataFileMounter              | `dlc_mpchristmas2018crc:/common/data/shop_tattoo.meta`                               |\n| `TEXTFILE_METAFILE`                               |                                                                              |                            | CExtraContentFileMounter               |                                                                                      |\n| `TIMECYCLEMOD_FILE`                               | Timecycle Mod                                                                |                            | TimeCycleFileMounter                   | `common:/data/timecycle/timecycle_mods_1.xml`                                        |\n| `TRAINCONFIGS_FILE`                               | Train config                                                                 |                            | CTrainConfigFileMounter                | `common:/data/levels/gta5/trains.xml`                                                |\n| `TRAINTRACK_FILE`                                   | Train tracks                                                                 |                            | CTrainConfigFileMounter                | `common:/data/levels/gta5/traintracks.xml`                                           |\n| `VEHICLE_LAYOUTS_FILE`                         |                                                                              |                            | CVehicleMetadataFileMounter            | `dlc_mpsmugglercrc:/common/data/ai/vehiclelayouts.meta`                              |\n| `VEHICLE_METADATA_FILE`                       |                                                                              |                            | CVehicleMetaDataFileMounter            | `dlc_mpchristmas2018crc:/common/data/levels/gta5/vehicles.meta`                      |\n| `VEHICLE_SHOP_DLC_FILE`                       |                                                                              |                            | CExtraContentFileMounter               | `dlc_mpchristmas2018crc:/common/data/shop_vehicle.meta`                              |\n| `VEHICLE_VARIATION_FILE`                     |                                                                              |                            | CVehicleVariationDataFileMounter       | `dlc_mpchristmas2018:/common/data/carvariations.meta`                                |\n| `VEHICLEEXTRAS_FILE`                             |                                                                              |                            | CVehicleExtrasFileMounter              | `common:/data/vehicleextras.dat`                                                     |\n| `VFXVEHICLEINFO_FILE`                           |                                                                              |                            | CVfxVehicleInfoFileMounter             | `x64w:/dlcpacks/mppilot/dlc/common/data/effects/vfxvehicleinfo.meta`                 |\n| `WEAPON_ANIMATIONS_FILE`                     |                                                                              |                            | CWeaponAnimationsDataFileMounter       | `dlc_mpbikercrc:/common/data/ai/weaponanimations.meta`                               |\n| `WEAPON_METADATA_FILE`                         |                                                                              |                            | CWeaponMetaDataFileMounter             | `dlcmphalloweencrc:/common/data/weaponarchetypes.meta`                               |\n| `WEAPON_SHOP_INFO_METADATA_FILE`     |                                                                              |                            | CExtraMetaDataFileMounter              |                                                                                      |\n| `WEAPONCOMPONENTSINFO_FILE`               |                                                                              |                            | CWeaponComponentDataFileMounter        | `dlc_mpbikercrc:/common/data/ai/weaponcomponents.meta`                               |\n| `WEAPONINFO_FILE_PATCH`                       |                                                                              |                            | CWeaponInfoDataFileMounter             |                                                                                      |\n| `WEAPONINFO_FILE`                                   |                                                                              |                            | CWeaponInfoDataFileMounter             | `dlc_mpbikercrc:/common/data/ai/weaponpipebomb.meta`                                 |\n| `ZONEBIND_FILE`                                       |                                                                              | CPopZoneData               | CPopulationDataFileMounter             | `x64a:/levels/gta5/zonebind.ymt`                                                     |\n| `FIVEM_LOVES_YOU_447B37BE29496FA0` |                                                                              |                            | CExtraContentFileMounter               |                                                                                      |\n| `FIVEM_LOVES_YOU_1F764C843460150`   |                                                                              |                            | CIplCullboxFileMounter                 |                                                                                      |\n| `FIVEM_LOVES_YOU_9605D14551590909` |                                                                              |                            | CPopulationDataFileMounter             |                                                                                      |",
+  "raw_html_length": 29859
+}

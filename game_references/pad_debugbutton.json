@@ -1,0 +1,162 @@
+{
+  "url_path": "/docs/game-references/input-mapper-parameter-ids/pad_debugbutton/",
+  "full_url": "https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/pad_debugbutton/",
+  "title": "pad_debugbutton",
+  "slug": "pad_debugbutton",
+  "parent_category": "input-mapper-parameter-ids",
+  "toc": [],
+  "tables": [
+    {
+      "headers": [
+        "Input Parameter",
+        "Input Description"
+      ],
+      "rows": [
+        [
+          "L1",
+          "Left Shoulder Button"
+        ],
+        [
+          "R1",
+          "Right Shoulder Button"
+        ],
+        [
+          "L2",
+          "Left Trigger"
+        ],
+        [
+          "R2",
+          "Right Trigger"
+        ],
+        [
+          "L3",
+          "Left Stick Press"
+        ],
+        [
+          "R3",
+          "Right Stick Press"
+        ],
+        [
+          "LUP",
+          "D-pad Up"
+        ],
+        [
+          "LRIGHT",
+          "D-pad Right"
+        ],
+        [
+          "LDOWN",
+          "D-pad Down"
+        ],
+        [
+          "LLEFT",
+          "D-pad Left"
+        ],
+        [
+          "RUP",
+          "Y / Triangle"
+        ],
+        [
+          "RRIGHT",
+          "B / Circle"
+        ],
+        [
+          "RDOWN",
+          "A / Cross"
+        ],
+        [
+          "RLEFT",
+          "X / Square"
+        ],
+        [
+          "SELECT",
+          "Change View / Share"
+        ],
+        [
+          "START",
+          "Menu / Options"
+        ],
+        [
+          "TOUCH",
+          "Touchpad (?)"
+        ]
+      ],
+      "data": [
+        {
+          "Input Parameter": "L1",
+          "Input Description": "Left Shoulder Button"
+        },
+        {
+          "Input Parameter": "R1",
+          "Input Description": "Right Shoulder Button"
+        },
+        {
+          "Input Parameter": "L2",
+          "Input Description": "Left Trigger"
+        },
+        {
+          "Input Parameter": "R2",
+          "Input Description": "Right Trigger"
+        },
+        {
+          "Input Parameter": "L3",
+          "Input Description": "Left Stick Press"
+        },
+        {
+          "Input Parameter": "R3",
+          "Input Description": "Right Stick Press"
+        },
+        {
+          "Input Parameter": "LUP",
+          "Input Description": "D-pad Up"
+        },
+        {
+          "Input Parameter": "LRIGHT",
+          "Input Description": "D-pad Right"
+        },
+        {
+          "Input Parameter": "LDOWN",
+          "Input Description": "D-pad Down"
+        },
+        {
+          "Input Parameter": "LLEFT",
+          "Input Description": "D-pad Left"
+        },
+        {
+          "Input Parameter": "RUP",
+          "Input Description": "Y / Triangle"
+        },
+        {
+          "Input Parameter": "RRIGHT",
+          "Input Description": "B / Circle"
+        },
+        {
+          "Input Parameter": "RDOWN",
+          "Input Description": "A / Cross"
+        },
+        {
+          "Input Parameter": "RLEFT",
+          "Input Description": "X / Square"
+        },
+        {
+          "Input Parameter": "SELECT",
+          "Input Description": "Change View / Share"
+        },
+        {
+          "Input Parameter": "START",
+          "Input Description": "Menu / Options"
+        },
+        {
+          "Input Parameter": "TOUCH",
+          "Input Description": "Touchpad (?)"
+        }
+      ]
+    }
+  ],
+  "table_count": 1,
+  "total_table_rows": 17,
+  "css_items": [],
+  "css_item_count": 0,
+  "markdown": "| Input Parameter | Input Description     |\n| --------------- | --------------------- |\n| L1              | Left Shoulder Button  |\n| R1              | Right Shoulder Button |\n| L2              | Left Trigger          |\n| R2              | Right Trigger         |\n| L3              | Left Stick Press      |\n| R3              | Right Stick Press     |\n| LUP             | D-pad Up              |\n| LRIGHT          | D-pad Right           |\n| LDOWN           | D-pad Down            |\n| LLEFT           | D-pad Left            |\n| RUP             | Y / Triangle          |\n| RRIGHT          | B / Circle            |\n| RDOWN           | A / Cross             |\n| RLEFT           | X / Square            |\n| SELECT          | Change View / Share   |\n| START           | Menu / Options        |\n| TOUCH           | Touchpad (?)          |",
+  "raw_html_length": 837
+}

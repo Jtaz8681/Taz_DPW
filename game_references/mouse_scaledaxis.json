@@ -1,0 +1,154 @@
+{
+  "url_path": "/docs/game-references/input-mapper-parameter-ids/mouse_scaledaxis/",
+  "full_url": "https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/mouse_scaledaxis/",
+  "title": "mouse_scaledaxis",
+  "slug": "mouse_scaledaxis",
+  "parent_category": "input-mapper-parameter-ids",
+  "toc": [],
+  "tables": [
+    {
+      "headers": [
+        "Input Parameter",
+        "Input Description"
+      ],
+      "rows": [
+        [
+          "IOM\\_AXIS\\_X",
+          "Mouse X Axis"
+        ],
+        [
+          "IOM\\_AXIS\\_Y",
+          "Mouse Y Axis"
+        ],
+        [
+          "IOM\\_AXIS\\_WHEEL",
+          "Mouse Wheel Axis"
+        ],
+        [
+          "IOM\\_AXIS\\_WHEEL\\_DELTA",
+          "Mouse Wheel Axis Delta"
+        ],
+        [
+          "IOM\\_AXIS\\_WHEEL\\_RELATIVE",
+          "Mouse Wheel Axis Relative"
+        ],
+        [
+          "IOM\\_IAXIS\\_X",
+          "Mouse X Axis (Inverted)"
+        ],
+        [
+          "IOM\\_IAXIS\\_Y",
+          "Mouse Y Axis (Inverted)"
+        ],
+        [
+          "IOM\\_IAXIS\\_WHEEL",
+          "Mouse Wheel Axis (Inverted)"
+        ],
+        [
+          "IOM\\_IAXIS\\_WHEEL\\_DELTA",
+          "Mouse Wheel Axis Delta (Inverted)"
+        ],
+        [
+          "IOM\\_IAXIS\\_WHEEL\\_RELATIVE",
+          "Mouse Wheel Axis Relative (Inverted)"
+        ],
+        [
+          "IOM\\_AXIS\\_X\\_LEFT",
+          "Mouse X Axis (Left Only)"
+        ],
+        [
+          "IOM\\_AXIS\\_X\\_RIGHT",
+          "Mouse X Axis (Right Only)"
+        ],
+        [
+          "IOM\\_AXIS\\_Y\\_UP",
+          "Mouse Y Axis (Up Only)"
+        ],
+        [
+          "IOM\\_AXIS\\_Y\\_DOWN",
+          "Mouse Y Axis (Down Only)"
+        ],
+        [
+          "BASIC\\_MOUSE\\_AXIS\\_MAX",
+          "*unknown*"
+        ],
+        [
+          "MOUSE\\_AXIS\\_MAX",
+          "*unknown*"
+        ]
+      ],
+      "data": [
+        {
+          "Input Parameter": "IOM\\_AXIS\\_X",
+          "Input Description": "Mouse X Axis"
+        },
+        {
+          "Input Parameter": "IOM\\_AXIS\\_Y",
+          "Input Description": "Mouse Y Axis"
+        },
+        {
+          "Input Parameter": "IOM\\_AXIS\\_WHEEL",
+          "Input Description": "Mouse Wheel Axis"
+        },
+        {
+          "Input Parameter": "IOM\\_AXIS\\_WHEEL\\_DELTA",
+          "Input Description": "Mouse Wheel Axis Delta"
+        },
+        {
+          "Input Parameter": "IOM\\_AXIS\\_WHEEL\\_RELATIVE",
+          "Input Description": "Mouse Wheel Axis Relative"
+        },
+        {
+          "Input Parameter": "IOM\\_IAXIS\\_X",
+          "Input Description": "Mouse X Axis (Inverted)"
+        },
+        {
+          "Input Parameter": "IOM\\_IAXIS\\_Y",
+          "Input Description": "Mouse Y Axis (Inverted)"
+        },
+        {
+          "Input Parameter": "IOM\\_IAXIS\\_WHEEL",
+          "Input Description": "Mouse Wheel Axis (Inverted)"
+        },
+        {
+          "Input Parameter": "IOM\\_IAXIS\\_WHEEL\\_DELTA",
+          "Input Description": "Mouse Wheel Axis Delta (Inverted)"
+        },
+        {
+          "Input Parameter": "IOM\\_IAXIS\\_WHEEL\\_RELATIVE",
+          "Input Description": "Mouse Wheel Axis Relative (Inverted)"
+        },
+        {
+          "Input Parameter": "IOM\\_AXIS\\_X\\_LEFT",
+          "Input Description": "Mouse X Axis (Left Only)"
+        },
+        {
+          "Input Parameter": "IOM\\_AXIS\\_X\\_RIGHT",
+          "Input Description": "Mouse X Axis (Right Only)"
+        },
+        {
+          "Input Parameter": "IOM\\_AXIS\\_Y\\_UP",
+          "Input Description": "Mouse Y Axis (Up Only)"
+        },
+        {
+          "Input Parameter": "IOM\\_AXIS\\_Y\\_DOWN",
+          "Input Description": "Mouse Y Axis (Down Only)"
+        },
+        {
+          "Input Parameter": "BASIC\\_MOUSE\\_AXIS\\_MAX",
+          "Input Description": "*unknown*"
+        },
+        {
+          "Input Parameter": "MOUSE\\_AXIS\\_MAX",
+          "Input Description": "*unknown*"
+        }
+      ]
+    }
+  ],
+  "table_count": 1,
+  "total_table_rows": 16,
+  "css_items": [],
+  "css_item_count": 0,
+  "markdown": "| Input Parameter             | Input Description |\n| --------------------------- | ------------------------------------ |\n| IOM\\_AXIS\\_X                | Mouse X Axis                         |\n| IOM\\_AXIS\\_Y                | Mouse Y Axis                         |\n| IOM\\_AXIS\\_WHEEL            | Mouse Wheel Axis                     |\n| IOM\\_AXIS\\_WHEEL\\_DELTA     | Mouse Wheel Axis Delta               |\n| IOM\\_AXIS\\_WHEEL\\_RELATIVE  | Mouse Wheel Axis Relative            |\n| IOM\\_IAXIS\\_X               | Mouse X Axis (Inverted)              |\n| IOM\\_IAXIS\\_Y               | Mouse Y Axis (Inverted)              |\n| IOM\\_IAXIS\\_WHEEL           | Mouse Wheel Axis (Inverted)          |\n| IOM\\_IAXIS\\_WHEEL\\_DELTA    | Mouse Wheel Axis Delta (Inverted)    |\n| IOM\\_IAXIS\\_WHEEL\\_RELATIVE | Mouse Wheel Axis Relative (Inverted) |\n| IOM\\_AXIS\\_X\\_LEFT          | Mouse X Axis (Left Only)             |\n| IOM\\_AXIS\\_X\\_RIGHT         | Mouse X Axis (Right Only)            |\n| IOM\\_AXIS\\_Y\\_UP            | Mouse Y Axis (Up Only)               |\n| IOM\\_AXIS\\_Y\\_DOWN          | Mouse Y Axis (Down Only)             |\n| BASIC\\_MOUSE\\_AXIS\\_MAX     | *unknown*                            |\n| MOUSE\\_AXIS\\_MAX            | *unknown*                            |",
+  "raw_html_length": 1260
+}

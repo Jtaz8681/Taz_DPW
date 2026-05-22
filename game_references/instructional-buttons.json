@@ -1,0 +1,434 @@
+{
+  "url_path": "/docs/game-references/instructional-buttons/",
+  "full_url": "https://docs.fivem.net/docs/game-references/instructional-buttons/",
+  "title": "instructional-buttons",
+  "slug": "instructional-buttons",
+  "parent_category": null,
+  "toc": [],
+  "tables": [
+    {
+      "headers": [
+        "ID",
+        "Name"
+      ],
+      "rows": [
+        [
+          "0",
+          "Arrow Up"
+        ],
+        [
+          "1",
+          "Arrow Down"
+        ],
+        [
+          "2",
+          "Arrow Left"
+        ],
+        [
+          "3",
+          "Arrow Right"
+        ],
+        [
+          "4",
+          "Dpad up"
+        ],
+        [
+          "5",
+          "Dpad down"
+        ],
+        [
+          "6",
+          "Dpad left"
+        ],
+        [
+          "7",
+          "Dpad right"
+        ],
+        [
+          "8",
+          "Dpad"
+        ],
+        [
+          "9",
+          "Dpad all"
+        ],
+        [
+          "10",
+          "Dpad up down"
+        ],
+        [
+          "11",
+          "Dpad left right"
+        ],
+        [
+          "12",
+          "Left stick up"
+        ],
+        [
+          "13",
+          "Left stick down"
+        ],
+        [
+          "14",
+          "Left stick left"
+        ],
+        [
+          "15",
+          "Left stick down"
+        ],
+        [
+          "16",
+          "Left stick"
+        ],
+        [
+          "17",
+          "Left stick"
+        ],
+        [
+          "18",
+          "Left stick up down"
+        ],
+        [
+          "19",
+          "Left stick left right"
+        ],
+        [
+          "20",
+          "Left stick clockwise"
+        ],
+        [
+          "21",
+          "Right stick up"
+        ],
+        [
+          "22",
+          "Right stick down"
+        ],
+        [
+          "23",
+          "Right stick left"
+        ],
+        [
+          "24",
+          "Right stick right"
+        ],
+        [
+          "25",
+          "Right stick"
+        ],
+        [
+          "26",
+          "Right stick"
+        ],
+        [
+          "27",
+          "Right stick up down"
+        ],
+        [
+          "28",
+          "Right stick left right"
+        ],
+        [
+          "29",
+          "Right stick clockwise"
+        ],
+        [
+          "30",
+          "A"
+        ],
+        [
+          "31",
+          "B"
+        ],
+        [
+          "32",
+          "X"
+        ],
+        [
+          "33",
+          "Y"
+        ],
+        [
+          "34",
+          "RB"
+        ],
+        [
+          "35",
+          "LT"
+        ],
+        [
+          "36",
+          "RB"
+        ],
+        [
+          "37",
+          "RT"
+        ],
+        [
+          "38",
+          "Start"
+        ],
+        [
+          "39",
+          "Select"
+        ],
+        [
+          "40",
+          "Invalid"
+        ],
+        [
+          "41",
+          "Invalid"
+        ],
+        [
+          "42",
+          "Invalid"
+        ],
+        [
+          "43",
+          "Invalid"
+        ],
+        [
+          "44",
+          "Clockwise Spinner"
+        ],
+        [
+          "45",
+          "Arrow up down"
+        ],
+        [
+          "46",
+          "Arrow left right"
+        ],
+        [
+          "47",
+          "Arrow left right up down"
+        ],
+        [
+          "48",
+          "Clockwise spinner"
+        ],
+        [
+          "49",
+          "Cloud save spinner (Yellow, Clockwise)"
+        ],
+        [
+          "50",
+          "Counter-clockwise spinner"
+        ]
+      ],
+      "data": [
+        {
+          "ID": "0",
+          "Name": "Arrow Up"
+        },
+        {
+          "ID": "1",
+          "Name": "Arrow Down"
+        },
+        {
+          "ID": "2",
+          "Name": "Arrow Left"
+        },
+        {
+          "ID": "3",
+          "Name": "Arrow Right"
+        },
+        {
+          "ID": "4",
+          "Name": "Dpad up"
+        },
+        {
+          "ID": "5",
+          "Name": "Dpad down"
+        },
+        {
+          "ID": "6",
+          "Name": "Dpad left"
+        },
+        {
+          "ID": "7",
+          "Name": "Dpad right"
+        },
+        {
+          "ID": "8",
+          "Name": "Dpad"
+        },
+        {
+          "ID": "9",
+          "Name": "Dpad all"
+        },
+        {
+          "ID": "10",
+          "Name": "Dpad up down"
+        },
+        {
+          "ID": "11",
+          "Name": "Dpad left right"
+        },
+        {
+          "ID": "12",
+          "Name": "Left stick up"
+        },
+        {
+          "ID": "13",
+          "Name": "Left stick down"
+        },
+        {
+          "ID": "14",
+          "Name": "Left stick left"
+        },
+        {
+          "ID": "15",
+          "Name": "Left stick down"
+        },
+        {
+          "ID": "16",
+          "Name": "Left stick"
+        },
+        {
+          "ID": "17",
+          "Name": "Left stick"
+        },
+        {
+          "ID": "18",
+          "Name": "Left stick up down"
+        },
+        {
+          "ID": "19",
+          "Name": "Left stick left right"
+        },
+        {
+          "ID": "20",
+          "Name": "Left stick clockwise"
+        },
+        {
+          "ID": "21",
+          "Name": "Right stick up"
+        },
+        {
+          "ID": "22",
+          "Name": "Right stick down"
+        },
+        {
+          "ID": "23",
+          "Name": "Right stick left"
+        },
+        {
+          "ID": "24",
+          "Name": "Right stick right"
+        },
+        {
+          "ID": "25",
+          "Name": "Right stick"
+        },
+        {
+          "ID": "26",
+          "Name": "Right stick"
+        },
+        {
+          "ID": "27",
+          "Name": "Right stick up down"
+        },
+        {
+          "ID": "28",
+          "Name": "Right stick left right"
+        },
+        {
+          "ID": "29",
+          "Name": "Right stick clockwise"
+        },
+        {
+          "ID": "30",
+          "Name": "A"
+        },
+        {
+          "ID": "31",
+          "Name": "B"
+        },
+        {
+          "ID": "32",
+          "Name": "X"
+        },
+        {
+          "ID": "33",
+          "Name": "Y"
+        },
+        {
+          "ID": "34",
+          "Name": "RB"
+        },
+        {
+          "ID": "35",
+          "Name": "LT"
+        },
+        {
+          "ID": "36",
+          "Name": "RB"
+        },
+        {
+          "ID": "37",
+          "Name": "RT"
+        },
+        {
+          "ID": "38",
+          "Name": "Start"
+        },
+        {
+          "ID": "39",
+          "Name": "Select"
+        },
+        {
+          "ID": "40",
+          "Name": "Invalid"
+        },
+        {
+          "ID": "41",
+          "Name": "Invalid"
+        },
+        {
+          "ID": "42",
+          "Name": "Invalid"
+        },
+        {
+          "ID": "43",
+          "Name": "Invalid"
+        },
+        {
+          "ID": "44",
+          "Name": "Clockwise Spinner"
+        },
+        {
+          "ID": "45",
+          "Name": "Arrow up down"
+        },
+        {
+          "ID": "46",
+          "Name": "Arrow left right"
+        },
+        {
+          "ID": "47",
+          "Name": "Arrow left right up down"
+        },
+        {
+          "ID": "48",
+          "Name": "Clockwise spinner"
+        },
+        {
+          "ID": "49",
+          "Name": "Cloud save spinner (Yellow, Clockwise)"
+        },
+        {
+          "ID": "50",
+          "Name": "Counter-clockwise spinner"
+        }
+      ]
+    }
+  ],
+  "table_count": 1,
+  "total_table_rows": 51,
+  "css_items": [],
+  "css_item_count": 0,
+  "markdown": "**Instructional Buttons**, also known as Prompts are UI elements that are displayed at the bottom-right corner of the screen, which show what actions certain keys and controls can do. You can make them clickable with your cursor, add multiple buttons, icons and much more.\n\nSimple non-clickable buttons example\n------------\n### Lua\n\n``` lua\nCreateThread(function()\n\t-- Request the buttons GFX to be loaded\n\tlocal ButtonsHandle = RequestScaleformMovie('INSTRUCTIONAL_BUTTONS')\n\t-- Wait for the buttons GFX to be fully loaded\n\twhile not HasScaleformMovieLoaded(ButtonsHandle) do\n\t\tWait(0)\n\tend\n\n\t-- Clear previous buttons\n\tCallScaleformMovieMethod(ButtonsHandle, 'CLEAR_ALL')\n\t-- Disable mouse buttons\n\tCallScaleformMovieMethodWithNumber(ButtonsHandle, 'TOGGLE_MOUSE_BUTTONS', 0)\n\n\t-- Begin setting a button slot\n\tBeginScaleformMovieMethod(ButtonsHandle, 'SET_DATA_SLOT')\n\t-- Position of the button\n\tScaleformMovieMethodAddParamInt(0)\n\t-- Add the Enter keyboard icon\n\tScaleformMovieMethodAddParamPlayerNameString('~INPUT_FRONTEND_ACCEPT~')\n\t-- Add the text before icon\n\tScaleformMovieMethodAddParamPlayerNameString('Select')\n\t-- End the function\n\tEndScaleformMovieMethod()\n\t-- Sets buttons ready to be drawn\n\tCallScaleformMovieMethod(ButtonsHandle, 'DRAW_INSTRUCTIONAL_BUTTONS')\n\n\tlocal selectPressed = false\n\t-- Display instructional buttons while enter hasn't been pressed\n\twhile not selectPressed do\n\t\tWait(0)\n\n\t\t-- Draw the instructional buttons this frame\n\t\tDrawScaleformMovieFullscreen(ButtonsHandle, 255, 255, 255, 255, 1)\n\n\t\t-- Is Enter just released\n\t\tif IsControlJustReleased(2, 201) then\n\t\t\tselectPressed = true\n\n\t\t\tprint('Enter has been pressed!')\n\t\tend\n\tend\n\n\t-- Unload the scaleform movie after enter has been pressed\n\tSetScaleformMovieAsNoLongerNeeded(ButtonsHandle)\nend)\n\n```\n![Code Result](/instructional_buttons_result.png)\n\nSimple clickable buttons example\n------------\n### Lua\n\n``` lua\nCreateThread(function()\n\t-- Request the buttons GFX to be loaded\n\t-- Note: RequestScaleformMovieInstance prevents the buttons being stretched on wide-screen\n\tlocal ButtonsHandle = RequestScaleformMovieInstance('INSTRUCTIONAL_BUTTONS')\n\n\t-- Wait for the buttons GFX to be fully loaded\n\twhile not HasScaleformMovieLoaded(ButtonsHandle) do\n\t\tWait(0)\n\tend\n\n\t-- Clear previous buttons\n\tCallScaleformMovieMethod(ButtonsHandle, 'CLEAR_ALL')\n\t-- ENABLE mouse buttons\n\tCallScaleformMovieMethodWithNumber(ButtonsHandle, 'TOGGLE_MOUSE_BUTTONS', 1)\n\n\t-- Begin setting a button slot\n\tBeginScaleformMovieMethod(ButtonsHandle, 'SET_DATA_SLOT')\n\t-- Position of the button\n\tScaleformMovieMethodAddParamInt(0)\n\t-- Add the Enter keyboard icon\n\tScaleformMovieMethodAddParamPlayerNameString('~INPUT_FRONTEND_ACCEPT~')\n\t-- Add the text before icon\n\tScaleformMovieMethodAddParamPlayerNameString('Select')\n\t-- Note: Adding last 2 SET_DATA_SLOT parameters while TOGGLE_MOUSE_BUTTONS\n\t-- is disabled can cause buttons to bug out\n\n\t-- Whether or not this button can be clicked by the mouse\n\tScaleformMovieMethodAddParamBool(true)\n\t-- Which control will be triggered when this button is clicked by the mouse (INPUT_FRONTEND_ACCEPT in this case)\n\tScaleformMovieMethodAddParamInt(201)\n\t-- End the function\n\tEndScaleformMovieMethod()\n\n\t-- Sets buttons ready to be drawn\n\tCallScaleformMovieMethod(ButtonsHandle, 'DRAW_INSTRUCTIONAL_BUTTONS')\n\n\tlocal selectPressed = false\n\t-- Display instructional buttons while enter hasn't been pressed\n\twhile not selectPressed do\n\t\tWait(0)\n\n\t\t-- Show the mouse this frame\n\t\tSetMouseCursorActiveThisFrame()\n\n\t\t-- Disable camera moving left and right\n\t\tDisableControlAction(0, 1, true)\n\t\t-- Disable camera moving up and down\n\t\tDisableControlAction(0, 2, true)\n\t\t-- Disable attacking by mouse click\n\t\tDisableControlAction(0, 24, true)\n\n\t\t-- Draw the instructional buttons this frame\n\t\tDrawScaleformMovieFullscreen(ButtonsHandle, 255, 255, 255, 255, 1)\n\n\t\t-- Is Enter just released\n\t\tif IsControlJustReleased(2, 201) then\n\t\t\tselectPressed = true\n\n\t\t\tprint('Select has been pressed!')\n\t\tend\n\tend\n\n\t-- Disable mouse buttons so they don't bug out for other scripts\n\tCallScaleformMovieMethod(ButtonsHandle, 'TOGGLE_MOUSE_BUTTONS', 0)\n\t-- Unload the scaleform movie after enter has been pressed\n\tSetScaleformMovieAsNoLongerNeeded(ButtonsHandle)\nend)\n```\n![Code Result](/instructional_buttons_result_2.png)\n\nSimple buttons with icons example\n------------\n### Lua\n\n```lua\nCreateThread(function()\n\t-- Request the buttons GFX to be loaded\n\tlocal ButtonsHandle = RequestScaleformMovie('INSTRUCTIONAL_BUTTONS')\n\t-- Wait for the buttons GFX to be fully loaded\n\twhile not HasScaleformMovieLoaded(ButtonsHandle) do\n\t\tWait(0)\n\tend\n\n\t-- Clear previous buttons\n\tCallScaleformMovieMethod(ButtonsHandle, 'CLEAR_ALL')\n\n\t-- Begin setting a button slot\n\tBeginScaleformMovieMethod(ButtonsHandle, 'SET_DATA_SLOT')\n\t-- Position of the button\n\tScaleformMovieMethodAddParamInt(0)\n\t-- Add the arrow up/down icon\n\tScaleformMovieMethodAddParamInt(45)\n\t-- Note: You can add up to 20 keys and icons\n\t---- Add the text before the icon\n\tScaleformMovieMethodAddParamPlayerNameString('Scroll')\n\t-- End the function\n\tEndScaleformMovieMethod()\n\n\t-- Begin setting a button slot\n\tBeginScaleformMovieMethod(ButtonsHandle, 'SET_DATA_SLOT')\n\t-- Position of the button\n\tScaleformMovieMethodAddParamInt(1)\n\t-- Add the loading icon\n\tScaleformMovieMethodAddParamInt(50)\n\t-- Note: You can add up to 20 keys and icons\n\t---- Add the text before the icon\n\tScaleformMovieMethodAddParamPlayerNameString('Loading')\n\t-- End the function\n\tEndScaleformMovieMethod()\n\n\t-- Sets buttons ready to be drawn\n\tCallScaleformMovieMethod(ButtonsHandle, 'DRAW_INSTRUCTIONAL_BUTTONS')\n\n\tlocal startedLoading = GetGameTimer()\n\t-- Display instructional buttons for 3 seconds (3000 ms)\n\twhile GetGameTimer() - startedLoading < 3000 do\n\t\tWait(0)\n\n\t\t-- Draw the instructional buttons this frame\n\t\tDrawScaleformMovieFullscreen(ButtonsHandle, 255, 255, 255, 255, 1)\n\tend\n\n\t-- Unload the scaleform movie after enter has been pressed\n\tSetScaleformMovieAsNoLongerNeeded(ButtonsHandle)\nend)\n\n```\n![Code Result](/instructional_buttons_result_3.png)\n\nIcon list\n---------------\n\n| ID  | Name                                   |\n|-----|----------------------------------------|\n| 0   | Arrow Up                               |\n| 1   | Arrow Down                             |\n| 2   | Arrow Left                             |\n| 3   | Arrow Right                            |\n| 4   | Dpad up                                |\n| 5   | Dpad down                              |\n| 6   | Dpad left                              |\n| 7   | Dpad right                             |\n| 8   | Dpad                                   |\n| 9   | Dpad all                               |\n| 10  | Dpad up down                           |\n| 11  | Dpad left right                        |\n| 12  | Left stick up                          |\n| 13  | Left stick down                        |\n| 14  | Left stick left                        |\n| 15  | Left stick down                        |\n| 16  | Left stick                             |\n| 17  | Left stick                             |\n| 18  | Left stick up down                     |\n| 19  | Left stick left right                  |\n| 20  | Left stick clockwise                   |\n| 21  | Right stick up                         |\n| 22  | Right stick down                       |\n| 23  | Right stick left                       |\n| 24  | Right stick right                      |\n| 25  | Right stick                            |\n| 26  | Right stick                            |\n| 27  | Right stick up down                    |\n| 28  | Right stick left right                 |\n| 29  | Right stick clockwise                  |\n| 30  | A                                      |\n| 31  | B                                      |\n| 32  | X                                      |\n| 33  | Y                                      |\n| 34  | RB                                     |\n| 35  | LT                                     |\n| 36  | RB                                     |\n| 37  | RT                                     |\n| 38  | Start                                  |\n| 39  | Select                                 |\n| 40  | Invalid                                |\n| 41  | Invalid                                |\n| 42  | Invalid                                |\n| 43  | Invalid                                |\n| 44  | Clockwise Spinner                      |\n| 45  | Arrow up down                          |\n| 46  | Arrow left right                       |\n| 47  | Arrow left right up down               |\n| 48  | Clockwise spinner                      |\n| 49  | Cloud save spinner (Yellow, Clockwise) |\n| 50  | Counter-clockwise spinner              |\n\n## INSTRUCTIONAL_BUTTONS Scaleform Movie Methods\n\nThese are all the movie methods you can call on INSTRUCTIONAL_BUTTONS, after they have been requested. You can use scaleform movie method natives (shown above) to call them.\n\n```\nTOGGLE_MOUSE_BUTTONS(bool toggle)\nToggles clickable buttons\n\nSET_SAVING_TEXT(int iconEnum, string saveStr)\nSets a text with loading icon\n\nREMOVE_SAVING()\nRemoves the loading icon text\n\nCLEAR_ALL()\nClears all instructional button slots\n\nCLEAR_RENDER()\nStops rendering buttons\n\nOVERRIDE_POSITION(float x, float y, bool alignBottomRight)\nOverrides buttons' position.\n\nSET_CLEAR_SPACE(float clearSpace)\n\nSET_DATA_SLOT(int index, any icon, string text, bool clickable, int controlIndex)\nAdds a button slot. You can add up to 20 icons, those can be either input strings (e.g ~INPUT_FRONTEND_ACCEPT~ for enter) or icon id's.\nNote: Make sure to not add last two parameters if TOGGLE_MOUSE_BUTTONS is FALSE to prevent glitchy buttons.\n\nSET_DATA_SLOT_EMPTY()\nAlias for CLEAR_ALL()\n\nCLEAR_BACKGROUNDS()\nRemoves background for the buttons.\n\nDRAW_INSTRUCTIONAL_BUTTONS(int layoutType)\nSets buttons to be drawn.\n\nGET_NUMBER_OF_ROWS()\nReturns number of rows. Note: You need to use scaleform movie method return value natives for this.\n\nSET_BACKGROUND()\nAdds background.\n\nSET_PADDING(int top, int right, int bottom, int left)\n\nSET_BACKGROUND_COLOUR(int r, int g, int b, int a)\nOverrides background colour.\n\nOVERRIDE_RESPAWN_TEXT(int index, string text)\nOverrides text for a button.\n\nFLASH_BUTTON_BY_ID(int buttonID, int alpha, int duration)\nFlashes a button\n\nSET_MAX_WIDTH(float maxWidth)\nSets max width for buttons. This prevents buttons from being off-screen if there are too many data slots set. Instead, they will stack up.\n\nSET_HIT_AREA_VISIBLE(bool isVisible)\nShows debug hit area for mouse visible. This hit area is used for native 0x3d9acb1eb139e702, which returns whether or not the mouse cursor is above instructional buttons if TOGGLE_MOUSE_BUTTONS is true.\n```",
+  "raw_html_length": 10686
+}

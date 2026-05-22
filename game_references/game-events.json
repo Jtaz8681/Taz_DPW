@@ -1,0 +1,2162 @@
+{
+  "url_path": "/docs/game-references/game-events/",
+  "full_url": "https://docs.fivem.net/docs/game-references/game-events/",
+  "title": "game-events",
+  "slug": "game-events",
+  "parent_category": null,
+  "toc": [],
+  "tables": [
+    {
+      "headers": [
+        "Event name",
+        "Description"
+      ],
+      "rows": [
+        [
+          "CEventAcquaintancePed",
+          ""
+        ],
+        [
+          "CEventAcquaintancePedDead",
+          ""
+        ],
+        [
+          "CEventAcquaintancePedDislike",
+          ""
+        ],
+        [
+          "CEventAcquaintancePedHate",
+          ""
+        ],
+        [
+          "CEventAcquaintancePedLike",
+          ""
+        ],
+        [
+          "CEventAcquaintancePedWanted",
+          ""
+        ],
+        [
+          "CEventAgitated",
+          ""
+        ],
+        [
+          "CEventAgitatedAction",
+          ""
+        ],
+        [
+          "CEventCallForCover",
+          ""
+        ],
+        [
+          "CEventCarUndriveable",
+          ""
+        ],
+        [
+          "CEventClimbLadderOnRoute",
+          ""
+        ],
+        [
+          "CEventClimbNavMeshOnRoute",
+          ""
+        ],
+        [
+          "CEventCombatTaunt",
+          ""
+        ],
+        [
+          "CEventCommunicateEvent",
+          ""
+        ],
+        [
+          "CEventCopCarBeingStolen",
+          ""
+        ],
+        [
+          "CEventCrimeCryForHelp",
+          ""
+        ],
+        [
+          "CEventCrimeReported",
+          ""
+        ],
+        [
+          "CEventDamage",
+          ""
+        ],
+        [
+          "CEventDataDecisionMaker",
+          ""
+        ],
+        [
+          "CEventDataFileMounter",
+          ""
+        ],
+        [
+          "CEventDataResponseAggressiveRubberneck",
+          ""
+        ],
+        [
+          "CEventDataResponseDeferToScenarioPointFlags",
+          ""
+        ],
+        [
+          "CEventDataResponseFriendlyAimedAt",
+          ""
+        ],
+        [
+          "CEventDataResponseFriendlyNearMiss",
+          ""
+        ],
+        [
+          "CEventDataResponsePlayerDeath",
+          ""
+        ],
+        [
+          "CEventDataResponsePoliceTaskWanted",
+          ""
+        ],
+        [
+          "CEventDataResponseSwatTaskWanted",
+          ""
+        ],
+        [
+          "CEventDataResponseTask",
+          ""
+        ],
+        [
+          "CEventDataResponseTaskAgitated",
+          ""
+        ],
+        [
+          "CEventDataResponseTaskCombat",
+          ""
+        ],
+        [
+          "CEventDataResponseTaskCower",
+          ""
+        ],
+        [
+          "CEventDataResponseTaskCrouch",
+          ""
+        ],
+        [
+          "CEventDataResponseTaskDuckAndCover",
+          ""
+        ],
+        [
+          "CEventDataResponseTaskEscapeBlast",
+          ""
+        ],
+        [
+          "CEventDataResponseTaskEvasiveStep",
+          ""
+        ],
+        [
+          "CEventDataResponseTaskExhaustedFlee",
+          ""
+        ],
+        [
+          "CEventDataResponseTaskExplosion",
+          ""
+        ],
+        [
+          "CEventDataResponseTaskFlee",
+          ""
+        ],
+        [
+          "CEventDataResponseTaskFlyAway",
+          ""
+        ],
+        [
+          "CEventDataResponseTaskGrowlAndFlee",
+          ""
+        ],
+        [
+          "CEventDataResponseTaskGunAimedAt",
+          ""
+        ],
+        [
+          "CEventDataResponseTaskHandsUp",
+          ""
+        ],
+        [
+          "CEventDataResponseTaskHeadTrack",
+          ""
+        ],
+        [
+          "CEventDataResponseTaskLeaveCarAndFlee",
+          ""
+        ],
+        [
+          "CEventDataResponseTaskScenarioFlee",
+          ""
+        ],
+        [
+          "CEventDataResponseTaskSharkAttack",
+          ""
+        ],
+        [
+          "CEventDataResponseTaskShockingEventBackAway",
+          ""
+        ],
+        [
+          "CEventDataResponseTaskShockingEventGoto",
+          ""
+        ],
+        [
+          "CEventDataResponseTaskShockingEventHurryAway",
+          ""
+        ],
+        [
+          "CEventDataResponseTaskShockingEventReact",
+          ""
+        ],
+        [
+          "CEventDataResponseTaskShockingEventReactToAircraft",
+          ""
+        ],
+        [
+          "CEventDataResponseTaskShockingEventStopAndStare",
+          ""
+        ],
+        [
+          "CEventDataResponseTaskShockingEventThreatResponse",
+          ""
+        ],
+        [
+          "CEventDataResponseTaskShockingEventWatch",
+          ""
+        ],
+        [
+          "CEventDataResponseTaskShockingNiceCar",
+          ""
+        ],
+        [
+          "CEventDataResponseTaskShockingPoliceInvestigate",
+          ""
+        ],
+        [
+          "CEventDataResponseTaskThreat",
+          ""
+        ],
+        [
+          "CEventDataResponseTaskTurnToFace",
+          ""
+        ],
+        [
+          "CEventDataResponseTaskWalkAway",
+          ""
+        ],
+        [
+          "CEventDataResponseTaskWalkRoundEntity",
+          ""
+        ],
+        [
+          "CEventDataResponseTaskWalkRoundFire",
+          ""
+        ],
+        [
+          "CEventDeadPedFound",
+          ""
+        ],
+        [
+          "CEventDeath",
+          ""
+        ],
+        [
+          "CEventDecisionMakerResponse",
+          ""
+        ],
+        [
+          "CEventDisturbance",
+          ""
+        ],
+        [
+          "CEventDraggedOutCar",
+          ""
+        ],
+        [
+          "CEventEditableResponse",
+          ""
+        ],
+        [
+          "CEventEncroachingPed",
+          ""
+        ],
+        [
+          "CEventEntityDamaged",
+          ""
+        ],
+        [
+          "CEventEntityDestroyed",
+          ""
+        ],
+        [
+          "CEventExplosion",
+          ""
+        ],
+        [
+          "CEventExplosionHeard",
+          ""
+        ],
+        [
+          "CEventFireNearby",
+          ""
+        ],
+        [
+          "CEventFootStepHeard",
+          ""
+        ],
+        [
+          "CEventFriendlyAimedAt",
+          ""
+        ],
+        [
+          "CEventFriendlyFireNearMiss",
+          ""
+        ],
+        [
+          "CEventGetOutOfWater",
+          ""
+        ],
+        [
+          "CEventGivePedTask",
+          ""
+        ],
+        [
+          "CEventGroupScriptAI",
+          ""
+        ],
+        [
+          "CEventGroupScriptNetwork",
+          ""
+        ],
+        [
+          "CEventGunAimedAt",
+          ""
+        ],
+        [
+          "CEventGunShot",
+          ""
+        ],
+        [
+          "CEventGunShotBulletImpact",
+          ""
+        ],
+        [
+          "CEventGunShotWhizzedBy",
+          ""
+        ],
+        [
+          "CEventHelpAmbientFriend",
+          ""
+        ],
+        [
+          "CEventHurtTransition",
+          ""
+        ],
+        [
+          "CEventInAir",
+          ""
+        ],
+        [
+          "CEventInfo",
+          ""
+        ],
+        [
+          "CEventInfoBase",
+          ""
+        ],
+        [
+          "CEventInjuredCryForHelp",
+          ""
+        ],
+        [
+          "CEventLeaderEnteredCarAsDriver",
+          ""
+        ],
+        [
+          "CEventLeaderExitedCarAsDriver",
+          ""
+        ],
+        [
+          "CEventLeaderHolsteredWeapon",
+          ""
+        ],
+        [
+          "CEventLeaderLeftCover",
+          ""
+        ],
+        [
+          "CEventLeaderUnholsteredWeapon",
+          ""
+        ],
+        [
+          "CEventMeleeAction",
+          ""
+        ],
+        [
+          "CEventMustLeaveBoat",
+          ""
+        ],
+        [
+          "CEventNetworkAdminInvited",
+          ""
+        ],
+        [
+          "CEventNetworkAttemptHostMigration",
+          ""
+        ],
+        [
+          "CEventNetworkBail",
+          ""
+        ],
+        [
+          "CEventNetworkCashTransactionLog",
+          ""
+        ],
+        [
+          "CEventNetworkCheatTriggered",
+          ""
+        ],
+        [
+          "CEventNetworkClanInviteReceived",
+          ""
+        ],
+        [
+          "CEventNetworkClanJoined",
+          ""
+        ],
+        [
+          "CEventNetworkClanKicked",
+          ""
+        ],
+        [
+          "CEventNetworkClanLeft",
+          ""
+        ],
+        [
+          "CEventNetworkClanRankChanged",
+          ""
+        ],
+        [
+          "CEventNetworkCloudEvent",
+          ""
+        ],
+        [
+          "CEventNetworkCloudFileResponse",
+          ""
+        ],
+        [
+          "CEventNetworkEmailReceivedEvent",
+          ""
+        ],
+        [
+          "CEventNetworkEndMatch",
+          ""
+        ],
+        [
+          "CEventNetworkEndSession",
+          ""
+        ],
+        [
+          "CEventNetworkEntityDamage",
+          ""
+        ],
+        [
+          "CEventNetworkFindSession",
+          ""
+        ],
+        [
+          "CEventNetworkFollowInviteReceived",
+          ""
+        ],
+        [
+          "CEventNetworkHostMigration",
+          ""
+        ],
+        [
+          "CEventNetworkHostSession",
+          ""
+        ],
+        [
+          "CEventNetworkIncrementStat",
+          ""
+        ],
+        [
+          "CEventNetworkInviteAccepted",
+          ""
+        ],
+        [
+          "CEventNetworkInviteConfirmed",
+          ""
+        ],
+        [
+          "CEventNetworkInviteRejected",
+          ""
+        ],
+        [
+          "CEventNetworkJoinSession",
+          ""
+        ],
+        [
+          "CEventNetworkJoinSessionResponse",
+          ""
+        ],
+        [
+          "CEventNetworkOnlinePermissionsUpdated",
+          ""
+        ],
+        [
+          "CEventNetworkPedLeftBehind",
+          ""
+        ],
+        [
+          "CEventNetworkPickupRespawned",
+          ""
+        ],
+        [
+          "CEventNetworkPlayerArrest",
+          ""
+        ],
+        [
+          "CEventNetworkPlayerCollectedAmbientPickup",
+          ""
+        ],
+        [
+          "CEventNetworkPlayerCollectedPickup",
+          ""
+        ],
+        [
+          "CEventNetworkPlayerCollectedPortablePickup",
+          ""
+        ],
+        [
+          "CEventNetworkPlayerDroppedPortablePickup",
+          ""
+        ],
+        [
+          "CEventNetworkPlayerEnteredVehicle",
+          ""
+        ],
+        [
+          "CEventNetworkPlayerJoinScript",
+          ""
+        ],
+        [
+          "CEventNetworkPlayerLeftScript",
+          ""
+        ],
+        [
+          "CEventNetworkPlayerScript",
+          ""
+        ],
+        [
+          "CEventNetworkPlayerSession",
+          ""
+        ],
+        [
+          "CEventNetworkPlayerSpawn",
+          ""
+        ],
+        [
+          "CEventNetworkPresenceInvite",
+          ""
+        ],
+        [
+          "CEventNetworkPresenceInviteRemoved",
+          ""
+        ],
+        [
+          "CEventNetworkPresenceInviteReply",
+          ""
+        ],
+        [
+          "CEventNetworkPresenceTriggerEvent",
+          ""
+        ],
+        [
+          "CEventNetworkPresence_StatUpdate",
+          ""
+        ],
+        [
+          "CEventNetworkPrimaryClanChanged",
+          ""
+        ],
+        [
+          "CEventNetworkRequestDelay",
+          ""
+        ],
+        [
+          "CEventNetworkRosChanged",
+          ""
+        ],
+        [
+          "CEventNetworkScAdminPlayerUpdated",
+          ""
+        ],
+        [
+          "CEventNetworkScAdminReceivedCash",
+          ""
+        ],
+        [
+          "CEventNetworkScriptEvent",
+          ""
+        ],
+        [
+          "CEventNetworkSessionEvent",
+          ""
+        ],
+        [
+          "CEventNetworkShopTransaction",
+          ""
+        ],
+        [
+          "CEventNetworkSignInStateChanged",
+          ""
+        ],
+        [
+          "CEventNetworkSocialClubAccountLinked",
+          ""
+        ],
+        [
+          "CEventNetworkSpectateLocal",
+          ""
+        ],
+        [
+          "CEventNetworkStartMatch",
+          ""
+        ],
+        [
+          "CEventNetworkStartSession",
+          ""
+        ],
+        [
+          "CEventNetworkStorePlayerLeft",
+          ""
+        ],
+        [
+          "CEventNetworkSummon",
+          ""
+        ],
+        [
+          "CEventNetworkSystemServiceEvent",
+          ""
+        ],
+        [
+          "CEventNetworkTextMessageReceived",
+          ""
+        ],
+        [
+          "CEventNetworkTimedExplosion",
+          ""
+        ],
+        [
+          "CEventNetworkTransitionEvent",
+          ""
+        ],
+        [
+          "CEventNetworkTransitionGamerInstruction",
+          ""
+        ],
+        [
+          "CEventNetworkTransitionMemberJoined",
+          ""
+        ],
+        [
+          "CEventNetworkTransitionMemberLeft",
+          ""
+        ],
+        [
+          "CEventNetworkTransitionParameterChanged",
+          ""
+        ],
+        [
+          "CEventNetworkTransitionStarted",
+          ""
+        ],
+        [
+          "CEventNetworkTransitionStringChanged",
+          ""
+        ],
+        [
+          "CEventNetworkVehicleUndrivable",
+          ""
+        ],
+        [
+          "CEventNetworkVoiceConnectionRequested",
+          ""
+        ],
+        [
+          "CEventNetworkVoiceConnectionResponse",
+          ""
+        ],
+        [
+          "CEventNetworkVoiceConnectionTerminated",
+          ""
+        ],
+        [
+          "CEventNetworkVoiceSessionEnded",
+          ""
+        ],
+        [
+          "CEventNetworkVoiceSessionStarted",
+          ""
+        ],
+        [
+          "CEventNetworkWithData",
+          ""
+        ],
+        [
+          "CEventNetwork_InboxMsgReceived",
+          ""
+        ],
+        [
+          "CEventNewTask",
+          ""
+        ],
+        [
+          "CEventObjectCollision",
+          ""
+        ],
+        [
+          "CEventOnFire",
+          ""
+        ],
+        [
+          "CEventOpenDoor",
+          ""
+        ],
+        [
+          "CEventPedCollisionWithPed",
+          ""
+        ],
+        [
+          "CEventPedCollisionWithPlayer",
+          ""
+        ],
+        [
+          "CEventPedEnteredMyVehicle",
+          ""
+        ],
+        [
+          "CEventPedJackingMyVehicle",
+          ""
+        ],
+        [
+          "CEventPedOnCarRoof",
+          ""
+        ],
+        [
+          "CEventPedSeenDeadPed",
+          ""
+        ],
+        [
+          "CEventPlayerCollisionWithPed",
+          ""
+        ],
+        [
+          "CEventPlayerDeath",
+          ""
+        ],
+        [
+          "CEventPlayerUnableToEnterVehicle",
+          ""
+        ],
+        [
+          "CEventPotentialBeWalkedInto",
+          ""
+        ],
+        [
+          "CEventPotentialBlast",
+          ""
+        ],
+        [
+          "CEventPotentialGetRunOver",
+          ""
+        ],
+        [
+          "CEventPotentialWalkIntoVehicle",
+          ""
+        ],
+        [
+          "CEventProvidingCover",
+          ""
+        ],
+        [
+          "CEventRanOverPed",
+          ""
+        ],
+        [
+          "CEventReactionEnemyPed",
+          ""
+        ],
+        [
+          "CEventReactionInvestigateDeadPed",
+          ""
+        ],
+        [
+          "CEventReactionInvestigateThreat",
+          ""
+        ],
+        [
+          "CEventRequestHelp",
+          ""
+        ],
+        [
+          "CEventRequestHelpWithConfrontation",
+          ""
+        ],
+        [
+          "CEventRespondedToThreat",
+          ""
+        ],
+        [
+          "CEventScanner",
+          ""
+        ],
+        [
+          "CEventScenarioForceAction",
+          ""
+        ],
+        [
+          "CEventScriptCommand",
+          ""
+        ],
+        [
+          "CEventScriptWithData",
+          ""
+        ],
+        [
+          "CEventShocking",
+          ""
+        ],
+        [
+          "CEventShockingBicycleCrash",
+          ""
+        ],
+        [
+          "CEventShockingBicycleOnPavement",
+          ""
+        ],
+        [
+          "CEventShockingCarAlarm",
+          ""
+        ],
+        [
+          "CEventShockingCarChase",
+          ""
+        ],
+        [
+          "CEventShockingCarCrash",
+          ""
+        ],
+        [
+          "CEventShockingCarOnCar",
+          ""
+        ],
+        [
+          "CEventShockingCarPileUp",
+          ""
+        ],
+        [
+          "CEventShockingDangerousAnimal",
+          ""
+        ],
+        [
+          "CEventShockingDeadBody",
+          ""
+        ],
+        [
+          "CEventShockingDrivingOnPavement",
+          ""
+        ],
+        [
+          "CEventShockingEngineRevved",
+          ""
+        ],
+        [
+          "CEventShockingExplosion",
+          ""
+        ],
+        [
+          "CEventShockingFire",
+          ""
+        ],
+        [
+          "CEventShockingGunFight",
+          ""
+        ],
+        [
+          "CEventShockingGunshotFired",
+          ""
+        ],
+        [
+          "CEventShockingHelicopterOverhead",
+          ""
+        ],
+        [
+          "CEventShockingHornSounded",
+          ""
+        ],
+        [
+          "CEventShockingInDangerousVehicle",
+          ""
+        ],
+        [
+          "CEventShockingInjuredPed",
+          ""
+        ],
+        [
+          "CEventShockingMadDriver",
+          ""
+        ],
+        [
+          "CEventShockingMadDriverBicycle",
+          ""
+        ],
+        [
+          "CEventShockingMadDriverExtreme",
+          ""
+        ],
+        [
+          "CEventShockingMugging",
+          ""
+        ],
+        [
+          "CEventShockingNonViolentWeaponAimedAt",
+          ""
+        ],
+        [
+          "CEventShockingParachuterOverhead",
+          ""
+        ],
+        [
+          "CEventShockingPedKnockedIntoByPlayer",
+          ""
+        ],
+        [
+          "CEventShockingPedRunOver",
+          ""
+        ],
+        [
+          "CEventShockingPedShot",
+          ""
+        ],
+        [
+          "CEventShockingPlaneFlyby",
+          ""
+        ],
+        [
+          "CEventShockingPotentialBlast",
+          ""
+        ],
+        [
+          "CEventShockingPropertyDamage",
+          ""
+        ],
+        [
+          "CEventShockingRunningPed",
+          ""
+        ],
+        [
+          "CEventShockingRunningStampede",
+          ""
+        ],
+        [
+          "CEventShockingSeenCarStolen",
+          ""
+        ],
+        [
+          "CEventShockingSeenConfrontation",
+          ""
+        ],
+        [
+          "CEventShockingSeenGangFight",
+          ""
+        ],
+        [
+          "CEventShockingSeenInsult",
+          ""
+        ],
+        [
+          "CEventShockingSeenMeleeAction",
+          ""
+        ],
+        [
+          "CEventShockingSeenNiceCar",
+          ""
+        ],
+        [
+          "CEventShockingSeenPedKilled",
+          ""
+        ],
+        [
+          "CEventShockingSiren",
+          ""
+        ],
+        [
+          "CEventShockingStudioBomb",
+          ""
+        ],
+        [
+          "CEventShockingVehicleTowed",
+          ""
+        ],
+        [
+          "CEventShockingVisibleWeapon",
+          ""
+        ],
+        [
+          "CEventShockingWeaponThreat",
+          ""
+        ],
+        [
+          "CEventShockingWeirdPed",
+          ""
+        ],
+        [
+          "CEventShockingWeirdPedApproaching",
+          ""
+        ],
+        [
+          "CEventShoutBlockingLos",
+          ""
+        ],
+        [
+          "CEventShoutTargetPosition",
+          ""
+        ],
+        [
+          "CEventShovePed",
+          ""
+        ],
+        [
+          "CEventSoundBase",
+          ""
+        ],
+        [
+          "CEventStatChangedValue",
+          ""
+        ],
+        [
+          "CEventStaticCountReachedMax",
+          ""
+        ],
+        [
+          "CEventStuckInAir",
+          ""
+        ],
+        [
+          "CEventSuspiciousActivity",
+          ""
+        ],
+        [
+          "CEventSwitch2NM",
+          ""
+        ],
+        [
+          "CEventUnidentifiedPed",
+          ""
+        ],
+        [
+          "CEventVehicleCollision",
+          ""
+        ],
+        [
+          "CEventVehicleDamage",
+          ""
+        ],
+        [
+          "CEventVehicleDamageWeapon",
+          ""
+        ],
+        [
+          "CEventVehicleOnFire",
+          ""
+        ],
+        [
+          "CEventWrithe",
+          ""
+        ]
+      ],
+      "data": [
+        {
+          "Event name": "CEventAcquaintancePed",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventAcquaintancePedDead",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventAcquaintancePedDislike",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventAcquaintancePedHate",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventAcquaintancePedLike",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventAcquaintancePedWanted",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventAgitated",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventAgitatedAction",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventCallForCover",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventCarUndriveable",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventClimbLadderOnRoute",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventClimbNavMeshOnRoute",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventCombatTaunt",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventCommunicateEvent",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventCopCarBeingStolen",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventCrimeCryForHelp",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventCrimeReported",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventDamage",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventDataDecisionMaker",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventDataFileMounter",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventDataResponseAggressiveRubberneck",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventDataResponseDeferToScenarioPointFlags",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventDataResponseFriendlyAimedAt",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventDataResponseFriendlyNearMiss",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventDataResponsePlayerDeath",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventDataResponsePoliceTaskWanted",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventDataResponseSwatTaskWanted",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventDataResponseTask",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventDataResponseTaskAgitated",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventDataResponseTaskCombat",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventDataResponseTaskCower",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventDataResponseTaskCrouch",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventDataResponseTaskDuckAndCover",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventDataResponseTaskEscapeBlast",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventDataResponseTaskEvasiveStep",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventDataResponseTaskExhaustedFlee",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventDataResponseTaskExplosion",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventDataResponseTaskFlee",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventDataResponseTaskFlyAway",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventDataResponseTaskGrowlAndFlee",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventDataResponseTaskGunAimedAt",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventDataResponseTaskHandsUp",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventDataResponseTaskHeadTrack",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventDataResponseTaskLeaveCarAndFlee",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventDataResponseTaskScenarioFlee",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventDataResponseTaskSharkAttack",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventDataResponseTaskShockingEventBackAway",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventDataResponseTaskShockingEventGoto",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventDataResponseTaskShockingEventHurryAway",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventDataResponseTaskShockingEventReact",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventDataResponseTaskShockingEventReactToAircraft",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventDataResponseTaskShockingEventStopAndStare",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventDataResponseTaskShockingEventThreatResponse",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventDataResponseTaskShockingEventWatch",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventDataResponseTaskShockingNiceCar",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventDataResponseTaskShockingPoliceInvestigate",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventDataResponseTaskThreat",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventDataResponseTaskTurnToFace",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventDataResponseTaskWalkAway",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventDataResponseTaskWalkRoundEntity",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventDataResponseTaskWalkRoundFire",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventDeadPedFound",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventDeath",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventDecisionMakerResponse",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventDisturbance",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventDraggedOutCar",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventEditableResponse",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventEncroachingPed",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventEntityDamaged",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventEntityDestroyed",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventExplosion",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventExplosionHeard",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventFireNearby",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventFootStepHeard",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventFriendlyAimedAt",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventFriendlyFireNearMiss",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventGetOutOfWater",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventGivePedTask",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventGroupScriptAI",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventGroupScriptNetwork",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventGunAimedAt",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventGunShot",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventGunShotBulletImpact",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventGunShotWhizzedBy",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventHelpAmbientFriend",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventHurtTransition",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventInAir",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventInfo",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventInfoBase",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventInjuredCryForHelp",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventLeaderEnteredCarAsDriver",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventLeaderExitedCarAsDriver",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventLeaderHolsteredWeapon",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventLeaderLeftCover",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventLeaderUnholsteredWeapon",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventMeleeAction",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventMustLeaveBoat",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkAdminInvited",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkAttemptHostMigration",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkBail",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkCashTransactionLog",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkCheatTriggered",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkClanInviteReceived",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkClanJoined",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkClanKicked",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkClanLeft",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkClanRankChanged",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkCloudEvent",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkCloudFileResponse",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkEmailReceivedEvent",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkEndMatch",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkEndSession",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkEntityDamage",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkFindSession",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkFollowInviteReceived",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkHostMigration",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkHostSession",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkIncrementStat",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkInviteAccepted",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkInviteConfirmed",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkInviteRejected",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkJoinSession",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkJoinSessionResponse",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkOnlinePermissionsUpdated",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkPedLeftBehind",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkPickupRespawned",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkPlayerArrest",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkPlayerCollectedAmbientPickup",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkPlayerCollectedPickup",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkPlayerCollectedPortablePickup",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkPlayerDroppedPortablePickup",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkPlayerEnteredVehicle",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkPlayerJoinScript",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkPlayerLeftScript",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkPlayerScript",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkPlayerSession",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkPlayerSpawn",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkPresenceInvite",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkPresenceInviteRemoved",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkPresenceInviteReply",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkPresenceTriggerEvent",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkPresence_StatUpdate",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkPrimaryClanChanged",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkRequestDelay",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkRosChanged",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkScAdminPlayerUpdated",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkScAdminReceivedCash",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkScriptEvent",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkSessionEvent",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkShopTransaction",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkSignInStateChanged",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkSocialClubAccountLinked",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkSpectateLocal",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkStartMatch",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkStartSession",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkStorePlayerLeft",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkSummon",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkSystemServiceEvent",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkTextMessageReceived",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkTimedExplosion",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkTransitionEvent",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkTransitionGamerInstruction",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkTransitionMemberJoined",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkTransitionMemberLeft",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkTransitionParameterChanged",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkTransitionStarted",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkTransitionStringChanged",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkVehicleUndrivable",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkVoiceConnectionRequested",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkVoiceConnectionResponse",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkVoiceConnectionTerminated",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkVoiceSessionEnded",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkVoiceSessionStarted",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetworkWithData",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNetwork_InboxMsgReceived",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventNewTask",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventObjectCollision",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventOnFire",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventOpenDoor",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventPedCollisionWithPed",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventPedCollisionWithPlayer",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventPedEnteredMyVehicle",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventPedJackingMyVehicle",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventPedOnCarRoof",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventPedSeenDeadPed",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventPlayerCollisionWithPed",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventPlayerDeath",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventPlayerUnableToEnterVehicle",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventPotentialBeWalkedInto",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventPotentialBlast",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventPotentialGetRunOver",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventPotentialWalkIntoVehicle",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventProvidingCover",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventRanOverPed",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventReactionEnemyPed",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventReactionInvestigateDeadPed",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventReactionInvestigateThreat",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventRequestHelp",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventRequestHelpWithConfrontation",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventRespondedToThreat",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventScanner",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventScenarioForceAction",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventScriptCommand",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventScriptWithData",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventShocking",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventShockingBicycleCrash",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventShockingBicycleOnPavement",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventShockingCarAlarm",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventShockingCarChase",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventShockingCarCrash",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventShockingCarOnCar",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventShockingCarPileUp",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventShockingDangerousAnimal",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventShockingDeadBody",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventShockingDrivingOnPavement",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventShockingEngineRevved",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventShockingExplosion",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventShockingFire",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventShockingGunFight",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventShockingGunshotFired",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventShockingHelicopterOverhead",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventShockingHornSounded",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventShockingInDangerousVehicle",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventShockingInjuredPed",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventShockingMadDriver",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventShockingMadDriverBicycle",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventShockingMadDriverExtreme",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventShockingMugging",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventShockingNonViolentWeaponAimedAt",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventShockingParachuterOverhead",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventShockingPedKnockedIntoByPlayer",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventShockingPedRunOver",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventShockingPedShot",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventShockingPlaneFlyby",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventShockingPotentialBlast",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventShockingPropertyDamage",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventShockingRunningPed",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventShockingRunningStampede",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventShockingSeenCarStolen",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventShockingSeenConfrontation",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventShockingSeenGangFight",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventShockingSeenInsult",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventShockingSeenMeleeAction",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventShockingSeenNiceCar",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventShockingSeenPedKilled",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventShockingSiren",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventShockingStudioBomb",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventShockingVehicleTowed",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventShockingVisibleWeapon",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventShockingWeaponThreat",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventShockingWeirdPed",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventShockingWeirdPedApproaching",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventShoutBlockingLos",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventShoutTargetPosition",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventShovePed",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventSoundBase",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventStatChangedValue",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventStaticCountReachedMax",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventStuckInAir",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventSuspiciousActivity",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventSwitch2NM",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventUnidentifiedPed",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventVehicleCollision",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventVehicleDamage",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventVehicleDamageWeapon",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventVehicleOnFire",
+          "Description": ""
+        },
+        {
+          "Event name": "CEventWrithe",
+          "Description": ""
+        }
+      ]
+    }
+  ],
+  "table_count": 1,
+  "total_table_rows": 267,
+  "css_items": [],
+  "css_item_count": 0,
+  "markdown": "This is a list of low-level game events. That means, these are the events that come straight from GTAV's core\nmechanics. Using these events can be useful when you need fine control over what happens in your scripts.\nSee [gameEventTriggered][event-ref] for more information on how to use these events.\n\nNote that this list is largely undocumented and you probably won't need most of the events listed here. If you have\nuseful information to share, please [add it to this doc][contributing]. Any help is greatly appreciated!\n\n| Event name                                         | Description |\n|----------------------------------------------------|-------------|\n| CEventAcquaintancePed                              |             |\n| CEventAcquaintancePedDead                          |             |\n| CEventAcquaintancePedDislike                       |             |\n| CEventAcquaintancePedHate                          |             |\n| CEventAcquaintancePedLike                          |             |\n| CEventAcquaintancePedWanted                        |             |\n| CEventAgitated                                     |             |\n| CEventAgitatedAction                               |             |\n| CEventCallForCover                                 |             |\n| CEventCarUndriveable                               |             |\n| CEventClimbLadderOnRoute                           |             |\n| CEventClimbNavMeshOnRoute                          |             |\n| CEventCombatTaunt                                  |             |\n| CEventCommunicateEvent                             |             |\n| CEventCopCarBeingStolen                            |             |\n| CEventCrimeCryForHelp                              |             |\n| CEventCrimeReported                                |             |\n| CEventDamage                                       |             |\n| CEventDataDecisionMaker                            |             |\n| CEventDataFileMounter                              |             |\n| CEventDataResponseAggressiveRubberneck             |             |\n| CEventDataResponseDeferToScenarioPointFlags        |             |\n| CEventDataResponseFriendlyAimedAt                  |             |\n| CEventDataResponseFriendlyNearMiss                 |             |\n| CEventDataResponsePlayerDeath                      |             |\n| CEventDataResponsePoliceTaskWanted                 |             |\n| CEventDataResponseSwatTaskWanted                   |             |\n| CEventDataResponseTask                             |             |\n| CEventDataResponseTaskAgitated                     |             |\n| CEventDataResponseTaskCombat                       |             |\n| CEventDataResponseTaskCower                        |             |\n| CEventDataResponseTaskCrouch                       |             |\n| CEventDataResponseTaskDuckAndCover                 |             |\n| CEventDataResponseTaskEscapeBlast                  |             |\n| CEventDataResponseTaskEvasiveStep                  |             |\n| CEventDataResponseTaskExhaustedFlee                |             |\n| CEventDataResponseTaskExplosion                    |             |\n| CEventDataResponseTaskFlee                         |             |\n| CEventDataResponseTaskFlyAway                      |             |\n| CEventDataResponseTaskGrowlAndFlee                 |             |\n| CEventDataResponseTaskGunAimedAt                   |             |\n| CEventDataResponseTaskHandsUp                      |             |\n| CEventDataResponseTaskHeadTrack                    |             |\n| CEventDataResponseTaskLeaveCarAndFlee              |             |\n| CEventDataResponseTaskScenarioFlee                 |             |\n| CEventDataResponseTaskSharkAttack                  |             |\n| CEventDataResponseTaskShockingEventBackAway        |             |\n| CEventDataResponseTaskShockingEventGoto            |             |\n| CEventDataResponseTaskShockingEventHurryAway       |             |\n| CEventDataResponseTaskShockingEventReact           |             |\n| CEventDataResponseTaskShockingEventReactToAircraft |             |\n| CEventDataResponseTaskShockingEventStopAndStare    |             |\n| CEventDataResponseTaskShockingEventThreatResponse  |             |\n| CEventDataResponseTaskShockingEventWatch           |             |\n| CEventDataResponseTaskShockingNiceCar              |             |\n| CEventDataResponseTaskShockingPoliceInvestigate    |             |\n| CEventDataResponseTaskThreat                       |             |\n| CEventDataResponseTaskTurnToFace                   |             |\n| CEventDataResponseTaskWalkAway                     |             |\n| CEventDataResponseTaskWalkRoundEntity              |             |\n| CEventDataResponseTaskWalkRoundFire                |             |\n| CEventDeadPedFound                                 |             |\n| CEventDeath                                        |             |\n| CEventDecisionMakerResponse                        |             |\n| CEventDisturbance                                  |             |\n| CEventDraggedOutCar                                |             |\n| CEventEditableResponse                             |             |\n| CEventEncroachingPed                               |             |\n| CEventEntityDamaged                                |             |\n| CEventEntityDestroyed                              |             |\n| CEventExplosion                                    |             |\n| CEventExplosionHeard                               |             |\n| CEventFireNearby                                   |             |\n| CEventFootStepHeard                                |             |\n| CEventFriendlyAimedAt                              |             |\n| CEventFriendlyFireNearMiss                         |             |\n| CEventGetOutOfWater                                |             |\n| CEventGivePedTask                                  |             |\n| CEventGroupScriptAI                                |             |\n| CEventGroupScriptNetwork                           |             |\n| CEventGunAimedAt                                   |             |\n| CEventGunShot                                      |             |\n| CEventGunShotBulletImpact                          |             |\n| CEventGunShotWhizzedBy                             |             |\n| CEventHelpAmbientFriend                            |             |\n| CEventHurtTransition                               |             |\n| CEventInAir                                        |             |\n| CEventInfo                                         |             |\n| CEventInfoBase                                     |             |\n| CEventInjuredCryForHelp                            |             |\n| CEventLeaderEnteredCarAsDriver                     |             |\n| CEventLeaderExitedCarAsDriver                      |             |\n| CEventLeaderHolsteredWeapon                        |             |\n| CEventLeaderLeftCover                              |             |\n| CEventLeaderUnholsteredWeapon                      |             |\n| CEventMeleeAction                                  |             |\n| CEventMustLeaveBoat                                |             |\n| CEventNetworkAdminInvited                          |             |\n| CEventNetworkAttemptHostMigration                  |             |\n| CEventNetworkBail                                  |             |\n| CEventNetworkCashTransactionLog                    |             |\n| CEventNetworkCheatTriggered                        |             |\n| CEventNetworkClanInviteReceived                    |             |\n| CEventNetworkClanJoined                            |             |\n| CEventNetworkClanKicked                            |             |\n| CEventNetworkClanLeft                              |             |\n| CEventNetworkClanRankChanged                       |             |\n| CEventNetworkCloudEvent                            |             |\n| CEventNetworkCloudFileResponse                     |             |\n| CEventNetworkEmailReceivedEvent                    |             |\n| CEventNetworkEndMatch                              |             |\n| CEventNetworkEndSession                            |             |\n| CEventNetworkEntityDamage                          |             |\n| CEventNetworkFindSession                           |             |\n| CEventNetworkFollowInviteReceived                  |             |\n| CEventNetworkHostMigration                         |             |\n| CEventNetworkHostSession                           |             |\n| CEventNetworkIncrementStat                         |             |\n| CEventNetworkInviteAccepted                        |             |\n| CEventNetworkInviteConfirmed                       |             |\n| CEventNetworkInviteRejected                        |             |\n| CEventNetworkJoinSession                           |             |\n| CEventNetworkJoinSessionResponse                   |             |\n| CEventNetworkOnlinePermissionsUpdated              |             |\n| CEventNetworkPedLeftBehind                         |             |\n| CEventNetworkPickupRespawned                       |             |\n| CEventNetworkPlayerArrest                          |             |\n| CEventNetworkPlayerCollectedAmbientPickup          |             |\n| CEventNetworkPlayerCollectedPickup                 |             |\n| CEventNetworkPlayerCollectedPortablePickup         |             |\n| CEventNetworkPlayerDroppedPortablePickup           |             |\n| CEventNetworkPlayerEnteredVehicle                  |             |\n| CEventNetworkPlayerJoinScript                      |             |\n| CEventNetworkPlayerLeftScript                      |             |\n| CEventNetworkPlayerScript                          |             |\n| CEventNetworkPlayerSession                         |             |\n| CEventNetworkPlayerSpawn                           |             |\n| CEventNetworkPresenceInvite                        |             |\n| CEventNetworkPresenceInviteRemoved                 |             |\n| CEventNetworkPresenceInviteReply                   |             |\n| CEventNetworkPresenceTriggerEvent                  |             |\n| CEventNetworkPresence_StatUpdate                   |             |\n| CEventNetworkPrimaryClanChanged                    |             |\n| CEventNetworkRequestDelay                          |             |\n| CEventNetworkRosChanged                            |             |\n| CEventNetworkScAdminPlayerUpdated                  |             |\n| CEventNetworkScAdminReceivedCash                   |             |\n| CEventNetworkScriptEvent                           |             |\n| CEventNetworkSessionEvent                          |             |\n| CEventNetworkShopTransaction                       |             |\n| CEventNetworkSignInStateChanged                    |             |\n| CEventNetworkSocialClubAccountLinked               |             |\n| CEventNetworkSpectateLocal                         |             |\n| CEventNetworkStartMatch                            |             |\n| CEventNetworkStartSession                          |             |\n| CEventNetworkStorePlayerLeft                       |             |\n| CEventNetworkSummon                                |             |\n| CEventNetworkSystemServiceEvent                    |             |\n| CEventNetworkTextMessageReceived                   |             |\n| CEventNetworkTimedExplosion                        |             |\n| CEventNetworkTransitionEvent                       |             |\n| CEventNetworkTransitionGamerInstruction            |             |\n| CEventNetworkTransitionMemberJoined                |             |\n| CEventNetworkTransitionMemberLeft                  |             |\n| CEventNetworkTransitionParameterChanged            |             |\n| CEventNetworkTransitionStarted                     |             |\n| CEventNetworkTransitionStringChanged               |             |\n| CEventNetworkVehicleUndrivable                     |             |\n| CEventNetworkVoiceConnectionRequested              |             |\n| CEventNetworkVoiceConnectionResponse               |             |\n| CEventNetworkVoiceConnectionTerminated             |             |\n| CEventNetworkVoiceSessionEnded                     |             |\n| CEventNetworkVoiceSessionStarted                   |             |\n| CEventNetworkWithData                              |             |\n| CEventNetwork_InboxMsgReceived                     |             |\n| CEventNewTask                                      |             |\n| CEventObjectCollision                              |             |\n| CEventOnFire                                       |             |\n| CEventOpenDoor                                     |             |\n| CEventPedCollisionWithPed                          |             |\n| CEventPedCollisionWithPlayer                       |             |\n| CEventPedEnteredMyVehicle                          |             |\n| CEventPedJackingMyVehicle                          |             |\n| CEventPedOnCarRoof                                 |             |\n| CEventPedSeenDeadPed                               |             |\n| CEventPlayerCollisionWithPed                       |             |\n| CEventPlayerDeath                                  |             |\n| CEventPlayerUnableToEnterVehicle                   |             |\n| CEventPotentialBeWalkedInto                        |             |\n| CEventPotentialBlast                               |             |\n| CEventPotentialGetRunOver                          |             |\n| CEventPotentialWalkIntoVehicle                     |             |\n| CEventProvidingCover                               |             |\n| CEventRanOverPed                                   |             |\n| CEventReactionEnemyPed                             |             |\n| CEventReactionInvestigateDeadPed                   |             |\n| CEventReactionInvestigateThreat                    |             |\n| CEventRequestHelp                                  |             |\n| CEventRequestHelpWithConfrontation                 |             |\n| CEventRespondedToThreat                            |             |\n| CEventScanner                                      |             |\n| CEventScenarioForceAction                          |             |\n| CEventScriptCommand                                |             |\n| CEventScriptWithData                               |             |\n| CEventShocking                                     |             |\n| CEventShockingBicycleCrash                         |             |\n| CEventShockingBicycleOnPavement                    |             |\n| CEventShockingCarAlarm                             |             |\n| CEventShockingCarChase                             |             |\n| CEventShockingCarCrash                             |             |\n| CEventShockingCarOnCar                             |             |\n| CEventShockingCarPileUp                            |             |\n| CEventShockingDangerousAnimal                      |             |\n| CEventShockingDeadBody                             |             |\n| CEventShockingDrivingOnPavement                    |             |\n| CEventShockingEngineRevved                         |             |\n| CEventShockingExplosion                            |             |\n| CEventShockingFire                                 |             |\n| CEventShockingGunFight                             |             |\n| CEventShockingGunshotFired                         |             |\n| CEventShockingHelicopterOverhead                   |             |\n| CEventShockingHornSounded                          |             |\n| CEventShockingInDangerousVehicle                   |             |\n| CEventShockingInjuredPed                           |             |\n| CEventShockingMadDriver                            |             |\n| CEventShockingMadDriverBicycle                     |             |\n| CEventShockingMadDriverExtreme                     |             |\n| CEventShockingMugging                              |             |\n| CEventShockingNonViolentWeaponAimedAt              |             |\n| CEventShockingParachuterOverhead                   |             |\n| CEventShockingPedKnockedIntoByPlayer               |             |\n| CEventShockingPedRunOver                           |             |\n| CEventShockingPedShot                              |             |\n| CEventShockingPlaneFlyby                           |             |\n| CEventShockingPotentialBlast                       |             |\n| CEventShockingPropertyDamage                       |             |\n| CEventShockingRunningPed                           |             |\n| CEventShockingRunningStampede                      |             |\n| CEventShockingSeenCarStolen                        |             |\n| CEventShockingSeenConfrontation                    |             |\n| CEventShockingSeenGangFight                        |             |\n| CEventShockingSeenInsult                           |             |\n| CEventShockingSeenMeleeAction                      |             |\n| CEventShockingSeenNiceCar                          |             |\n| CEventShockingSeenPedKilled                        |             |\n| CEventShockingSiren                                |             |\n| CEventShockingStudioBomb                           |             |\n| CEventShockingVehicleTowed                         |             |\n| CEventShockingVisibleWeapon                        |             |\n| CEventShockingWeaponThreat                         |             |\n| CEventShockingWeirdPed                             |             |\n| CEventShockingWeirdPedApproaching                  |             |\n| CEventShoutBlockingLos                             |             |\n| CEventShoutTargetPosition                          |             |\n| CEventShovePed                                     |             |\n| CEventSoundBase                                    |             |\n| CEventStatChangedValue                             |             |\n| CEventStaticCountReachedMax                        |             |\n| CEventStuckInAir                                   |             |\n| CEventSuspiciousActivity                           |             |\n| CEventSwitch2NM                                    |             |\n| CEventUnidentifiedPed                              |             |\n| CEventVehicleCollision                             |             |\n| CEventVehicleDamage                                |             |\n| CEventVehicleDamageWeapon                          |             |\n| CEventVehicleOnFire                                |             |\n| CEventWrithe                                       |             |\n\n[event-ref]: /docs/scripting-reference/events/list/gameEventTriggered/\n[contributing]: /docs/contributing/#improving-documentation",
+  "raw_html_length": 19218
+}

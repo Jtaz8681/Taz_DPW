@@ -1,0 +1,192 @@
+{
+  "url_path": "/docs/game-references/markers/",
+  "full_url": "https://docs.fivem.net/docs/game-references/markers/",
+  "title": "markers",
+  "slug": "markers",
+  "parent_category": null,
+  "toc": [],
+  "tables": [],
+  "table_count": 0,
+  "total_table_rows": 0,
+  "css_items": [
+    {
+      "id": 0,
+      "name": "MarkerTypeUpsideDownCone"
+    },
+    {
+      "id": 1,
+      "name": "MarkerTypeVerticalCylinder"
+    },
+    {
+      "id": 2,
+      "name": "MarkerTypeThickChevronUp"
+    },
+    {
+      "id": 3,
+      "name": "MarkerTypeThinChevronUp"
+    },
+    {
+      "id": 4,
+      "name": "MarkerTypeCheckeredFlagRect"
+    },
+    {
+      "id": 5,
+      "name": "MarkerTypeCheckeredFlagCircle"
+    },
+    {
+      "id": 6,
+      "name": "MarkerTypeVerticleCircle"
+    },
+    {
+      "id": 7,
+      "name": "MarkerTypePlaneModel"
+    },
+    {
+      "id": 8,
+      "name": "MarkerTypeLostMCTransparent"
+    },
+    {
+      "id": 9,
+      "name": "MarkerTypeLostMC"
+    },
+    {
+      "id": 10,
+      "name": "MarkerTypeNumber0"
+    },
+    {
+      "id": 11,
+      "name": "MarkerTypeNumber1"
+    },
+    {
+      "id": 12,
+      "name": "MarkerTypeNumber2"
+    },
+    {
+      "id": 13,
+      "name": "MarkerTypeNumber3"
+    },
+    {
+      "id": 14,
+      "name": "MarkerTypeNumber4"
+    },
+    {
+      "id": 15,
+      "name": "MarkerTypeNumber5"
+    },
+    {
+      "id": 16,
+      "name": "MarkerTypeNumber6"
+    },
+    {
+      "id": 17,
+      "name": "MarkerTypeNumber7"
+    },
+    {
+      "id": 18,
+      "name": "MarkerTypeNumber8"
+    },
+    {
+      "id": 19,
+      "name": "MarkerTypeNumber9"
+    },
+    {
+      "id": 20,
+      "name": "MarkerTypeChevronUpx1"
+    },
+    {
+      "id": 21,
+      "name": "MarkerTypeChevronUpx2"
+    },
+    {
+      "id": 22,
+      "name": "MarkerTypeChevronUpx3"
+    },
+    {
+      "id": 23,
+      "name": "MarkerTypeHorizontalCircleFat"
+    },
+    {
+      "id": 24,
+      "name": "MarkerTypeReplayIcon"
+    },
+    {
+      "id": 25,
+      "name": "MarkerTypeHorizontalCircleSkinny"
+    },
+    {
+      "id": 26,
+      "name": "MarkerTypeHorizontalCircleSkinny_Arrow"
+    },
+    {
+      "id": 27,
+      "name": "MarkerTypeHorizontalSplitArrowCircle"
+    },
+    {
+      "id": 28,
+      "name": "MarkerTypeDebugSphere"
+    },
+    {
+      "id": 29,
+      "name": "MarkerTypeDollarSign"
+    },
+    {
+      "id": 30,
+      "name": "MarkerTypeHorizontalBars"
+    },
+    {
+      "id": 31,
+      "name": "MarkerTypeWolfHead"
+    },
+    {
+      "id": 32,
+      "name": "MarkerTypeQuestionMark"
+    },
+    {
+      "id": 33,
+      "name": "MarkerTypePlaneSymbol"
+    },
+    {
+      "id": 34,
+      "name": "MarkerTypeHelicopterSymbol"
+    },
+    {
+      "id": 35,
+      "name": "MarkerTypeBoatSymbol"
+    },
+    {
+      "id": 36,
+      "name": "MarkerTypeCarSymbol"
+    },
+    {
+      "id": 37,
+      "name": "MarkerTypeMotorcycleSymbol"
+    },
+    {
+      "id": 38,
+      "name": "MarkerTypeBikeSymbol"
+    },
+    {
+      "id": 39,
+      "name": "MarkerTypeTruckSymbol"
+    },
+    {
+      "id": 40,
+      "name": "MarkerTypeParachuteSymbol"
+    },
+    {
+      "id": 41,
+      "name": "?"
+    },
+    {
+      "id": 42,
+      "name": "MarkerTypeSawbladeSymbol"
+    },
+    {
+      "id": 43,
+      "name": "?"
+    }
+  ],
+  "css_item_count": 44,
+  "markdown": "Markers\n-----\n\n ` ${idx}\n${name}`).join('\\n') -->\n\n.markers {\n    display:grid;\n    grid-template-columns: repeat(auto-fill, 25%);\n}\n\n.marker {\n    padding: 2.5px;\n    margin: 2.5px;\n    border: 1px solid #333;\n    background-color: #fafafa;\n    position: relative\n}\n\n.marker span {\n    display: block;\n    text-align: center;\n    bottom: 2.5px;\n    left: 2.5px;\n    right: 2.5px;\n    word-wrap: break-word;\n}\n\n.marker img {\n    max-height: 200px;\n}\n\n**0**\nMarkerTypeUpsideDownCone\n\n**1**\nMarkerTypeVerticalCylinder\n\n**2**\nMarkerTypeThickChevronUp\n\n**3**\nMarkerTypeThinChevronUp\n\n**4**\nMarkerTypeCheckeredFlagRect\n\n**5**\nMarkerTypeCheckeredFlagCircle\n\n**6**\nMarkerTypeVerticleCircle\n\n**7**\nMarkerTypePlaneModel\n\n**8**\nMarkerTypeLostMCTransparent\n\n**9**\nMarkerTypeLostMC\n\n**10**\nMarkerTypeNumber0\n\n**11**\nMarkerTypeNumber1\n\n**12**\nMarkerTypeNumber2\n\n**13**\nMarkerTypeNumber3\n\n**14**\nMarkerTypeNumber4\n\n**15**\nMarkerTypeNumber5\n\n**16**\nMarkerTypeNumber6\n\n**17**\nMarkerTypeNumber7\n\n**18**\nMarkerTypeNumber8\n\n**19**\nMarkerTypeNumber9\n\n**20**\nMarkerTypeChevronUpx1\n\n**21**\nMarkerTypeChevronUpx2\n\n**22**\nMarkerTypeChevronUpx3\n\n**23**\nMarkerTypeHorizontalCircleFat\n\n**24**\nMarkerTypeReplayIcon\n\n**25**\nMarkerTypeHorizontalCircleSkinny\n\n**26**\nMarkerTypeHorizontalCircleSkinny_Arrow\n\n**27**\nMarkerTypeHorizontalSplitArrowCircle\n\n**28**\nMarkerTypeDebugSphere\n\n**29**\nMarkerTypeDollarSign\n\n**30**\nMarkerTypeHorizontalBars\n\n**31**\nMarkerTypeWolfHead\n\n**32**\nMarkerTypeQuestionMark\n\n**33**\nMarkerTypePlaneSymbol\n\n**34**\nMarkerTypeHelicopterSymbol\n\n**35**\nMarkerTypeBoatSymbol\n\n**36**\nMarkerTypeCarSymbol\n\n**37**\nMarkerTypeMotorcycleSymbol\n\n**38**\nMarkerTypeBikeSymbol\n\n**39**\nMarkerTypeTruckSymbol\n\n**40**\nMarkerTypeParachuteSymbol\n\n**41**\n?\n\n**42**\nMarkerTypeSawbladeSymbol\n\n**43**\n?",
+  "raw_html_length": 6064
+}

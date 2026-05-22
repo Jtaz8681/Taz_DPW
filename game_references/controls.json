@@ -1,0 +1,4386 @@
+{
+  "url_path": "/docs/game-references/controls/",
+  "full_url": "https://docs.fivem.net/docs/game-references/controls/",
+  "title": "controls",
+  "slug": "controls",
+  "parent_category": null,
+  "toc": [],
+  "tables": [
+    {
+      "headers": [
+        "Index",
+        "Name"
+      ],
+      "rows": [
+        [
+          "0",
+          "PLAYER\\_CONTROL"
+        ],
+        [
+          "2",
+          "FRONTEND\\_CONTROL"
+        ]
+      ],
+      "data": [
+        {
+          "Index": "0",
+          "Name": "PLAYER\\_CONTROL"
+        },
+        {
+          "Index": "2",
+          "Name": "FRONTEND\\_CONTROL"
+        }
+      ]
+    },
+    {
+      "headers": [
+        "Index",
+        "Name",
+        "Default QWERTY",
+        "Xbox Controller"
+      ],
+      "rows": [
+        [
+          "0",
+          "INPUT\\_NEXT\\_CAMERA",
+          "V",
+          "BACK"
+        ],
+        [
+          "1",
+          "INPUT\\_LOOK\\_LR",
+          "MOUSE RIGHT",
+          "RIGHT STICK"
+        ],
+        [
+          "2",
+          "INPUT\\_LOOK\\_UD",
+          "MOUSE DOWN",
+          "RIGHT STICK"
+        ],
+        [
+          "3",
+          "INPUT\\_LOOK\\_UP\\_ONLY",
+          "(NONE)",
+          "RIGHT STICK"
+        ],
+        [
+          "4",
+          "INPUT\\_LOOK\\_DOWN\\_ONLY",
+          "MOUSE DOWN",
+          "RIGHT STICK"
+        ],
+        [
+          "5",
+          "INPUT\\_LOOK\\_LEFT\\_ONLY",
+          "(NONE)",
+          "RIGHT STICK"
+        ],
+        [
+          "6",
+          "INPUT\\_LOOK\\_RIGHT\\_ONLY",
+          "MOUSE RIGHT",
+          "RIGHT STICK"
+        ],
+        [
+          "7",
+          "INPUT\\_CINEMATIC\\_SLOWMO",
+          "(NONE)",
+          "R3"
+        ],
+        [
+          "8",
+          "INPUT\\_SCRIPTED\\_FLY\\_UD",
+          "S",
+          "LEFT STICK"
+        ],
+        [
+          "9",
+          "INPUT\\_SCRIPTED\\_FLY\\_LR",
+          "D",
+          "LEFT STICK"
+        ],
+        [
+          "10",
+          "INPUT\\_SCRIPTED\\_FLY\\_ZUP",
+          "PAGEUP",
+          "LT"
+        ],
+        [
+          "11",
+          "INPUT\\_SCRIPTED\\_FLY\\_ZDOWN",
+          "PAGEDOWN",
+          "RT"
+        ],
+        [
+          "12",
+          "INPUT\\_WEAPON\\_WHEEL\\_UD",
+          "MOUSE DOWN",
+          "RIGHT STICK"
+        ],
+        [
+          "13",
+          "INPUT\\_WEAPON\\_WHEEL\\_LR",
+          "MOUSE RIGHT",
+          "RIGHT STICK"
+        ],
+        [
+          "14",
+          "INPUT\\_WEAPON\\_WHEEL\\_NEXT",
+          "SCROLLWHEEL DOWN",
+          "DPAD RIGHT"
+        ],
+        [
+          "15",
+          "INPUT\\_WEAPON\\_WHEEL\\_PREV",
+          "SCROLLWHEEL UP",
+          "DPAD LEFT"
+        ],
+        [
+          "16",
+          "INPUT\\_SELECT\\_NEXT\\_WEAPON",
+          "SCROLLWHEEL DOWN",
+          "(NONE)"
+        ],
+        [
+          "17",
+          "INPUT\\_SELECT\\_PREV\\_WEAPON",
+          "SCROLLWHEEL UP",
+          "(NONE)"
+        ],
+        [
+          "18",
+          "INPUT\\_SKIP\\_CUTSCENE",
+          "ENTER / LEFT MOUSE BUTTON / SPACEBAR",
+          "A"
+        ],
+        [
+          "19",
+          "INPUT\\_CHARACTER\\_WHEEL",
+          "LEFT ALT",
+          "DPAD DOWN"
+        ],
+        [
+          "20",
+          "INPUT\\_MULTIPLAYER\\_INFO",
+          "Z",
+          "DPAD DOWN"
+        ],
+        [
+          "21",
+          "INPUT\\_SPRINT",
+          "LEFT SHIFT",
+          "A"
+        ],
+        [
+          "22",
+          "INPUT\\_JUMP",
+          "SPACEBAR",
+          "X"
+        ],
+        [
+          "23",
+          "INPUT\\_ENTER",
+          "F",
+          "Y"
+        ],
+        [
+          "24",
+          "INPUT\\_ATTACK",
+          "LEFT MOUSE BUTTON",
+          "RT"
+        ],
+        [
+          "25",
+          "INPUT\\_AIM",
+          "RIGHT MOUSE BUTTON",
+          "LT"
+        ],
+        [
+          "26",
+          "INPUT\\_LOOK\\_BEHIND",
+          "C",
+          "R3"
+        ],
+        [
+          "27",
+          "INPUT\\_PHONE",
+          "ARROW UP / SCROLLWHEEL BUTTON (PRESS)",
+          "DPAD UP"
+        ],
+        [
+          "28",
+          "INPUT\\_SPECIAL\\_ABILITY",
+          "(NONE)",
+          "L3"
+        ],
+        [
+          "29",
+          "INPUT\\_SPECIAL\\_ABILITY\\_SECONDARY",
+          "B",
+          "R3"
+        ],
+        [
+          "30",
+          "INPUT\\_MOVE\\_LR",
+          "D",
+          "LEFT STICK"
+        ],
+        [
+          "31",
+          "INPUT\\_MOVE\\_UD",
+          "S",
+          "LEFT STICK"
+        ],
+        [
+          "32",
+          "INPUT\\_MOVE\\_UP\\_ONLY",
+          "W",
+          "LEFT STICK"
+        ],
+        [
+          "33",
+          "INPUT\\_MOVE\\_DOWN\\_ONLY",
+          "S",
+          "LEFT STICK"
+        ],
+        [
+          "34",
+          "INPUT\\_MOVE\\_LEFT\\_ONLY",
+          "A",
+          "LEFT STICK"
+        ],
+        [
+          "35",
+          "INPUT\\_MOVE\\_RIGHT\\_ONLY",
+          "D",
+          "LEFT STICK"
+        ],
+        [
+          "36",
+          "INPUT\\_DUCK",
+          "LEFT CTRL",
+          "L3"
+        ],
+        [
+          "37",
+          "INPUT\\_SELECT\\_WEAPON",
+          "TAB",
+          "LB"
+        ],
+        [
+          "38",
+          "INPUT\\_PICKUP",
+          "E",
+          "LB"
+        ],
+        [
+          "39",
+          "INPUT\\_SNIPER\\_ZOOM",
+          "\\[",
+          "LEFT STICK"
+        ],
+        [
+          "40",
+          "INPUT\\_SNIPER\\_ZOOM\\_IN\\_ONLY",
+          "\\]",
+          "LEFT STICK"
+        ],
+        [
+          "41",
+          "INPUT\\_SNIPER\\_ZOOM\\_OUT\\_ONLY",
+          "\\[",
+          "LEFT STICK"
+        ],
+        [
+          "42",
+          "INPUT\\_SNIPER\\_ZOOM\\_IN\\_SECONDARY",
+          "\\]",
+          "DPAD UP"
+        ],
+        [
+          "43",
+          "INPUT\\_SNIPER\\_ZOOM\\_OUT\\_SECONDARY",
+          "\\[",
+          "DPAD DOWN"
+        ],
+        [
+          "44",
+          "INPUT\\_COVER",
+          "Q",
+          "RB"
+        ],
+        [
+          "45",
+          "INPUT\\_RELOAD",
+          "R",
+          "B"
+        ],
+        [
+          "46",
+          "INPUT\\_TALK",
+          "E",
+          "DPAD RIGHT"
+        ],
+        [
+          "47",
+          "INPUT\\_DETONATE",
+          "G",
+          "DPAD LEFT"
+        ],
+        [
+          "48",
+          "INPUT\\_HUD\\_SPECIAL",
+          "Z",
+          "DPAD DOWN"
+        ],
+        [
+          "49",
+          "INPUT\\_ARREST",
+          "F",
+          "Y"
+        ],
+        [
+          "50",
+          "INPUT\\_ACCURATE\\_AIM",
+          "SCROLLWHEEL DOWN",
+          "R3"
+        ],
+        [
+          "51",
+          "INPUT\\_CONTEXT",
+          "E",
+          "DPAD RIGHT"
+        ],
+        [
+          "52",
+          "INPUT\\_CONTEXT\\_SECONDARY",
+          "Q",
+          "DPAD LEFT"
+        ],
+        [
+          "53",
+          "INPUT\\_WEAPON\\_SPECIAL",
+          "(NONE)",
+          "Y"
+        ],
+        [
+          "54",
+          "INPUT\\_WEAPON\\_SPECIAL\\_TWO",
+          "E",
+          "DPAD RIGHT"
+        ],
+        [
+          "55",
+          "INPUT\\_DIVE",
+          "SPACEBAR",
+          "RB"
+        ],
+        [
+          "56",
+          "INPUT\\_DROP\\_WEAPON",
+          "F9",
+          "Y"
+        ],
+        [
+          "57",
+          "INPUT\\_DROP\\_AMMO",
+          "F10",
+          "B"
+        ],
+        [
+          "58",
+          "INPUT\\_THROW\\_GRENADE",
+          "G",
+          "DPAD LEFT"
+        ],
+        [
+          "59",
+          "INPUT\\_VEH\\_MOVE\\_LR",
+          "D",
+          "LEFT STICK"
+        ],
+        [
+          "60",
+          "INPUT\\_VEH\\_MOVE\\_UD",
+          "LEFT CTRL",
+          "LEFT STICK"
+        ],
+        [
+          "61",
+          "INPUT\\_VEH\\_MOVE\\_UP\\_ONLY",
+          "LEFT SHIFT",
+          "LEFT STICK"
+        ],
+        [
+          "62",
+          "INPUT\\_VEH\\_MOVE\\_DOWN\\_ONLY",
+          "LEFT CTRL",
+          "LEFT STICK"
+        ],
+        [
+          "63",
+          "INPUT\\_VEH\\_MOVE\\_LEFT\\_ONLY",
+          "A",
+          "LEFT STICK"
+        ],
+        [
+          "64",
+          "INPUT\\_VEH\\_MOVE\\_RIGHT\\_ONLY",
+          "D",
+          "LEFT STICK"
+        ],
+        [
+          "65",
+          "INPUT\\_VEH\\_SPECIAL",
+          "(NONE)",
+          "(NONE)"
+        ],
+        [
+          "66",
+          "INPUT\\_VEH\\_GUN\\_LR",
+          "MOUSE RIGHT",
+          "RIGHT STICK"
+        ],
+        [
+          "67",
+          "INPUT\\_VEH\\_GUN\\_UD",
+          "MOUSE DOWN",
+          "RIGHT STICK"
+        ],
+        [
+          "68",
+          "INPUT\\_VEH\\_AIM",
+          "RIGHT MOUSE BUTTON",
+          "LB"
+        ],
+        [
+          "69",
+          "INPUT\\_VEH\\_ATTACK",
+          "LEFT MOUSE BUTTON",
+          "RB"
+        ],
+        [
+          "70",
+          "INPUT\\_VEH\\_ATTACK2",
+          "RIGHT MOUSE BUTTON",
+          "A"
+        ],
+        [
+          "71",
+          "INPUT\\_VEH\\_ACCELERATE",
+          "W",
+          "RT"
+        ],
+        [
+          "72",
+          "INPUT\\_VEH\\_BRAKE",
+          "S",
+          "LT"
+        ],
+        [
+          "73",
+          "INPUT\\_VEH\\_DUCK",
+          "X",
+          "A"
+        ],
+        [
+          "74",
+          "INPUT\\_VEH\\_HEADLIGHT",
+          "H",
+          "DPAD RIGHT"
+        ],
+        [
+          "75",
+          "INPUT\\_VEH\\_EXIT",
+          "F",
+          "Y"
+        ],
+        [
+          "76",
+          "INPUT\\_VEH\\_HANDBRAKE",
+          "SPACEBAR",
+          "RB"
+        ],
+        [
+          "77",
+          "INPUT\\_VEH\\_HOTWIRE\\_LEFT",
+          "W",
+          "LT"
+        ],
+        [
+          "78",
+          "INPUT\\_VEH\\_HOTWIRE\\_RIGHT",
+          "S",
+          "RT"
+        ],
+        [
+          "79",
+          "INPUT\\_VEH\\_LOOK\\_BEHIND",
+          "C",
+          "R3"
+        ],
+        [
+          "80",
+          "INPUT\\_VEH\\_CIN\\_CAM",
+          "R",
+          "B"
+        ],
+        [
+          "81",
+          "INPUT\\_VEH\\_NEXT\\_RADIO",
+          ".",
+          "(NONE)"
+        ],
+        [
+          "82",
+          "INPUT\\_VEH\\_PREV\\_RADIO",
+          ",",
+          "(NONE)"
+        ],
+        [
+          "83",
+          "INPUT\\_VEH\\_NEXT\\_RADIO\\_TRACK",
+          "=",
+          "(NONE)"
+        ],
+        [
+          "84",
+          "INPUT\\_VEH\\_PREV\\_RADIO\\_TRACK",
+          "-",
+          "(NONE)"
+        ],
+        [
+          "85",
+          "INPUT\\_VEH\\_RADIO\\_WHEEL",
+          "Q",
+          "DPAD LEFT"
+        ],
+        [
+          "86",
+          "INPUT\\_VEH\\_HORN",
+          "E",
+          "L3"
+        ],
+        [
+          "87",
+          "INPUT\\_VEH\\_FLY\\_THROTTLE\\_UP",
+          "W",
+          "RT"
+        ],
+        [
+          "88",
+          "INPUT\\_VEH\\_FLY\\_THROTTLE\\_DOWN",
+          "S",
+          "LT"
+        ],
+        [
+          "89",
+          "INPUT\\_VEH\\_FLY\\_YAW\\_LEFT",
+          "A",
+          "LB"
+        ],
+        [
+          "90",
+          "INPUT\\_VEH\\_FLY\\_YAW\\_RIGHT",
+          "D",
+          "RB"
+        ],
+        [
+          "91",
+          "INPUT\\_VEH\\_PASSENGER\\_AIM",
+          "RIGHT MOUSE BUTTON",
+          "LT"
+        ],
+        [
+          "92",
+          "INPUT\\_VEH\\_PASSENGER\\_ATTACK",
+          "LEFT MOUSE BUTTON",
+          "RT"
+        ],
+        [
+          "93",
+          "INPUT\\_VEH\\_SPECIAL\\_ABILITY\\_FRANKLIN",
+          "(NONE)",
+          "R3"
+        ],
+        [
+          "94",
+          "INPUT\\_VEH\\_STUNT\\_UD",
+          "(NONE)",
+          "(NONE)"
+        ],
+        [
+          "95",
+          "INPUT\\_VEH\\_CINEMATIC\\_UD",
+          "MOUSE DOWN",
+          "RIGHT STICK"
+        ],
+        [
+          "96",
+          "INPUT\\_VEH\\_CINEMATIC\\_UP\\_ONLY",
+          "NUMPAD- / SCROLLWHEEL UP",
+          "(NONE)"
+        ],
+        [
+          "97",
+          "INPUT\\_VEH\\_CINEMATIC\\_DOWN\\_ONLY",
+          "NUMPAD+ / SCROLLWHEEL DOWN",
+          "(NONE)"
+        ],
+        [
+          "98",
+          "INPUT\\_VEH\\_CINEMATIC\\_LR",
+          "MOUSE RIGHT",
+          "RIGHT STICK"
+        ],
+        [
+          "99",
+          "INPUT\\_VEH\\_SELECT\\_NEXT\\_WEAPON",
+          "SCROLLWHEEL UP",
+          "X"
+        ],
+        [
+          "100",
+          "INPUT\\_VEH\\_SELECT\\_PREV\\_WEAPON",
+          "\\[",
+          "(NONE)"
+        ],
+        [
+          "101",
+          "INPUT\\_VEH\\_ROOF",
+          "H",
+          "DPAD RIGHT"
+        ],
+        [
+          "102",
+          "INPUT\\_VEH\\_JUMP",
+          "SPACEBAR",
+          "RB"
+        ],
+        [
+          "103",
+          "INPUT\\_VEH\\_GRAPPLING\\_HOOK",
+          "E",
+          "DPAD RIGHT"
+        ],
+        [
+          "104",
+          "INPUT\\_VEH\\_SHUFFLE",
+          "H",
+          "DPAD RIGHT"
+        ],
+        [
+          "105",
+          "INPUT\\_VEH\\_DROP\\_PROJECTILE",
+          "X",
+          "A"
+        ],
+        [
+          "106",
+          "INPUT\\_VEH\\_MOUSE\\_CONTROL\\_OVERRIDE",
+          "LEFT MOUSE BUTTON",
+          "(NONE)"
+        ],
+        [
+          "107",
+          "INPUT\\_VEH\\_FLY\\_ROLL\\_LR",
+          "NUMPAD 6",
+          "LEFT STICK"
+        ],
+        [
+          "108",
+          "INPUT\\_VEH\\_FLY\\_ROLL\\_LEFT\\_ONLY",
+          "NUMPAD 4",
+          "LEFT STICK"
+        ],
+        [
+          "109",
+          "INPUT\\_VEH\\_FLY\\_ROLL\\_RIGHT\\_ONLY",
+          "NUMPAD 6",
+          "LEFT STICK"
+        ],
+        [
+          "110",
+          "INPUT\\_VEH\\_FLY\\_PITCH\\_UD",
+          "NUMPAD 5",
+          "LEFT STICK"
+        ],
+        [
+          "111",
+          "INPUT\\_VEH\\_FLY\\_PITCH\\_UP\\_ONLY",
+          "NUMPAD 8",
+          "LEFT STICK"
+        ],
+        [
+          "112",
+          "INPUT\\_VEH\\_FLY\\_PITCH\\_DOWN\\_ONLY",
+          "NUMPAD 5",
+          "LEFT STICK"
+        ],
+        [
+          "113",
+          "INPUT\\_VEH\\_FLY\\_UNDERCARRIAGE",
+          "G",
+          "L3"
+        ],
+        [
+          "114",
+          "INPUT\\_VEH\\_FLY\\_ATTACK",
+          "RIGHT MOUSE BUTTON",
+          "A"
+        ],
+        [
+          "115",
+          "INPUT\\_VEH\\_FLY\\_SELECT\\_NEXT\\_WEAPON",
+          "SCROLLWHEEL UP",
+          "DPAD LEFT"
+        ],
+        [
+          "116",
+          "INPUT\\_VEH\\_FLY\\_SELECT\\_PREV\\_WEAPON",
+          "\\[",
+          "(NONE)"
+        ],
+        [
+          "117",
+          "INPUT\\_VEH\\_FLY\\_SELECT\\_TARGET\\_LEFT",
+          "NUMPAD 7",
+          "LB"
+        ],
+        [
+          "118",
+          "INPUT\\_VEH\\_FLY\\_SELECT\\_TARGET\\_RIGHT",
+          "NUMPAD 9",
+          "RB"
+        ],
+        [
+          "119",
+          "INPUT\\_VEH\\_FLY\\_VERTICAL\\_FLIGHT\\_MODE",
+          "E",
+          "DPAD RIGHT"
+        ],
+        [
+          "120",
+          "INPUT\\_VEH\\_FLY\\_DUCK",
+          "X",
+          "A"
+        ],
+        [
+          "121",
+          "INPUT\\_VEH\\_FLY\\_ATTACK\\_CAMERA",
+          "INSERT",
+          "R3"
+        ],
+        [
+          "122",
+          "INPUT\\_VEH\\_FLY\\_MOUSE\\_CONTROL\\_OVERRIDE",
+          "LEFT MOUSE BUTTON",
+          "(NONE)"
+        ],
+        [
+          "123",
+          "INPUT\\_VEH\\_SUB\\_TURN\\_LR",
+          "NUMPAD 6",
+          "LEFT STICK"
+        ],
+        [
+          "124",
+          "INPUT\\_VEH\\_SUB\\_TURN\\_LEFT\\_ONLY",
+          "NUMPAD 4",
+          "LEFT STICK"
+        ],
+        [
+          "125",
+          "INPUT\\_VEH\\_SUB\\_TURN\\_RIGHT\\_ONLY",
+          "NUMPAD 6",
+          "LEFT STICK"
+        ],
+        [
+          "126",
+          "INPUT\\_VEH\\_SUB\\_PITCH\\_UD",
+          "NUMPAD 5",
+          "LEFT STICK"
+        ],
+        [
+          "127",
+          "INPUT\\_VEH\\_SUB\\_PITCH\\_UP\\_ONLY",
+          "NUMPAD 8",
+          "LEFT STICK"
+        ],
+        [
+          "128",
+          "INPUT\\_VEH\\_SUB\\_PITCH\\_DOWN\\_ONLY",
+          "NUMPAD 5",
+          "LEFT STICK"
+        ],
+        [
+          "129",
+          "INPUT\\_VEH\\_SUB\\_THROTTLE\\_UP",
+          "W",
+          "RT"
+        ],
+        [
+          "130",
+          "INPUT\\_VEH\\_SUB\\_THROTTLE\\_DOWN",
+          "S",
+          "LT"
+        ],
+        [
+          "131",
+          "INPUT\\_VEH\\_SUB\\_ASCEND",
+          "LEFT SHIFT",
+          "X"
+        ],
+        [
+          "132",
+          "INPUT\\_VEH\\_SUB\\_DESCEND",
+          "LEFT CTRL",
+          "A"
+        ],
+        [
+          "133",
+          "INPUT\\_VEH\\_SUB\\_TURN\\_HARD\\_LEFT",
+          "A",
+          "LB"
+        ],
+        [
+          "134",
+          "INPUT\\_VEH\\_SUB\\_TURN\\_HARD\\_RIGHT",
+          "D",
+          "RB"
+        ],
+        [
+          "135",
+          "INPUT\\_VEH\\_SUB\\_MOUSE\\_CONTROL\\_OVERRIDE",
+          "LEFT MOUSE BUTTON",
+          "(NONE)"
+        ],
+        [
+          "136",
+          "INPUT\\_VEH\\_PUSHBIKE\\_PEDAL",
+          "W",
+          "A"
+        ],
+        [
+          "137",
+          "INPUT\\_VEH\\_PUSHBIKE\\_SPRINT",
+          "CAPSLOCK",
+          "A"
+        ],
+        [
+          "138",
+          "INPUT\\_VEH\\_PUSHBIKE\\_FRONT\\_BRAKE",
+          "Q",
+          "LT"
+        ],
+        [
+          "139",
+          "INPUT\\_VEH\\_PUSHBIKE\\_REAR\\_BRAKE",
+          "S",
+          "RT"
+        ],
+        [
+          "140",
+          "INPUT\\_MELEE\\_ATTACK\\_LIGHT",
+          "R",
+          "B"
+        ],
+        [
+          "141",
+          "INPUT\\_MELEE\\_ATTACK\\_HEAVY",
+          "Q",
+          "A"
+        ],
+        [
+          "142",
+          "INPUT\\_MELEE\\_ATTACK\\_ALTERNATE",
+          "LEFT MOUSE BUTTON",
+          "RT"
+        ],
+        [
+          "143",
+          "INPUT\\_MELEE\\_BLOCK",
+          "SPACEBAR",
+          "X"
+        ],
+        [
+          "144",
+          "INPUT\\_PARACHUTE\\_DEPLOY",
+          "F / LEFT MOUSE BUTTON",
+          "Y"
+        ],
+        [
+          "145",
+          "INPUT\\_PARACHUTE\\_DETACH",
+          "F",
+          "Y"
+        ],
+        [
+          "146",
+          "INPUT\\_PARACHUTE\\_TURN\\_LR",
+          "D",
+          "LEFT STICK"
+        ],
+        [
+          "147",
+          "INPUT\\_PARACHUTE\\_TURN\\_LEFT\\_ONLY",
+          "A",
+          "LEFT STICK"
+        ],
+        [
+          "148",
+          "INPUT\\_PARACHUTE\\_TURN\\_RIGHT\\_ONLY",
+          "D",
+          "LEFT STICK"
+        ],
+        [
+          "149",
+          "INPUT\\_PARACHUTE\\_PITCH\\_UD",
+          "S",
+          "LEFT STICK"
+        ],
+        [
+          "150",
+          "INPUT\\_PARACHUTE\\_PITCH\\_UP\\_ONLY",
+          "W",
+          "LEFT STICK"
+        ],
+        [
+          "151",
+          "INPUT\\_PARACHUTE\\_PITCH\\_DOWN\\_ONLY",
+          "S",
+          "LEFT STICK"
+        ],
+        [
+          "152",
+          "INPUT\\_PARACHUTE\\_BRAKE\\_LEFT",
+          "Q",
+          "LB"
+        ],
+        [
+          "153",
+          "INPUT\\_PARACHUTE\\_BRAKE\\_RIGHT",
+          "E",
+          "RB"
+        ],
+        [
+          "154",
+          "INPUT\\_PARACHUTE\\_SMOKE",
+          "X",
+          "A"
+        ],
+        [
+          "155",
+          "INPUT\\_PARACHUTE\\_PRECISION\\_LANDING",
+          "LEFT SHIFT",
+          "(NONE)"
+        ],
+        [
+          "156",
+          "INPUT\\_MAP",
+          "(NONE)",
+          "(NONE)"
+        ],
+        [
+          "157",
+          "INPUT\\_SELECT\\_WEAPON\\_UNARMED",
+          "1",
+          "(NONE)"
+        ],
+        [
+          "158",
+          "INPUT\\_SELECT\\_WEAPON\\_MELEE",
+          "2",
+          "(NONE)"
+        ],
+        [
+          "159",
+          "INPUT\\_SELECT\\_WEAPON\\_HANDGUN",
+          "6",
+          "(NONE)"
+        ],
+        [
+          "160",
+          "INPUT\\_SELECT\\_WEAPON\\_SHOTGUN",
+          "3",
+          "(NONE)"
+        ],
+        [
+          "161",
+          "INPUT\\_SELECT\\_WEAPON\\_SMG",
+          "7",
+          "(NONE)"
+        ],
+        [
+          "162",
+          "INPUT\\_SELECT\\_WEAPON\\_AUTO\\_RIFLE",
+          "8",
+          "(NONE)"
+        ],
+        [
+          "163",
+          "INPUT\\_SELECT\\_WEAPON\\_SNIPER",
+          "9",
+          "(NONE)"
+        ],
+        [
+          "164",
+          "INPUT\\_SELECT\\_WEAPON\\_HEAVY",
+          "4",
+          "(NONE)"
+        ],
+        [
+          "165",
+          "INPUT\\_SELECT\\_WEAPON\\_SPECIAL",
+          "5",
+          "(NONE)"
+        ],
+        [
+          "166",
+          "INPUT\\_SELECT\\_CHARACTER\\_MICHAEL",
+          "F5",
+          "(NONE)"
+        ],
+        [
+          "167",
+          "INPUT\\_SELECT\\_CHARACTER\\_FRANKLIN",
+          "F6",
+          "(NONE)"
+        ],
+        [
+          "168",
+          "INPUT\\_SELECT\\_CHARACTER\\_TREVOR",
+          "F7",
+          "(NONE)"
+        ],
+        [
+          "169",
+          "INPUT\\_SELECT\\_CHARACTER\\_MULTIPLAYER",
+          "F8 (CONSOLE)",
+          "(NONE)"
+        ],
+        [
+          "170",
+          "INPUT\\_SAVE\\_REPLAY\\_CLIP",
+          "F3",
+          "B"
+        ],
+        [
+          "171",
+          "INPUT\\_SPECIAL\\_ABILITY\\_PC",
+          "CAPSLOCK",
+          "(NONE)"
+        ],
+        [
+          "172",
+          "INPUT\\_CELLPHONE\\_UP",
+          "ARROW UP",
+          "DPAD UP"
+        ],
+        [
+          "173",
+          "INPUT\\_CELLPHONE\\_DOWN",
+          "ARROW DOWN",
+          "DPAD DOWN"
+        ],
+        [
+          "174",
+          "INPUT\\_CELLPHONE\\_LEFT",
+          "ARROW LEFT",
+          "DPAD LEFT"
+        ],
+        [
+          "175",
+          "INPUT\\_CELLPHONE\\_RIGHT",
+          "ARROW RIGHT",
+          "DPAD RIGHT"
+        ],
+        [
+          "176",
+          "INPUT\\_CELLPHONE\\_SELECT",
+          "ENTER / LEFT MOUSE BUTTON",
+          "A"
+        ],
+        [
+          "177",
+          "INPUT\\_CELLPHONE\\_CANCEL",
+          "BACKSPACE / ESC / RIGHT MOUSE BUTTON",
+          "B"
+        ],
+        [
+          "178",
+          "INPUT\\_CELLPHONE\\_OPTION",
+          "DELETE",
+          "Y"
+        ],
+        [
+          "179",
+          "INPUT\\_CELLPHONE\\_EXTRA\\_OPTION",
+          "SPACEBAR",
+          "X"
+        ],
+        [
+          "180",
+          "INPUT\\_CELLPHONE\\_SCROLL\\_FORWARD",
+          "SCROLLWHEEL DOWN",
+          "(NONE)"
+        ],
+        [
+          "181",
+          "INPUT\\_CELLPHONE\\_SCROLL\\_BACKWARD",
+          "SCROLLWHEEL UP",
+          "(NONE)"
+        ],
+        [
+          "182",
+          "INPUT\\_CELLPHONE\\_CAMERA\\_FOCUS\\_LOCK",
+          "L",
+          "RT"
+        ],
+        [
+          "183",
+          "INPUT\\_CELLPHONE\\_CAMERA\\_GRID",
+          "G",
+          "RB"
+        ],
+        [
+          "184",
+          "INPUT\\_CELLPHONE\\_CAMERA\\_SELFIE",
+          "E",
+          "R3"
+        ],
+        [
+          "185",
+          "INPUT\\_CELLPHONE\\_CAMERA\\_DOF",
+          "F",
+          "LB"
+        ],
+        [
+          "186",
+          "INPUT\\_CELLPHONE\\_CAMERA\\_EXPRESSION",
+          "X",
+          "L3"
+        ],
+        [
+          "187",
+          "INPUT\\_FRONTEND\\_DOWN",
+          "ARROW DOWN",
+          "DPAD DOWN"
+        ],
+        [
+          "188",
+          "INPUT\\_FRONTEND\\_UP",
+          "ARROW UP",
+          "DPAD UP"
+        ],
+        [
+          "189",
+          "INPUT\\_FRONTEND\\_LEFT",
+          "ARROW LEFT",
+          "DPAD LEFT"
+        ],
+        [
+          "190",
+          "INPUT\\_FRONTEND\\_RIGHT",
+          "ARROW RIGHT",
+          "DPAD RIGHT"
+        ],
+        [
+          "191",
+          "INPUT\\_FRONTEND\\_RDOWN",
+          "ENTER",
+          "A"
+        ],
+        [
+          "192",
+          "INPUT\\_FRONTEND\\_RUP",
+          "TAB",
+          "Y"
+        ],
+        [
+          "193",
+          "INPUT\\_FRONTEND\\_RLEFT",
+          "(NONE)",
+          "X"
+        ],
+        [
+          "194",
+          "INPUT\\_FRONTEND\\_RRIGHT",
+          "BACKSPACE",
+          "B"
+        ],
+        [
+          "195",
+          "INPUT\\_FRONTEND\\_AXIS\\_X",
+          "D",
+          "LEFT STICK"
+        ],
+        [
+          "196",
+          "INPUT\\_FRONTEND\\_AXIS\\_Y",
+          "S",
+          "LEFT STICK"
+        ],
+        [
+          "197",
+          "INPUT\\_FRONTEND\\_RIGHT\\_AXIS\\_X",
+          "\\]",
+          "RIGHT STICK"
+        ],
+        [
+          "198",
+          "INPUT\\_FRONTEND\\_RIGHT\\_AXIS\\_Y",
+          "SCROLLWHEEL DOWN",
+          "RIGHT STICK"
+        ],
+        [
+          "199",
+          "INPUT\\_FRONTEND\\_PAUSE",
+          "P",
+          "START"
+        ],
+        [
+          "200",
+          "INPUT\\_FRONTEND\\_PAUSE\\_ALTERNATE",
+          "ESC",
+          "(NONE)"
+        ],
+        [
+          "201",
+          "INPUT\\_FRONTEND\\_ACCEPT",
+          "ENTER / NUMPAD ENTER",
+          "A"
+        ],
+        [
+          "202",
+          "INPUT\\_FRONTEND\\_CANCEL",
+          "BACKSPACE / ESC",
+          "B"
+        ],
+        [
+          "203",
+          "INPUT\\_FRONTEND\\_X",
+          "SPACEBAR",
+          "X"
+        ],
+        [
+          "204",
+          "INPUT\\_FRONTEND\\_Y",
+          "TAB",
+          "Y"
+        ],
+        [
+          "205",
+          "INPUT\\_FRONTEND\\_LB",
+          "Q",
+          "LB"
+        ],
+        [
+          "206",
+          "INPUT\\_FRONTEND\\_RB",
+          "E",
+          "RB"
+        ],
+        [
+          "207",
+          "INPUT\\_FRONTEND\\_LT",
+          "PAGE DOWN",
+          "LT"
+        ],
+        [
+          "208",
+          "INPUT\\_FRONTEND\\_RT",
+          "PAGE UP",
+          "RT"
+        ],
+        [
+          "209",
+          "INPUT\\_FRONTEND\\_LS",
+          "LEFT SHIFT",
+          "L3"
+        ],
+        [
+          "210",
+          "INPUT\\_FRONTEND\\_RS",
+          "LEFT CONTROL",
+          "R3"
+        ],
+        [
+          "211",
+          "INPUT\\_FRONTEND\\_LEADERBOARD",
+          "TAB",
+          "RB"
+        ],
+        [
+          "212",
+          "INPUT\\_FRONTEND\\_SOCIAL\\_CLUB",
+          "HOME",
+          "BACK"
+        ],
+        [
+          "213",
+          "INPUT\\_FRONTEND\\_SOCIAL\\_CLUB\\_SECONDARY",
+          "HOME",
+          "RB"
+        ],
+        [
+          "214",
+          "INPUT\\_FRONTEND\\_DELETE",
+          "DELETE",
+          "X"
+        ],
+        [
+          "215",
+          "INPUT\\_FRONTEND\\_ENDSCREEN\\_ACCEPT",
+          "ENTER",
+          "A"
+        ],
+        [
+          "216",
+          "INPUT\\_FRONTEND\\_ENDSCREEN\\_EXPAND",
+          "SPACEBAR",
+          "X"
+        ],
+        [
+          "217",
+          "INPUT\\_FRONTEND\\_SELECT",
+          "CAPSLOCK",
+          "BACK"
+        ],
+        [
+          "218",
+          "INPUT\\_SCRIPT\\_LEFT\\_AXIS\\_X",
+          "D",
+          "LEFT STICK"
+        ],
+        [
+          "219",
+          "INPUT\\_SCRIPT\\_LEFT\\_AXIS\\_Y",
+          "S",
+          "LEFT STICK"
+        ],
+        [
+          "220",
+          "INPUT\\_SCRIPT\\_RIGHT\\_AXIS\\_X",
+          "MOUSE RIGHT",
+          "RIGHT STICK"
+        ],
+        [
+          "221",
+          "INPUT\\_SCRIPT\\_RIGHT\\_AXIS\\_Y",
+          "MOUSE DOWN",
+          "RIGHT STICK"
+        ],
+        [
+          "222",
+          "INPUT\\_SCRIPT\\_RUP",
+          "RIGHT MOUSE BUTTON",
+          "Y"
+        ],
+        [
+          "223",
+          "INPUT\\_SCRIPT\\_RDOWN",
+          "LEFT MOUSE BUTTON",
+          "A"
+        ],
+        [
+          "224",
+          "INPUT\\_SCRIPT\\_RLEFT",
+          "LEFT CTRL",
+          "X"
+        ],
+        [
+          "225",
+          "INPUT\\_SCRIPT\\_RRIGHT",
+          "RIGHT MOUSE BUTTON",
+          "B"
+        ],
+        [
+          "226",
+          "INPUT\\_SCRIPT\\_LB",
+          "(NONE)",
+          "LB"
+        ],
+        [
+          "227",
+          "INPUT\\_SCRIPT\\_RB",
+          "(NONE)",
+          "RB"
+        ],
+        [
+          "228",
+          "INPUT\\_SCRIPT\\_LT",
+          "(NONE)",
+          "LT"
+        ],
+        [
+          "229",
+          "INPUT\\_SCRIPT\\_RT",
+          "LEFT MOUSE BUTTON",
+          "RT"
+        ],
+        [
+          "230",
+          "INPUT\\_SCRIPT\\_LS",
+          "(NONE)",
+          "L3"
+        ],
+        [
+          "231",
+          "INPUT\\_SCRIPT\\_RS",
+          "(NONE)",
+          "R3"
+        ],
+        [
+          "232",
+          "INPUT\\_SCRIPT\\_PAD\\_UP",
+          "W",
+          "DPAD UP"
+        ],
+        [
+          "233",
+          "INPUT\\_SCRIPT\\_PAD\\_DOWN",
+          "S",
+          "DPAD DOWN"
+        ],
+        [
+          "234",
+          "INPUT\\_SCRIPT\\_PAD\\_LEFT",
+          "A",
+          "DPAD LEFT"
+        ],
+        [
+          "235",
+          "INPUT\\_SCRIPT\\_PAD\\_RIGHT",
+          "D",
+          "DPAD RIGHT"
+        ],
+        [
+          "236",
+          "INPUT\\_SCRIPT\\_SELECT",
+          "V",
+          "BACK"
+        ],
+        [
+          "237",
+          "INPUT\\_CURSOR\\_ACCEPT",
+          "LEFT MOUSE BUTTON",
+          "(NONE)"
+        ],
+        [
+          "238",
+          "INPUT\\_CURSOR\\_CANCEL",
+          "RIGHT MOUSE BUTTON",
+          "(NONE)"
+        ],
+        [
+          "239",
+          "INPUT\\_CURSOR\\_X",
+          "(NONE)",
+          "(NONE)"
+        ],
+        [
+          "240",
+          "INPUT\\_CURSOR\\_Y",
+          "(NONE)",
+          "(NONE)"
+        ],
+        [
+          "241",
+          "INPUT\\_CURSOR\\_SCROLL\\_UP",
+          "SCROLLWHEEL UP",
+          "(NONE)"
+        ],
+        [
+          "242",
+          "INPUT\\_CURSOR\\_SCROLL\\_DOWN",
+          "SCROLLWHEEL DOWN",
+          "(NONE)"
+        ],
+        [
+          "243",
+          "INPUT\\_ENTER\\_CHEAT\\_CODE",
+          "~ / \\`",
+          "(NONE)"
+        ],
+        [
+          "244",
+          "INPUT\\_INTERACTION\\_MENU",
+          "M",
+          "BACK"
+        ],
+        [
+          "245",
+          "INPUT\\_MP\\_TEXT\\_CHAT\\_ALL",
+          "T",
+          "(NONE)"
+        ],
+        [
+          "246",
+          "INPUT\\_MP\\_TEXT\\_CHAT\\_TEAM",
+          "Y",
+          "(NONE)"
+        ],
+        [
+          "247",
+          "INPUT\\_MP\\_TEXT\\_CHAT\\_FRIENDS",
+          "(NONE)",
+          "(NONE)"
+        ],
+        [
+          "248",
+          "INPUT\\_MP\\_TEXT\\_CHAT\\_CREW",
+          "(NONE)",
+          "(NONE)"
+        ],
+        [
+          "249",
+          "INPUT\\_PUSH\\_TO\\_TALK",
+          "N",
+          "(NONE)"
+        ],
+        [
+          "250",
+          "INPUT\\_CREATOR\\_LS",
+          "R",
+          "L3"
+        ],
+        [
+          "251",
+          "INPUT\\_CREATOR\\_RS",
+          "F",
+          "R3"
+        ],
+        [
+          "252",
+          "INPUT\\_CREATOR\\_LT",
+          "X",
+          "LT"
+        ],
+        [
+          "253",
+          "INPUT\\_CREATOR\\_RT",
+          "C",
+          "RT"
+        ],
+        [
+          "254",
+          "INPUT\\_CREATOR\\_MENU\\_TOGGLE",
+          "LEFT SHIFT",
+          "(NONE)"
+        ],
+        [
+          "255",
+          "INPUT\\_CREATOR\\_ACCEPT",
+          "SPACEBAR",
+          "A"
+        ],
+        [
+          "256",
+          "INPUT\\_CREATOR\\_DELETE",
+          "DELETE",
+          "X"
+        ],
+        [
+          "257",
+          "INPUT\\_ATTACK2",
+          "LEFT MOUSE BUTTON",
+          "RT"
+        ],
+        [
+          "258",
+          "INPUT\\_RAPPEL\\_JUMP",
+          "(NONE)",
+          "A"
+        ],
+        [
+          "259",
+          "INPUT\\_RAPPEL\\_LONG\\_JUMP",
+          "(NONE)",
+          "X"
+        ],
+        [
+          "260",
+          "INPUT\\_RAPPEL\\_SMASH\\_WINDOW",
+          "(NONE)",
+          "RT"
+        ],
+        [
+          "261",
+          "INPUT\\_PREV\\_WEAPON",
+          "SCROLLWHEEL UP",
+          "DPAD LEFT"
+        ],
+        [
+          "262",
+          "INPUT\\_NEXT\\_WEAPON",
+          "SCROLLWHEEL DOWN",
+          "DPAD RIGHT"
+        ],
+        [
+          "263",
+          "INPUT\\_MELEE\\_ATTACK1",
+          "R",
+          "B"
+        ],
+        [
+          "264",
+          "INPUT\\_MELEE\\_ATTACK2",
+          "Q",
+          "A"
+        ],
+        [
+          "265",
+          "INPUT\\_WHISTLE",
+          "(NONE)",
+          "(NONE)"
+        ],
+        [
+          "266",
+          "INPUT\\_MOVE\\_LEFT",
+          "D",
+          "LEFT STICK"
+        ],
+        [
+          "267",
+          "INPUT\\_MOVE\\_RIGHT",
+          "D",
+          "LEFT STICK"
+        ],
+        [
+          "268",
+          "INPUT\\_MOVE\\_UP",
+          "S",
+          "LEFT STICK"
+        ],
+        [
+          "269",
+          "INPUT\\_MOVE\\_DOWN",
+          "S",
+          "LEFT STICK"
+        ],
+        [
+          "270",
+          "INPUT\\_LOOK\\_LEFT",
+          "MOUSE RIGHT",
+          "RIGHT STICK"
+        ],
+        [
+          "271",
+          "INPUT\\_LOOK\\_RIGHT",
+          "MOUSE RIGHT",
+          "RIGHT STICK"
+        ],
+        [
+          "272",
+          "INPUT\\_LOOK\\_UP",
+          "MOUSE DOWN",
+          "RIGHT STICK"
+        ],
+        [
+          "273",
+          "INPUT\\_LOOK\\_DOWN",
+          "MOUSE DOWN",
+          "RIGHT STICK"
+        ],
+        [
+          "274",
+          "INPUT\\_SNIPER\\_ZOOM\\_IN",
+          "\\[",
+          "RIGHT STICK"
+        ],
+        [
+          "275",
+          "INPUT\\_SNIPER\\_ZOOM\\_OUT",
+          "\\[",
+          "RIGHT STICK"
+        ],
+        [
+          "276",
+          "INPUT\\_SNIPER\\_ZOOM\\_IN\\_ALTERNATE",
+          "\\[",
+          "LEFT STICK"
+        ],
+        [
+          "277",
+          "INPUT\\_SNIPER\\_ZOOM\\_OUT\\_ALTERNATE",
+          "\\[",
+          "LEFT STICK"
+        ],
+        [
+          "278",
+          "INPUT\\_VEH\\_MOVE\\_LEFT",
+          "D",
+          "LEFT STICK"
+        ],
+        [
+          "279",
+          "INPUT\\_VEH\\_MOVE\\_RIGHT",
+          "D",
+          "LEFT STICK"
+        ],
+        [
+          "280",
+          "INPUT\\_VEH\\_MOVE\\_UP",
+          "LEFT CTRL",
+          "LEFT STICK"
+        ],
+        [
+          "281",
+          "INPUT\\_VEH\\_MOVE\\_DOWN",
+          "LEFT CTRL",
+          "LEFT STICK"
+        ],
+        [
+          "282",
+          "INPUT\\_VEH\\_GUN\\_LEFT",
+          "MOUSE RIGHT",
+          "RIGHT STICK"
+        ],
+        [
+          "283",
+          "INPUT\\_VEH\\_GUN\\_RIGHT",
+          "MOUSE RIGHT",
+          "RIGHT STICK"
+        ],
+        [
+          "284",
+          "INPUT\\_VEH\\_GUN\\_UP",
+          "MOUSE RIGHT",
+          "RIGHT STICK"
+        ],
+        [
+          "285",
+          "INPUT\\_VEH\\_GUN\\_DOWN",
+          "MOUSE RIGHT",
+          "RIGHT STICK"
+        ],
+        [
+          "286",
+          "INPUT\\_VEH\\_LOOK\\_LEFT",
+          "MOUSE RIGHT",
+          "RIGHT STICK"
+        ],
+        [
+          "287",
+          "INPUT\\_VEH\\_LOOK\\_RIGHT",
+          "MOUSE RIGHT",
+          "RIGHT STICK"
+        ],
+        [
+          "288",
+          "INPUT\\_REPLAY\\_START\\_STOP\\_RECORDING",
+          "F1",
+          "A"
+        ],
+        [
+          "289",
+          "INPUT\\_REPLAY\\_START\\_STOP\\_RECORDING\\_SECONDARY",
+          "F2",
+          "X"
+        ],
+        [
+          "290",
+          "INPUT\\_SCALED\\_LOOK\\_LR",
+          "MOUSE RIGHT",
+          "RIGHT STICK"
+        ],
+        [
+          "291",
+          "INPUT\\_SCALED\\_LOOK\\_UD",
+          "MOUSE DOWN",
+          "RIGHT STICK"
+        ],
+        [
+          "292",
+          "INPUT\\_SCALED\\_LOOK\\_UP\\_ONLY",
+          "(NONE)",
+          "RIGHT STICK"
+        ],
+        [
+          "293",
+          "INPUT\\_SCALED\\_LOOK\\_DOWN\\_ONLY",
+          "(NONE)",
+          "RIGHT STICK"
+        ],
+        [
+          "294",
+          "INPUT\\_SCALED\\_LOOK\\_LEFT\\_ONLY",
+          "(NONE)",
+          "RIGHT STICK"
+        ],
+        [
+          "295",
+          "INPUT\\_SCALED\\_LOOK\\_RIGHT\\_ONLY",
+          "(NONE)",
+          "RIGHT STICK"
+        ],
+        [
+          "296",
+          "INPUT\\_REPLAY\\_MARKER\\_DELETE",
+          "DELETE",
+          "X"
+        ],
+        [
+          "297",
+          "INPUT\\_REPLAY\\_CLIP\\_DELETE",
+          "DELETE",
+          "Y"
+        ],
+        [
+          "298",
+          "INPUT\\_REPLAY\\_PAUSE",
+          "SPACEBAR",
+          "A"
+        ],
+        [
+          "299",
+          "INPUT\\_REPLAY\\_REWIND",
+          "ARROW DOWN",
+          "LB"
+        ],
+        [
+          "300",
+          "INPUT\\_REPLAY\\_FFWD",
+          "ARROW UP",
+          "RB"
+        ],
+        [
+          "301",
+          "INPUT\\_REPLAY\\_NEWMARKER",
+          "M",
+          "A"
+        ],
+        [
+          "302",
+          "INPUT\\_REPLAY\\_RECORD",
+          "S",
+          "(NONE)"
+        ],
+        [
+          "303",
+          "INPUT\\_REPLAY\\_SCREENSHOT",
+          "U",
+          "DPAD UP"
+        ],
+        [
+          "304",
+          "INPUT\\_REPLAY\\_HIDEHUD",
+          "H",
+          "R3"
+        ],
+        [
+          "305",
+          "INPUT\\_REPLAY\\_STARTPOINT",
+          "B",
+          "(NONE)"
+        ],
+        [
+          "306",
+          "INPUT\\_REPLAY\\_ENDPOINT",
+          "N",
+          "(NONE)"
+        ],
+        [
+          "307",
+          "INPUT\\_REPLAY\\_ADVANCE",
+          "ARROW RIGHT",
+          "DPAD RIGHT"
+        ],
+        [
+          "308",
+          "INPUT\\_REPLAY\\_BACK",
+          "ARROW LEFT",
+          "DPAD LEFT"
+        ],
+        [
+          "309",
+          "INPUT\\_REPLAY\\_TOOLS",
+          "T",
+          "DPAD DOWN"
+        ],
+        [
+          "310",
+          "INPUT\\_REPLAY\\_RESTART",
+          "R",
+          "BACK"
+        ],
+        [
+          "311",
+          "INPUT\\_REPLAY\\_SHOWHOTKEY",
+          "K",
+          "DPAD DOWN"
+        ],
+        [
+          "312",
+          "INPUT\\_REPLAY\\_CYCLEMARKERLEFT",
+          "\\[",
+          "DPAD LEFT"
+        ],
+        [
+          "313",
+          "INPUT\\_REPLAY\\_CYCLEMARKERRIGHT",
+          "\\]",
+          "DPAD RIGHT"
+        ],
+        [
+          "314",
+          "INPUT\\_REPLAY\\_FOVINCREASE",
+          "NUMPAD +",
+          "RB"
+        ],
+        [
+          "315",
+          "INPUT\\_REPLAY\\_FOVDECREASE",
+          "NUMPAD -",
+          "LB"
+        ],
+        [
+          "316",
+          "INPUT\\_REPLAY\\_CAMERAUP",
+          "PAGE UP",
+          "(NONE)"
+        ],
+        [
+          "317",
+          "INPUT\\_REPLAY\\_CAMERADOWN",
+          "PAGE DOWN",
+          "(NONE)"
+        ],
+        [
+          "318",
+          "INPUT\\_REPLAY\\_SAVE",
+          "F5",
+          "START"
+        ],
+        [
+          "319",
+          "INPUT\\_REPLAY\\_TOGGLETIME",
+          "C",
+          "(NONE)"
+        ],
+        [
+          "320",
+          "INPUT\\_REPLAY\\_TOGGLETIPS",
+          "V",
+          "(NONE)"
+        ],
+        [
+          "321",
+          "INPUT\\_REPLAY\\_PREVIEW",
+          "SPACEBAR",
+          "(NONE)"
+        ],
+        [
+          "322",
+          "INPUT\\_REPLAY\\_TOGGLE\\_TIMELINE",
+          "ESC",
+          "(NONE)"
+        ],
+        [
+          "323",
+          "INPUT\\_REPLAY\\_TIMELINE\\_PICKUP\\_CLIP",
+          "X",
+          "(NONE)"
+        ],
+        [
+          "324",
+          "INPUT\\_REPLAY\\_TIMELINE\\_DUPLICATE\\_CLIP",
+          "C",
+          "(NONE)"
+        ],
+        [
+          "325",
+          "INPUT\\_REPLAY\\_TIMELINE\\_PLACE\\_CLIP",
+          "V",
+          "(NONE)"
+        ],
+        [
+          "326",
+          "INPUT\\_REPLAY\\_CTRL",
+          "LEFT CTRL",
+          "(NONE)"
+        ],
+        [
+          "327",
+          "INPUT\\_REPLAY\\_TIMELINE\\_SAVE",
+          "F5",
+          "(NONE)"
+        ],
+        [
+          "328",
+          "INPUT\\_REPLAY\\_PREVIEW\\_AUDIO",
+          "SPACEBAR",
+          "RT"
+        ],
+        [
+          "329",
+          "INPUT\\_VEH\\_DRIVE\\_LOOK",
+          "LEFT MOUSE BUTTON",
+          "(NONE)"
+        ],
+        [
+          "330",
+          "INPUT\\_VEH\\_DRIVE\\_LOOK2",
+          "RIGHT MOUSE BUTTON",
+          "(NONE)"
+        ],
+        [
+          "331",
+          "INPUT\\_VEH\\_FLY\\_ATTACK2",
+          "RIGHT MOUSE BUTTON",
+          "(NONE)"
+        ],
+        [
+          "332",
+          "INPUT\\_RADIO\\_WHEEL\\_UD",
+          "MOUSE DOWN",
+          "RIGHT STICK"
+        ],
+        [
+          "333",
+          "INPUT\\_RADIO\\_WHEEL\\_LR",
+          "MOUSE RIGHT",
+          "RIGHT STICK"
+        ],
+        [
+          "334",
+          "INPUT\\_VEH\\_SLOWMO\\_UD",
+          "SCROLLWHEEL DOWN",
+          "LEFT STICK"
+        ],
+        [
+          "335",
+          "INPUT\\_VEH\\_SLOWMO\\_UP\\_ONLY",
+          "SCROLLWHEEL UP",
+          "LEFT STICK"
+        ],
+        [
+          "336",
+          "INPUT\\_VEH\\_SLOWMO\\_DOWN\\_ONLY",
+          "SCROLLWHEEL DOWN",
+          "LEFT STICK"
+        ],
+        [
+          "337",
+          "INPUT\\_VEH\\_HYDRAULICS\\_CONTROL\\_TOGGLE",
+          "X",
+          "A"
+        ],
+        [
+          "338",
+          "INPUT\\_VEH\\_HYDRAULICS\\_CONTROL\\_LEFT",
+          "A",
+          "LEFT STICK"
+        ],
+        [
+          "339",
+          "INPUT\\_VEH\\_HYDRAULICS\\_CONTROL\\_RIGHT",
+          "D",
+          "LEFT STICK"
+        ],
+        [
+          "340",
+          "INPUT\\_VEH\\_HYDRAULICS\\_CONTROL\\_UP",
+          "LEFT SHIFT",
+          "LEFT STICK"
+        ],
+        [
+          "341",
+          "INPUT\\_VEH\\_HYDRAULICS\\_CONTROL\\_DOWN",
+          "LEFT CTRL",
+          "LEFT STICK"
+        ],
+        [
+          "342",
+          "INPUT\\_VEH\\_HYDRAULICS\\_CONTROL\\_UD",
+          "D",
+          "LEFT STICK"
+        ],
+        [
+          "343",
+          "INPUT\\_VEH\\_HYDRAULICS\\_CONTROL\\_LR",
+          "LEFT CTRL",
+          "LEFT STICK"
+        ],
+        [
+          "344",
+          "INPUT\\_SWITCH\\_VISOR",
+          "F11",
+          "DPAD RIGHT"
+        ],
+        [
+          "345",
+          "INPUT\\_VEH\\_MELEE\\_HOLD",
+          "X",
+          "A"
+        ],
+        [
+          "346",
+          "INPUT\\_VEH\\_MELEE\\_LEFT",
+          "LEFT MOUSE BUTTON",
+          "LB"
+        ],
+        [
+          "347",
+          "INPUT\\_VEH\\_MELEE\\_RIGHT",
+          "RIGHT MOUSE BUTTON",
+          "RB"
+        ],
+        [
+          "348",
+          "INPUT\\_MAP\\_POI",
+          "SCROLLWHEEL BUTTON (PRESS)",
+          "Y"
+        ],
+        [
+          "349",
+          "INPUT\\_REPLAY\\_SNAPMATIC\\_PHOTO",
+          "TAB",
+          "X"
+        ],
+        [
+          "350",
+          "INPUT\\_VEH\\_CAR\\_JUMP",
+          "E",
+          "L3"
+        ],
+        [
+          "351",
+          "INPUT\\_VEH\\_ROCKET\\_BOOST",
+          "E",
+          "L3"
+        ],
+        [
+          "352",
+          "INPUT\\_VEH\\_FLY\\_BOOST",
+          "LEFT SHIFT",
+          "L3"
+        ],
+        [
+          "353",
+          "INPUT\\_VEH\\_PARACHUTE",
+          "SPACEBAR",
+          "A"
+        ],
+        [
+          "354",
+          "INPUT\\_VEH\\_BIKE\\_WINGS",
+          "X",
+          "A"
+        ],
+        [
+          "355",
+          "INPUT\\_VEH\\_FLY\\_BOMB\\_BAY",
+          "E",
+          "DPAD RIGHT"
+        ],
+        [
+          "356",
+          "INPUT\\_VEH\\_FLY\\_COUNTER",
+          "E",
+          "DPAD RIGHT"
+        ],
+        [
+          "357",
+          "INPUT\\_VEH\\_TRANSFORM",
+          "X",
+          "A"
+        ],
+        [
+          "358",
+          "INPUT\\_QUAD\\_LOCO\\_REVERSE",
+          "",
+          "RB"
+        ],
+        [
+          "359",
+          "INPUT\\_RESPAWN\\_FASTER",
+          "",
+          ""
+        ],
+        [
+          "360",
+          "INPUT\\_HUDMARKER\\_SELECT",
+          "",
+          ""
+        ]
+      ],
+      "data": [
+        {
+          "Index": "0",
+          "Name": "INPUT\\_NEXT\\_CAMERA",
+          "Default QWERTY": "V",
+          "Xbox Controller": "BACK"
+        },
+        {
+          "Index": "1",
+          "Name": "INPUT\\_LOOK\\_LR",
+          "Default QWERTY": "MOUSE RIGHT",
+          "Xbox Controller": "RIGHT STICK"
+        },
+        {
+          "Index": "2",
+          "Name": "INPUT\\_LOOK\\_UD",
+          "Default QWERTY": "MOUSE DOWN",
+          "Xbox Controller": "RIGHT STICK"
+        },
+        {
+          "Index": "3",
+          "Name": "INPUT\\_LOOK\\_UP\\_ONLY",
+          "Default QWERTY": "(NONE)",
+          "Xbox Controller": "RIGHT STICK"
+        },
+        {
+          "Index": "4",
+          "Name": "INPUT\\_LOOK\\_DOWN\\_ONLY",
+          "Default QWERTY": "MOUSE DOWN",
+          "Xbox Controller": "RIGHT STICK"
+        },
+        {
+          "Index": "5",
+          "Name": "INPUT\\_LOOK\\_LEFT\\_ONLY",
+          "Default QWERTY": "(NONE)",
+          "Xbox Controller": "RIGHT STICK"
+        },
+        {
+          "Index": "6",
+          "Name": "INPUT\\_LOOK\\_RIGHT\\_ONLY",
+          "Default QWERTY": "MOUSE RIGHT",
+          "Xbox Controller": "RIGHT STICK"
+        },
+        {
+          "Index": "7",
+          "Name": "INPUT\\_CINEMATIC\\_SLOWMO",
+          "Default QWERTY": "(NONE)",
+          "Xbox Controller": "R3"
+        },
+        {
+          "Index": "8",
+          "Name": "INPUT\\_SCRIPTED\\_FLY\\_UD",
+          "Default QWERTY": "S",
+          "Xbox Controller": "LEFT STICK"
+        },
+        {
+          "Index": "9",
+          "Name": "INPUT\\_SCRIPTED\\_FLY\\_LR",
+          "Default QWERTY": "D",
+          "Xbox Controller": "LEFT STICK"
+        },
+        {
+          "Index": "10",
+          "Name": "INPUT\\_SCRIPTED\\_FLY\\_ZUP",
+          "Default QWERTY": "PAGEUP",
+          "Xbox Controller": "LT"
+        },
+        {
+          "Index": "11",
+          "Name": "INPUT\\_SCRIPTED\\_FLY\\_ZDOWN",
+          "Default QWERTY": "PAGEDOWN",
+          "Xbox Controller": "RT"
+        },
+        {
+          "Index": "12",
+          "Name": "INPUT\\_WEAPON\\_WHEEL\\_UD",
+          "Default QWERTY": "MOUSE DOWN",
+          "Xbox Controller": "RIGHT STICK"
+        },
+        {
+          "Index": "13",
+          "Name": "INPUT\\_WEAPON\\_WHEEL\\_LR",
+          "Default QWERTY": "MOUSE RIGHT",
+          "Xbox Controller": "RIGHT STICK"
+        },
+        {
+          "Index": "14",
+          "Name": "INPUT\\_WEAPON\\_WHEEL\\_NEXT",
+          "Default QWERTY": "SCROLLWHEEL DOWN",
+          "Xbox Controller": "DPAD RIGHT"
+        },
+        {
+          "Index": "15",
+          "Name": "INPUT\\_WEAPON\\_WHEEL\\_PREV",
+          "Default QWERTY": "SCROLLWHEEL UP",
+          "Xbox Controller": "DPAD LEFT"
+        },
+        {
+          "Index": "16",
+          "Name": "INPUT\\_SELECT\\_NEXT\\_WEAPON",
+          "Default QWERTY": "SCROLLWHEEL DOWN",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "17",
+          "Name": "INPUT\\_SELECT\\_PREV\\_WEAPON",
+          "Default QWERTY": "SCROLLWHEEL UP",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "18",
+          "Name": "INPUT\\_SKIP\\_CUTSCENE",
+          "Default QWERTY": "ENTER / LEFT MOUSE BUTTON / SPACEBAR",
+          "Xbox Controller": "A"
+        },
+        {
+          "Index": "19",
+          "Name": "INPUT\\_CHARACTER\\_WHEEL",
+          "Default QWERTY": "LEFT ALT",
+          "Xbox Controller": "DPAD DOWN"
+        },
+        {
+          "Index": "20",
+          "Name": "INPUT\\_MULTIPLAYER\\_INFO",
+          "Default QWERTY": "Z",
+          "Xbox Controller": "DPAD DOWN"
+        },
+        {
+          "Index": "21",
+          "Name": "INPUT\\_SPRINT",
+          "Default QWERTY": "LEFT SHIFT",
+          "Xbox Controller": "A"
+        },
+        {
+          "Index": "22",
+          "Name": "INPUT\\_JUMP",
+          "Default QWERTY": "SPACEBAR",
+          "Xbox Controller": "X"
+        },
+        {
+          "Index": "23",
+          "Name": "INPUT\\_ENTER",
+          "Default QWERTY": "F",
+          "Xbox Controller": "Y"
+        },
+        {
+          "Index": "24",
+          "Name": "INPUT\\_ATTACK",
+          "Default QWERTY": "LEFT MOUSE BUTTON",
+          "Xbox Controller": "RT"
+        },
+        {
+          "Index": "25",
+          "Name": "INPUT\\_AIM",
+          "Default QWERTY": "RIGHT MOUSE BUTTON",
+          "Xbox Controller": "LT"
+        },
+        {
+          "Index": "26",
+          "Name": "INPUT\\_LOOK\\_BEHIND",
+          "Default QWERTY": "C",
+          "Xbox Controller": "R3"
+        },
+        {
+          "Index": "27",
+          "Name": "INPUT\\_PHONE",
+          "Default QWERTY": "ARROW UP / SCROLLWHEEL BUTTON (PRESS)",
+          "Xbox Controller": "DPAD UP"
+        },
+        {
+          "Index": "28",
+          "Name": "INPUT\\_SPECIAL\\_ABILITY",
+          "Default QWERTY": "(NONE)",
+          "Xbox Controller": "L3"
+        },
+        {
+          "Index": "29",
+          "Name": "INPUT\\_SPECIAL\\_ABILITY\\_SECONDARY",
+          "Default QWERTY": "B",
+          "Xbox Controller": "R3"
+        },
+        {
+          "Index": "30",
+          "Name": "INPUT\\_MOVE\\_LR",
+          "Default QWERTY": "D",
+          "Xbox Controller": "LEFT STICK"
+        },
+        {
+          "Index": "31",
+          "Name": "INPUT\\_MOVE\\_UD",
+          "Default QWERTY": "S",
+          "Xbox Controller": "LEFT STICK"
+        },
+        {
+          "Index": "32",
+          "Name": "INPUT\\_MOVE\\_UP\\_ONLY",
+          "Default QWERTY": "W",
+          "Xbox Controller": "LEFT STICK"
+        },
+        {
+          "Index": "33",
+          "Name": "INPUT\\_MOVE\\_DOWN\\_ONLY",
+          "Default QWERTY": "S",
+          "Xbox Controller": "LEFT STICK"
+        },
+        {
+          "Index": "34",
+          "Name": "INPUT\\_MOVE\\_LEFT\\_ONLY",
+          "Default QWERTY": "A",
+          "Xbox Controller": "LEFT STICK"
+        },
+        {
+          "Index": "35",
+          "Name": "INPUT\\_MOVE\\_RIGHT\\_ONLY",
+          "Default QWERTY": "D",
+          "Xbox Controller": "LEFT STICK"
+        },
+        {
+          "Index": "36",
+          "Name": "INPUT\\_DUCK",
+          "Default QWERTY": "LEFT CTRL",
+          "Xbox Controller": "L3"
+        },
+        {
+          "Index": "37",
+          "Name": "INPUT\\_SELECT\\_WEAPON",
+          "Default QWERTY": "TAB",
+          "Xbox Controller": "LB"
+        },
+        {
+          "Index": "38",
+          "Name": "INPUT\\_PICKUP",
+          "Default QWERTY": "E",
+          "Xbox Controller": "LB"
+        },
+        {
+          "Index": "39",
+          "Name": "INPUT\\_SNIPER\\_ZOOM",
+          "Default QWERTY": "\\[",
+          "Xbox Controller": "LEFT STICK"
+        },
+        {
+          "Index": "40",
+          "Name": "INPUT\\_SNIPER\\_ZOOM\\_IN\\_ONLY",
+          "Default QWERTY": "\\]",
+          "Xbox Controller": "LEFT STICK"
+        },
+        {
+          "Index": "41",
+          "Name": "INPUT\\_SNIPER\\_ZOOM\\_OUT\\_ONLY",
+          "Default QWERTY": "\\[",
+          "Xbox Controller": "LEFT STICK"
+        },
+        {
+          "Index": "42",
+          "Name": "INPUT\\_SNIPER\\_ZOOM\\_IN\\_SECONDARY",
+          "Default QWERTY": "\\]",
+          "Xbox Controller": "DPAD UP"
+        },
+        {
+          "Index": "43",
+          "Name": "INPUT\\_SNIPER\\_ZOOM\\_OUT\\_SECONDARY",
+          "Default QWERTY": "\\[",
+          "Xbox Controller": "DPAD DOWN"
+        },
+        {
+          "Index": "44",
+          "Name": "INPUT\\_COVER",
+          "Default QWERTY": "Q",
+          "Xbox Controller": "RB"
+        },
+        {
+          "Index": "45",
+          "Name": "INPUT\\_RELOAD",
+          "Default QWERTY": "R",
+          "Xbox Controller": "B"
+        },
+        {
+          "Index": "46",
+          "Name": "INPUT\\_TALK",
+          "Default QWERTY": "E",
+          "Xbox Controller": "DPAD RIGHT"
+        },
+        {
+          "Index": "47",
+          "Name": "INPUT\\_DETONATE",
+          "Default QWERTY": "G",
+          "Xbox Controller": "DPAD LEFT"
+        },
+        {
+          "Index": "48",
+          "Name": "INPUT\\_HUD\\_SPECIAL",
+          "Default QWERTY": "Z",
+          "Xbox Controller": "DPAD DOWN"
+        },
+        {
+          "Index": "49",
+          "Name": "INPUT\\_ARREST",
+          "Default QWERTY": "F",
+          "Xbox Controller": "Y"
+        },
+        {
+          "Index": "50",
+          "Name": "INPUT\\_ACCURATE\\_AIM",
+          "Default QWERTY": "SCROLLWHEEL DOWN",
+          "Xbox Controller": "R3"
+        },
+        {
+          "Index": "51",
+          "Name": "INPUT\\_CONTEXT",
+          "Default QWERTY": "E",
+          "Xbox Controller": "DPAD RIGHT"
+        },
+        {
+          "Index": "52",
+          "Name": "INPUT\\_CONTEXT\\_SECONDARY",
+          "Default QWERTY": "Q",
+          "Xbox Controller": "DPAD LEFT"
+        },
+        {
+          "Index": "53",
+          "Name": "INPUT\\_WEAPON\\_SPECIAL",
+          "Default QWERTY": "(NONE)",
+          "Xbox Controller": "Y"
+        },
+        {
+          "Index": "54",
+          "Name": "INPUT\\_WEAPON\\_SPECIAL\\_TWO",
+          "Default QWERTY": "E",
+          "Xbox Controller": "DPAD RIGHT"
+        },
+        {
+          "Index": "55",
+          "Name": "INPUT\\_DIVE",
+          "Default QWERTY": "SPACEBAR",
+          "Xbox Controller": "RB"
+        },
+        {
+          "Index": "56",
+          "Name": "INPUT\\_DROP\\_WEAPON",
+          "Default QWERTY": "F9",
+          "Xbox Controller": "Y"
+        },
+        {
+          "Index": "57",
+          "Name": "INPUT\\_DROP\\_AMMO",
+          "Default QWERTY": "F10",
+          "Xbox Controller": "B"
+        },
+        {
+          "Index": "58",
+          "Name": "INPUT\\_THROW\\_GRENADE",
+          "Default QWERTY": "G",
+          "Xbox Controller": "DPAD LEFT"
+        },
+        {
+          "Index": "59",
+          "Name": "INPUT\\_VEH\\_MOVE\\_LR",
+          "Default QWERTY": "D",
+          "Xbox Controller": "LEFT STICK"
+        },
+        {
+          "Index": "60",
+          "Name": "INPUT\\_VEH\\_MOVE\\_UD",
+          "Default QWERTY": "LEFT CTRL",
+          "Xbox Controller": "LEFT STICK"
+        },
+        {
+          "Index": "61",
+          "Name": "INPUT\\_VEH\\_MOVE\\_UP\\_ONLY",
+          "Default QWERTY": "LEFT SHIFT",
+          "Xbox Controller": "LEFT STICK"
+        },
+        {
+          "Index": "62",
+          "Name": "INPUT\\_VEH\\_MOVE\\_DOWN\\_ONLY",
+          "Default QWERTY": "LEFT CTRL",
+          "Xbox Controller": "LEFT STICK"
+        },
+        {
+          "Index": "63",
+          "Name": "INPUT\\_VEH\\_MOVE\\_LEFT\\_ONLY",
+          "Default QWERTY": "A",
+          "Xbox Controller": "LEFT STICK"
+        },
+        {
+          "Index": "64",
+          "Name": "INPUT\\_VEH\\_MOVE\\_RIGHT\\_ONLY",
+          "Default QWERTY": "D",
+          "Xbox Controller": "LEFT STICK"
+        },
+        {
+          "Index": "65",
+          "Name": "INPUT\\_VEH\\_SPECIAL",
+          "Default QWERTY": "(NONE)",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "66",
+          "Name": "INPUT\\_VEH\\_GUN\\_LR",
+          "Default QWERTY": "MOUSE RIGHT",
+          "Xbox Controller": "RIGHT STICK"
+        },
+        {
+          "Index": "67",
+          "Name": "INPUT\\_VEH\\_GUN\\_UD",
+          "Default QWERTY": "MOUSE DOWN",
+          "Xbox Controller": "RIGHT STICK"
+        },
+        {
+          "Index": "68",
+          "Name": "INPUT\\_VEH\\_AIM",
+          "Default QWERTY": "RIGHT MOUSE BUTTON",
+          "Xbox Controller": "LB"
+        },
+        {
+          "Index": "69",
+          "Name": "INPUT\\_VEH\\_ATTACK",
+          "Default QWERTY": "LEFT MOUSE BUTTON",
+          "Xbox Controller": "RB"
+        },
+        {
+          "Index": "70",
+          "Name": "INPUT\\_VEH\\_ATTACK2",
+          "Default QWERTY": "RIGHT MOUSE BUTTON",
+          "Xbox Controller": "A"
+        },
+        {
+          "Index": "71",
+          "Name": "INPUT\\_VEH\\_ACCELERATE",
+          "Default QWERTY": "W",
+          "Xbox Controller": "RT"
+        },
+        {
+          "Index": "72",
+          "Name": "INPUT\\_VEH\\_BRAKE",
+          "Default QWERTY": "S",
+          "Xbox Controller": "LT"
+        },
+        {
+          "Index": "73",
+          "Name": "INPUT\\_VEH\\_DUCK",
+          "Default QWERTY": "X",
+          "Xbox Controller": "A"
+        },
+        {
+          "Index": "74",
+          "Name": "INPUT\\_VEH\\_HEADLIGHT",
+          "Default QWERTY": "H",
+          "Xbox Controller": "DPAD RIGHT"
+        },
+        {
+          "Index": "75",
+          "Name": "INPUT\\_VEH\\_EXIT",
+          "Default QWERTY": "F",
+          "Xbox Controller": "Y"
+        },
+        {
+          "Index": "76",
+          "Name": "INPUT\\_VEH\\_HANDBRAKE",
+          "Default QWERTY": "SPACEBAR",
+          "Xbox Controller": "RB"
+        },
+        {
+          "Index": "77",
+          "Name": "INPUT\\_VEH\\_HOTWIRE\\_LEFT",
+          "Default QWERTY": "W",
+          "Xbox Controller": "LT"
+        },
+        {
+          "Index": "78",
+          "Name": "INPUT\\_VEH\\_HOTWIRE\\_RIGHT",
+          "Default QWERTY": "S",
+          "Xbox Controller": "RT"
+        },
+        {
+          "Index": "79",
+          "Name": "INPUT\\_VEH\\_LOOK\\_BEHIND",
+          "Default QWERTY": "C",
+          "Xbox Controller": "R3"
+        },
+        {
+          "Index": "80",
+          "Name": "INPUT\\_VEH\\_CIN\\_CAM",
+          "Default QWERTY": "R",
+          "Xbox Controller": "B"
+        },
+        {
+          "Index": "81",
+          "Name": "INPUT\\_VEH\\_NEXT\\_RADIO",
+          "Default QWERTY": ".",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "82",
+          "Name": "INPUT\\_VEH\\_PREV\\_RADIO",
+          "Default QWERTY": ",",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "83",
+          "Name": "INPUT\\_VEH\\_NEXT\\_RADIO\\_TRACK",
+          "Default QWERTY": "=",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "84",
+          "Name": "INPUT\\_VEH\\_PREV\\_RADIO\\_TRACK",
+          "Default QWERTY": "-",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "85",
+          "Name": "INPUT\\_VEH\\_RADIO\\_WHEEL",
+          "Default QWERTY": "Q",
+          "Xbox Controller": "DPAD LEFT"
+        },
+        {
+          "Index": "86",
+          "Name": "INPUT\\_VEH\\_HORN",
+          "Default QWERTY": "E",
+          "Xbox Controller": "L3"
+        },
+        {
+          "Index": "87",
+          "Name": "INPUT\\_VEH\\_FLY\\_THROTTLE\\_UP",
+          "Default QWERTY": "W",
+          "Xbox Controller": "RT"
+        },
+        {
+          "Index": "88",
+          "Name": "INPUT\\_VEH\\_FLY\\_THROTTLE\\_DOWN",
+          "Default QWERTY": "S",
+          "Xbox Controller": "LT"
+        },
+        {
+          "Index": "89",
+          "Name": "INPUT\\_VEH\\_FLY\\_YAW\\_LEFT",
+          "Default QWERTY": "A",
+          "Xbox Controller": "LB"
+        },
+        {
+          "Index": "90",
+          "Name": "INPUT\\_VEH\\_FLY\\_YAW\\_RIGHT",
+          "Default QWERTY": "D",
+          "Xbox Controller": "RB"
+        },
+        {
+          "Index": "91",
+          "Name": "INPUT\\_VEH\\_PASSENGER\\_AIM",
+          "Default QWERTY": "RIGHT MOUSE BUTTON",
+          "Xbox Controller": "LT"
+        },
+        {
+          "Index": "92",
+          "Name": "INPUT\\_VEH\\_PASSENGER\\_ATTACK",
+          "Default QWERTY": "LEFT MOUSE BUTTON",
+          "Xbox Controller": "RT"
+        },
+        {
+          "Index": "93",
+          "Name": "INPUT\\_VEH\\_SPECIAL\\_ABILITY\\_FRANKLIN",
+          "Default QWERTY": "(NONE)",
+          "Xbox Controller": "R3"
+        },
+        {
+          "Index": "94",
+          "Name": "INPUT\\_VEH\\_STUNT\\_UD",
+          "Default QWERTY": "(NONE)",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "95",
+          "Name": "INPUT\\_VEH\\_CINEMATIC\\_UD",
+          "Default QWERTY": "MOUSE DOWN",
+          "Xbox Controller": "RIGHT STICK"
+        },
+        {
+          "Index": "96",
+          "Name": "INPUT\\_VEH\\_CINEMATIC\\_UP\\_ONLY",
+          "Default QWERTY": "NUMPAD- / SCROLLWHEEL UP",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "97",
+          "Name": "INPUT\\_VEH\\_CINEMATIC\\_DOWN\\_ONLY",
+          "Default QWERTY": "NUMPAD+ / SCROLLWHEEL DOWN",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "98",
+          "Name": "INPUT\\_VEH\\_CINEMATIC\\_LR",
+          "Default QWERTY": "MOUSE RIGHT",
+          "Xbox Controller": "RIGHT STICK"
+        },
+        {
+          "Index": "99",
+          "Name": "INPUT\\_VEH\\_SELECT\\_NEXT\\_WEAPON",
+          "Default QWERTY": "SCROLLWHEEL UP",
+          "Xbox Controller": "X"
+        },
+        {
+          "Index": "100",
+          "Name": "INPUT\\_VEH\\_SELECT\\_PREV\\_WEAPON",
+          "Default QWERTY": "\\[",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "101",
+          "Name": "INPUT\\_VEH\\_ROOF",
+          "Default QWERTY": "H",
+          "Xbox Controller": "DPAD RIGHT"
+        },
+        {
+          "Index": "102",
+          "Name": "INPUT\\_VEH\\_JUMP",
+          "Default QWERTY": "SPACEBAR",
+          "Xbox Controller": "RB"
+        },
+        {
+          "Index": "103",
+          "Name": "INPUT\\_VEH\\_GRAPPLING\\_HOOK",
+          "Default QWERTY": "E",
+          "Xbox Controller": "DPAD RIGHT"
+        },
+        {
+          "Index": "104",
+          "Name": "INPUT\\_VEH\\_SHUFFLE",
+          "Default QWERTY": "H",
+          "Xbox Controller": "DPAD RIGHT"
+        },
+        {
+          "Index": "105",
+          "Name": "INPUT\\_VEH\\_DROP\\_PROJECTILE",
+          "Default QWERTY": "X",
+          "Xbox Controller": "A"
+        },
+        {
+          "Index": "106",
+          "Name": "INPUT\\_VEH\\_MOUSE\\_CONTROL\\_OVERRIDE",
+          "Default QWERTY": "LEFT MOUSE BUTTON",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "107",
+          "Name": "INPUT\\_VEH\\_FLY\\_ROLL\\_LR",
+          "Default QWERTY": "NUMPAD 6",
+          "Xbox Controller": "LEFT STICK"
+        },
+        {
+          "Index": "108",
+          "Name": "INPUT\\_VEH\\_FLY\\_ROLL\\_LEFT\\_ONLY",
+          "Default QWERTY": "NUMPAD 4",
+          "Xbox Controller": "LEFT STICK"
+        },
+        {
+          "Index": "109",
+          "Name": "INPUT\\_VEH\\_FLY\\_ROLL\\_RIGHT\\_ONLY",
+          "Default QWERTY": "NUMPAD 6",
+          "Xbox Controller": "LEFT STICK"
+        },
+        {
+          "Index": "110",
+          "Name": "INPUT\\_VEH\\_FLY\\_PITCH\\_UD",
+          "Default QWERTY": "NUMPAD 5",
+          "Xbox Controller": "LEFT STICK"
+        },
+        {
+          "Index": "111",
+          "Name": "INPUT\\_VEH\\_FLY\\_PITCH\\_UP\\_ONLY",
+          "Default QWERTY": "NUMPAD 8",
+          "Xbox Controller": "LEFT STICK"
+        },
+        {
+          "Index": "112",
+          "Name": "INPUT\\_VEH\\_FLY\\_PITCH\\_DOWN\\_ONLY",
+          "Default QWERTY": "NUMPAD 5",
+          "Xbox Controller": "LEFT STICK"
+        },
+        {
+          "Index": "113",
+          "Name": "INPUT\\_VEH\\_FLY\\_UNDERCARRIAGE",
+          "Default QWERTY": "G",
+          "Xbox Controller": "L3"
+        },
+        {
+          "Index": "114",
+          "Name": "INPUT\\_VEH\\_FLY\\_ATTACK",
+          "Default QWERTY": "RIGHT MOUSE BUTTON",
+          "Xbox Controller": "A"
+        },
+        {
+          "Index": "115",
+          "Name": "INPUT\\_VEH\\_FLY\\_SELECT\\_NEXT\\_WEAPON",
+          "Default QWERTY": "SCROLLWHEEL UP",
+          "Xbox Controller": "DPAD LEFT"
+        },
+        {
+          "Index": "116",
+          "Name": "INPUT\\_VEH\\_FLY\\_SELECT\\_PREV\\_WEAPON",
+          "Default QWERTY": "\\[",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "117",
+          "Name": "INPUT\\_VEH\\_FLY\\_SELECT\\_TARGET\\_LEFT",
+          "Default QWERTY": "NUMPAD 7",
+          "Xbox Controller": "LB"
+        },
+        {
+          "Index": "118",
+          "Name": "INPUT\\_VEH\\_FLY\\_SELECT\\_TARGET\\_RIGHT",
+          "Default QWERTY": "NUMPAD 9",
+          "Xbox Controller": "RB"
+        },
+        {
+          "Index": "119",
+          "Name": "INPUT\\_VEH\\_FLY\\_VERTICAL\\_FLIGHT\\_MODE",
+          "Default QWERTY": "E",
+          "Xbox Controller": "DPAD RIGHT"
+        },
+        {
+          "Index": "120",
+          "Name": "INPUT\\_VEH\\_FLY\\_DUCK",
+          "Default QWERTY": "X",
+          "Xbox Controller": "A"
+        },
+        {
+          "Index": "121",
+          "Name": "INPUT\\_VEH\\_FLY\\_ATTACK\\_CAMERA",
+          "Default QWERTY": "INSERT",
+          "Xbox Controller": "R3"
+        },
+        {
+          "Index": "122",
+          "Name": "INPUT\\_VEH\\_FLY\\_MOUSE\\_CONTROL\\_OVERRIDE",
+          "Default QWERTY": "LEFT MOUSE BUTTON",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "123",
+          "Name": "INPUT\\_VEH\\_SUB\\_TURN\\_LR",
+          "Default QWERTY": "NUMPAD 6",
+          "Xbox Controller": "LEFT STICK"
+        },
+        {
+          "Index": "124",
+          "Name": "INPUT\\_VEH\\_SUB\\_TURN\\_LEFT\\_ONLY",
+          "Default QWERTY": "NUMPAD 4",
+          "Xbox Controller": "LEFT STICK"
+        },
+        {
+          "Index": "125",
+          "Name": "INPUT\\_VEH\\_SUB\\_TURN\\_RIGHT\\_ONLY",
+          "Default QWERTY": "NUMPAD 6",
+          "Xbox Controller": "LEFT STICK"
+        },
+        {
+          "Index": "126",
+          "Name": "INPUT\\_VEH\\_SUB\\_PITCH\\_UD",
+          "Default QWERTY": "NUMPAD 5",
+          "Xbox Controller": "LEFT STICK"
+        },
+        {
+          "Index": "127",
+          "Name": "INPUT\\_VEH\\_SUB\\_PITCH\\_UP\\_ONLY",
+          "Default QWERTY": "NUMPAD 8",
+          "Xbox Controller": "LEFT STICK"
+        },
+        {
+          "Index": "128",
+          "Name": "INPUT\\_VEH\\_SUB\\_PITCH\\_DOWN\\_ONLY",
+          "Default QWERTY": "NUMPAD 5",
+          "Xbox Controller": "LEFT STICK"
+        },
+        {
+          "Index": "129",
+          "Name": "INPUT\\_VEH\\_SUB\\_THROTTLE\\_UP",
+          "Default QWERTY": "W",
+          "Xbox Controller": "RT"
+        },
+        {
+          "Index": "130",
+          "Name": "INPUT\\_VEH\\_SUB\\_THROTTLE\\_DOWN",
+          "Default QWERTY": "S",
+          "Xbox Controller": "LT"
+        },
+        {
+          "Index": "131",
+          "Name": "INPUT\\_VEH\\_SUB\\_ASCEND",
+          "Default QWERTY": "LEFT SHIFT",
+          "Xbox Controller": "X"
+        },
+        {
+          "Index": "132",
+          "Name": "INPUT\\_VEH\\_SUB\\_DESCEND",
+          "Default QWERTY": "LEFT CTRL",
+          "Xbox Controller": "A"
+        },
+        {
+          "Index": "133",
+          "Name": "INPUT\\_VEH\\_SUB\\_TURN\\_HARD\\_LEFT",
+          "Default QWERTY": "A",
+          "Xbox Controller": "LB"
+        },
+        {
+          "Index": "134",
+          "Name": "INPUT\\_VEH\\_SUB\\_TURN\\_HARD\\_RIGHT",
+          "Default QWERTY": "D",
+          "Xbox Controller": "RB"
+        },
+        {
+          "Index": "135",
+          "Name": "INPUT\\_VEH\\_SUB\\_MOUSE\\_CONTROL\\_OVERRIDE",
+          "Default QWERTY": "LEFT MOUSE BUTTON",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "136",
+          "Name": "INPUT\\_VEH\\_PUSHBIKE\\_PEDAL",
+          "Default QWERTY": "W",
+          "Xbox Controller": "A"
+        },
+        {
+          "Index": "137",
+          "Name": "INPUT\\_VEH\\_PUSHBIKE\\_SPRINT",
+          "Default QWERTY": "CAPSLOCK",
+          "Xbox Controller": "A"
+        },
+        {
+          "Index": "138",
+          "Name": "INPUT\\_VEH\\_PUSHBIKE\\_FRONT\\_BRAKE",
+          "Default QWERTY": "Q",
+          "Xbox Controller": "LT"
+        },
+        {
+          "Index": "139",
+          "Name": "INPUT\\_VEH\\_PUSHBIKE\\_REAR\\_BRAKE",
+          "Default QWERTY": "S",
+          "Xbox Controller": "RT"
+        },
+        {
+          "Index": "140",
+          "Name": "INPUT\\_MELEE\\_ATTACK\\_LIGHT",
+          "Default QWERTY": "R",
+          "Xbox Controller": "B"
+        },
+        {
+          "Index": "141",
+          "Name": "INPUT\\_MELEE\\_ATTACK\\_HEAVY",
+          "Default QWERTY": "Q",
+          "Xbox Controller": "A"
+        },
+        {
+          "Index": "142",
+          "Name": "INPUT\\_MELEE\\_ATTACK\\_ALTERNATE",
+          "Default QWERTY": "LEFT MOUSE BUTTON",
+          "Xbox Controller": "RT"
+        },
+        {
+          "Index": "143",
+          "Name": "INPUT\\_MELEE\\_BLOCK",
+          "Default QWERTY": "SPACEBAR",
+          "Xbox Controller": "X"
+        },
+        {
+          "Index": "144",
+          "Name": "INPUT\\_PARACHUTE\\_DEPLOY",
+          "Default QWERTY": "F / LEFT MOUSE BUTTON",
+          "Xbox Controller": "Y"
+        },
+        {
+          "Index": "145",
+          "Name": "INPUT\\_PARACHUTE\\_DETACH",
+          "Default QWERTY": "F",
+          "Xbox Controller": "Y"
+        },
+        {
+          "Index": "146",
+          "Name": "INPUT\\_PARACHUTE\\_TURN\\_LR",
+          "Default QWERTY": "D",
+          "Xbox Controller": "LEFT STICK"
+        },
+        {
+          "Index": "147",
+          "Name": "INPUT\\_PARACHUTE\\_TURN\\_LEFT\\_ONLY",
+          "Default QWERTY": "A",
+          "Xbox Controller": "LEFT STICK"
+        },
+        {
+          "Index": "148",
+          "Name": "INPUT\\_PARACHUTE\\_TURN\\_RIGHT\\_ONLY",
+          "Default QWERTY": "D",
+          "Xbox Controller": "LEFT STICK"
+        },
+        {
+          "Index": "149",
+          "Name": "INPUT\\_PARACHUTE\\_PITCH\\_UD",
+          "Default QWERTY": "S",
+          "Xbox Controller": "LEFT STICK"
+        },
+        {
+          "Index": "150",
+          "Name": "INPUT\\_PARACHUTE\\_PITCH\\_UP\\_ONLY",
+          "Default QWERTY": "W",
+          "Xbox Controller": "LEFT STICK"
+        },
+        {
+          "Index": "151",
+          "Name": "INPUT\\_PARACHUTE\\_PITCH\\_DOWN\\_ONLY",
+          "Default QWERTY": "S",
+          "Xbox Controller": "LEFT STICK"
+        },
+        {
+          "Index": "152",
+          "Name": "INPUT\\_PARACHUTE\\_BRAKE\\_LEFT",
+          "Default QWERTY": "Q",
+          "Xbox Controller": "LB"
+        },
+        {
+          "Index": "153",
+          "Name": "INPUT\\_PARACHUTE\\_BRAKE\\_RIGHT",
+          "Default QWERTY": "E",
+          "Xbox Controller": "RB"
+        },
+        {
+          "Index": "154",
+          "Name": "INPUT\\_PARACHUTE\\_SMOKE",
+          "Default QWERTY": "X",
+          "Xbox Controller": "A"
+        },
+        {
+          "Index": "155",
+          "Name": "INPUT\\_PARACHUTE\\_PRECISION\\_LANDING",
+          "Default QWERTY": "LEFT SHIFT",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "156",
+          "Name": "INPUT\\_MAP",
+          "Default QWERTY": "(NONE)",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "157",
+          "Name": "INPUT\\_SELECT\\_WEAPON\\_UNARMED",
+          "Default QWERTY": "1",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "158",
+          "Name": "INPUT\\_SELECT\\_WEAPON\\_MELEE",
+          "Default QWERTY": "2",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "159",
+          "Name": "INPUT\\_SELECT\\_WEAPON\\_HANDGUN",
+          "Default QWERTY": "6",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "160",
+          "Name": "INPUT\\_SELECT\\_WEAPON\\_SHOTGUN",
+          "Default QWERTY": "3",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "161",
+          "Name": "INPUT\\_SELECT\\_WEAPON\\_SMG",
+          "Default QWERTY": "7",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "162",
+          "Name": "INPUT\\_SELECT\\_WEAPON\\_AUTO\\_RIFLE",
+          "Default QWERTY": "8",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "163",
+          "Name": "INPUT\\_SELECT\\_WEAPON\\_SNIPER",
+          "Default QWERTY": "9",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "164",
+          "Name": "INPUT\\_SELECT\\_WEAPON\\_HEAVY",
+          "Default QWERTY": "4",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "165",
+          "Name": "INPUT\\_SELECT\\_WEAPON\\_SPECIAL",
+          "Default QWERTY": "5",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "166",
+          "Name": "INPUT\\_SELECT\\_CHARACTER\\_MICHAEL",
+          "Default QWERTY": "F5",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "167",
+          "Name": "INPUT\\_SELECT\\_CHARACTER\\_FRANKLIN",
+          "Default QWERTY": "F6",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "168",
+          "Name": "INPUT\\_SELECT\\_CHARACTER\\_TREVOR",
+          "Default QWERTY": "F7",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "169",
+          "Name": "INPUT\\_SELECT\\_CHARACTER\\_MULTIPLAYER",
+          "Default QWERTY": "F8 (CONSOLE)",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "170",
+          "Name": "INPUT\\_SAVE\\_REPLAY\\_CLIP",
+          "Default QWERTY": "F3",
+          "Xbox Controller": "B"
+        },
+        {
+          "Index": "171",
+          "Name": "INPUT\\_SPECIAL\\_ABILITY\\_PC",
+          "Default QWERTY": "CAPSLOCK",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "172",
+          "Name": "INPUT\\_CELLPHONE\\_UP",
+          "Default QWERTY": "ARROW UP",
+          "Xbox Controller": "DPAD UP"
+        },
+        {
+          "Index": "173",
+          "Name": "INPUT\\_CELLPHONE\\_DOWN",
+          "Default QWERTY": "ARROW DOWN",
+          "Xbox Controller": "DPAD DOWN"
+        },
+        {
+          "Index": "174",
+          "Name": "INPUT\\_CELLPHONE\\_LEFT",
+          "Default QWERTY": "ARROW LEFT",
+          "Xbox Controller": "DPAD LEFT"
+        },
+        {
+          "Index": "175",
+          "Name": "INPUT\\_CELLPHONE\\_RIGHT",
+          "Default QWERTY": "ARROW RIGHT",
+          "Xbox Controller": "DPAD RIGHT"
+        },
+        {
+          "Index": "176",
+          "Name": "INPUT\\_CELLPHONE\\_SELECT",
+          "Default QWERTY": "ENTER / LEFT MOUSE BUTTON",
+          "Xbox Controller": "A"
+        },
+        {
+          "Index": "177",
+          "Name": "INPUT\\_CELLPHONE\\_CANCEL",
+          "Default QWERTY": "BACKSPACE / ESC / RIGHT MOUSE BUTTON",
+          "Xbox Controller": "B"
+        },
+        {
+          "Index": "178",
+          "Name": "INPUT\\_CELLPHONE\\_OPTION",
+          "Default QWERTY": "DELETE",
+          "Xbox Controller": "Y"
+        },
+        {
+          "Index": "179",
+          "Name": "INPUT\\_CELLPHONE\\_EXTRA\\_OPTION",
+          "Default QWERTY": "SPACEBAR",
+          "Xbox Controller": "X"
+        },
+        {
+          "Index": "180",
+          "Name": "INPUT\\_CELLPHONE\\_SCROLL\\_FORWARD",
+          "Default QWERTY": "SCROLLWHEEL DOWN",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "181",
+          "Name": "INPUT\\_CELLPHONE\\_SCROLL\\_BACKWARD",
+          "Default QWERTY": "SCROLLWHEEL UP",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "182",
+          "Name": "INPUT\\_CELLPHONE\\_CAMERA\\_FOCUS\\_LOCK",
+          "Default QWERTY": "L",
+          "Xbox Controller": "RT"
+        },
+        {
+          "Index": "183",
+          "Name": "INPUT\\_CELLPHONE\\_CAMERA\\_GRID",
+          "Default QWERTY": "G",
+          "Xbox Controller": "RB"
+        },
+        {
+          "Index": "184",
+          "Name": "INPUT\\_CELLPHONE\\_CAMERA\\_SELFIE",
+          "Default QWERTY": "E",
+          "Xbox Controller": "R3"
+        },
+        {
+          "Index": "185",
+          "Name": "INPUT\\_CELLPHONE\\_CAMERA\\_DOF",
+          "Default QWERTY": "F",
+          "Xbox Controller": "LB"
+        },
+        {
+          "Index": "186",
+          "Name": "INPUT\\_CELLPHONE\\_CAMERA\\_EXPRESSION",
+          "Default QWERTY": "X",
+          "Xbox Controller": "L3"
+        },
+        {
+          "Index": "187",
+          "Name": "INPUT\\_FRONTEND\\_DOWN",
+          "Default QWERTY": "ARROW DOWN",
+          "Xbox Controller": "DPAD DOWN"
+        },
+        {
+          "Index": "188",
+          "Name": "INPUT\\_FRONTEND\\_UP",
+          "Default QWERTY": "ARROW UP",
+          "Xbox Controller": "DPAD UP"
+        },
+        {
+          "Index": "189",
+          "Name": "INPUT\\_FRONTEND\\_LEFT",
+          "Default QWERTY": "ARROW LEFT",
+          "Xbox Controller": "DPAD LEFT"
+        },
+        {
+          "Index": "190",
+          "Name": "INPUT\\_FRONTEND\\_RIGHT",
+          "Default QWERTY": "ARROW RIGHT",
+          "Xbox Controller": "DPAD RIGHT"
+        },
+        {
+          "Index": "191",
+          "Name": "INPUT\\_FRONTEND\\_RDOWN",
+          "Default QWERTY": "ENTER",
+          "Xbox Controller": "A"
+        },
+        {
+          "Index": "192",
+          "Name": "INPUT\\_FRONTEND\\_RUP",
+          "Default QWERTY": "TAB",
+          "Xbox Controller": "Y"
+        },
+        {
+          "Index": "193",
+          "Name": "INPUT\\_FRONTEND\\_RLEFT",
+          "Default QWERTY": "(NONE)",
+          "Xbox Controller": "X"
+        },
+        {
+          "Index": "194",
+          "Name": "INPUT\\_FRONTEND\\_RRIGHT",
+          "Default QWERTY": "BACKSPACE",
+          "Xbox Controller": "B"
+        },
+        {
+          "Index": "195",
+          "Name": "INPUT\\_FRONTEND\\_AXIS\\_X",
+          "Default QWERTY": "D",
+          "Xbox Controller": "LEFT STICK"
+        },
+        {
+          "Index": "196",
+          "Name": "INPUT\\_FRONTEND\\_AXIS\\_Y",
+          "Default QWERTY": "S",
+          "Xbox Controller": "LEFT STICK"
+        },
+        {
+          "Index": "197",
+          "Name": "INPUT\\_FRONTEND\\_RIGHT\\_AXIS\\_X",
+          "Default QWERTY": "\\]",
+          "Xbox Controller": "RIGHT STICK"
+        },
+        {
+          "Index": "198",
+          "Name": "INPUT\\_FRONTEND\\_RIGHT\\_AXIS\\_Y",
+          "Default QWERTY": "SCROLLWHEEL DOWN",
+          "Xbox Controller": "RIGHT STICK"
+        },
+        {
+          "Index": "199",
+          "Name": "INPUT\\_FRONTEND\\_PAUSE",
+          "Default QWERTY": "P",
+          "Xbox Controller": "START"
+        },
+        {
+          "Index": "200",
+          "Name": "INPUT\\_FRONTEND\\_PAUSE\\_ALTERNATE",
+          "Default QWERTY": "ESC",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "201",
+          "Name": "INPUT\\_FRONTEND\\_ACCEPT",
+          "Default QWERTY": "ENTER / NUMPAD ENTER",
+          "Xbox Controller": "A"
+        },
+        {
+          "Index": "202",
+          "Name": "INPUT\\_FRONTEND\\_CANCEL",
+          "Default QWERTY": "BACKSPACE / ESC",
+          "Xbox Controller": "B"
+        },
+        {
+          "Index": "203",
+          "Name": "INPUT\\_FRONTEND\\_X",
+          "Default QWERTY": "SPACEBAR",
+          "Xbox Controller": "X"
+        },
+        {
+          "Index": "204",
+          "Name": "INPUT\\_FRONTEND\\_Y",
+          "Default QWERTY": "TAB",
+          "Xbox Controller": "Y"
+        },
+        {
+          "Index": "205",
+          "Name": "INPUT\\_FRONTEND\\_LB",
+          "Default QWERTY": "Q",
+          "Xbox Controller": "LB"
+        },
+        {
+          "Index": "206",
+          "Name": "INPUT\\_FRONTEND\\_RB",
+          "Default QWERTY": "E",
+          "Xbox Controller": "RB"
+        },
+        {
+          "Index": "207",
+          "Name": "INPUT\\_FRONTEND\\_LT",
+          "Default QWERTY": "PAGE DOWN",
+          "Xbox Controller": "LT"
+        },
+        {
+          "Index": "208",
+          "Name": "INPUT\\_FRONTEND\\_RT",
+          "Default QWERTY": "PAGE UP",
+          "Xbox Controller": "RT"
+        },
+        {
+          "Index": "209",
+          "Name": "INPUT\\_FRONTEND\\_LS",
+          "Default QWERTY": "LEFT SHIFT",
+          "Xbox Controller": "L3"
+        },
+        {
+          "Index": "210",
+          "Name": "INPUT\\_FRONTEND\\_RS",
+          "Default QWERTY": "LEFT CONTROL",
+          "Xbox Controller": "R3"
+        },
+        {
+          "Index": "211",
+          "Name": "INPUT\\_FRONTEND\\_LEADERBOARD",
+          "Default QWERTY": "TAB",
+          "Xbox Controller": "RB"
+        },
+        {
+          "Index": "212",
+          "Name": "INPUT\\_FRONTEND\\_SOCIAL\\_CLUB",
+          "Default QWERTY": "HOME",
+          "Xbox Controller": "BACK"
+        },
+        {
+          "Index": "213",
+          "Name": "INPUT\\_FRONTEND\\_SOCIAL\\_CLUB\\_SECONDARY",
+          "Default QWERTY": "HOME",
+          "Xbox Controller": "RB"
+        },
+        {
+          "Index": "214",
+          "Name": "INPUT\\_FRONTEND\\_DELETE",
+          "Default QWERTY": "DELETE",
+          "Xbox Controller": "X"
+        },
+        {
+          "Index": "215",
+          "Name": "INPUT\\_FRONTEND\\_ENDSCREEN\\_ACCEPT",
+          "Default QWERTY": "ENTER",
+          "Xbox Controller": "A"
+        },
+        {
+          "Index": "216",
+          "Name": "INPUT\\_FRONTEND\\_ENDSCREEN\\_EXPAND",
+          "Default QWERTY": "SPACEBAR",
+          "Xbox Controller": "X"
+        },
+        {
+          "Index": "217",
+          "Name": "INPUT\\_FRONTEND\\_SELECT",
+          "Default QWERTY": "CAPSLOCK",
+          "Xbox Controller": "BACK"
+        },
+        {
+          "Index": "218",
+          "Name": "INPUT\\_SCRIPT\\_LEFT\\_AXIS\\_X",
+          "Default QWERTY": "D",
+          "Xbox Controller": "LEFT STICK"
+        },
+        {
+          "Index": "219",
+          "Name": "INPUT\\_SCRIPT\\_LEFT\\_AXIS\\_Y",
+          "Default QWERTY": "S",
+          "Xbox Controller": "LEFT STICK"
+        },
+        {
+          "Index": "220",
+          "Name": "INPUT\\_SCRIPT\\_RIGHT\\_AXIS\\_X",
+          "Default QWERTY": "MOUSE RIGHT",
+          "Xbox Controller": "RIGHT STICK"
+        },
+        {
+          "Index": "221",
+          "Name": "INPUT\\_SCRIPT\\_RIGHT\\_AXIS\\_Y",
+          "Default QWERTY": "MOUSE DOWN",
+          "Xbox Controller": "RIGHT STICK"
+        },
+        {
+          "Index": "222",
+          "Name": "INPUT\\_SCRIPT\\_RUP",
+          "Default QWERTY": "RIGHT MOUSE BUTTON",
+          "Xbox Controller": "Y"
+        },
+        {
+          "Index": "223",
+          "Name": "INPUT\\_SCRIPT\\_RDOWN",
+          "Default QWERTY": "LEFT MOUSE BUTTON",
+          "Xbox Controller": "A"
+        },
+        {
+          "Index": "224",
+          "Name": "INPUT\\_SCRIPT\\_RLEFT",
+          "Default QWERTY": "LEFT CTRL",
+          "Xbox Controller": "X"
+        },
+        {
+          "Index": "225",
+          "Name": "INPUT\\_SCRIPT\\_RRIGHT",
+          "Default QWERTY": "RIGHT MOUSE BUTTON",
+          "Xbox Controller": "B"
+        },
+        {
+          "Index": "226",
+          "Name": "INPUT\\_SCRIPT\\_LB",
+          "Default QWERTY": "(NONE)",
+          "Xbox Controller": "LB"
+        },
+        {
+          "Index": "227",
+          "Name": "INPUT\\_SCRIPT\\_RB",
+          "Default QWERTY": "(NONE)",
+          "Xbox Controller": "RB"
+        },
+        {
+          "Index": "228",
+          "Name": "INPUT\\_SCRIPT\\_LT",
+          "Default QWERTY": "(NONE)",
+          "Xbox Controller": "LT"
+        },
+        {
+          "Index": "229",
+          "Name": "INPUT\\_SCRIPT\\_RT",
+          "Default QWERTY": "LEFT MOUSE BUTTON",
+          "Xbox Controller": "RT"
+        },
+        {
+          "Index": "230",
+          "Name": "INPUT\\_SCRIPT\\_LS",
+          "Default QWERTY": "(NONE)",
+          "Xbox Controller": "L3"
+        },
+        {
+          "Index": "231",
+          "Name": "INPUT\\_SCRIPT\\_RS",
+          "Default QWERTY": "(NONE)",
+          "Xbox Controller": "R3"
+        },
+        {
+          "Index": "232",
+          "Name": "INPUT\\_SCRIPT\\_PAD\\_UP",
+          "Default QWERTY": "W",
+          "Xbox Controller": "DPAD UP"
+        },
+        {
+          "Index": "233",
+          "Name": "INPUT\\_SCRIPT\\_PAD\\_DOWN",
+          "Default QWERTY": "S",
+          "Xbox Controller": "DPAD DOWN"
+        },
+        {
+          "Index": "234",
+          "Name": "INPUT\\_SCRIPT\\_PAD\\_LEFT",
+          "Default QWERTY": "A",
+          "Xbox Controller": "DPAD LEFT"
+        },
+        {
+          "Index": "235",
+          "Name": "INPUT\\_SCRIPT\\_PAD\\_RIGHT",
+          "Default QWERTY": "D",
+          "Xbox Controller": "DPAD RIGHT"
+        },
+        {
+          "Index": "236",
+          "Name": "INPUT\\_SCRIPT\\_SELECT",
+          "Default QWERTY": "V",
+          "Xbox Controller": "BACK"
+        },
+        {
+          "Index": "237",
+          "Name": "INPUT\\_CURSOR\\_ACCEPT",
+          "Default QWERTY": "LEFT MOUSE BUTTON",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "238",
+          "Name": "INPUT\\_CURSOR\\_CANCEL",
+          "Default QWERTY": "RIGHT MOUSE BUTTON",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "239",
+          "Name": "INPUT\\_CURSOR\\_X",
+          "Default QWERTY": "(NONE)",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "240",
+          "Name": "INPUT\\_CURSOR\\_Y",
+          "Default QWERTY": "(NONE)",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "241",
+          "Name": "INPUT\\_CURSOR\\_SCROLL\\_UP",
+          "Default QWERTY": "SCROLLWHEEL UP",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "242",
+          "Name": "INPUT\\_CURSOR\\_SCROLL\\_DOWN",
+          "Default QWERTY": "SCROLLWHEEL DOWN",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "243",
+          "Name": "INPUT\\_ENTER\\_CHEAT\\_CODE",
+          "Default QWERTY": "~ / \\`",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "244",
+          "Name": "INPUT\\_INTERACTION\\_MENU",
+          "Default QWERTY": "M",
+          "Xbox Controller": "BACK"
+        },
+        {
+          "Index": "245",
+          "Name": "INPUT\\_MP\\_TEXT\\_CHAT\\_ALL",
+          "Default QWERTY": "T",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "246",
+          "Name": "INPUT\\_MP\\_TEXT\\_CHAT\\_TEAM",
+          "Default QWERTY": "Y",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "247",
+          "Name": "INPUT\\_MP\\_TEXT\\_CHAT\\_FRIENDS",
+          "Default QWERTY": "(NONE)",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "248",
+          "Name": "INPUT\\_MP\\_TEXT\\_CHAT\\_CREW",
+          "Default QWERTY": "(NONE)",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "249",
+          "Name": "INPUT\\_PUSH\\_TO\\_TALK",
+          "Default QWERTY": "N",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "250",
+          "Name": "INPUT\\_CREATOR\\_LS",
+          "Default QWERTY": "R",
+          "Xbox Controller": "L3"
+        },
+        {
+          "Index": "251",
+          "Name": "INPUT\\_CREATOR\\_RS",
+          "Default QWERTY": "F",
+          "Xbox Controller": "R3"
+        },
+        {
+          "Index": "252",
+          "Name": "INPUT\\_CREATOR\\_LT",
+          "Default QWERTY": "X",
+          "Xbox Controller": "LT"
+        },
+        {
+          "Index": "253",
+          "Name": "INPUT\\_CREATOR\\_RT",
+          "Default QWERTY": "C",
+          "Xbox Controller": "RT"
+        },
+        {
+          "Index": "254",
+          "Name": "INPUT\\_CREATOR\\_MENU\\_TOGGLE",
+          "Default QWERTY": "LEFT SHIFT",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "255",
+          "Name": "INPUT\\_CREATOR\\_ACCEPT",
+          "Default QWERTY": "SPACEBAR",
+          "Xbox Controller": "A"
+        },
+        {
+          "Index": "256",
+          "Name": "INPUT\\_CREATOR\\_DELETE",
+          "Default QWERTY": "DELETE",
+          "Xbox Controller": "X"
+        },
+        {
+          "Index": "257",
+          "Name": "INPUT\\_ATTACK2",
+          "Default QWERTY": "LEFT MOUSE BUTTON",
+          "Xbox Controller": "RT"
+        },
+        {
+          "Index": "258",
+          "Name": "INPUT\\_RAPPEL\\_JUMP",
+          "Default QWERTY": "(NONE)",
+          "Xbox Controller": "A"
+        },
+        {
+          "Index": "259",
+          "Name": "INPUT\\_RAPPEL\\_LONG\\_JUMP",
+          "Default QWERTY": "(NONE)",
+          "Xbox Controller": "X"
+        },
+        {
+          "Index": "260",
+          "Name": "INPUT\\_RAPPEL\\_SMASH\\_WINDOW",
+          "Default QWERTY": "(NONE)",
+          "Xbox Controller": "RT"
+        },
+        {
+          "Index": "261",
+          "Name": "INPUT\\_PREV\\_WEAPON",
+          "Default QWERTY": "SCROLLWHEEL UP",
+          "Xbox Controller": "DPAD LEFT"
+        },
+        {
+          "Index": "262",
+          "Name": "INPUT\\_NEXT\\_WEAPON",
+          "Default QWERTY": "SCROLLWHEEL DOWN",
+          "Xbox Controller": "DPAD RIGHT"
+        },
+        {
+          "Index": "263",
+          "Name": "INPUT\\_MELEE\\_ATTACK1",
+          "Default QWERTY": "R",
+          "Xbox Controller": "B"
+        },
+        {
+          "Index": "264",
+          "Name": "INPUT\\_MELEE\\_ATTACK2",
+          "Default QWERTY": "Q",
+          "Xbox Controller": "A"
+        },
+        {
+          "Index": "265",
+          "Name": "INPUT\\_WHISTLE",
+          "Default QWERTY": "(NONE)",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "266",
+          "Name": "INPUT\\_MOVE\\_LEFT",
+          "Default QWERTY": "D",
+          "Xbox Controller": "LEFT STICK"
+        },
+        {
+          "Index": "267",
+          "Name": "INPUT\\_MOVE\\_RIGHT",
+          "Default QWERTY": "D",
+          "Xbox Controller": "LEFT STICK"
+        },
+        {
+          "Index": "268",
+          "Name": "INPUT\\_MOVE\\_UP",
+          "Default QWERTY": "S",
+          "Xbox Controller": "LEFT STICK"
+        },
+        {
+          "Index": "269",
+          "Name": "INPUT\\_MOVE\\_DOWN",
+          "Default QWERTY": "S",
+          "Xbox Controller": "LEFT STICK"
+        },
+        {
+          "Index": "270",
+          "Name": "INPUT\\_LOOK\\_LEFT",
+          "Default QWERTY": "MOUSE RIGHT",
+          "Xbox Controller": "RIGHT STICK"
+        },
+        {
+          "Index": "271",
+          "Name": "INPUT\\_LOOK\\_RIGHT",
+          "Default QWERTY": "MOUSE RIGHT",
+          "Xbox Controller": "RIGHT STICK"
+        },
+        {
+          "Index": "272",
+          "Name": "INPUT\\_LOOK\\_UP",
+          "Default QWERTY": "MOUSE DOWN",
+          "Xbox Controller": "RIGHT STICK"
+        },
+        {
+          "Index": "273",
+          "Name": "INPUT\\_LOOK\\_DOWN",
+          "Default QWERTY": "MOUSE DOWN",
+          "Xbox Controller": "RIGHT STICK"
+        },
+        {
+          "Index": "274",
+          "Name": "INPUT\\_SNIPER\\_ZOOM\\_IN",
+          "Default QWERTY": "\\[",
+          "Xbox Controller": "RIGHT STICK"
+        },
+        {
+          "Index": "275",
+          "Name": "INPUT\\_SNIPER\\_ZOOM\\_OUT",
+          "Default QWERTY": "\\[",
+          "Xbox Controller": "RIGHT STICK"
+        },
+        {
+          "Index": "276",
+          "Name": "INPUT\\_SNIPER\\_ZOOM\\_IN\\_ALTERNATE",
+          "Default QWERTY": "\\[",
+          "Xbox Controller": "LEFT STICK"
+        },
+        {
+          "Index": "277",
+          "Name": "INPUT\\_SNIPER\\_ZOOM\\_OUT\\_ALTERNATE",
+          "Default QWERTY": "\\[",
+          "Xbox Controller": "LEFT STICK"
+        },
+        {
+          "Index": "278",
+          "Name": "INPUT\\_VEH\\_MOVE\\_LEFT",
+          "Default QWERTY": "D",
+          "Xbox Controller": "LEFT STICK"
+        },
+        {
+          "Index": "279",
+          "Name": "INPUT\\_VEH\\_MOVE\\_RIGHT",
+          "Default QWERTY": "D",
+          "Xbox Controller": "LEFT STICK"
+        },
+        {
+          "Index": "280",
+          "Name": "INPUT\\_VEH\\_MOVE\\_UP",
+          "Default QWERTY": "LEFT CTRL",
+          "Xbox Controller": "LEFT STICK"
+        },
+        {
+          "Index": "281",
+          "Name": "INPUT\\_VEH\\_MOVE\\_DOWN",
+          "Default QWERTY": "LEFT CTRL",
+          "Xbox Controller": "LEFT STICK"
+        },
+        {
+          "Index": "282",
+          "Name": "INPUT\\_VEH\\_GUN\\_LEFT",
+          "Default QWERTY": "MOUSE RIGHT",
+          "Xbox Controller": "RIGHT STICK"
+        },
+        {
+          "Index": "283",
+          "Name": "INPUT\\_VEH\\_GUN\\_RIGHT",
+          "Default QWERTY": "MOUSE RIGHT",
+          "Xbox Controller": "RIGHT STICK"
+        },
+        {
+          "Index": "284",
+          "Name": "INPUT\\_VEH\\_GUN\\_UP",
+          "Default QWERTY": "MOUSE RIGHT",
+          "Xbox Controller": "RIGHT STICK"
+        },
+        {
+          "Index": "285",
+          "Name": "INPUT\\_VEH\\_GUN\\_DOWN",
+          "Default QWERTY": "MOUSE RIGHT",
+          "Xbox Controller": "RIGHT STICK"
+        },
+        {
+          "Index": "286",
+          "Name": "INPUT\\_VEH\\_LOOK\\_LEFT",
+          "Default QWERTY": "MOUSE RIGHT",
+          "Xbox Controller": "RIGHT STICK"
+        },
+        {
+          "Index": "287",
+          "Name": "INPUT\\_VEH\\_LOOK\\_RIGHT",
+          "Default QWERTY": "MOUSE RIGHT",
+          "Xbox Controller": "RIGHT STICK"
+        },
+        {
+          "Index": "288",
+          "Name": "INPUT\\_REPLAY\\_START\\_STOP\\_RECORDING",
+          "Default QWERTY": "F1",
+          "Xbox Controller": "A"
+        },
+        {
+          "Index": "289",
+          "Name": "INPUT\\_REPLAY\\_START\\_STOP\\_RECORDING\\_SECONDARY",
+          "Default QWERTY": "F2",
+          "Xbox Controller": "X"
+        },
+        {
+          "Index": "290",
+          "Name": "INPUT\\_SCALED\\_LOOK\\_LR",
+          "Default QWERTY": "MOUSE RIGHT",
+          "Xbox Controller": "RIGHT STICK"
+        },
+        {
+          "Index": "291",
+          "Name": "INPUT\\_SCALED\\_LOOK\\_UD",
+          "Default QWERTY": "MOUSE DOWN",
+          "Xbox Controller": "RIGHT STICK"
+        },
+        {
+          "Index": "292",
+          "Name": "INPUT\\_SCALED\\_LOOK\\_UP\\_ONLY",
+          "Default QWERTY": "(NONE)",
+          "Xbox Controller": "RIGHT STICK"
+        },
+        {
+          "Index": "293",
+          "Name": "INPUT\\_SCALED\\_LOOK\\_DOWN\\_ONLY",
+          "Default QWERTY": "(NONE)",
+          "Xbox Controller": "RIGHT STICK"
+        },
+        {
+          "Index": "294",
+          "Name": "INPUT\\_SCALED\\_LOOK\\_LEFT\\_ONLY",
+          "Default QWERTY": "(NONE)",
+          "Xbox Controller": "RIGHT STICK"
+        },
+        {
+          "Index": "295",
+          "Name": "INPUT\\_SCALED\\_LOOK\\_RIGHT\\_ONLY",
+          "Default QWERTY": "(NONE)",
+          "Xbox Controller": "RIGHT STICK"
+        },
+        {
+          "Index": "296",
+          "Name": "INPUT\\_REPLAY\\_MARKER\\_DELETE",
+          "Default QWERTY": "DELETE",
+          "Xbox Controller": "X"
+        },
+        {
+          "Index": "297",
+          "Name": "INPUT\\_REPLAY\\_CLIP\\_DELETE",
+          "Default QWERTY": "DELETE",
+          "Xbox Controller": "Y"
+        },
+        {
+          "Index": "298",
+          "Name": "INPUT\\_REPLAY\\_PAUSE",
+          "Default QWERTY": "SPACEBAR",
+          "Xbox Controller": "A"
+        },
+        {
+          "Index": "299",
+          "Name": "INPUT\\_REPLAY\\_REWIND",
+          "Default QWERTY": "ARROW DOWN",
+          "Xbox Controller": "LB"
+        },
+        {
+          "Index": "300",
+          "Name": "INPUT\\_REPLAY\\_FFWD",
+          "Default QWERTY": "ARROW UP",
+          "Xbox Controller": "RB"
+        },
+        {
+          "Index": "301",
+          "Name": "INPUT\\_REPLAY\\_NEWMARKER",
+          "Default QWERTY": "M",
+          "Xbox Controller": "A"
+        },
+        {
+          "Index": "302",
+          "Name": "INPUT\\_REPLAY\\_RECORD",
+          "Default QWERTY": "S",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "303",
+          "Name": "INPUT\\_REPLAY\\_SCREENSHOT",
+          "Default QWERTY": "U",
+          "Xbox Controller": "DPAD UP"
+        },
+        {
+          "Index": "304",
+          "Name": "INPUT\\_REPLAY\\_HIDEHUD",
+          "Default QWERTY": "H",
+          "Xbox Controller": "R3"
+        },
+        {
+          "Index": "305",
+          "Name": "INPUT\\_REPLAY\\_STARTPOINT",
+          "Default QWERTY": "B",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "306",
+          "Name": "INPUT\\_REPLAY\\_ENDPOINT",
+          "Default QWERTY": "N",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "307",
+          "Name": "INPUT\\_REPLAY\\_ADVANCE",
+          "Default QWERTY": "ARROW RIGHT",
+          "Xbox Controller": "DPAD RIGHT"
+        },
+        {
+          "Index": "308",
+          "Name": "INPUT\\_REPLAY\\_BACK",
+          "Default QWERTY": "ARROW LEFT",
+          "Xbox Controller": "DPAD LEFT"
+        },
+        {
+          "Index": "309",
+          "Name": "INPUT\\_REPLAY\\_TOOLS",
+          "Default QWERTY": "T",
+          "Xbox Controller": "DPAD DOWN"
+        },
+        {
+          "Index": "310",
+          "Name": "INPUT\\_REPLAY\\_RESTART",
+          "Default QWERTY": "R",
+          "Xbox Controller": "BACK"
+        },
+        {
+          "Index": "311",
+          "Name": "INPUT\\_REPLAY\\_SHOWHOTKEY",
+          "Default QWERTY": "K",
+          "Xbox Controller": "DPAD DOWN"
+        },
+        {
+          "Index": "312",
+          "Name": "INPUT\\_REPLAY\\_CYCLEMARKERLEFT",
+          "Default QWERTY": "\\[",
+          "Xbox Controller": "DPAD LEFT"
+        },
+        {
+          "Index": "313",
+          "Name": "INPUT\\_REPLAY\\_CYCLEMARKERRIGHT",
+          "Default QWERTY": "\\]",
+          "Xbox Controller": "DPAD RIGHT"
+        },
+        {
+          "Index": "314",
+          "Name": "INPUT\\_REPLAY\\_FOVINCREASE",
+          "Default QWERTY": "NUMPAD +",
+          "Xbox Controller": "RB"
+        },
+        {
+          "Index": "315",
+          "Name": "INPUT\\_REPLAY\\_FOVDECREASE",
+          "Default QWERTY": "NUMPAD -",
+          "Xbox Controller": "LB"
+        },
+        {
+          "Index": "316",
+          "Name": "INPUT\\_REPLAY\\_CAMERAUP",
+          "Default QWERTY": "PAGE UP",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "317",
+          "Name": "INPUT\\_REPLAY\\_CAMERADOWN",
+          "Default QWERTY": "PAGE DOWN",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "318",
+          "Name": "INPUT\\_REPLAY\\_SAVE",
+          "Default QWERTY": "F5",
+          "Xbox Controller": "START"
+        },
+        {
+          "Index": "319",
+          "Name": "INPUT\\_REPLAY\\_TOGGLETIME",
+          "Default QWERTY": "C",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "320",
+          "Name": "INPUT\\_REPLAY\\_TOGGLETIPS",
+          "Default QWERTY": "V",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "321",
+          "Name": "INPUT\\_REPLAY\\_PREVIEW",
+          "Default QWERTY": "SPACEBAR",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "322",
+          "Name": "INPUT\\_REPLAY\\_TOGGLE\\_TIMELINE",
+          "Default QWERTY": "ESC",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "323",
+          "Name": "INPUT\\_REPLAY\\_TIMELINE\\_PICKUP\\_CLIP",
+          "Default QWERTY": "X",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "324",
+          "Name": "INPUT\\_REPLAY\\_TIMELINE\\_DUPLICATE\\_CLIP",
+          "Default QWERTY": "C",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "325",
+          "Name": "INPUT\\_REPLAY\\_TIMELINE\\_PLACE\\_CLIP",
+          "Default QWERTY": "V",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "326",
+          "Name": "INPUT\\_REPLAY\\_CTRL",
+          "Default QWERTY": "LEFT CTRL",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "327",
+          "Name": "INPUT\\_REPLAY\\_TIMELINE\\_SAVE",
+          "Default QWERTY": "F5",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "328",
+          "Name": "INPUT\\_REPLAY\\_PREVIEW\\_AUDIO",
+          "Default QWERTY": "SPACEBAR",
+          "Xbox Controller": "RT"
+        },
+        {
+          "Index": "329",
+          "Name": "INPUT\\_VEH\\_DRIVE\\_LOOK",
+          "Default QWERTY": "LEFT MOUSE BUTTON",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "330",
+          "Name": "INPUT\\_VEH\\_DRIVE\\_LOOK2",
+          "Default QWERTY": "RIGHT MOUSE BUTTON",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "331",
+          "Name": "INPUT\\_VEH\\_FLY\\_ATTACK2",
+          "Default QWERTY": "RIGHT MOUSE BUTTON",
+          "Xbox Controller": "(NONE)"
+        },
+        {
+          "Index": "332",
+          "Name": "INPUT\\_RADIO\\_WHEEL\\_UD",
+          "Default QWERTY": "MOUSE DOWN",
+          "Xbox Controller": "RIGHT STICK"
+        },
+        {
+          "Index": "333",
+          "Name": "INPUT\\_RADIO\\_WHEEL\\_LR",
+          "Default QWERTY": "MOUSE RIGHT",
+          "Xbox Controller": "RIGHT STICK"
+        },
+        {
+          "Index": "334",
+          "Name": "INPUT\\_VEH\\_SLOWMO\\_UD",
+          "Default QWERTY": "SCROLLWHEEL DOWN",
+          "Xbox Controller": "LEFT STICK"
+        },
+        {
+          "Index": "335",
+          "Name": "INPUT\\_VEH\\_SLOWMO\\_UP\\_ONLY",
+          "Default QWERTY": "SCROLLWHEEL UP",
+          "Xbox Controller": "LEFT STICK"
+        },
+        {
+          "Index": "336",
+          "Name": "INPUT\\_VEH\\_SLOWMO\\_DOWN\\_ONLY",
+          "Default QWERTY": "SCROLLWHEEL DOWN",
+          "Xbox Controller": "LEFT STICK"
+        },
+        {
+          "Index": "337",
+          "Name": "INPUT\\_VEH\\_HYDRAULICS\\_CONTROL\\_TOGGLE",
+          "Default QWERTY": "X",
+          "Xbox Controller": "A"
+        },
+        {
+          "Index": "338",
+          "Name": "INPUT\\_VEH\\_HYDRAULICS\\_CONTROL\\_LEFT",
+          "Default QWERTY": "A",
+          "Xbox Controller": "LEFT STICK"
+        },
+        {
+          "Index": "339",
+          "Name": "INPUT\\_VEH\\_HYDRAULICS\\_CONTROL\\_RIGHT",
+          "Default QWERTY": "D",
+          "Xbox Controller": "LEFT STICK"
+        },
+        {
+          "Index": "340",
+          "Name": "INPUT\\_VEH\\_HYDRAULICS\\_CONTROL\\_UP",
+          "Default QWERTY": "LEFT SHIFT",
+          "Xbox Controller": "LEFT STICK"
+        },
+        {
+          "Index": "341",
+          "Name": "INPUT\\_VEH\\_HYDRAULICS\\_CONTROL\\_DOWN",
+          "Default QWERTY": "LEFT CTRL",
+          "Xbox Controller": "LEFT STICK"
+        },
+        {
+          "Index": "342",
+          "Name": "INPUT\\_VEH\\_HYDRAULICS\\_CONTROL\\_UD",
+          "Default QWERTY": "D",
+          "Xbox Controller": "LEFT STICK"
+        },
+        {
+          "Index": "343",
+          "Name": "INPUT\\_VEH\\_HYDRAULICS\\_CONTROL\\_LR",
+          "Default QWERTY": "LEFT CTRL",
+          "Xbox Controller": "LEFT STICK"
+        },
+        {
+          "Index": "344",
+          "Name": "INPUT\\_SWITCH\\_VISOR",
+          "Default QWERTY": "F11",
+          "Xbox Controller": "DPAD RIGHT"
+        },
+        {
+          "Index": "345",
+          "Name": "INPUT\\_VEH\\_MELEE\\_HOLD",
+          "Default QWERTY": "X",
+          "Xbox Controller": "A"
+        },
+        {
+          "Index": "346",
+          "Name": "INPUT\\_VEH\\_MELEE\\_LEFT",
+          "Default QWERTY": "LEFT MOUSE BUTTON",
+          "Xbox Controller": "LB"
+        },
+        {
+          "Index": "347",
+          "Name": "INPUT\\_VEH\\_MELEE\\_RIGHT",
+          "Default QWERTY": "RIGHT MOUSE BUTTON",
+          "Xbox Controller": "RB"
+        },
+        {
+          "Index": "348",
+          "Name": "INPUT\\_MAP\\_POI",
+          "Default QWERTY": "SCROLLWHEEL BUTTON (PRESS)",
+          "Xbox Controller": "Y"
+        },
+        {
+          "Index": "349",
+          "Name": "INPUT\\_REPLAY\\_SNAPMATIC\\_PHOTO",
+          "Default QWERTY": "TAB",
+          "Xbox Controller": "X"
+        },
+        {
+          "Index": "350",
+          "Name": "INPUT\\_VEH\\_CAR\\_JUMP",
+          "Default QWERTY": "E",
+          "Xbox Controller": "L3"
+        },
+        {
+          "Index": "351",
+          "Name": "INPUT\\_VEH\\_ROCKET\\_BOOST",
+          "Default QWERTY": "E",
+          "Xbox Controller": "L3"
+        },
+        {
+          "Index": "352",
+          "Name": "INPUT\\_VEH\\_FLY\\_BOOST",
+          "Default QWERTY": "LEFT SHIFT",
+          "Xbox Controller": "L3"
+        },
+        {
+          "Index": "353",
+          "Name": "INPUT\\_VEH\\_PARACHUTE",
+          "Default QWERTY": "SPACEBAR",
+          "Xbox Controller": "A"
+        },
+        {
+          "Index": "354",
+          "Name": "INPUT\\_VEH\\_BIKE\\_WINGS",
+          "Default QWERTY": "X",
+          "Xbox Controller": "A"
+        },
+        {
+          "Index": "355",
+          "Name": "INPUT\\_VEH\\_FLY\\_BOMB\\_BAY",
+          "Default QWERTY": "E",
+          "Xbox Controller": "DPAD RIGHT"
+        },
+        {
+          "Index": "356",
+          "Name": "INPUT\\_VEH\\_FLY\\_COUNTER",
+          "Default QWERTY": "E",
+          "Xbox Controller": "DPAD RIGHT"
+        },
+        {
+          "Index": "357",
+          "Name": "INPUT\\_VEH\\_TRANSFORM",
+          "Default QWERTY": "X",
+          "Xbox Controller": "A"
+        },
+        {
+          "Index": "358",
+          "Name": "INPUT\\_QUAD\\_LOCO\\_REVERSE",
+          "Default QWERTY": "",
+          "Xbox Controller": "RB"
+        },
+        {
+          "Index": "359",
+          "Name": "INPUT\\_RESPAWN\\_FASTER",
+          "Default QWERTY": "",
+          "Xbox Controller": ""
+        },
+        {
+          "Index": "360",
+          "Name": "INPUT\\_HUDMARKER\\_SELECT",
+          "Default QWERTY": "",
+          "Xbox Controller": ""
+        }
+      ]
+    }
+  ],
+  "table_count": 2,
+  "total_table_rows": 363,
+  "css_items": [],
+  "css_item_count": 0,
+  "markdown": "Example\n-------\n\n### Lua\n\n``` lua\n-- checks if INPUT_CONTEXT has just been released\nif IsControlJustReleased(0--[[control type]],  51--[[control index]]) then\n    -- run code here\nend\n```\n\n### C#\n\n``` csharp\n// checks if INPUT_CONTEXT has just been released\n// assumes `using static CitizenFX.Core.API;`\nif(IsControlJustReleased(0, 51))\n{\n   // run code here\n}\n```\n\nControl types\n------------\n\n| Index | Name              |\n|-------|-------------------|\n| 0     | PLAYER\\_CONTROL   |\n| 2     | FRONTEND\\_CONTROL |\n\nControls\n--------\n\n| Index |                       Name                       |            Default QWERTY             | Xbox Controller |\n| ----- | ------------------------------------------------ | ------------------------------------- | --------------- |\n| 0     | INPUT\\_NEXT\\_CAMERA                              | V                                     | BACK            |\n| 1     | INPUT\\_LOOK\\_LR                                  | MOUSE RIGHT                           | RIGHT STICK     |\n| 2     | INPUT\\_LOOK\\_UD                                  | MOUSE DOWN                            | RIGHT STICK     |\n| 3     | INPUT\\_LOOK\\_UP\\_ONLY                            | (NONE)                                | RIGHT STICK     |\n| 4     | INPUT\\_LOOK\\_DOWN\\_ONLY                          | MOUSE DOWN                            | RIGHT STICK     |\n| 5     | INPUT\\_LOOK\\_LEFT\\_ONLY                          | (NONE)                                | RIGHT STICK     |\n| 6     | INPUT\\_LOOK\\_RIGHT\\_ONLY                         | MOUSE RIGHT                           | RIGHT STICK     |\n| 7     | INPUT\\_CINEMATIC\\_SLOWMO                         | (NONE)                                | R3              |\n| 8     | INPUT\\_SCRIPTED\\_FLY\\_UD                         | S                                     | LEFT STICK      |\n| 9     | INPUT\\_SCRIPTED\\_FLY\\_LR                         | D                                     | LEFT STICK      |\n| 10    | INPUT\\_SCRIPTED\\_FLY\\_ZUP                        | PAGEUP                                | LT              |\n| 11    | INPUT\\_SCRIPTED\\_FLY\\_ZDOWN                      | PAGEDOWN                              | RT              |\n| 12    | INPUT\\_WEAPON\\_WHEEL\\_UD                         | MOUSE DOWN                            | RIGHT STICK     |\n| 13    | INPUT\\_WEAPON\\_WHEEL\\_LR                         | MOUSE RIGHT                           | RIGHT STICK     |\n| 14    | INPUT\\_WEAPON\\_WHEEL\\_NEXT                       | SCROLLWHEEL DOWN                      | DPAD RIGHT      |\n| 15    | INPUT\\_WEAPON\\_WHEEL\\_PREV                       | SCROLLWHEEL UP                        | DPAD LEFT       |\n| 16    | INPUT\\_SELECT\\_NEXT\\_WEAPON                      | SCROLLWHEEL DOWN                      | (NONE)          |\n| 17    | INPUT\\_SELECT\\_PREV\\_WEAPON                      | SCROLLWHEEL UP                        | (NONE)          |\n| 18    | INPUT\\_SKIP\\_CUTSCENE                            | ENTER / LEFT MOUSE BUTTON / SPACEBAR  | A               |\n| 19    | INPUT\\_CHARACTER\\_WHEEL                          | LEFT ALT                              | DPAD DOWN       |\n| 20    | INPUT\\_MULTIPLAYER\\_INFO                         | Z                                     | DPAD DOWN       |\n| 21    | INPUT\\_SPRINT                                    | LEFT SHIFT                            | A               |\n| 22    | INPUT\\_JUMP                                      | SPACEBAR                              | X               |\n| 23    | INPUT\\_ENTER                                     | F                                     | Y               |\n| 24    | INPUT\\_ATTACK                                    | LEFT MOUSE BUTTON                     | RT              |\n| 25    | INPUT\\_AIM                                       | RIGHT MOUSE BUTTON                    | LT              |\n| 26    | INPUT\\_LOOK\\_BEHIND                              | C                                     | R3              |\n| 27    | INPUT\\_PHONE                                     | ARROW UP / SCROLLWHEEL BUTTON (PRESS) | DPAD UP         |\n| 28    | INPUT\\_SPECIAL\\_ABILITY                          | (NONE)                                | L3              |\n| 29    | INPUT\\_SPECIAL\\_ABILITY\\_SECONDARY               | B                                     | R3              |\n| 30    | INPUT\\_MOVE\\_LR                                  | D                                     | LEFT STICK      |\n| 31    | INPUT\\_MOVE\\_UD                                  | S                                     | LEFT STICK      |\n| 32    | INPUT\\_MOVE\\_UP\\_ONLY                            | W                                     | LEFT STICK      |\n| 33    | INPUT\\_MOVE\\_DOWN\\_ONLY                          | S                                     | LEFT STICK      |\n| 34    | INPUT\\_MOVE\\_LEFT\\_ONLY                          | A                                     | LEFT STICK      |\n| 35    | INPUT\\_MOVE\\_RIGHT\\_ONLY                         | D                                     | LEFT STICK      |\n| 36    | INPUT\\_DUCK                                      | LEFT CTRL                             | L3              |\n| 37    | INPUT\\_SELECT\\_WEAPON                            | TAB                                   | LB              |\n| 38    | INPUT\\_PICKUP                                    | E                                     | LB              |\n| 39    | INPUT\\_SNIPER\\_ZOOM                              | \\[                                    | LEFT STICK      |\n| 40    | INPUT\\_SNIPER\\_ZOOM\\_IN\\_ONLY                    | \\]                                    | LEFT STICK      |\n| 41    | INPUT\\_SNIPER\\_ZOOM\\_OUT\\_ONLY                   | \\[                                    | LEFT STICK      |\n| 42    | INPUT\\_SNIPER\\_ZOOM\\_IN\\_SECONDARY               | \\]                                    | DPAD UP         |\n| 43    | INPUT\\_SNIPER\\_ZOOM\\_OUT\\_SECONDARY              | \\[                                    | DPAD DOWN       |\n| 44    | INPUT\\_COVER                                     | Q                                     | RB              |\n| 45    | INPUT\\_RELOAD                                    | R                                     | B               |\n| 46    | INPUT\\_TALK                                      | E                                     | DPAD RIGHT      |\n| 47    | INPUT\\_DETONATE                                  | G                                     | DPAD LEFT       |\n| 48    | INPUT\\_HUD\\_SPECIAL                              | Z                                     | DPAD DOWN       |\n| 49    | INPUT\\_ARREST                                    | F                                     | Y               |\n| 50    | INPUT\\_ACCURATE\\_AIM                             | SCROLLWHEEL DOWN                      | R3              |\n| 51    | INPUT\\_CONTEXT                                   | E                                     | DPAD RIGHT      |\n| 52    | INPUT\\_CONTEXT\\_SECONDARY                        | Q                                     | DPAD LEFT       |\n| 53    | INPUT\\_WEAPON\\_SPECIAL                           | (NONE)                                | Y               |\n| 54    | INPUT\\_WEAPON\\_SPECIAL\\_TWO                      | E                                     | DPAD RIGHT      |\n| 55    | INPUT\\_DIVE                                      | SPACEBAR                              | RB              |\n| 56    | INPUT\\_DROP\\_WEAPON                              | F9                                    | Y               |\n| 57    | INPUT\\_DROP\\_AMMO                                | F10                                   | B               |\n| 58    | INPUT\\_THROW\\_GRENADE                            | G                                     | DPAD LEFT       |\n| 59    | INPUT\\_VEH\\_MOVE\\_LR                             | D                                     | LEFT STICK      |\n| 60    | INPUT\\_VEH\\_MOVE\\_UD                             | LEFT CTRL                             | LEFT STICK      |\n| 61    | INPUT\\_VEH\\_MOVE\\_UP\\_ONLY                       | LEFT SHIFT                            | LEFT STICK      |\n| 62    | INPUT\\_VEH\\_MOVE\\_DOWN\\_ONLY                     | LEFT CTRL                             | LEFT STICK      |\n| 63    | INPUT\\_VEH\\_MOVE\\_LEFT\\_ONLY                     | A                                     | LEFT STICK      |\n| 64    | INPUT\\_VEH\\_MOVE\\_RIGHT\\_ONLY                    | D                                     | LEFT STICK      |\n| 65    | INPUT\\_VEH\\_SPECIAL                              | (NONE)                                | (NONE)          |\n| 66    | INPUT\\_VEH\\_GUN\\_LR                              | MOUSE RIGHT                           | RIGHT STICK     |\n| 67    | INPUT\\_VEH\\_GUN\\_UD                              | MOUSE DOWN                            | RIGHT STICK     |\n| 68    | INPUT\\_VEH\\_AIM                                  | RIGHT MOUSE BUTTON                    | LB              |\n| 69    | INPUT\\_VEH\\_ATTACK                               | LEFT MOUSE BUTTON                     | RB              |\n| 70    | INPUT\\_VEH\\_ATTACK2                              | RIGHT MOUSE BUTTON                    | A               |\n| 71    | INPUT\\_VEH\\_ACCELERATE                           | W                                     | RT              |\n| 72    | INPUT\\_VEH\\_BRAKE                                | S                                     | LT              |\n| 73    | INPUT\\_VEH\\_DUCK                                 | X                                     | A               |\n| 74    | INPUT\\_VEH\\_HEADLIGHT                            | H                                     | DPAD RIGHT      |\n| 75    | INPUT\\_VEH\\_EXIT                                 | F                                     | Y               |\n| 76    | INPUT\\_VEH\\_HANDBRAKE                            | SPACEBAR                              | RB              |\n| 77    | INPUT\\_VEH\\_HOTWIRE\\_LEFT                        | W                                     | LT              |\n| 78    | INPUT\\_VEH\\_HOTWIRE\\_RIGHT                       | S                                     | RT              |\n| 79    | INPUT\\_VEH\\_LOOK\\_BEHIND                         | C                                     | R3              |\n| 80    | INPUT\\_VEH\\_CIN\\_CAM                             | R                                     | B               |\n| 81    | INPUT\\_VEH\\_NEXT\\_RADIO                          | .                                     | (NONE)          |\n| 82    | INPUT\\_VEH\\_PREV\\_RADIO                          | ,                                     | (NONE)          |\n| 83    | INPUT\\_VEH\\_NEXT\\_RADIO\\_TRACK                   | =                                     | (NONE)          |\n| 84    | INPUT\\_VEH\\_PREV\\_RADIO\\_TRACK                   | -                                     | (NONE)          |\n| 85    | INPUT\\_VEH\\_RADIO\\_WHEEL                         | Q                                     | DPAD LEFT       |\n| 86    | INPUT\\_VEH\\_HORN                                 | E                                     | L3              |\n| 87    | INPUT\\_VEH\\_FLY\\_THROTTLE\\_UP                    | W                                     | RT              |\n| 88    | INPUT\\_VEH\\_FLY\\_THROTTLE\\_DOWN                  | S                                     | LT              |\n| 89    | INPUT\\_VEH\\_FLY\\_YAW\\_LEFT                       | A                                     | LB              |\n| 90    | INPUT\\_VEH\\_FLY\\_YAW\\_RIGHT                      | D                                     | RB              |\n| 91    | INPUT\\_VEH\\_PASSENGER\\_AIM                       | RIGHT MOUSE BUTTON                    | LT              |\n| 92    | INPUT\\_VEH\\_PASSENGER\\_ATTACK                    | LEFT MOUSE BUTTON                     | RT              |\n| 93    | INPUT\\_VEH\\_SPECIAL\\_ABILITY\\_FRANKLIN           | (NONE)                                | R3              |\n| 94    | INPUT\\_VEH\\_STUNT\\_UD                            | (NONE)                                | (NONE)          |\n| 95    | INPUT\\_VEH\\_CINEMATIC\\_UD                        | MOUSE DOWN                            | RIGHT STICK     |\n| 96    | INPUT\\_VEH\\_CINEMATIC\\_UP\\_ONLY                  | NUMPAD- / SCROLLWHEEL UP              | (NONE)          |\n| 97    | INPUT\\_VEH\\_CINEMATIC\\_DOWN\\_ONLY                | NUMPAD+ / SCROLLWHEEL DOWN            | (NONE)          |\n| 98    | INPUT\\_VEH\\_CINEMATIC\\_LR                        | MOUSE RIGHT                           | RIGHT STICK     |\n| 99    | INPUT\\_VEH\\_SELECT\\_NEXT\\_WEAPON                 | SCROLLWHEEL UP                        | X               |\n| 100   | INPUT\\_VEH\\_SELECT\\_PREV\\_WEAPON                 | \\[                                    | (NONE)          |\n| 101   | INPUT\\_VEH\\_ROOF                                 | H                                     | DPAD RIGHT      |\n| 102   | INPUT\\_VEH\\_JUMP                                 | SPACEBAR                              | RB              |\n| 103   | INPUT\\_VEH\\_GRAPPLING\\_HOOK                      | E                                     | DPAD RIGHT      |\n| 104   | INPUT\\_VEH\\_SHUFFLE                              | H                                     | DPAD RIGHT      |\n| 105   | INPUT\\_VEH\\_DROP\\_PROJECTILE                     | X                                     | A               |\n| 106   | INPUT\\_VEH\\_MOUSE\\_CONTROL\\_OVERRIDE             | LEFT MOUSE BUTTON                     | (NONE)          |\n| 107   | INPUT\\_VEH\\_FLY\\_ROLL\\_LR                        | NUMPAD 6                              | LEFT STICK      |\n| 108   | INPUT\\_VEH\\_FLY\\_ROLL\\_LEFT\\_ONLY                | NUMPAD 4                              | LEFT STICK      |\n| 109   | INPUT\\_VEH\\_FLY\\_ROLL\\_RIGHT\\_ONLY               | NUMPAD 6                              | LEFT STICK      |\n| 110   | INPUT\\_VEH\\_FLY\\_PITCH\\_UD                       | NUMPAD 5                              | LEFT STICK      |\n| 111   | INPUT\\_VEH\\_FLY\\_PITCH\\_UP\\_ONLY                 | NUMPAD 8                              | LEFT STICK      |\n| 112   | INPUT\\_VEH\\_FLY\\_PITCH\\_DOWN\\_ONLY               | NUMPAD 5                              | LEFT STICK      |\n| 113   | INPUT\\_VEH\\_FLY\\_UNDERCARRIAGE                   | G                                     | L3              |\n| 114   | INPUT\\_VEH\\_FLY\\_ATTACK                          | RIGHT MOUSE BUTTON                    | A               |\n| 115   | INPUT\\_VEH\\_FLY\\_SELECT\\_NEXT\\_WEAPON            | SCROLLWHEEL UP                        | DPAD LEFT       |\n| 116   | INPUT\\_VEH\\_FLY\\_SELECT\\_PREV\\_WEAPON            | \\[                                    | (NONE)          |\n| 117   | INPUT\\_VEH\\_FLY\\_SELECT\\_TARGET\\_LEFT            | NUMPAD 7                              | LB              |\n| 118   | INPUT\\_VEH\\_FLY\\_SELECT\\_TARGET\\_RIGHT           | NUMPAD 9                              | RB              |\n| 119   | INPUT\\_VEH\\_FLY\\_VERTICAL\\_FLIGHT\\_MODE          | E                                     | DPAD RIGHT      |\n| 120   | INPUT\\_VEH\\_FLY\\_DUCK                            | X                                     | A               |\n| 121   | INPUT\\_VEH\\_FLY\\_ATTACK\\_CAMERA                  | INSERT                                | R3              |\n| 122   | INPUT\\_VEH\\_FLY\\_MOUSE\\_CONTROL\\_OVERRIDE        | LEFT MOUSE BUTTON                     | (NONE)          |\n| 123   | INPUT\\_VEH\\_SUB\\_TURN\\_LR                        | NUMPAD 6                              | LEFT STICK      |\n| 124   | INPUT\\_VEH\\_SUB\\_TURN\\_LEFT\\_ONLY                | NUMPAD 4                              | LEFT STICK      |\n| 125   | INPUT\\_VEH\\_SUB\\_TURN\\_RIGHT\\_ONLY               | NUMPAD 6                              | LEFT STICK      |\n| 126   | INPUT\\_VEH\\_SUB\\_PITCH\\_UD                       | NUMPAD 5                              | LEFT STICK      |\n| 127   | INPUT\\_VEH\\_SUB\\_PITCH\\_UP\\_ONLY                 | NUMPAD 8                              | LEFT STICK      |\n| 128   | INPUT\\_VEH\\_SUB\\_PITCH\\_DOWN\\_ONLY               | NUMPAD 5                              | LEFT STICK      |\n| 129   | INPUT\\_VEH\\_SUB\\_THROTTLE\\_UP                    | W                                     | RT              |\n| 130   | INPUT\\_VEH\\_SUB\\_THROTTLE\\_DOWN                  | S                                     | LT              |\n| 131   | INPUT\\_VEH\\_SUB\\_ASCEND                          | LEFT SHIFT                            | X               |\n| 132   | INPUT\\_VEH\\_SUB\\_DESCEND                         | LEFT CTRL                             | A               |\n| 133   | INPUT\\_VEH\\_SUB\\_TURN\\_HARD\\_LEFT                | A                                     | LB              |\n| 134   | INPUT\\_VEH\\_SUB\\_TURN\\_HARD\\_RIGHT               | D                                     | RB              |\n| 135   | INPUT\\_VEH\\_SUB\\_MOUSE\\_CONTROL\\_OVERRIDE        | LEFT MOUSE BUTTON                     | (NONE)          |\n| 136   | INPUT\\_VEH\\_PUSHBIKE\\_PEDAL                      | W                                     | A               |\n| 137   | INPUT\\_VEH\\_PUSHBIKE\\_SPRINT                     | CAPSLOCK                              | A               |\n| 138   | INPUT\\_VEH\\_PUSHBIKE\\_FRONT\\_BRAKE               | Q                                     | LT              |\n| 139   | INPUT\\_VEH\\_PUSHBIKE\\_REAR\\_BRAKE                | S                                     | RT              |\n| 140   | INPUT\\_MELEE\\_ATTACK\\_LIGHT                      | R                                     | B               |\n| 141   | INPUT\\_MELEE\\_ATTACK\\_HEAVY                      | Q                                     | A               |\n| 142   | INPUT\\_MELEE\\_ATTACK\\_ALTERNATE                  | LEFT MOUSE BUTTON                     | RT              |\n| 143   | INPUT\\_MELEE\\_BLOCK                              | SPACEBAR                              | X               |\n| 144   | INPUT\\_PARACHUTE\\_DEPLOY                         | F / LEFT MOUSE BUTTON                 | Y               |\n| 145   | INPUT\\_PARACHUTE\\_DETACH                         | F                                     | Y               |\n| 146   | INPUT\\_PARACHUTE\\_TURN\\_LR                       | D                                     | LEFT STICK      |\n| 147   | INPUT\\_PARACHUTE\\_TURN\\_LEFT\\_ONLY               | A                                     | LEFT STICK      |\n| 148   | INPUT\\_PARACHUTE\\_TURN\\_RIGHT\\_ONLY              | D                                     | LEFT STICK      |\n| 149   | INPUT\\_PARACHUTE\\_PITCH\\_UD                      | S                                     | LEFT STICK      |\n| 150   | INPUT\\_PARACHUTE\\_PITCH\\_UP\\_ONLY                | W                                     | LEFT STICK      |\n| 151   | INPUT\\_PARACHUTE\\_PITCH\\_DOWN\\_ONLY              | S                                     | LEFT STICK      |\n| 152   | INPUT\\_PARACHUTE\\_BRAKE\\_LEFT                    | Q                                     | LB              |\n| 153   | INPUT\\_PARACHUTE\\_BRAKE\\_RIGHT                   | E                                     | RB              |\n| 154   | INPUT\\_PARACHUTE\\_SMOKE                          | X                                     | A               |\n| 155   | INPUT\\_PARACHUTE\\_PRECISION\\_LANDING             | LEFT SHIFT                            | (NONE)          |\n| 156   | INPUT\\_MAP                                       | (NONE)                                | (NONE)          |\n| 157   | INPUT\\_SELECT\\_WEAPON\\_UNARMED                   | 1                                     | (NONE)          |\n| 158   | INPUT\\_SELECT\\_WEAPON\\_MELEE                     | 2                                     | (NONE)          |\n| 159   | INPUT\\_SELECT\\_WEAPON\\_HANDGUN                   | 6                                     | (NONE)          |\n| 160   | INPUT\\_SELECT\\_WEAPON\\_SHOTGUN                   | 3                                     | (NONE)          |\n| 161   | INPUT\\_SELECT\\_WEAPON\\_SMG                       | 7                                     | (NONE)          |\n| 162   | INPUT\\_SELECT\\_WEAPON\\_AUTO\\_RIFLE               | 8                                     | (NONE)          |\n| 163   | INPUT\\_SELECT\\_WEAPON\\_SNIPER                    | 9                                     | (NONE)          |\n| 164   | INPUT\\_SELECT\\_WEAPON\\_HEAVY                     | 4                                     | (NONE)          |\n| 165   | INPUT\\_SELECT\\_WEAPON\\_SPECIAL                   | 5                                     | (NONE)          |\n| 166   | INPUT\\_SELECT\\_CHARACTER\\_MICHAEL                | F5                                    | (NONE)          |\n| 167   | INPUT\\_SELECT\\_CHARACTER\\_FRANKLIN               | F6                                    | (NONE)          |\n| 168   | INPUT\\_SELECT\\_CHARACTER\\_TREVOR                 | F7                                    | (NONE)          |\n| 169   | INPUT\\_SELECT\\_CHARACTER\\_MULTIPLAYER            | F8 (CONSOLE)                          | (NONE)          |\n| 170   | INPUT\\_SAVE\\_REPLAY\\_CLIP                        | F3                                    | B               |\n| 171   | INPUT\\_SPECIAL\\_ABILITY\\_PC                      | CAPSLOCK                              | (NONE)          |\n| 172   | INPUT\\_CELLPHONE\\_UP                             | ARROW UP                              | DPAD UP         |\n| 173   | INPUT\\_CELLPHONE\\_DOWN                           | ARROW DOWN                            | DPAD DOWN       |\n| 174   | INPUT\\_CELLPHONE\\_LEFT                           | ARROW LEFT                            | DPAD LEFT       |\n| 175   | INPUT\\_CELLPHONE\\_RIGHT                          | ARROW RIGHT                           | DPAD RIGHT      |\n| 176   | INPUT\\_CELLPHONE\\_SELECT                         | ENTER / LEFT MOUSE BUTTON             | A               |\n| 177   | INPUT\\_CELLPHONE\\_CANCEL                         | BACKSPACE / ESC / RIGHT MOUSE BUTTON  | B               |\n| 178   | INPUT\\_CELLPHONE\\_OPTION                         | DELETE                                | Y               |\n| 179   | INPUT\\_CELLPHONE\\_EXTRA\\_OPTION                  | SPACEBAR                              | X               |\n| 180   | INPUT\\_CELLPHONE\\_SCROLL\\_FORWARD                | SCROLLWHEEL DOWN                      | (NONE)          |\n| 181   | INPUT\\_CELLPHONE\\_SCROLL\\_BACKWARD               | SCROLLWHEEL UP                        | (NONE)          |\n| 182   | INPUT\\_CELLPHONE\\_CAMERA\\_FOCUS\\_LOCK            | L                                     | RT              |\n| 183   | INPUT\\_CELLPHONE\\_CAMERA\\_GRID                   | G                                     | RB              |\n| 184   | INPUT\\_CELLPHONE\\_CAMERA\\_SELFIE                 | E                                     | R3              |\n| 185   | INPUT\\_CELLPHONE\\_CAMERA\\_DOF                    | F                                     | LB              |\n| 186   | INPUT\\_CELLPHONE\\_CAMERA\\_EXPRESSION             | X                                     | L3              |\n| 187   | INPUT\\_FRONTEND\\_DOWN                            | ARROW DOWN                            | DPAD DOWN       |\n| 188   | INPUT\\_FRONTEND\\_UP                              | ARROW UP                              | DPAD UP         |\n| 189   | INPUT\\_FRONTEND\\_LEFT                            | ARROW LEFT                            | DPAD LEFT       |\n| 190   | INPUT\\_FRONTEND\\_RIGHT                           | ARROW RIGHT                           | DPAD RIGHT      |\n| 191   | INPUT\\_FRONTEND\\_RDOWN                           | ENTER                                 | A               |\n| 192   | INPUT\\_FRONTEND\\_RUP                             | TAB                                   | Y               |\n| 193   | INPUT\\_FRONTEND\\_RLEFT                           | (NONE)                                | X               |\n| 194   | INPUT\\_FRONTEND\\_RRIGHT                          | BACKSPACE                             | B               |\n| 195   | INPUT\\_FRONTEND\\_AXIS\\_X                         | D                                     | LEFT STICK      |\n| 196   | INPUT\\_FRONTEND\\_AXIS\\_Y                         | S                                     | LEFT STICK      |\n| 197   | INPUT\\_FRONTEND\\_RIGHT\\_AXIS\\_X                  | \\]                                    | RIGHT STICK     |\n| 198   | INPUT\\_FRONTEND\\_RIGHT\\_AXIS\\_Y                  | SCROLLWHEEL DOWN                      | RIGHT STICK     |\n| 199   | INPUT\\_FRONTEND\\_PAUSE                           | P                                     | START           |\n| 200   | INPUT\\_FRONTEND\\_PAUSE\\_ALTERNATE                | ESC                                   | (NONE)          |\n| 201   | INPUT\\_FRONTEND\\_ACCEPT                          | ENTER / NUMPAD ENTER                  | A               |\n| 202   | INPUT\\_FRONTEND\\_CANCEL                          | BACKSPACE / ESC                       | B               |\n| 203   | INPUT\\_FRONTEND\\_X                               | SPACEBAR                              | X               |\n| 204   | INPUT\\_FRONTEND\\_Y                               | TAB                                   | Y               |\n| 205   | INPUT\\_FRONTEND\\_LB                              | Q                                     | LB              |\n| 206   | INPUT\\_FRONTEND\\_RB                              | E                                     | RB              |\n| 207   | INPUT\\_FRONTEND\\_LT                              | PAGE DOWN                             | LT              |\n| 208   | INPUT\\_FRONTEND\\_RT                              | PAGE UP                               | RT              |\n| 209   | INPUT\\_FRONTEND\\_LS                              | LEFT SHIFT                            | L3              |\n| 210   | INPUT\\_FRONTEND\\_RS                              | LEFT CONTROL                          | R3              |\n| 211   | INPUT\\_FRONTEND\\_LEADERBOARD                     | TAB                                   | RB              |\n| 212   | INPUT\\_FRONTEND\\_SOCIAL\\_CLUB                    | HOME                                  | BACK            |\n| 213   | INPUT\\_FRONTEND\\_SOCIAL\\_CLUB\\_SECONDARY         | HOME                                  | RB              |\n| 214   | INPUT\\_FRONTEND\\_DELETE                          | DELETE                                | X               |\n| 215   | INPUT\\_FRONTEND\\_ENDSCREEN\\_ACCEPT               | ENTER                                 | A               |\n| 216   | INPUT\\_FRONTEND\\_ENDSCREEN\\_EXPAND               | SPACEBAR                              | X               |\n| 217   | INPUT\\_FRONTEND\\_SELECT                          | CAPSLOCK                              | BACK            |\n| 218   | INPUT\\_SCRIPT\\_LEFT\\_AXIS\\_X                     | D                                     | LEFT STICK      |\n| 219   | INPUT\\_SCRIPT\\_LEFT\\_AXIS\\_Y                     | S                                     | LEFT STICK      |\n| 220   | INPUT\\_SCRIPT\\_RIGHT\\_AXIS\\_X                    | MOUSE RIGHT                           | RIGHT STICK     |\n| 221   | INPUT\\_SCRIPT\\_RIGHT\\_AXIS\\_Y                    | MOUSE DOWN                            | RIGHT STICK     |\n| 222   | INPUT\\_SCRIPT\\_RUP                               | RIGHT MOUSE BUTTON                    | Y               |\n| 223   | INPUT\\_SCRIPT\\_RDOWN                             | LEFT MOUSE BUTTON                     | A               |\n| 224   | INPUT\\_SCRIPT\\_RLEFT                             | LEFT CTRL                             | X               |\n| 225   | INPUT\\_SCRIPT\\_RRIGHT                            | RIGHT MOUSE BUTTON                    | B               |\n| 226   | INPUT\\_SCRIPT\\_LB                                | (NONE)                                | LB              |\n| 227   | INPUT\\_SCRIPT\\_RB                                | (NONE)                                | RB              |\n| 228   | INPUT\\_SCRIPT\\_LT                                | (NONE)                                | LT              |\n| 229   | INPUT\\_SCRIPT\\_RT                                | LEFT MOUSE BUTTON                     | RT              |\n| 230   | INPUT\\_SCRIPT\\_LS                                | (NONE)                                | L3              |\n| 231   | INPUT\\_SCRIPT\\_RS                                | (NONE)                                | R3              |\n| 232   | INPUT\\_SCRIPT\\_PAD\\_UP                           | W                                     | DPAD UP         |\n| 233   | INPUT\\_SCRIPT\\_PAD\\_DOWN                         | S                                     | DPAD DOWN       |\n| 234   | INPUT\\_SCRIPT\\_PAD\\_LEFT                         | A                                     | DPAD LEFT       |\n| 235   | INPUT\\_SCRIPT\\_PAD\\_RIGHT                        | D                                     | DPAD RIGHT      |\n| 236   | INPUT\\_SCRIPT\\_SELECT                            | V                                     | BACK            |\n| 237   | INPUT\\_CURSOR\\_ACCEPT                            | LEFT MOUSE BUTTON                     | (NONE)          |\n| 238   | INPUT\\_CURSOR\\_CANCEL                            | RIGHT MOUSE BUTTON                    | (NONE)          |\n| 239   | INPUT\\_CURSOR\\_X                                 | (NONE)                                | (NONE)          |\n| 240   | INPUT\\_CURSOR\\_Y                                 | (NONE)                                | (NONE)          |\n| 241   | INPUT\\_CURSOR\\_SCROLL\\_UP                        | SCROLLWHEEL UP                        | (NONE)          |\n| 242   | INPUT\\_CURSOR\\_SCROLL\\_DOWN                      | SCROLLWHEEL DOWN                      | (NONE)          |\n| 243   | INPUT\\_ENTER\\_CHEAT\\_CODE                        | ~ / \\`                                | (NONE)          |\n| 244   | INPUT\\_INTERACTION\\_MENU                         | M                                     | BACK            |\n| 245   | INPUT\\_MP\\_TEXT\\_CHAT\\_ALL                       | T                                     | (NONE)          |\n| 246   | INPUT\\_MP\\_TEXT\\_CHAT\\_TEAM                      | Y                                     | (NONE)          |\n| 247   | INPUT\\_MP\\_TEXT\\_CHAT\\_FRIENDS                   | (NONE)                                | (NONE)          |\n| 248   | INPUT\\_MP\\_TEXT\\_CHAT\\_CREW                      | (NONE)                                | (NONE)          |\n| 249   | INPUT\\_PUSH\\_TO\\_TALK                            | N                                     | (NONE)          |\n| 250   | INPUT\\_CREATOR\\_LS                               | R                                     | L3              |\n| 251   | INPUT\\_CREATOR\\_RS                               | F                                     | R3              |\n| 252   | INPUT\\_CREATOR\\_LT                               | X                                     | LT              |\n| 253   | INPUT\\_CREATOR\\_RT                               | C                                     | RT              |\n| 254   | INPUT\\_CREATOR\\_MENU\\_TOGGLE                     | LEFT SHIFT                            | (NONE)          |\n| 255   | INPUT\\_CREATOR\\_ACCEPT                           | SPACEBAR                              | A               |\n| 256   | INPUT\\_CREATOR\\_DELETE                           | DELETE                                | X               |\n| 257   | INPUT\\_ATTACK2                                   | LEFT MOUSE BUTTON                     | RT              |\n| 258   | INPUT\\_RAPPEL\\_JUMP                              | (NONE)                                | A               |\n| 259   | INPUT\\_RAPPEL\\_LONG\\_JUMP                        | (NONE)                                | X               |\n| 260   | INPUT\\_RAPPEL\\_SMASH\\_WINDOW                     | (NONE)                                | RT              |\n| 261   | INPUT\\_PREV\\_WEAPON                              | SCROLLWHEEL UP                        | DPAD LEFT       |\n| 262   | INPUT\\_NEXT\\_WEAPON                              | SCROLLWHEEL DOWN                      | DPAD RIGHT      |\n| 263   | INPUT\\_MELEE\\_ATTACK1                            | R                                     | B               |\n| 264   | INPUT\\_MELEE\\_ATTACK2                            | Q                                     | A               |\n| 265   | INPUT\\_WHISTLE                                   | (NONE)                                | (NONE)          |\n| 266   | INPUT\\_MOVE\\_LEFT                                | D                                     | LEFT STICK      |\n| 267   | INPUT\\_MOVE\\_RIGHT                               | D                                     | LEFT STICK      |\n| 268   | INPUT\\_MOVE\\_UP                                  | S                                     | LEFT STICK      |\n| 269   | INPUT\\_MOVE\\_DOWN                                | S                                     | LEFT STICK      |\n| 270   | INPUT\\_LOOK\\_LEFT                                | MOUSE RIGHT                           | RIGHT STICK     |\n| 271   | INPUT\\_LOOK\\_RIGHT                               | MOUSE RIGHT                           | RIGHT STICK     |\n| 272   | INPUT\\_LOOK\\_UP                                  | MOUSE DOWN                            | RIGHT STICK     |\n| 273   | INPUT\\_LOOK\\_DOWN                                | MOUSE DOWN                            | RIGHT STICK     |\n| 274   | INPUT\\_SNIPER\\_ZOOM\\_IN                          | \\[                                    | RIGHT STICK     |\n| 275   | INPUT\\_SNIPER\\_ZOOM\\_OUT                         | \\[                                    | RIGHT STICK     |\n| 276   | INPUT\\_SNIPER\\_ZOOM\\_IN\\_ALTERNATE               | \\[                                    | LEFT STICK      |\n| 277   | INPUT\\_SNIPER\\_ZOOM\\_OUT\\_ALTERNATE              | \\[                                    | LEFT STICK      |\n| 278   | INPUT\\_VEH\\_MOVE\\_LEFT                           | D                                     | LEFT STICK      |\n| 279   | INPUT\\_VEH\\_MOVE\\_RIGHT                          | D                                     | LEFT STICK      |\n| 280   | INPUT\\_VEH\\_MOVE\\_UP                             | LEFT CTRL                             | LEFT STICK      |\n| 281   | INPUT\\_VEH\\_MOVE\\_DOWN                           | LEFT CTRL                             | LEFT STICK      |\n| 282   | INPUT\\_VEH\\_GUN\\_LEFT                            | MOUSE RIGHT                           | RIGHT STICK     |\n| 283   | INPUT\\_VEH\\_GUN\\_RIGHT                           | MOUSE RIGHT                           | RIGHT STICK     |\n| 284   | INPUT\\_VEH\\_GUN\\_UP                              | MOUSE RIGHT                           | RIGHT STICK     |\n| 285   | INPUT\\_VEH\\_GUN\\_DOWN                            | MOUSE RIGHT                           | RIGHT STICK     |\n| 286   | INPUT\\_VEH\\_LOOK\\_LEFT                           | MOUSE RIGHT                           | RIGHT STICK     |\n| 287   | INPUT\\_VEH\\_LOOK\\_RIGHT                          | MOUSE RIGHT                           | RIGHT STICK     |\n| 288   | INPUT\\_REPLAY\\_START\\_STOP\\_RECORDING            | F1                                    | A               |\n| 289   | INPUT\\_REPLAY\\_START\\_STOP\\_RECORDING\\_SECONDARY | F2                                    | X               |\n| 290   | INPUT\\_SCALED\\_LOOK\\_LR                          | MOUSE RIGHT                           | RIGHT STICK     |\n| 291   | INPUT\\_SCALED\\_LOOK\\_UD                          | MOUSE DOWN                            | RIGHT STICK     |\n| 292   | INPUT\\_SCALED\\_LOOK\\_UP\\_ONLY                    | (NONE)                                | RIGHT STICK     |\n| 293   | INPUT\\_SCALED\\_LOOK\\_DOWN\\_ONLY                  | (NONE)                                | RIGHT STICK     |\n| 294   | INPUT\\_SCALED\\_LOOK\\_LEFT\\_ONLY                  | (NONE)                                | RIGHT STICK     |\n| 295   | INPUT\\_SCALED\\_LOOK\\_RIGHT\\_ONLY                 | (NONE)                                | RIGHT STICK     |\n| 296   | INPUT\\_REPLAY\\_MARKER\\_DELETE                    | DELETE                                | X               |\n| 297   | INPUT\\_REPLAY\\_CLIP\\_DELETE                      | DELETE                                | Y               |\n| 298   | INPUT\\_REPLAY\\_PAUSE                             | SPACEBAR                              | A               |\n| 299   | INPUT\\_REPLAY\\_REWIND                            | ARROW DOWN                            | LB              |\n| 300   | INPUT\\_REPLAY\\_FFWD                              | ARROW UP                              | RB              |\n| 301   | INPUT\\_REPLAY\\_NEWMARKER                         | M                                     | A               |\n| 302   | INPUT\\_REPLAY\\_RECORD                            | S                                     | (NONE)          |\n| 303   | INPUT\\_REPLAY\\_SCREENSHOT                        | U                                     | DPAD UP         |\n| 304   | INPUT\\_REPLAY\\_HIDEHUD                           | H                                     | R3              |\n| 305   | INPUT\\_REPLAY\\_STARTPOINT                        | B                                     | (NONE)          |\n| 306   | INPUT\\_REPLAY\\_ENDPOINT                          | N                                     | (NONE)          |\n| 307   | INPUT\\_REPLAY\\_ADVANCE                           | ARROW RIGHT                           | DPAD RIGHT      |\n| 308   | INPUT\\_REPLAY\\_BACK                              | ARROW LEFT                            | DPAD LEFT       |\n| 309   | INPUT\\_REPLAY\\_TOOLS                             | T                                     | DPAD DOWN       |\n| 310   | INPUT\\_REPLAY\\_RESTART                           | R                                     | BACK            |\n| 311   | INPUT\\_REPLAY\\_SHOWHOTKEY                        | K                                     | DPAD DOWN       |\n| 312   | INPUT\\_REPLAY\\_CYCLEMARKERLEFT                   | \\[                                    | DPAD LEFT       |\n| 313   | INPUT\\_REPLAY\\_CYCLEMARKERRIGHT                  | \\]                                    | DPAD RIGHT      |\n| 314   | INPUT\\_REPLAY\\_FOVINCREASE                       | NUMPAD +                              | RB              |\n| 315   | INPUT\\_REPLAY\\_FOVDECREASE                       | NUMPAD -                              | LB              |\n| 316   | INPUT\\_REPLAY\\_CAMERAUP                          | PAGE UP                               | (NONE)          |\n| 317   | INPUT\\_REPLAY\\_CAMERADOWN                        | PAGE DOWN                             | (NONE)          |\n| 318   | INPUT\\_REPLAY\\_SAVE                              | F5                                    | START           |\n| 319   | INPUT\\_REPLAY\\_TOGGLETIME                        | C                                     | (NONE)          |\n| 320   | INPUT\\_REPLAY\\_TOGGLETIPS                        | V                                     | (NONE)          |\n| 321   | INPUT\\_REPLAY\\_PREVIEW                           | SPACEBAR                              | (NONE)          |\n| 322   | INPUT\\_REPLAY\\_TOGGLE\\_TIMELINE                  | ESC                                   | (NONE)          |\n| 323   | INPUT\\_REPLAY\\_TIMELINE\\_PICKUP\\_CLIP            | X                                     | (NONE)          |\n| 324   | INPUT\\_REPLAY\\_TIMELINE\\_DUPLICATE\\_CLIP         | C                                     | (NONE)          |\n| 325   | INPUT\\_REPLAY\\_TIMELINE\\_PLACE\\_CLIP             | V                                     | (NONE)          |\n| 326   | INPUT\\_REPLAY\\_CTRL                              | LEFT CTRL                             | (NONE)          |\n| 327   | INPUT\\_REPLAY\\_TIMELINE\\_SAVE                    | F5                                    | (NONE)          |\n| 328   | INPUT\\_REPLAY\\_PREVIEW\\_AUDIO                    | SPACEBAR                              | RT              |\n| 329   | INPUT\\_VEH\\_DRIVE\\_LOOK                          | LEFT MOUSE BUTTON                     | (NONE)          |\n| 330   | INPUT\\_VEH\\_DRIVE\\_LOOK2                         | RIGHT MOUSE BUTTON                    | (NONE)          |\n| 331   | INPUT\\_VEH\\_FLY\\_ATTACK2                         | RIGHT MOUSE BUTTON                    | (NONE)          |\n| 332   | INPUT\\_RADIO\\_WHEEL\\_UD                          | MOUSE DOWN                            | RIGHT STICK     |\n| 333   | INPUT\\_RADIO\\_WHEEL\\_LR                          | MOUSE RIGHT                           | RIGHT STICK     |\n| 334   | INPUT\\_VEH\\_SLOWMO\\_UD                           | SCROLLWHEEL DOWN                      | LEFT STICK      |\n| 335   | INPUT\\_VEH\\_SLOWMO\\_UP\\_ONLY                     | SCROLLWHEEL UP                        | LEFT STICK      |\n| 336   | INPUT\\_VEH\\_SLOWMO\\_DOWN\\_ONLY                   | SCROLLWHEEL DOWN                      | LEFT STICK      |\n| 337   | INPUT\\_VEH\\_HYDRAULICS\\_CONTROL\\_TOGGLE          | X                                     | A               |\n| 338   | INPUT\\_VEH\\_HYDRAULICS\\_CONTROL\\_LEFT            | A                                     | LEFT STICK      |\n| 339   | INPUT\\_VEH\\_HYDRAULICS\\_CONTROL\\_RIGHT           | D                                     | LEFT STICK      |\n| 340   | INPUT\\_VEH\\_HYDRAULICS\\_CONTROL\\_UP              | LEFT SHIFT                            | LEFT STICK      |\n| 341   | INPUT\\_VEH\\_HYDRAULICS\\_CONTROL\\_DOWN            | LEFT CTRL                             | LEFT STICK      |\n| 342   | INPUT\\_VEH\\_HYDRAULICS\\_CONTROL\\_UD              | D                                     | LEFT STICK      |\n| 343   | INPUT\\_VEH\\_HYDRAULICS\\_CONTROL\\_LR              | LEFT CTRL                             | LEFT STICK      |\n| 344   | INPUT\\_SWITCH\\_VISOR                             | F11                                   | DPAD RIGHT      |\n| 345   | INPUT\\_VEH\\_MELEE\\_HOLD                          | X                                     | A               |\n| 346   | INPUT\\_VEH\\_MELEE\\_LEFT                          | LEFT MOUSE BUTTON                     | LB              |\n| 347   | INPUT\\_VEH\\_MELEE\\_RIGHT                         | RIGHT MOUSE BUTTON                    | RB              |\n| 348   | INPUT\\_MAP\\_POI                                  | SCROLLWHEEL BUTTON (PRESS)            | Y               |\n| 349   | INPUT\\_REPLAY\\_SNAPMATIC\\_PHOTO                  | TAB                                   | X               |\n| 350   | INPUT\\_VEH\\_CAR\\_JUMP                            | E                                     | L3              |\n| 351   | INPUT\\_VEH\\_ROCKET\\_BOOST                        | E                                     | L3              |\n| 352   | INPUT\\_VEH\\_FLY\\_BOOST                           | LEFT SHIFT                            | L3              |\n| 353   | INPUT\\_VEH\\_PARACHUTE                            | SPACEBAR                              | A               |\n| 354   | INPUT\\_VEH\\_BIKE\\_WINGS                          | X                                     | A               |\n| 355   | INPUT\\_VEH\\_FLY\\_BOMB\\_BAY                       | E                                     | DPAD RIGHT      |\n| 356   | INPUT\\_VEH\\_FLY\\_COUNTER                         | E                                     | DPAD RIGHT      |\n| 357   | INPUT\\_VEH\\_TRANSFORM                            | X                                     | A               |\n| 358   | INPUT\\_QUAD\\_LOCO\\_REVERSE                       |                                       | RB              |\n| 359   | INPUT\\_RESPAWN\\_FASTER                           |                                       |                 |\n| 360   | INPUT\\_HUDMARKER\\_SELECT                         |                                       |                 |",
+  "raw_html_length": 43732
+}

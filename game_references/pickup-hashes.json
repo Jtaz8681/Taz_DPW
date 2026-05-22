@@ -1,0 +1,726 @@
+{
+  "url_path": "/docs/game-references/pickup-hashes/",
+  "full_url": "https://docs.fivem.net/docs/game-references/pickup-hashes/",
+  "title": "pickup-hashes",
+  "slug": "pickup-hashes",
+  "parent_category": null,
+  "toc": [],
+  "tables": [],
+  "table_count": 0,
+  "total_table_rows": 0,
+  "css_items": [],
+  "css_item_count": 0,
+  "markdown": "List of found pickup hashes in GTAV as of September 25th, 2025.\n\n```c\nenum ePickupHashes {\n    PICKUP_WEAPON_BULLPUPSHOTGUN = 1850631618,\n    PICKUP_WEAPON_ASSAULTSMG = 1948018762,\n    PICKUP_VEHICLE_WEAPON_ASSAULTSMG = 1751145014,\n    PICKUP_WEAPON_PISTOL50 = 1817941018,\n    PICKUP_VEHICLE_WEAPON_PISTOL50 = 3550712678,\n    PICKUP_AMMO_BULLET_MP = 1426343849,\n    PICKUP_AMMO_MISSILE_MP = 4187887056,\n    PICKUP_AMMO_GRENADELAUNCHER_MP = 2753668402,\n    PICKUP_WEAPON_ASSAULTRIFLE = 4080829360,\n    PICKUP_WEAPON_CARBINERIFLE = 3748731225,\n    PICKUP_WEAPON_ADVANCEDRIFLE = 2998219358,\n    PICKUP_WEAPON_MG = 2244651441,\n    PICKUP_WEAPON_COMBATMG = 2995980820,\n    PICKUP_WEAPON_SNIPERRIFLE = 4264178988,\n    PICKUP_WEAPON_HEAVYSNIPER = 1765114797,\n    PICKUP_WEAPON_MICROSMG = 496339155,\n    PICKUP_WEAPON_SMG = 978070226,\n    PICKUP_ARMOUR_STANDARD = 1274757841,\n    PICKUP_WEAPON_RPG = 1295434569,\n    PICKUP_WEAPON_MINIGUN = 792114228,\n    PICKUP_HEALTH_STANDARD = 2406513688,\n    PICKUP_WEAPON_PUMPSHOTGUN = 2838846925,\n    PICKUP_WEAPON_SAWNOFFSHOTGUN = 2528383651,\n    PICKUP_WEAPON_ASSAULTSHOTGUN = 2459552091,\n    PICKUP_WEAPON_GRENADE = 1577485217,\n    PICKUP_WEAPON_MOLOTOV = 768803961,\n    PICKUP_WEAPON_SMOKEGRENADE = 483787975,\n    PICKUP_WEAPON_STICKYBOMB = 2081529176,\n    PICKUP_WEAPON_PISTOL = 4189041807,\n    PICKUP_WEAPON_COMBATPISTOL = 2305275123,\n    PICKUP_WEAPON_APPISTOL = 996550793,\n    PICKUP_WEAPON_GRENADELAUNCHER = 779501861,\n    PICKUP_MONEY_VARIABLE = 4263048111,\n    PICKUP_GANG_ATTACK_MONEY = 3782592152,\n    PICKUP_WEAPON_STUNGUN = 4246083230,\n    PICKUP_WEAPON_PETROLCAN = 3332236287,\n    PICKUP_WEAPON_KNIFE = 663586612,\n    PICKUP_WEAPON_NIGHTSTICK = 1587637620,\n    PICKUP_WEAPON_HAMMER = 693539241,\n    PICKUP_WEAPON_BAT = 2179883038,\n    PICKUP_WEAPON_GolfClub = 2297080999,\n    PICKUP_WEAPON_CROWBAR = 2267924616,\n    PICKUP_CUSTOM_SCRIPT = 738282662,\n    PICKUP_CAMERA = 3812460080,\n    PICKUP_PORTABLE_PACKAGE = 2158727964,\n    PICKUP_PORTABLE_CRATE_UNFIXED = 1852930709,\n    PICKUP_PORTABLE_PACKAGE_LARGE_RADIUS = 1651898027,\n    PICKUP_PORTABLE_CRATE_UNFIXED_INCAR = 1263688126,\n    PICKUP_PORTABLE_CRATE_UNFIXED_INAIRVEHICLE_WITH_PASSENGERS = 2431639355,\n    PICKUP_PORTABLE_CRATE_UNFIXED_INAIRVEHICLE_WITH_PASSENGERS_UPRIGHT = 68603185,\n    PICKUP_PORTABLE_CRATE_UNFIXED_INCAR_WITH_PASSENGERS = 79909481,\n    PICKUP_PORTABLE_CRATE_FIXED_INCAR_WITH_PASSENGERS = 2689501965,\n    PICKUP_PORTABLE_CRATE_FIXED_INCAR_SMALL = 2817147086,\n    PICKUP_PORTABLE_CRATE_UNFIXED_INCAR_SMALL = 3285027633,\n    PICKUP_PORTABLE_CRATE_UNFIXED_LOW_GLOW = 2499414878,\n    PICKUP_MONEY_CASE = 3463437675,\n    PICKUP_MONEY_WALLET = 1575005502,\n    PICKUP_MONEY_PURSE = 513448440,\n    PICKUP_MONEY_DEP_BAG = 545862290,\n    PICKUP_MONEY_MED_BAG = 341217064,\n    PICKUP_MONEY_PAPER_BAG = 1897726628,\n    PICKUP_MONEY_SECURITY_CASE = 3732468094,\n    PICKUP_VEHICLE_WEAPON_COMBATPISTOL = 3500855031,\n    PICKUP_VEHICLE_WEAPON_APPISTOL = 3431676165,\n    PICKUP_VEHICLE_WEAPON_PISTOL = 2773149623,\n    PICKUP_VEHICLE_WEAPON_GRENADE = 2803366040,\n    PICKUP_VEHICLE_WEAPON_MOLOTOV = 2228647636,\n    PICKUP_VEHICLE_WEAPON_SMOKEGRENADE = 1705498857,\n    PICKUP_VEHICLE_WEAPON_STICKYBOMB = 746606563,\n    PICKUP_VEHICLE_HEALTH_STANDARD = 160266735,\n    PICKUP_VEHICLE_HEALTH_STANDARD_LOW_GLOW = 4260266856,\n    PICKUP_VEHICLE_ARMOUR_STANDARD = 1125567497,\n    PICKUP_VEHICLE_WEAPON_MICROSMG = 3094015579,\n    PICKUP_VEHICLE_WEAPON_SMG = 3430731035,\n    PICKUP_VEHICLE_WEAPON_SAWNOFF = 772217690,\n    PICKUP_VEHICLE_CUSTOM_SCRIPT = 2780351145,\n    PICKUP_VEHICLE_CUSTOM_SCRIPT_NO_ROTATE = 83435908,\n    PICKUP_VEHICLE_CUSTOM_SCRIPT_LOW_GLOW = 1104334678,\n    PICKUP_VEHICLE_MONEY_VARIABLE = 1704231442,\n    PICKUP_SUBMARINE = 3889104844,\n    PICKUP_HEALTH_SNACK = 483577702,\n    PICKUP_PARACHUTE = 1735599485,\n    PICKUP_AMMO_PISTOL = 544828034,\n    PICKUP_AMMO_SMG = 292537574,\n    PICKUP_AMMO_RIFLE = 3837603782,\n    PICKUP_AMMO_MG = 3730366643,\n    PICKUP_AMMO_SHOTGUN = 2012476125,\n    PICKUP_AMMO_SNIPER = 3224170789,\n    PICKUP_AMMO_GRENADELAUNCHER = 2283450536,\n    PICKUP_AMMO_RPG = 2223210455,\n    PICKUP_AMMO_MINIGUN = 4065984953,\n    PICKUP_WEAPON_BOTTLE = 4199656437,\n    PICKUP_WEAPON_SNSPISTOL = 3317114643,\n    PICKUP_WEAPON_HEAVYPISTOL = 2633054488,\n    PICKUP_WEAPON_SPECIALCARBINE = 157823901,\n    PICKUP_WEAPON_BULLPUPRIFLE = 2170382056,\n    PICKUP_WEAPON_RAYPISTOL = 3812817136,\n    PICKUP_WEAPON_RAYCARBINE = 1959050722,\n    PICKUP_WEAPON_RAYMINIGUN = 1000920287,\n    PICKUP_WEAPON_BULLPUPRIFLE_MK2 = 2349845267,\n    PICKUP_WEAPON_DOUBLEACTION = 990867623,\n    PICKUP_WEAPON_MARKSMANRIFLE_MK2 = 2673201481,\n    PICKUP_WEAPON_PUMPSHOTGUN_MK2 = 1572258186,\n    PICKUP_WEAPON_REVOLVER_MK2 = 1835046764,\n    PICKUP_WEAPON_SNSPISTOL_MK2 = 1038697149,\n    PICKUP_WEAPON_SPECIALCARBINE_MK2 = 94531552,\n    PICKUP_WEAPON_PROXMINE = 1649373715,\n    PICKUP_WEAPON_HOMINGLAUNCHER = 3223238264,\n    PICKUP_AMMO_HOMINGLAUNCHER = 1548844439,\n    PICKUP_WEAPON_GUSENBERG = 1393009900,\n    PICKUP_WEAPON_DAGGER = 3220073531,\n    PICKUP_WEAPON_VINTAGEPISTOL = 3958938975,\n    PICKUP_WEAPON_FIREWORK = 582047296,\n    PICKUP_WEAPON_MUSKET = 1983869217,\n    PICKUP_AMMO_FIREWORK = 4180625516,\n    PICKUP_AMMO_FIREWORK_MP = 1613316560,\n    PICKUP_PORTABLE_DLC_VEHICLE_PACKAGE = 837436873,\n    PICKUP_WEAPON_HATCHET = 1311775952,\n    PICKUP_WEAPON_RAILGUN = 3832418740,\n    PICKUP_WEAPON_HEAVYSHOTGUN = 3201593029,\n    PICKUP_WEAPON_MARKSMANRIFLE = 127042729,\n    PICKUP_WEAPON_CERAMICPISTOL = 1601729296,\n    PICKUP_WEAPON_HAZARDCAN = 2045070941,\n    PICKUP_WEAPON_NAVYREVOLVER = 3392027813,\n    PICKUP_WEAPON_COMBATSHOTGUN = 2074855423,\n    PICKUP_WEAPON_GADGETPISTOL = 2010690963,\n    PICKUP_WEAPON_MILITARYRIFLE = 884272848,\n    PICKUP_WEAPON_FLAREGUN = 3175998018,\n    PICKUP_AMMO_FLAREGUN = 3759398940,\n    PICKUP_WEAPON_KNUCKLE = 4254904030,\n    PICKUP_WEAPON_MARKSMANPISTOL = 2329799797,\n    PICKUP_WEAPON_COMBATPDW = 2023061218,\n    PICKUP_PORTABLE_CRATE_FIXED_INCAR = 3993904883,\n    PICKUP_WEAPON_COMPACTRIFLE = 266812085,\n    PICKUP_WEAPON_DBSHOTGUN = 4192395039,\n    PICKUP_WEAPON_MACHETE = 3626334911,\n    PICKUP_WEAPON_MACHINEPISTOL = 4123384540,\n    PICKUP_WEAPON_FLASHLIGHT = 3182886821,\n    PICKUP_WEAPON_REVOLVER = 1632369836,\n    PICKUP_WEAPON_SWITCHBLADE = 3722713114,\n    PICKUP_WEAPON_AUTOSHOTGUN = 3167076850,\n    PICKUP_WEAPON_BATTLEAXE = 158843122,\n    PICKUP_WEAPON_COMPACTLAUNCHER = 4041868857,\n    PICKUP_WEAPON_MINISMG = 3547474523,\n    PICKUP_WEAPON_PIPEBOMB = 2942905513,\n    PICKUP_WEAPON_POOLCUE = 155106086,\n    PICKUP_WEAPON_WRENCH = 3843167081,\n    PICKUP_WEAPON_ASSAULTRIFLE_MK2 = 2173116527,\n    PICKUP_WEAPON_CARBINERIFLE_MK2 = 3185079484,\n    PICKUP_WEAPON_COMBATMG_MK2 = 2837437579,\n    PICKUP_WEAPON_HEAVYSNIPER_MK2 = 4278878871,\n    PICKUP_WEAPON_PISTOL_MK2 = 1234831722,\n    PICKUP_WEAPON_SMG_MK2 = 4012602256,\n    PICKUP_WEAPON_STONE_HATCHET = 3432031091,\n    PICKUP_WEAPON_METALDETECTOR = 2226947771,\n    PICKUP_WEAPON_TACTICALRIFLE = 2316705120,\n    PICKUP_WEAPON_PRECISIONRIFLE = 2821026276,\n    PICKUP_WEAPON_EMPLAUNCHER = 4284229131,\n    PICKUP_AMMO_EMPLAUNCHER = 2308161313,\n    PICKUP_WEAPON_HEAVYRIFLE = 1491498856,\n    PICKUP_WEAPON_PETROLCAN_SMALL_RADIUS = 3279969783,\n    PICKUP_WEAPON_FERTILIZERCAN = 3708929359,\n    PICKUP_WEAPON_STUNGUN_MP = 3025681922,\n    PICKUP_AMMO_SNOWLAUNCHER = 3224331048,\n    PICKUP_PORTABLE_FM_CONTENT_MISSION_ENTITY_SMALL = 1610516839,\n    PICKUP_VEHICLE_WEAPON_STRICKLER = 3791167784,\n    PICKUP_WEAPON_BATTLERIFLE = 3295236118,\n    PICKUP_WEAPON_CANDYCANE = 1337246736,\n    PICKUP_WEAPON_HACKINGDEVICE = 2962605638,\n    PICKUP_WEAPON_PISTOLXM3 = 3063083075,\n    PICKUP_WEAPON_RAILGUNXM3 = 4109932467,\n    PICKUP_WEAPON_SNOWBALL = 1189363388,\n    PICKUP_WEAPON_SNOWLAUNCHER = 4173684011,\n    PICKUP_WEAPON_STUNROD = 518706036,\n    PICKUP_WEAPON_TECPISTOL = 2292608621,\n    PICKUP_WEAPON_PARACHUTE = 1735599485,\n    PICKUP_WEAPON_GOLFCLUB = 2297080999,\n}\n```",
+  "raw_html_length": 7963,
+  "pickup_hashes": [
+    {
+      "name": "PICKUP_WEAPON_BULLPUPSHOTGUN",
+      "hash": 1850631618
+    },
+    {
+      "name": "PICKUP_WEAPON_ASSAULTSMG",
+      "hash": 1948018762
+    },
+    {
+      "name": "PICKUP_VEHICLE_WEAPON_ASSAULTSMG",
+      "hash": 1751145014
+    },
+    {
+      "name": "PICKUP_WEAPON_PISTOL50",
+      "hash": 1817941018
+    },
+    {
+      "name": "PICKUP_VEHICLE_WEAPON_PISTOL50",
+      "hash": 3550712678
+    },
+    {
+      "name": "PICKUP_AMMO_BULLET_MP",
+      "hash": 1426343849
+    },
+    {
+      "name": "PICKUP_AMMO_MISSILE_MP",
+      "hash": 4187887056
+    },
+    {
+      "name": "PICKUP_AMMO_GRENADELAUNCHER_MP",
+      "hash": 2753668402
+    },
+    {
+      "name": "PICKUP_WEAPON_ASSAULTRIFLE",
+      "hash": 4080829360
+    },
+    {
+      "name": "PICKUP_WEAPON_CARBINERIFLE",
+      "hash": 3748731225
+    },
+    {
+      "name": "PICKUP_WEAPON_ADVANCEDRIFLE",
+      "hash": 2998219358
+    },
+    {
+      "name": "PICKUP_WEAPON_MG",
+      "hash": 2244651441
+    },
+    {
+      "name": "PICKUP_WEAPON_COMBATMG",
+      "hash": 2995980820
+    },
+    {
+      "name": "PICKUP_WEAPON_SNIPERRIFLE",
+      "hash": 4264178988
+    },
+    {
+      "name": "PICKUP_WEAPON_HEAVYSNIPER",
+      "hash": 1765114797
+    },
+    {
+      "name": "PICKUP_WEAPON_MICROSMG",
+      "hash": 496339155
+    },
+    {
+      "name": "PICKUP_WEAPON_SMG",
+      "hash": 978070226
+    },
+    {
+      "name": "PICKUP_ARMOUR_STANDARD",
+      "hash": 1274757841
+    },
+    {
+      "name": "PICKUP_WEAPON_RPG",
+      "hash": 1295434569
+    },
+    {
+      "name": "PICKUP_WEAPON_MINIGUN",
+      "hash": 792114228
+    },
+    {
+      "name": "PICKUP_HEALTH_STANDARD",
+      "hash": 2406513688
+    },
+    {
+      "name": "PICKUP_WEAPON_PUMPSHOTGUN",
+      "hash": 2838846925
+    },
+    {
+      "name": "PICKUP_WEAPON_SAWNOFFSHOTGUN",
+      "hash": 2528383651
+    },
+    {
+      "name": "PICKUP_WEAPON_ASSAULTSHOTGUN",
+      "hash": 2459552091
+    },
+    {
+      "name": "PICKUP_WEAPON_GRENADE",
+      "hash": 1577485217
+    },
+    {
+      "name": "PICKUP_WEAPON_MOLOTOV",
+      "hash": 768803961
+    },
+    {
+      "name": "PICKUP_WEAPON_SMOKEGRENADE",
+      "hash": 483787975
+    },
+    {
+      "name": "PICKUP_WEAPON_STICKYBOMB",
+      "hash": 2081529176
+    },
+    {
+      "name": "PICKUP_WEAPON_PISTOL",
+      "hash": 4189041807
+    },
+    {
+      "name": "PICKUP_WEAPON_COMBATPISTOL",
+      "hash": 2305275123
+    },
+    {
+      "name": "PICKUP_WEAPON_APPISTOL",
+      "hash": 996550793
+    },
+    {
+      "name": "PICKUP_WEAPON_GRENADELAUNCHER",
+      "hash": 779501861
+    },
+    {
+      "name": "PICKUP_MONEY_VARIABLE",
+      "hash": 4263048111
+    },
+    {
+      "name": "PICKUP_GANG_ATTACK_MONEY",
+      "hash": 3782592152
+    },
+    {
+      "name": "PICKUP_WEAPON_STUNGUN",
+      "hash": 4246083230
+    },
+    {
+      "name": "PICKUP_WEAPON_PETROLCAN",
+      "hash": 3332236287
+    },
+    {
+      "name": "PICKUP_WEAPON_KNIFE",
+      "hash": 663586612
+    },
+    {
+      "name": "PICKUP_WEAPON_NIGHTSTICK",
+      "hash": 1587637620
+    },
+    {
+      "name": "PICKUP_WEAPON_HAMMER",
+      "hash": 693539241
+    },
+    {
+      "name": "PICKUP_WEAPON_BAT",
+      "hash": 2179883038
+    },
+    {
+      "name": "PICKUP_WEAPON_GolfClub",
+      "hash": 2297080999
+    },
+    {
+      "name": "PICKUP_WEAPON_CROWBAR",
+      "hash": 2267924616
+    },
+    {
+      "name": "PICKUP_CUSTOM_SCRIPT",
+      "hash": 738282662
+    },
+    {
+      "name": "PICKUP_CAMERA",
+      "hash": 3812460080
+    },
+    {
+      "name": "PICKUP_PORTABLE_PACKAGE",
+      "hash": 2158727964
+    },
+    {
+      "name": "PICKUP_PORTABLE_CRATE_UNFIXED",
+      "hash": 1852930709
+    },
+    {
+      "name": "PICKUP_PORTABLE_PACKAGE_LARGE_RADIUS",
+      "hash": 1651898027
+    },
+    {
+      "name": "PICKUP_PORTABLE_CRATE_UNFIXED_INCAR",
+      "hash": 1263688126
+    },
+    {
+      "name": "PICKUP_PORTABLE_CRATE_UNFIXED_INAIRVEHICLE_WITH_PASSENGERS",
+      "hash": 2431639355
+    },
+    {
+      "name": "PICKUP_PORTABLE_CRATE_UNFIXED_INAIRVEHICLE_WITH_PASSENGERS_UPRIGHT",
+      "hash": 68603185
+    },
+    {
+      "name": "PICKUP_PORTABLE_CRATE_UNFIXED_INCAR_WITH_PASSENGERS",
+      "hash": 79909481
+    },
+    {
+      "name": "PICKUP_PORTABLE_CRATE_FIXED_INCAR_WITH_PASSENGERS",
+      "hash": 2689501965
+    },
+    {
+      "name": "PICKUP_PORTABLE_CRATE_FIXED_INCAR_SMALL",
+      "hash": 2817147086
+    },
+    {
+      "name": "PICKUP_PORTABLE_CRATE_UNFIXED_INCAR_SMALL",
+      "hash": 3285027633
+    },
+    {
+      "name": "PICKUP_PORTABLE_CRATE_UNFIXED_LOW_GLOW",
+      "hash": 2499414878
+    },
+    {
+      "name": "PICKUP_MONEY_CASE",
+      "hash": 3463437675
+    },
+    {
+      "name": "PICKUP_MONEY_WALLET",
+      "hash": 1575005502
+    },
+    {
+      "name": "PICKUP_MONEY_PURSE",
+      "hash": 513448440
+    },
+    {
+      "name": "PICKUP_MONEY_DEP_BAG",
+      "hash": 545862290
+    },
+    {
+      "name": "PICKUP_MONEY_MED_BAG",
+      "hash": 341217064
+    },
+    {
+      "name": "PICKUP_MONEY_PAPER_BAG",
+      "hash": 1897726628
+    },
+    {
+      "name": "PICKUP_MONEY_SECURITY_CASE",
+      "hash": 3732468094
+    },
+    {
+      "name": "PICKUP_VEHICLE_WEAPON_COMBATPISTOL",
+      "hash": 3500855031
+    },
+    {
+      "name": "PICKUP_VEHICLE_WEAPON_APPISTOL",
+      "hash": 3431676165
+    },
+    {
+      "name": "PICKUP_VEHICLE_WEAPON_PISTOL",
+      "hash": 2773149623
+    },
+    {
+      "name": "PICKUP_VEHICLE_WEAPON_GRENADE",
+      "hash": 2803366040
+    },
+    {
+      "name": "PICKUP_VEHICLE_WEAPON_MOLOTOV",
+      "hash": 2228647636
+    },
+    {
+      "name": "PICKUP_VEHICLE_WEAPON_SMOKEGRENADE",
+      "hash": 1705498857
+    },
+    {
+      "name": "PICKUP_VEHICLE_WEAPON_STICKYBOMB",
+      "hash": 746606563
+    },
+    {
+      "name": "PICKUP_VEHICLE_HEALTH_STANDARD",
+      "hash": 160266735
+    },
+    {
+      "name": "PICKUP_VEHICLE_HEALTH_STANDARD_LOW_GLOW",
+      "hash": 4260266856
+    },
+    {
+      "name": "PICKUP_VEHICLE_ARMOUR_STANDARD",
+      "hash": 1125567497
+    },
+    {
+      "name": "PICKUP_VEHICLE_WEAPON_MICROSMG",
+      "hash": 3094015579
+    },
+    {
+      "name": "PICKUP_VEHICLE_WEAPON_SMG",
+      "hash": 3430731035
+    },
+    {
+      "name": "PICKUP_VEHICLE_WEAPON_SAWNOFF",
+      "hash": 772217690
+    },
+    {
+      "name": "PICKUP_VEHICLE_CUSTOM_SCRIPT",
+      "hash": 2780351145
+    },
+    {
+      "name": "PICKUP_VEHICLE_CUSTOM_SCRIPT_NO_ROTATE",
+      "hash": 83435908
+    },
+    {
+      "name": "PICKUP_VEHICLE_CUSTOM_SCRIPT_LOW_GLOW",
+      "hash": 1104334678
+    },
+    {
+      "name": "PICKUP_VEHICLE_MONEY_VARIABLE",
+      "hash": 1704231442
+    },
+    {
+      "name": "PICKUP_SUBMARINE",
+      "hash": 3889104844
+    },
+    {
+      "name": "PICKUP_HEALTH_SNACK",
+      "hash": 483577702
+    },
+    {
+      "name": "PICKUP_PARACHUTE",
+      "hash": 1735599485
+    },
+    {
+      "name": "PICKUP_AMMO_PISTOL",
+      "hash": 544828034
+    },
+    {
+      "name": "PICKUP_AMMO_SMG",
+      "hash": 292537574
+    },
+    {
+      "name": "PICKUP_AMMO_RIFLE",
+      "hash": 3837603782
+    },
+    {
+      "name": "PICKUP_AMMO_MG",
+      "hash": 3730366643
+    },
+    {
+      "name": "PICKUP_AMMO_SHOTGUN",
+      "hash": 2012476125
+    },
+    {
+      "name": "PICKUP_AMMO_SNIPER",
+      "hash": 3224170789
+    },
+    {
+      "name": "PICKUP_AMMO_GRENADELAUNCHER",
+      "hash": 2283450536
+    },
+    {
+      "name": "PICKUP_AMMO_RPG",
+      "hash": 2223210455
+    },
+    {
+      "name": "PICKUP_AMMO_MINIGUN",
+      "hash": 4065984953
+    },
+    {
+      "name": "PICKUP_WEAPON_BOTTLE",
+      "hash": 4199656437
+    },
+    {
+      "name": "PICKUP_WEAPON_SNSPISTOL",
+      "hash": 3317114643
+    },
+    {
+      "name": "PICKUP_WEAPON_HEAVYPISTOL",
+      "hash": 2633054488
+    },
+    {
+      "name": "PICKUP_WEAPON_SPECIALCARBINE",
+      "hash": 157823901
+    },
+    {
+      "name": "PICKUP_WEAPON_BULLPUPRIFLE",
+      "hash": 2170382056
+    },
+    {
+      "name": "PICKUP_WEAPON_RAYPISTOL",
+      "hash": 3812817136
+    },
+    {
+      "name": "PICKUP_WEAPON_RAYCARBINE",
+      "hash": 1959050722
+    },
+    {
+      "name": "PICKUP_WEAPON_RAYMINIGUN",
+      "hash": 1000920287
+    },
+    {
+      "name": "PICKUP_WEAPON_BULLPUPRIFLE_MK2",
+      "hash": 2349845267
+    },
+    {
+      "name": "PICKUP_WEAPON_DOUBLEACTION",
+      "hash": 990867623
+    },
+    {
+      "name": "PICKUP_WEAPON_MARKSMANRIFLE_MK2",
+      "hash": 2673201481
+    },
+    {
+      "name": "PICKUP_WEAPON_PUMPSHOTGUN_MK2",
+      "hash": 1572258186
+    },
+    {
+      "name": "PICKUP_WEAPON_REVOLVER_MK2",
+      "hash": 1835046764
+    },
+    {
+      "name": "PICKUP_WEAPON_SNSPISTOL_MK2",
+      "hash": 1038697149
+    },
+    {
+      "name": "PICKUP_WEAPON_SPECIALCARBINE_MK2",
+      "hash": 94531552
+    },
+    {
+      "name": "PICKUP_WEAPON_PROXMINE",
+      "hash": 1649373715
+    },
+    {
+      "name": "PICKUP_WEAPON_HOMINGLAUNCHER",
+      "hash": 3223238264
+    },
+    {
+      "name": "PICKUP_AMMO_HOMINGLAUNCHER",
+      "hash": 1548844439
+    },
+    {
+      "name": "PICKUP_WEAPON_GUSENBERG",
+      "hash": 1393009900
+    },
+    {
+      "name": "PICKUP_WEAPON_DAGGER",
+      "hash": 3220073531
+    },
+    {
+      "name": "PICKUP_WEAPON_VINTAGEPISTOL",
+      "hash": 3958938975
+    },
+    {
+      "name": "PICKUP_WEAPON_FIREWORK",
+      "hash": 582047296
+    },
+    {
+      "name": "PICKUP_WEAPON_MUSKET",
+      "hash": 1983869217
+    },
+    {
+      "name": "PICKUP_AMMO_FIREWORK",
+      "hash": 4180625516
+    },
+    {
+      "name": "PICKUP_AMMO_FIREWORK_MP",
+      "hash": 1613316560
+    },
+    {
+      "name": "PICKUP_PORTABLE_DLC_VEHICLE_PACKAGE",
+      "hash": 837436873
+    },
+    {
+      "name": "PICKUP_WEAPON_HATCHET",
+      "hash": 1311775952
+    },
+    {
+      "name": "PICKUP_WEAPON_RAILGUN",
+      "hash": 3832418740
+    },
+    {
+      "name": "PICKUP_WEAPON_HEAVYSHOTGUN",
+      "hash": 3201593029
+    },
+    {
+      "name": "PICKUP_WEAPON_MARKSMANRIFLE",
+      "hash": 127042729
+    },
+    {
+      "name": "PICKUP_WEAPON_CERAMICPISTOL",
+      "hash": 1601729296
+    },
+    {
+      "name": "PICKUP_WEAPON_HAZARDCAN",
+      "hash": 2045070941
+    },
+    {
+      "name": "PICKUP_WEAPON_NAVYREVOLVER",
+      "hash": 3392027813
+    },
+    {
+      "name": "PICKUP_WEAPON_COMBATSHOTGUN",
+      "hash": 2074855423
+    },
+    {
+      "name": "PICKUP_WEAPON_GADGETPISTOL",
+      "hash": 2010690963
+    },
+    {
+      "name": "PICKUP_WEAPON_MILITARYRIFLE",
+      "hash": 884272848
+    },
+    {
+      "name": "PICKUP_WEAPON_FLAREGUN",
+      "hash": 3175998018
+    },
+    {
+      "name": "PICKUP_AMMO_FLAREGUN",
+      "hash": 3759398940
+    },
+    {
+      "name": "PICKUP_WEAPON_KNUCKLE",
+      "hash": 4254904030
+    },
+    {
+      "name": "PICKUP_WEAPON_MARKSMANPISTOL",
+      "hash": 2329799797
+    },
+    {
+      "name": "PICKUP_WEAPON_COMBATPDW",
+      "hash": 2023061218
+    },
+    {
+      "name": "PICKUP_PORTABLE_CRATE_FIXED_INCAR",
+      "hash": 3993904883
+    },
+    {
+      "name": "PICKUP_WEAPON_COMPACTRIFLE",
+      "hash": 266812085
+    },
+    {
+      "name": "PICKUP_WEAPON_DBSHOTGUN",
+      "hash": 4192395039
+    },
+    {
+      "name": "PICKUP_WEAPON_MACHETE",
+      "hash": 3626334911
+    },
+    {
+      "name": "PICKUP_WEAPON_MACHINEPISTOL",
+      "hash": 4123384540
+    },
+    {
+      "name": "PICKUP_WEAPON_FLASHLIGHT",
+      "hash": 3182886821
+    },
+    {
+      "name": "PICKUP_WEAPON_REVOLVER",
+      "hash": 1632369836
+    },
+    {
+      "name": "PICKUP_WEAPON_SWITCHBLADE",
+      "hash": 3722713114
+    },
+    {
+      "name": "PICKUP_WEAPON_AUTOSHOTGUN",
+      "hash": 3167076850
+    },
+    {
+      "name": "PICKUP_WEAPON_BATTLEAXE",
+      "hash": 158843122
+    },
+    {
+      "name": "PICKUP_WEAPON_COMPACTLAUNCHER",
+      "hash": 4041868857
+    },
+    {
+      "name": "PICKUP_WEAPON_MINISMG",
+      "hash": 3547474523
+    },
+    {
+      "name": "PICKUP_WEAPON_PIPEBOMB",
+      "hash": 2942905513
+    },
+    {
+      "name": "PICKUP_WEAPON_POOLCUE",
+      "hash": 155106086
+    },
+    {
+      "name": "PICKUP_WEAPON_WRENCH",
+      "hash": 3843167081
+    },
+    {
+      "name": "PICKUP_WEAPON_ASSAULTRIFLE_MK2",
+      "hash": 2173116527
+    },
+    {
+      "name": "PICKUP_WEAPON_CARBINERIFLE_MK2",
+      "hash": 3185079484
+    },
+    {
+      "name": "PICKUP_WEAPON_COMBATMG_MK2",
+      "hash": 2837437579
+    },
+    {
+      "name": "PICKUP_WEAPON_HEAVYSNIPER_MK2",
+      "hash": 4278878871
+    },
+    {
+      "name": "PICKUP_WEAPON_PISTOL_MK2",
+      "hash": 1234831722
+    },
+    {
+      "name": "PICKUP_WEAPON_SMG_MK2",
+      "hash": 4012602256
+    },
+    {
+      "name": "PICKUP_WEAPON_STONE_HATCHET",
+      "hash": 3432031091
+    },
+    {
+      "name": "PICKUP_WEAPON_METALDETECTOR",
+      "hash": 2226947771
+    },
+    {
+      "name": "PICKUP_WEAPON_TACTICALRIFLE",
+      "hash": 2316705120
+    },
+    {
+      "name": "PICKUP_WEAPON_PRECISIONRIFLE",
+      "hash": 2821026276
+    },
+    {
+      "name": "PICKUP_WEAPON_EMPLAUNCHER",
+      "hash": 4284229131
+    },
+    {
+      "name": "PICKUP_AMMO_EMPLAUNCHER",
+      "hash": 2308161313
+    },
+    {
+      "name": "PICKUP_WEAPON_HEAVYRIFLE",
+      "hash": 1491498856
+    },
+    {
+      "name": "PICKUP_WEAPON_PETROLCAN_SMALL_RADIUS",
+      "hash": 3279969783
+    },
+    {
+      "name": "PICKUP_WEAPON_FERTILIZERCAN",
+      "hash": 3708929359
+    },
+    {
+      "name": "PICKUP_WEAPON_STUNGUN_MP",
+      "hash": 3025681922
+    },
+    {
+      "name": "PICKUP_AMMO_SNOWLAUNCHER",
+      "hash": 3224331048
+    },
+    {
+      "name": "PICKUP_PORTABLE_FM_CONTENT_MISSION_ENTITY_SMALL",
+      "hash": 1610516839
+    },
+    {
+      "name": "PICKUP_VEHICLE_WEAPON_STRICKLER",
+      "hash": 3791167784
+    },
+    {
+      "name": "PICKUP_WEAPON_BATTLERIFLE",
+      "hash": 3295236118
+    },
+    {
+      "name": "PICKUP_WEAPON_CANDYCANE",
+      "hash": 1337246736
+    },
+    {
+      "name": "PICKUP_WEAPON_HACKINGDEVICE",
+      "hash": 2962605638
+    },
+    {
+      "name": "PICKUP_WEAPON_PISTOLXM3",
+      "hash": 3063083075
+    },
+    {
+      "name": "PICKUP_WEAPON_RAILGUNXM3",
+      "hash": 4109932467
+    },
+    {
+      "name": "PICKUP_WEAPON_SNOWBALL",
+      "hash": 1189363388
+    },
+    {
+      "name": "PICKUP_WEAPON_SNOWLAUNCHER",
+      "hash": 4173684011
+    },
+    {
+      "name": "PICKUP_WEAPON_STUNROD",
+      "hash": 518706036
+    },
+    {
+      "name": "PICKUP_WEAPON_TECPISTOL",
+      "hash": 2292608621
+    },
+    {
+      "name": "PICKUP_WEAPON_PARACHUTE",
+      "hash": 1735599485
+    },
+    {
+      "name": "PICKUP_WEAPON_GOLFCLUB",
+      "hash": 2297080999
+    }
+  ],
+  "pickup_hashes_count": 177
+}

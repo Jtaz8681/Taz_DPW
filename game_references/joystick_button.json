@@ -1,0 +1,282 @@
+{
+  "url_path": "/docs/game-references/input-mapper-parameter-ids/joystick_button/",
+  "full_url": "https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/joystick_button/",
+  "title": "joystick_button",
+  "slug": "joystick_button",
+  "parent_category": "input-mapper-parameter-ids",
+  "toc": [],
+  "tables": [
+    {
+      "headers": [
+        "Input Parameter",
+        "Input Description"
+      ],
+      "rows": [
+        [
+          "IOM\\_JOYSTICK\\_BUTTON1",
+          "*hardware dependent*"
+        ],
+        [
+          "IOM\\_JOYSTICK\\_BUTTON2",
+          "*hardware dependent*"
+        ],
+        [
+          "IOM\\_JOYSTICK\\_BUTTON3",
+          "*hardware dependent*"
+        ],
+        [
+          "IOM\\_JOYSTICK\\_BUTTON4",
+          "*hardware dependent*"
+        ],
+        [
+          "IOM\\_JOYSTICK\\_BUTTON5",
+          "*hardware dependent*"
+        ],
+        [
+          "IOM\\_JOYSTICK\\_BUTTON6",
+          "*hardware dependent*"
+        ],
+        [
+          "IOM\\_JOYSTICK\\_BUTTON7",
+          "*hardware dependent*"
+        ],
+        [
+          "IOM\\_JOYSTICK\\_BUTTON8",
+          "*hardware dependent*"
+        ],
+        [
+          "IOM\\_JOYSTICK\\_BUTTON9",
+          "*hardware dependent*"
+        ],
+        [
+          "IOM\\_JOYSTICK\\_BUTTON10",
+          "*hardware dependent*"
+        ],
+        [
+          "IOM\\_JOYSTICK\\_BUTTON11",
+          "*hardware dependent*"
+        ],
+        [
+          "IOM\\_JOYSTICK\\_BUTTON12",
+          "*hardware dependent*"
+        ],
+        [
+          "IOM\\_JOYSTICK\\_BUTTON13",
+          "*hardware dependent*"
+        ],
+        [
+          "IOM\\_JOYSTICK\\_BUTTON14",
+          "*hardware dependent*"
+        ],
+        [
+          "IOM\\_JOYSTICK\\_BUTTON15",
+          "*hardware dependent*"
+        ],
+        [
+          "IOM\\_JOYSTICK\\_BUTTON16",
+          "*hardware dependent*"
+        ],
+        [
+          "IOM\\_JOYSTICK\\_BUTTON17",
+          "*hardware dependent*"
+        ],
+        [
+          "IOM\\_JOYSTICK\\_BUTTON18",
+          "*hardware dependent*"
+        ],
+        [
+          "IOM\\_JOYSTICK\\_BUTTON19",
+          "*hardware dependent*"
+        ],
+        [
+          "IOM\\_JOYSTICK\\_BUTTON20",
+          "*hardware dependent*"
+        ],
+        [
+          "IOM\\_JOYSTICK\\_BUTTON21",
+          "*hardware dependent*"
+        ],
+        [
+          "IOM\\_JOYSTICK\\_BUTTON22",
+          "*hardware dependent*"
+        ],
+        [
+          "IOM\\_JOYSTICK\\_BUTTON23",
+          "*hardware dependent*"
+        ],
+        [
+          "IOM\\_JOYSTICK\\_BUTTON24",
+          "*hardware dependent*"
+        ],
+        [
+          "IOM\\_JOYSTICK\\_BUTTON25",
+          "*hardware dependent*"
+        ],
+        [
+          "IOM\\_JOYSTICK\\_BUTTON26",
+          "*hardware dependent*"
+        ],
+        [
+          "IOM\\_JOYSTICK\\_BUTTON27",
+          "*hardware dependent*"
+        ],
+        [
+          "IOM\\_JOYSTICK\\_BUTTON28",
+          "*hardware dependent*"
+        ],
+        [
+          "IOM\\_JOYSTICK\\_BUTTON29",
+          "*hardware dependent*"
+        ],
+        [
+          "IOM\\_JOYSTICK\\_BUTTON30",
+          "*hardware dependent*"
+        ],
+        [
+          "IOM\\_JOYSTICK\\_BUTTON31",
+          "*hardware dependent*"
+        ],
+        [
+          "IOM\\_JOYSTICK\\_BUTTON32",
+          "*hardware dependent*"
+        ]
+      ],
+      "data": [
+        {
+          "Input Parameter": "IOM\\_JOYSTICK\\_BUTTON1",
+          "Input Description": "*hardware dependent*"
+        },
+        {
+          "Input Parameter": "IOM\\_JOYSTICK\\_BUTTON2",
+          "Input Description": "*hardware dependent*"
+        },
+        {
+          "Input Parameter": "IOM\\_JOYSTICK\\_BUTTON3",
+          "Input Description": "*hardware dependent*"
+        },
+        {
+          "Input Parameter": "IOM\\_JOYSTICK\\_BUTTON4",
+          "Input Description": "*hardware dependent*"
+        },
+        {
+          "Input Parameter": "IOM\\_JOYSTICK\\_BUTTON5",
+          "Input Description": "*hardware dependent*"
+        },
+        {
+          "Input Parameter": "IOM\\_JOYSTICK\\_BUTTON6",
+          "Input Description": "*hardware dependent*"
+        },
+        {
+          "Input Parameter": "IOM\\_JOYSTICK\\_BUTTON7",
+          "Input Description": "*hardware dependent*"
+        },
+        {
+          "Input Parameter": "IOM\\_JOYSTICK\\_BUTTON8",
+          "Input Description": "*hardware dependent*"
+        },
+        {
+          "Input Parameter": "IOM\\_JOYSTICK\\_BUTTON9",
+          "Input Description": "*hardware dependent*"
+        },
+        {
+          "Input Parameter": "IOM\\_JOYSTICK\\_BUTTON10",
+          "Input Description": "*hardware dependent*"
+        },
+        {
+          "Input Parameter": "IOM\\_JOYSTICK\\_BUTTON11",
+          "Input Description": "*hardware dependent*"
+        },
+        {
+          "Input Parameter": "IOM\\_JOYSTICK\\_BUTTON12",
+          "Input Description": "*hardware dependent*"
+        },
+        {
+          "Input Parameter": "IOM\\_JOYSTICK\\_BUTTON13",
+          "Input Description": "*hardware dependent*"
+        },
+        {
+          "Input Parameter": "IOM\\_JOYSTICK\\_BUTTON14",
+          "Input Description": "*hardware dependent*"
+        },
+        {
+          "Input Parameter": "IOM\\_JOYSTICK\\_BUTTON15",
+          "Input Description": "*hardware dependent*"
+        },
+        {
+          "Input Parameter": "IOM\\_JOYSTICK\\_BUTTON16",
+          "Input Description": "*hardware dependent*"
+        },
+        {
+          "Input Parameter": "IOM\\_JOYSTICK\\_BUTTON17",
+          "Input Description": "*hardware dependent*"
+        },
+        {
+          "Input Parameter": "IOM\\_JOYSTICK\\_BUTTON18",
+          "Input Description": "*hardware dependent*"
+        },
+        {
+          "Input Parameter": "IOM\\_JOYSTICK\\_BUTTON19",
+          "Input Description": "*hardware dependent*"
+        },
+        {
+          "Input Parameter": "IOM\\_JOYSTICK\\_BUTTON20",
+          "Input Description": "*hardware dependent*"
+        },
+        {
+          "Input Parameter": "IOM\\_JOYSTICK\\_BUTTON21",
+          "Input Description": "*hardware dependent*"
+        },
+        {
+          "Input Parameter": "IOM\\_JOYSTICK\\_BUTTON22",
+          "Input Description": "*hardware dependent*"
+        },
+        {
+          "Input Parameter": "IOM\\_JOYSTICK\\_BUTTON23",
+          "Input Description": "*hardware dependent*"
+        },
+        {
+          "Input Parameter": "IOM\\_JOYSTICK\\_BUTTON24",
+          "Input Description": "*hardware dependent*"
+        },
+        {
+          "Input Parameter": "IOM\\_JOYSTICK\\_BUTTON25",
+          "Input Description": "*hardware dependent*"
+        },
+        {
+          "Input Parameter": "IOM\\_JOYSTICK\\_BUTTON26",
+          "Input Description": "*hardware dependent*"
+        },
+        {
+          "Input Parameter": "IOM\\_JOYSTICK\\_BUTTON27",
+          "Input Description": "*hardware dependent*"
+        },
+        {
+          "Input Parameter": "IOM\\_JOYSTICK\\_BUTTON28",
+          "Input Description": "*hardware dependent*"
+        },
+        {
+          "Input Parameter": "IOM\\_JOYSTICK\\_BUTTON29",
+          "Input Description": "*hardware dependent*"
+        },
+        {
+          "Input Parameter": "IOM\\_JOYSTICK\\_BUTTON30",
+          "Input Description": "*hardware dependent*"
+        },
+        {
+          "Input Parameter": "IOM\\_JOYSTICK\\_BUTTON31",
+          "Input Description": "*hardware dependent*"
+        },
+        {
+          "Input Parameter": "IOM\\_JOYSTICK\\_BUTTON32",
+          "Input Description": "*hardware dependent*"
+        }
+      ]
+    }
+  ],
+  "table_count": 1,
+  "total_table_rows": 32,
+  "css_items": [],
+  "css_item_count": 0,
+  "markdown": "| Input Parameter         | Input Description    |\n| ----------------------- | -------------------- |\n| IOM\\_JOYSTICK\\_BUTTON1  | *hardware dependent* |\n| IOM\\_JOYSTICK\\_BUTTON2  | *hardware dependent* |\n| IOM\\_JOYSTICK\\_BUTTON3  | *hardware dependent* |\n| IOM\\_JOYSTICK\\_BUTTON4  | *hardware dependent* |\n| IOM\\_JOYSTICK\\_BUTTON5  | *hardware dependent* |\n| IOM\\_JOYSTICK\\_BUTTON6  | *hardware dependent* |\n| IOM\\_JOYSTICK\\_BUTTON7  | *hardware dependent* |\n| IOM\\_JOYSTICK\\_BUTTON8  | *hardware dependent* |\n| IOM\\_JOYSTICK\\_BUTTON9  | *hardware dependent* |\n| IOM\\_JOYSTICK\\_BUTTON10 | *hardware dependent* |\n| IOM\\_JOYSTICK\\_BUTTON11 | *hardware dependent* |\n| IOM\\_JOYSTICK\\_BUTTON12 | *hardware dependent* |\n| IOM\\_JOYSTICK\\_BUTTON13 | *hardware dependent* |\n| IOM\\_JOYSTICK\\_BUTTON14 | *hardware dependent* |\n| IOM\\_JOYSTICK\\_BUTTON15 | *hardware dependent* |\n| IOM\\_JOYSTICK\\_BUTTON16 | *hardware dependent* |\n| IOM\\_JOYSTICK\\_BUTTON17 | *hardware dependent* |\n| IOM\\_JOYSTICK\\_BUTTON18 | *hardware dependent* |\n| IOM\\_JOYSTICK\\_BUTTON19 | *hardware dependent* |\n| IOM\\_JOYSTICK\\_BUTTON20 | *hardware dependent* |\n| IOM\\_JOYSTICK\\_BUTTON21 | *hardware dependent* |\n| IOM\\_JOYSTICK\\_BUTTON22 | *hardware dependent* |\n| IOM\\_JOYSTICK\\_BUTTON23 | *hardware dependent* |\n| IOM\\_JOYSTICK\\_BUTTON24 | *hardware dependent* |\n| IOM\\_JOYSTICK\\_BUTTON25 | *hardware dependent* |\n| IOM\\_JOYSTICK\\_BUTTON26 | *hardware dependent* |\n| IOM\\_JOYSTICK\\_BUTTON27 | *hardware dependent* |\n| IOM\\_JOYSTICK\\_BUTTON28 | *hardware dependent* |\n| IOM\\_JOYSTICK\\_BUTTON29 | *hardware dependent* |\n| IOM\\_JOYSTICK\\_BUTTON30 | *hardware dependent* |\n| IOM\\_JOYSTICK\\_BUTTON31 | *hardware dependent* |\n| IOM\\_JOYSTICK\\_BUTTON32 | *hardware dependent* |",
+  "raw_html_length": 1735
+}

@@ -1,0 +1,15 @@
+{
+  "url_path": "/docs/game-references/input-mapper-parameter-ids/game_controlled/",
+  "full_url": "https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/game_controlled/",
+  "title": "game_controlled",
+  "slug": "game_controlled",
+  "parent_category": "input-mapper-parameter-ids",
+  "toc": [],
+  "tables": [],
+  "table_count": 0,
+  "total_table_rows": 0,
+  "css_items": [],
+  "css_item_count": 0,
+  "markdown": "Valid parameters for this mapper are unknown.\n\nThis is presumably an input source for input being forced/controlled by the game. More testing is needed to confirm this.",
+  "raw_html_length": 170
+}

@@ -1,0 +1,887 @@
+{
+  "url_path": "/docs/game-references/radiostations/",
+  "full_url": "https://docs.fivem.net/docs/game-references/radiostations/",
+  "title": "radiostations",
+  "slug": "radiostations",
+  "parent_category": null,
+  "toc": [],
+  "tables": [
+    {
+      "headers": [
+        "Index",
+        "Label",
+        "Name"
+      ],
+      "rows": [
+        [
+          "0",
+          "Media Player",
+          "RADIO_36_AUDIOPLAYER"
+        ],
+        [
+          "1",
+          "MOTOMAMI Los Santos",
+          "RADIO_37_MOTOMAMI"
+        ],
+        [
+          "2",
+          "The Music Locker",
+          "RADIO_35_DLC_HEI4_MLR"
+        ],
+        [
+          "3",
+          "Blue Ark",
+          "RADIO_12_REGGAE"
+        ],
+        [
+          "4",
+          "Worldwide FM",
+          "RADIO_13_JAZZ"
+        ],
+        [
+          "5",
+          "FlyLo FM",
+          "RADIO_14_DANCE_02"
+        ],
+        [
+          "6",
+          "The Lowdown 91.1",
+          "RADIO_15_MOTOWN"
+        ],
+        [
+          "7",
+          "The Lab",
+          "RADIO_20_THELAB"
+        ],
+        [
+          "8",
+          "Radio Mirror Park",
+          "RADIO_16_SILVERLAKE"
+        ],
+        [
+          "9",
+          "Kult FM",
+          "RADIO_34_DLC_HEI4_KULT"
+        ],
+        [
+          "10",
+          "Space 103.2",
+          "RADIO_17_FUNK"
+        ],
+        [
+          "11",
+          "Vinewood Boulevard Radio",
+          "RADIO_18_90S_ROCK"
+        ],
+        [
+          "12",
+          "Blonded Los Santos 97.8 FM",
+          "RADIO_21_DLC_XM17"
+        ],
+        [
+          "13",
+          "Los Santos Underground Radio",
+          "RADIO_22_DLC_BATTLE_MIX1_RADIO"
+        ],
+        [
+          "14",
+          "iFruit Radio",
+          "RADIO_23_DLC_XM19_RADIO"
+        ],
+        [
+          "15",
+          "Los Santos Rock Radio",
+          "RADIO_01_CLASS_ROCK"
+        ],
+        [
+          "16",
+          "Non-Stop-Pop FM",
+          "RADIO_02_POP"
+        ],
+        [
+          "17",
+          "Radio Los Santos",
+          "RADIO_03_HIPHOP_NEW"
+        ],
+        [
+          "18",
+          "Channel X",
+          "RADIO_04_PUNK"
+        ],
+        [
+          "19",
+          "West Coast Talk Radio",
+          "RADIO_05_TALK_01"
+        ],
+        [
+          "20",
+          "Rebel Radio",
+          "RADIO_06_COUNTRY"
+        ],
+        [
+          "21",
+          "Soulwax FM",
+          "RADIO_07_DANCE_01"
+        ],
+        [
+          "22",
+          "East Los FM",
+          "RADIO_08_MEXICAN"
+        ],
+        [
+          "23",
+          "West Coast Classics",
+          "RADIO_09_HIPHOP_OLD"
+        ],
+        [
+          "24",
+          "Blaine County Radio",
+          "RADIO_11_TALK_02"
+        ],
+        [
+          "25",
+          "Still Slipping Los Santos",
+          "RADIO_27_DLC_PRHEI4"
+        ],
+        [
+          "26",
+          "Self Radio",
+          "RADIO_19_USER"
+        ],
+        [
+          "27",
+          "Weazel News",
+          "HIDDEN_RADIO_MPSUM2_NEWS"
+        ],
+        [
+          "28",
+          "NULL",
+          "HIDDEN_RADIO_MLR"
+        ],
+        [
+          "29",
+          "NULL",
+          "HIDDEN_RADIO_37_MOTOMAMI"
+        ],
+        [
+          "30",
+          "NULL",
+          "HIDDEN_RADIO_ASTU_DRUMS_VOX"
+        ],
+        [
+          "31",
+          "NULL",
+          "HIDDEN_RADIO_ASTU_SILENCE"
+        ],
+        [
+          "32",
+          "NULL",
+          "HIDDEN_RADIO_ASTU_TRANS_01"
+        ],
+        [
+          "33",
+          "NULL",
+          "HIDDEN_RADIO_TUNER_MM"
+        ],
+        [
+          "34",
+          "NULL",
+          "HIDDEN_RADIO_ASTU_TRANS_01_VOX"
+        ],
+        [
+          "35",
+          "NULL",
+          "HIDDEN_RADIO_ASTU_TRANS_02_VOX"
+        ],
+        [
+          "36",
+          "NULL",
+          "HIDDEN_RADIO_ASTU_VOX"
+        ],
+        [
+          "37",
+          "NULL",
+          "HIDDEN_RADIO_12_REGGAE"
+        ],
+        [
+          "38",
+          "NULL",
+          "HIDDEN_RADIO_FLYLO"
+        ],
+        [
+          "39",
+          "NULL",
+          "HIDDEN_RADIO_15_MOTOWN"
+        ],
+        [
+          "40",
+          "NULL",
+          "HIDDEN_RADIO_THE_LAB"
+        ],
+        [
+          "41",
+          "NULL",
+          "HIDDEN_RADIO_16_SILVERLAKE"
+        ],
+        [
+          "42",
+          "NULL",
+          "HIDDEN_RADIO_34_DLC_HEI4_KULT"
+        ],
+        [
+          "43",
+          "NULL",
+          "HIDDEN_RADIO_17_FUNK"
+        ],
+        [
+          "44",
+          "NULL",
+          "HIDDEN_RADIO_STRIP_CLUB"
+        ],
+        [
+          "45",
+          "NULL",
+          "DLC_BATTLE_MIX1_CLUB_PRIV"
+        ],
+        [
+          "46",
+          "NULL",
+          "RADIO_22_DLC_BATTLE_MIX1_CLUB"
+        ],
+        [
+          "47",
+          "NULL",
+          "HIDDEN_RADIO_IFRUIT"
+        ],
+        [
+          "48",
+          "NULL",
+          "HIDDEN_RADIO_BIKER_CLASSIC_ROCK"
+        ],
+        [
+          "49",
+          "NULL",
+          "RADIO_30_DLC_HEI4_MIX1_REVERB"
+        ],
+        [
+          "50",
+          "NULL",
+          "RADIO_31_DLC_HEI4_KM_CLUB"
+        ],
+        [
+          "51",
+          "NULL",
+          "RADIO_32_DLC_HEI4_MM_CLUB"
+        ],
+        [
+          "52",
+          "NULL",
+          "RADIO_33_DLC_HEI4_PT_CLUB"
+        ],
+        [
+          "53",
+          "NULL",
+          "HIDDEN_RADIO_BIKER_MODERN_ROCK"
+        ],
+        [
+          "54",
+          "NULL",
+          "DLC_BATTLE_MIX2_CLUB_PRIV"
+        ],
+        [
+          "55",
+          "NULL",
+          "RADIO_23_DLC_BATTLE_MIX2_CLUB"
+        ],
+        [
+          "56",
+          "NULL",
+          "HIDDEN_RADIO_BIKER_PUNK"
+        ],
+        [
+          "57",
+          "NULL",
+          "RADIO_25_DLC_BATTLE_MIX4_CLUB"
+        ],
+        [
+          "58",
+          "NULL",
+          "DLC_BATTLE_MIX3_CLUB_PRIV"
+        ],
+        [
+          "59",
+          "NULL",
+          "DLC_BATTLE_MIX4_CLUB_PRIV"
+        ],
+        [
+          "60",
+          "NULL",
+          "RADIO_24_DLC_BATTLE_MIX3_CLUB"
+        ],
+        [
+          "61",
+          "NULL",
+          "RADIO_26_DLC_BATTLE_CLUB_WARMUP"
+        ],
+        [
+          "62",
+          "NULL",
+          "HIDDEN_RADIO_BIKER_HIP_HOP"
+        ],
+        [
+          "63",
+          "NULL",
+          "HIDDEN_RADIO_TUNER_TEST_AREA"
+        ],
+        [
+          "64",
+          "NULL",
+          "HIDDEN_RADIO_CASINO_PENTHOUSE_P"
+        ],
+        [
+          "65",
+          "NULL",
+          "HIDDEN_RADIO_ADVERTS"
+        ],
+        [
+          "66",
+          "NULL",
+          "HIDDEN_RADIO_AMBIENT_TV_BRIGHT"
+        ],
+        [
+          "67",
+          "NULL",
+          "HIDDEN_RADIO_ARCADE_EDM"
+        ],
+        [
+          "68",
+          "NULL",
+          "HIDDEN_RADIO_AMBIENT_TV"
+        ],
+        [
+          "69",
+          "NULL",
+          "HIDDEN_RADIO_SEC_BILLIONAIRE"
+        ],
+        [
+          "70",
+          "NULL",
+          "HIDDEN_RADIO_ARCADE_MIRROR_PARK"
+        ],
+        [
+          "71",
+          "NULL",
+          "HIDDEN_RADIO_ARCADE_WWFM"
+        ],
+        [
+          "72",
+          "NULL",
+          "HIDDEN_RADIO_CASINO"
+        ],
+        [
+          "73",
+          "NULL",
+          "HIDDEN_RADIO_01_CLASS_ROCK"
+        ],
+        [
+          "74",
+          "NULL",
+          "HIDDEN_RADIO_ARCADE_POP"
+        ],
+        [
+          "75",
+          "NULL",
+          "HIDDEN_RADIO_TUNER_CAR_MEET"
+        ],
+        [
+          "76",
+          "NULL",
+          "HIDDEN_RADIO_ML_PROMOTER"
+        ],
+        [
+          "77",
+          "NULL",
+          "HIDDEN_RADIO_ARCADE_DANCE"
+        ],
+        [
+          "78",
+          "NULL",
+          "HIDDEN_RADIO_SEC_STUDIO_LOUNGE"
+        ],
+        [
+          "79",
+          "NULL",
+          "HIDDEN_RADIO_02_POP"
+        ],
+        [
+          "80",
+          "NULL",
+          "HIDDEN_RADIO_03_HIPHOP_NEW"
+        ],
+        [
+          "81",
+          "NULL",
+          "HIDDEN_RADIO_04_PUNK"
+        ],
+        [
+          "82",
+          "NULL",
+          "HIDDEN_RADIO_06_COUNTRY"
+        ],
+        [
+          "83",
+          "NULL",
+          "HIDDEN_RADIO_07_DANCE_01"
+        ],
+        [
+          "84",
+          "NULL",
+          "HIDDEN_RADIO_09_HIPHOP_OLD"
+        ],
+        [
+          "85+",
+          "NULL",
+          "OFF"
+        ]
+      ],
+      "data": [
+        {
+          "Index": "0",
+          "Label": "Media Player",
+          "Name": "RADIO_36_AUDIOPLAYER"
+        },
+        {
+          "Index": "1",
+          "Label": "MOTOMAMI Los Santos",
+          "Name": "RADIO_37_MOTOMAMI"
+        },
+        {
+          "Index": "2",
+          "Label": "The Music Locker",
+          "Name": "RADIO_35_DLC_HEI4_MLR"
+        },
+        {
+          "Index": "3",
+          "Label": "Blue Ark",
+          "Name": "RADIO_12_REGGAE"
+        },
+        {
+          "Index": "4",
+          "Label": "Worldwide FM",
+          "Name": "RADIO_13_JAZZ"
+        },
+        {
+          "Index": "5",
+          "Label": "FlyLo FM",
+          "Name": "RADIO_14_DANCE_02"
+        },
+        {
+          "Index": "6",
+          "Label": "The Lowdown 91.1",
+          "Name": "RADIO_15_MOTOWN"
+        },
+        {
+          "Index": "7",
+          "Label": "The Lab",
+          "Name": "RADIO_20_THELAB"
+        },
+        {
+          "Index": "8",
+          "Label": "Radio Mirror Park",
+          "Name": "RADIO_16_SILVERLAKE"
+        },
+        {
+          "Index": "9",
+          "Label": "Kult FM",
+          "Name": "RADIO_34_DLC_HEI4_KULT"
+        },
+        {
+          "Index": "10",
+          "Label": "Space 103.2",
+          "Name": "RADIO_17_FUNK"
+        },
+        {
+          "Index": "11",
+          "Label": "Vinewood Boulevard Radio",
+          "Name": "RADIO_18_90S_ROCK"
+        },
+        {
+          "Index": "12",
+          "Label": "Blonded Los Santos 97.8 FM",
+          "Name": "RADIO_21_DLC_XM17"
+        },
+        {
+          "Index": "13",
+          "Label": "Los Santos Underground Radio",
+          "Name": "RADIO_22_DLC_BATTLE_MIX1_RADIO"
+        },
+        {
+          "Index": "14",
+          "Label": "iFruit Radio",
+          "Name": "RADIO_23_DLC_XM19_RADIO"
+        },
+        {
+          "Index": "15",
+          "Label": "Los Santos Rock Radio",
+          "Name": "RADIO_01_CLASS_ROCK"
+        },
+        {
+          "Index": "16",
+          "Label": "Non-Stop-Pop FM",
+          "Name": "RADIO_02_POP"
+        },
+        {
+          "Index": "17",
+          "Label": "Radio Los Santos",
+          "Name": "RADIO_03_HIPHOP_NEW"
+        },
+        {
+          "Index": "18",
+          "Label": "Channel X",
+          "Name": "RADIO_04_PUNK"
+        },
+        {
+          "Index": "19",
+          "Label": "West Coast Talk Radio",
+          "Name": "RADIO_05_TALK_01"
+        },
+        {
+          "Index": "20",
+          "Label": "Rebel Radio",
+          "Name": "RADIO_06_COUNTRY"
+        },
+        {
+          "Index": "21",
+          "Label": "Soulwax FM",
+          "Name": "RADIO_07_DANCE_01"
+        },
+        {
+          "Index": "22",
+          "Label": "East Los FM",
+          "Name": "RADIO_08_MEXICAN"
+        },
+        {
+          "Index": "23",
+          "Label": "West Coast Classics",
+          "Name": "RADIO_09_HIPHOP_OLD"
+        },
+        {
+          "Index": "24",
+          "Label": "Blaine County Radio",
+          "Name": "RADIO_11_TALK_02"
+        },
+        {
+          "Index": "25",
+          "Label": "Still Slipping Los Santos",
+          "Name": "RADIO_27_DLC_PRHEI4"
+        },
+        {
+          "Index": "26",
+          "Label": "Self Radio",
+          "Name": "RADIO_19_USER"
+        },
+        {
+          "Index": "27",
+          "Label": "Weazel News",
+          "Name": "HIDDEN_RADIO_MPSUM2_NEWS"
+        },
+        {
+          "Index": "28",
+          "Label": "NULL",
+          "Name": "HIDDEN_RADIO_MLR"
+        },
+        {
+          "Index": "29",
+          "Label": "NULL",
+          "Name": "HIDDEN_RADIO_37_MOTOMAMI"
+        },
+        {
+          "Index": "30",
+          "Label": "NULL",
+          "Name": "HIDDEN_RADIO_ASTU_DRUMS_VOX"
+        },
+        {
+          "Index": "31",
+          "Label": "NULL",
+          "Name": "HIDDEN_RADIO_ASTU_SILENCE"
+        },
+        {
+          "Index": "32",
+          "Label": "NULL",
+          "Name": "HIDDEN_RADIO_ASTU_TRANS_01"
+        },
+        {
+          "Index": "33",
+          "Label": "NULL",
+          "Name": "HIDDEN_RADIO_TUNER_MM"
+        },
+        {
+          "Index": "34",
+          "Label": "NULL",
+          "Name": "HIDDEN_RADIO_ASTU_TRANS_01_VOX"
+        },
+        {
+          "Index": "35",
+          "Label": "NULL",
+          "Name": "HIDDEN_RADIO_ASTU_TRANS_02_VOX"
+        },
+        {
+          "Index": "36",
+          "Label": "NULL",
+          "Name": "HIDDEN_RADIO_ASTU_VOX"
+        },
+        {
+          "Index": "37",
+          "Label": "NULL",
+          "Name": "HIDDEN_RADIO_12_REGGAE"
+        },
+        {
+          "Index": "38",
+          "Label": "NULL",
+          "Name": "HIDDEN_RADIO_FLYLO"
+        },
+        {
+          "Index": "39",
+          "Label": "NULL",
+          "Name": "HIDDEN_RADIO_15_MOTOWN"
+        },
+        {
+          "Index": "40",
+          "Label": "NULL",
+          "Name": "HIDDEN_RADIO_THE_LAB"
+        },
+        {
+          "Index": "41",
+          "Label": "NULL",
+          "Name": "HIDDEN_RADIO_16_SILVERLAKE"
+        },
+        {
+          "Index": "42",
+          "Label": "NULL",
+          "Name": "HIDDEN_RADIO_34_DLC_HEI4_KULT"
+        },
+        {
+          "Index": "43",
+          "Label": "NULL",
+          "Name": "HIDDEN_RADIO_17_FUNK"
+        },
+        {
+          "Index": "44",
+          "Label": "NULL",
+          "Name": "HIDDEN_RADIO_STRIP_CLUB"
+        },
+        {
+          "Index": "45",
+          "Label": "NULL",
+          "Name": "DLC_BATTLE_MIX1_CLUB_PRIV"
+        },
+        {
+          "Index": "46",
+          "Label": "NULL",
+          "Name": "RADIO_22_DLC_BATTLE_MIX1_CLUB"
+        },
+        {
+          "Index": "47",
+          "Label": "NULL",
+          "Name": "HIDDEN_RADIO_IFRUIT"
+        },
+        {
+          "Index": "48",
+          "Label": "NULL",
+          "Name": "HIDDEN_RADIO_BIKER_CLASSIC_ROCK"
+        },
+        {
+          "Index": "49",
+          "Label": "NULL",
+          "Name": "RADIO_30_DLC_HEI4_MIX1_REVERB"
+        },
+        {
+          "Index": "50",
+          "Label": "NULL",
+          "Name": "RADIO_31_DLC_HEI4_KM_CLUB"
+        },
+        {
+          "Index": "51",
+          "Label": "NULL",
+          "Name": "RADIO_32_DLC_HEI4_MM_CLUB"
+        },
+        {
+          "Index": "52",
+          "Label": "NULL",
+          "Name": "RADIO_33_DLC_HEI4_PT_CLUB"
+        },
+        {
+          "Index": "53",
+          "Label": "NULL",
+          "Name": "HIDDEN_RADIO_BIKER_MODERN_ROCK"
+        },
+        {
+          "Index": "54",
+          "Label": "NULL",
+          "Name": "DLC_BATTLE_MIX2_CLUB_PRIV"
+        },
+        {
+          "Index": "55",
+          "Label": "NULL",
+          "Name": "RADIO_23_DLC_BATTLE_MIX2_CLUB"
+        },
+        {
+          "Index": "56",
+          "Label": "NULL",
+          "Name": "HIDDEN_RADIO_BIKER_PUNK"
+        },
+        {
+          "Index": "57",
+          "Label": "NULL",
+          "Name": "RADIO_25_DLC_BATTLE_MIX4_CLUB"
+        },
+        {
+          "Index": "58",
+          "Label": "NULL",
+          "Name": "DLC_BATTLE_MIX3_CLUB_PRIV"
+        },
+        {
+          "Index": "59",
+          "Label": "NULL",
+          "Name": "DLC_BATTLE_MIX4_CLUB_PRIV"
+        },
+        {
+          "Index": "60",
+          "Label": "NULL",
+          "Name": "RADIO_24_DLC_BATTLE_MIX3_CLUB"
+        },
+        {
+          "Index": "61",
+          "Label": "NULL",
+          "Name": "RADIO_26_DLC_BATTLE_CLUB_WARMUP"
+        },
+        {
+          "Index": "62",
+          "Label": "NULL",
+          "Name": "HIDDEN_RADIO_BIKER_HIP_HOP"
+        },
+        {
+          "Index": "63",
+          "Label": "NULL",
+          "Name": "HIDDEN_RADIO_TUNER_TEST_AREA"
+        },
+        {
+          "Index": "64",
+          "Label": "NULL",
+          "Name": "HIDDEN_RADIO_CASINO_PENTHOUSE_P"
+        },
+        {
+          "Index": "65",
+          "Label": "NULL",
+          "Name": "HIDDEN_RADIO_ADVERTS"
+        },
+        {
+          "Index": "66",
+          "Label": "NULL",
+          "Name": "HIDDEN_RADIO_AMBIENT_TV_BRIGHT"
+        },
+        {
+          "Index": "67",
+          "Label": "NULL",
+          "Name": "HIDDEN_RADIO_ARCADE_EDM"
+        },
+        {
+          "Index": "68",
+          "Label": "NULL",
+          "Name": "HIDDEN_RADIO_AMBIENT_TV"
+        },
+        {
+          "Index": "69",
+          "Label": "NULL",
+          "Name": "HIDDEN_RADIO_SEC_BILLIONAIRE"
+        },
+        {
+          "Index": "70",
+          "Label": "NULL",
+          "Name": "HIDDEN_RADIO_ARCADE_MIRROR_PARK"
+        },
+        {
+          "Index": "71",
+          "Label": "NULL",
+          "Name": "HIDDEN_RADIO_ARCADE_WWFM"
+        },
+        {
+          "Index": "72",
+          "Label": "NULL",
+          "Name": "HIDDEN_RADIO_CASINO"
+        },
+        {
+          "Index": "73",
+          "Label": "NULL",
+          "Name": "HIDDEN_RADIO_01_CLASS_ROCK"
+        },
+        {
+          "Index": "74",
+          "Label": "NULL",
+          "Name": "HIDDEN_RADIO_ARCADE_POP"
+        },
+        {
+          "Index": "75",
+          "Label": "NULL",
+          "Name": "HIDDEN_RADIO_TUNER_CAR_MEET"
+        },
+        {
+          "Index": "76",
+          "Label": "NULL",
+          "Name": "HIDDEN_RADIO_ML_PROMOTER"
+        },
+        {
+          "Index": "77",
+          "Label": "NULL",
+          "Name": "HIDDEN_RADIO_ARCADE_DANCE"
+        },
+        {
+          "Index": "78",
+          "Label": "NULL",
+          "Name": "HIDDEN_RADIO_SEC_STUDIO_LOUNGE"
+        },
+        {
+          "Index": "79",
+          "Label": "NULL",
+          "Name": "HIDDEN_RADIO_02_POP"
+        },
+        {
+          "Index": "80",
+          "Label": "NULL",
+          "Name": "HIDDEN_RADIO_03_HIPHOP_NEW"
+        },
+        {
+          "Index": "81",
+          "Label": "NULL",
+          "Name": "HIDDEN_RADIO_04_PUNK"
+        },
+        {
+          "Index": "82",
+          "Label": "NULL",
+          "Name": "HIDDEN_RADIO_06_COUNTRY"
+        },
+        {
+          "Index": "83",
+          "Label": "NULL",
+          "Name": "HIDDEN_RADIO_07_DANCE_01"
+        },
+        {
+          "Index": "84",
+          "Label": "NULL",
+          "Name": "HIDDEN_RADIO_09_HIPHOP_OLD"
+        },
+        {
+          "Index": "85+",
+          "Label": "NULL",
+          "Name": "OFF"
+        }
+      ]
+    }
+  ],
+  "table_count": 1,
+  "total_table_rows": 86,
+  "css_items": [],
+  "css_item_count": 0,
+  "markdown": "These are all radio stations in the game as of game build 3258, note that indexes 24 and up are not visible in the radio wheel, but if you set the radio station to them, they do get set to one on the radio wheel.\n\n| Index | Label | Name |\n| -- | -- | -- |\n|\t0\t|\tMedia Player\t|\tRADIO_36_AUDIOPLAYER\t|\n|\t1\t|\tMOTOMAMI Los Santos\t|\tRADIO_37_MOTOMAMI\t|\n|\t2\t|\tThe Music Locker\t|\tRADIO_35_DLC_HEI4_MLR\t|\n|\t3\t|\tBlue Ark\t|\tRADIO_12_REGGAE\t|\n|\t4\t|\tWorldwide FM\t|\tRADIO_13_JAZZ\t|\n|\t5\t|\tFlyLo FM\t|\tRADIO_14_DANCE_02\t|\n|\t6\t|\tThe Lowdown 91.1\t|\tRADIO_15_MOTOWN\t|\n|\t7\t|\tThe Lab\t|\tRADIO_20_THELAB\t|\n|\t8\t|\tRadio Mirror Park\t|\tRADIO_16_SILVERLAKE\t|\n|\t9\t|\tKult FM\t|\tRADIO_34_DLC_HEI4_KULT\t|\n|\t10\t|\tSpace 103.2\t|\tRADIO_17_FUNK\t|\n|\t11\t|\tVinewood Boulevard Radio\t|\tRADIO_18_90S_ROCK\t|\n|\t12\t|\tBlonded Los Santos 97.8 FM\t|\tRADIO_21_DLC_XM17\t|\n|\t13\t|\tLos Santos Underground Radio\t|\tRADIO_22_DLC_BATTLE_MIX1_RADIO\t|\n|\t14\t|\tiFruit Radio\t|\tRADIO_23_DLC_XM19_RADIO\t|\n|\t15\t|\tLos Santos Rock Radio\t|\tRADIO_01_CLASS_ROCK\t|\n|\t16\t|\tNon-Stop-Pop FM\t|\tRADIO_02_POP\t|\n|\t17\t|\tRadio Los Santos\t|\tRADIO_03_HIPHOP_NEW\t|\n|\t18\t|\tChannel X\t|\tRADIO_04_PUNK\t|\n|\t19\t|\tWest Coast Talk Radio\t|\tRADIO_05_TALK_01\t|\n|\t20\t|\tRebel Radio\t|\tRADIO_06_COUNTRY\t|\n|\t21\t|\tSoulwax FM\t|\tRADIO_07_DANCE_01\t|\n|\t22\t|\tEast Los FM\t|\tRADIO_08_MEXICAN\t|\n|\t23\t|\tWest Coast Classics\t|\tRADIO_09_HIPHOP_OLD\t|\n|\t24\t|\tBlaine County Radio\t|\tRADIO_11_TALK_02\t|\n|\t25\t|\tStill Slipping Los Santos\t|\tRADIO_27_DLC_PRHEI4\t|\n|\t26\t|\tSelf Radio\t|\tRADIO_19_USER\t|\n|\t27\t|\tWeazel News\t|\tHIDDEN_RADIO_MPSUM2_NEWS\t|\n|\t28\t|\tNULL\t|\tHIDDEN_RADIO_MLR\t|\n|\t29\t|\tNULL\t|\tHIDDEN_RADIO_37_MOTOMAMI\t|\n|\t30\t|\tNULL\t|\tHIDDEN_RADIO_ASTU_DRUMS_VOX\t|\n|\t31\t|\tNULL\t|\tHIDDEN_RADIO_ASTU_SILENCE\t|\n|\t32\t|\tNULL\t|\tHIDDEN_RADIO_ASTU_TRANS_01\t|\n|\t33\t|\tNULL\t|\tHIDDEN_RADIO_TUNER_MM\t|\n|\t34\t|\tNULL\t|\tHIDDEN_RADIO_ASTU_TRANS_01_VOX\t|\n|\t35\t|\tNULL\t|\tHIDDEN_RADIO_ASTU_TRANS_02_VOX\t|\n|\t36\t|\tNULL\t|\tHIDDEN_RADIO_ASTU_VOX\t|\n|\t37\t|\tNULL\t|\tHIDDEN_RADIO_12_REGGAE\t|\n|\t38\t|\tNULL\t|\tHIDDEN_RADIO_FLYLO\t|\n|\t39\t|\tNULL\t|\tHIDDEN_RADIO_15_MOTOWN\t|\n|\t40\t|\tNULL\t|\tHIDDEN_RADIO_THE_LAB\t|\n|\t41\t|\tNULL\t|\tHIDDEN_RADIO_16_SILVERLAKE\t|\n|\t42\t|\tNULL\t|\tHIDDEN_RADIO_34_DLC_HEI4_KULT\t|\n|\t43\t|\tNULL\t|\tHIDDEN_RADIO_17_FUNK\t|\n|\t44\t|\tNULL\t|\tHIDDEN_RADIO_STRIP_CLUB\t|\n|\t45\t|\tNULL\t|\tDLC_BATTLE_MIX1_CLUB_PRIV\t|\n|\t46\t|\tNULL\t|\tRADIO_22_DLC_BATTLE_MIX1_CLUB\t|\n|\t47\t|\tNULL\t|\tHIDDEN_RADIO_IFRUIT\t|\n|\t48\t|\tNULL\t|\tHIDDEN_RADIO_BIKER_CLASSIC_ROCK\t|\n|\t49\t|\tNULL\t|\tRADIO_30_DLC_HEI4_MIX1_REVERB\t|\n|\t50\t|\tNULL\t|\tRADIO_31_DLC_HEI4_KM_CLUB\t|\n|\t51\t|\tNULL\t|\tRADIO_32_DLC_HEI4_MM_CLUB\t|\n|\t52\t|\tNULL\t|\tRADIO_33_DLC_HEI4_PT_CLUB\t|\n|\t53\t|\tNULL\t|\tHIDDEN_RADIO_BIKER_MODERN_ROCK\t|\n|\t54\t|\tNULL\t|\tDLC_BATTLE_MIX2_CLUB_PRIV\t|\n|\t55\t|\tNULL\t|\tRADIO_23_DLC_BATTLE_MIX2_CLUB\t|\n|\t56\t|\tNULL\t|\tHIDDEN_RADIO_BIKER_PUNK\t|\n|\t57\t|\tNULL\t|\tRADIO_25_DLC_BATTLE_MIX4_CLUB\t|\n|\t58\t|\tNULL\t|\tDLC_BATTLE_MIX3_CLUB_PRIV\t|\n|\t59\t|\tNULL\t|\tDLC_BATTLE_MIX4_CLUB_PRIV\t|\n|\t60\t|\tNULL\t|\tRADIO_24_DLC_BATTLE_MIX3_CLUB\t|\n|\t61\t|\tNULL\t|\tRADIO_26_DLC_BATTLE_CLUB_WARMUP\t|\n|\t62\t|\tNULL\t|\tHIDDEN_RADIO_BIKER_HIP_HOP\t|\n|\t63\t|\tNULL\t|\tHIDDEN_RADIO_TUNER_TEST_AREA\t|\n|\t64\t|\tNULL\t|\tHIDDEN_RADIO_CASINO_PENTHOUSE_P\t|\n|\t65\t|\tNULL\t|\tHIDDEN_RADIO_ADVERTS\t|\n|\t66\t|\tNULL\t|\tHIDDEN_RADIO_AMBIENT_TV_BRIGHT\t|\n|\t67\t|\tNULL\t|\tHIDDEN_RADIO_ARCADE_EDM\t|\n|\t68\t|\tNULL\t|\tHIDDEN_RADIO_AMBIENT_TV\t|\n|\t69\t|\tNULL\t|\tHIDDEN_RADIO_SEC_BILLIONAIRE\t|\n|\t70\t|\tNULL\t|\tHIDDEN_RADIO_ARCADE_MIRROR_PARK\t|\n|\t71\t|\tNULL\t|\tHIDDEN_RADIO_ARCADE_WWFM\t|\n|\t72\t|\tNULL\t|\tHIDDEN_RADIO_CASINO\t|\n|\t73\t|\tNULL\t|\tHIDDEN_RADIO_01_CLASS_ROCK\t|\n|\t74\t|\tNULL\t|\tHIDDEN_RADIO_ARCADE_POP\t|\n|\t75\t|\tNULL\t|\tHIDDEN_RADIO_TUNER_CAR_MEET\t|\n|\t76\t|\tNULL\t|\tHIDDEN_RADIO_ML_PROMOTER\t|\n|\t77\t|\tNULL\t|\tHIDDEN_RADIO_ARCADE_DANCE\t|\n|\t78\t|\tNULL\t|\tHIDDEN_RADIO_SEC_STUDIO_LOUNGE\t|\n|\t79\t|\tNULL\t|\tHIDDEN_RADIO_02_POP\t|\n|\t80\t|\tNULL\t|\tHIDDEN_RADIO_03_HIPHOP_NEW\t|\n|\t81\t|\tNULL\t|\tHIDDEN_RADIO_04_PUNK\t|\n|\t82\t|\tNULL\t|\tHIDDEN_RADIO_06_COUNTRY\t|\n|\t83\t|\tNULL\t|\tHIDDEN_RADIO_07_DANCE_01\t|\n|\t84\t|\tNULL\t|\tHIDDEN_RADIO_09_HIPHOP_OLD\t|\n|\t85+\t|\tNULL\t|\tOFF\t|",
+  "raw_html_length": 3945
+}

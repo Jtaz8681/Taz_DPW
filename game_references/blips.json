@@ -1,0 +1,4192 @@
+{
+  "url_path": "/docs/game-references/blips/",
+  "full_url": "https://docs.fivem.net/docs/game-references/blips/",
+  "title": "blips",
+  "slug": "blips",
+  "parent_category": null,
+  "toc": [],
+  "tables": [],
+  "table_count": 0,
+  "total_table_rows": 0,
+  "css_items": [
+    {
+      "id": 0,
+      "name": "radar_higher"
+    },
+    {
+      "id": 1,
+      "name": "radar_level"
+    },
+    {
+      "id": 2,
+      "name": "radar_lower"
+    },
+    {
+      "id": 3,
+      "name": "radar_police_ped"
+    },
+    {
+      "id": 4,
+      "name": "radar_wanted_radius"
+    },
+    {
+      "id": 5,
+      "name": "radar_area_blip"
+    },
+    {
+      "id": 6,
+      "name": "radar_centre"
+    },
+    {
+      "id": 7,
+      "name": "radar_north"
+    },
+    {
+      "id": 8,
+      "name": "radar_waypoint"
+    },
+    {
+      "id": 9,
+      "name": "radar_radius_blip"
+    },
+    {
+      "id": 10,
+      "name": "radar_radius_outline_blip"
+    },
+    {
+      "id": 11,
+      "name": "radar_weapon_higher"
+    },
+    {
+      "id": 12,
+      "name": "radar_weapon_lower"
+    },
+    {
+      "id": 13,
+      "name": "radar_higher_ai"
+    },
+    {
+      "id": 14,
+      "name": "radar_lower_ai"
+    },
+    {
+      "id": 15,
+      "name": "radar_police_heli_spin"
+    },
+    {
+      "id": 16,
+      "name": "radar_police_plane_move"
+    },
+    {
+      "id": 17,
+      "name": "radar_numbered_1"
+    },
+    {
+      "id": 18,
+      "name": "radar_numbered_2"
+    },
+    {
+      "id": 19,
+      "name": "radar_numbered_3"
+    },
+    {
+      "id": 20,
+      "name": "radar_numbered_4"
+    },
+    {
+      "id": 21,
+      "name": "radar_numbered_5"
+    },
+    {
+      "id": 22,
+      "name": "radar_numbered_6"
+    },
+    {
+      "id": 23,
+      "name": "radar_numbered_7"
+    },
+    {
+      "id": 24,
+      "name": "radar_numbered_8"
+    },
+    {
+      "id": 25,
+      "name": "radar_numbered_9"
+    },
+    {
+      "id": 26,
+      "name": "radar_numbered_10-->"
+    },
+    {
+      "id": 27,
+      "name": "radar_mp_crew"
+    },
+    {
+      "id": 28,
+      "name": "radar_mp_friendlies"
+    },
+    {
+      "id": 29,
+      "name": "radar_empty"
+    },
+    {
+      "id": 30,
+      "name": "radar_empty"
+    },
+    {
+      "id": 31,
+      "name": "radar_empty"
+    },
+    {
+      "id": 32,
+      "name": "radar_script_objective"
+    },
+    {
+      "id": 33,
+      "name": "radar_empty"
+    },
+    {
+      "id": 34,
+      "name": "radar_empty"
+    },
+    {
+      "id": 35,
+      "name": "radar_station-->"
+    },
+    {
+      "id": 36,
+      "name": "radar_cable_car"
+    },
+    {
+      "id": 37,
+      "name": "radar_activities"
+    },
+    {
+      "id": 38,
+      "name": "radar_raceflag"
+    },
+    {
+      "id": 39,
+      "name": "radar_fire-->"
+    },
+    {
+      "id": 40,
+      "name": "radar_safehouse"
+    },
+    {
+      "id": 41,
+      "name": "radar_police"
+    },
+    {
+      "id": 42,
+      "name": "radar_police_chase"
+    },
+    {
+      "id": 43,
+      "name": "radar_police_heli"
+    },
+    {
+      "id": 44,
+      "name": "radar_bomb_a"
+    },
+    {
+      "id": 45,
+      "name": "radar_bomb_b"
+    },
+    {
+      "id": 46,
+      "name": "radar_bomb_c-->"
+    },
+    {
+      "id": 47,
+      "name": "radar_snitch"
+    },
+    {
+      "id": 48,
+      "name": "radar_planning_locations"
+    },
+    {
+      "id": 49,
+      "name": "radar_crim_arrest-->"
+    },
+    {
+      "id": 50,
+      "name": "radar_crim_carsteal"
+    },
+    {
+      "id": 51,
+      "name": "radar_crim_drugs"
+    },
+    {
+      "id": 52,
+      "name": "radar_crim_holdups"
+    },
+    {
+      "id": 53,
+      "name": "radar_crim_pimping-->"
+    },
+    {
+      "id": 54,
+      "name": "radar_crim_player"
+    },
+    {
+      "id": 55,
+      "name": "radar_fence-->"
+    },
+    {
+      "id": 56,
+      "name": "radar_cop_patrol"
+    },
+    {
+      "id": 57,
+      "name": "radar_cop_player"
+    },
+    {
+      "id": 58,
+      "name": "radar_crim_wanted"
+    },
+    {
+      "id": 59,
+      "name": "radar_heist"
+    },
+    {
+      "id": 60,
+      "name": "radar_police_station"
+    },
+    {
+      "id": 61,
+      "name": "radar_hospital"
+    },
+    {
+      "id": 62,
+      "name": "radar_assassins_mark"
+    },
+    {
+      "id": 63,
+      "name": "radar_elevator"
+    },
+    {
+      "id": 64,
+      "name": "radar_helicopter"
+    },
+    {
+      "id": 65,
+      "name": "radar_joyriders-->"
+    },
+    {
+      "id": 66,
+      "name": "radar_random_character"
+    },
+    {
+      "id": 67,
+      "name": "radar_security_van"
+    },
+    {
+      "id": 68,
+      "name": "radar_tow_truck"
+    },
+    {
+      "id": 69,
+      "name": "radar_drive_thru-->"
+    },
+    {
+      "id": 70,
+      "name": "radar_illegal_parking"
+    },
+    {
+      "id": 71,
+      "name": "radar_barber"
+    },
+    {
+      "id": 72,
+      "name": "radar_car_mod_shop"
+    },
+    {
+      "id": 73,
+      "name": "radar_clothes_store"
+    },
+    {
+      "id": 74,
+      "name": "radar_gym-->"
+    },
+    {
+      "id": 75,
+      "name": "radar_tattoo"
+    },
+    {
+      "id": 76,
+      "name": "radar_armenian_family"
+    },
+    {
+      "id": 77,
+      "name": "radar_lester_family"
+    },
+    {
+      "id": 78,
+      "name": "radar_michael_family"
+    },
+    {
+      "id": 79,
+      "name": "radar_trevor_family"
+    },
+    {
+      "id": 80,
+      "name": "radar_jewelry_heist"
+    },
+    {
+      "id": 81,
+      "name": "radar_drag_race-->"
+    },
+    {
+      "id": 82,
+      "name": "radar_drag_race_finish"
+    },
+    {
+      "id": 83,
+      "name": "radar_car_carrier-->"
+    },
+    {
+      "id": 84,
+      "name": "radar_rampage"
+    },
+    {
+      "id": 85,
+      "name": "radar_vinewood_tours"
+    },
+    {
+      "id": 86,
+      "name": "radar_lamar_family"
+    },
+    {
+      "id": 87,
+      "name": "radar_taco_van-->"
+    },
+    {
+      "id": 88,
+      "name": "radar_franklin_family"
+    },
+    {
+      "id": 89,
+      "name": "radar_chinese_strand"
+    },
+    {
+      "id": 90,
+      "name": "radar_flight_school"
+    },
+    {
+      "id": 91,
+      "name": "radar_eye_sky"
+    },
+    {
+      "id": 92,
+      "name": "radar_air_hockey"
+    },
+    {
+      "id": 93,
+      "name": "radar_bar"
+    },
+    {
+      "id": 94,
+      "name": "radar_base_jump"
+    },
+    {
+      "id": 95,
+      "name": "radar_basketball"
+    },
+    {
+      "id": 96,
+      "name": "radar_biolab_heist"
+    },
+    {
+      "id": 97,
+      "name": "radar_bowling"
+    },
+    {
+      "id": 98,
+      "name": "radar_burger_shot-->"
+    },
+    {
+      "id": 99,
+      "name": "radar_cabaret_club"
+    },
+    {
+      "id": 100,
+      "name": "radar_car_wash"
+    },
+    {
+      "id": 101,
+      "name": "radar_cluckin_bell-->"
+    },
+    {
+      "id": 102,
+      "name": "radar_comedy_club"
+    },
+    {
+      "id": 103,
+      "name": "radar_darts"
+    },
+    {
+      "id": 104,
+      "name": "radar_docks_heist"
+    },
+    {
+      "id": 105,
+      "name": "radar_fbi_heist"
+    },
+    {
+      "id": 106,
+      "name": "radar_fbi_officers_strand"
+    },
+    {
+      "id": 107,
+      "name": "radar_finale_bank_heist"
+    },
+    {
+      "id": 108,
+      "name": "radar_financier_strand"
+    },
+    {
+      "id": 109,
+      "name": "radar_golf"
+    },
+    {
+      "id": 110,
+      "name": "radar_gun_shop"
+    },
+    {
+      "id": 111,
+      "name": "radar_internet_cafe"
+    },
+    {
+      "id": 112,
+      "name": "radar_michael_family_exile"
+    },
+    {
+      "id": 113,
+      "name": "radar_nice_house_heist"
+    },
+    {
+      "id": 114,
+      "name": "radar_random_female"
+    },
+    {
+      "id": 115,
+      "name": "radar_random_male"
+    },
+    {
+      "id": 116,
+      "name": "radar_repo"
+    },
+    {
+      "id": 117,
+      "name": "radar_restaurant-->"
+    },
+    {
+      "id": 118,
+      "name": "radar_rural_bank_heist"
+    },
+    {
+      "id": 119,
+      "name": "radar_shooting_range"
+    },
+    {
+      "id": 120,
+      "name": "radar_solomon_strand"
+    },
+    {
+      "id": 121,
+      "name": "radar_strip_club"
+    },
+    {
+      "id": 122,
+      "name": "radar_tennis"
+    },
+    {
+      "id": 123,
+      "name": "radar_trevor_family_exile"
+    },
+    {
+      "id": 124,
+      "name": "radar_michael_trevor_family"
+    },
+    {
+      "id": 125,
+      "name": "radar_vehicle_spawn -->"
+    },
+    {
+      "id": 126,
+      "name": "radar_triathlon"
+    },
+    {
+      "id": 127,
+      "name": "radar_off_road_racing"
+    },
+    {
+      "id": 128,
+      "name": "radar_gang_cops"
+    },
+    {
+      "id": 129,
+      "name": "radar_gang_mexicans"
+    },
+    {
+      "id": 130,
+      "name": "radar_gang_bikers"
+    },
+    {
+      "id": 131,
+      "name": "radar_gang_families"
+    },
+    {
+      "id": 132,
+      "name": "radar_gang_professionals-->"
+    },
+    {
+      "id": 133,
+      "name": "radar_snitch_red"
+    },
+    {
+      "id": 134,
+      "name": "radar_crim_cuff_keys"
+    },
+    {
+      "id": 135,
+      "name": "radar_cinema"
+    },
+    {
+      "id": 136,
+      "name": "radar_music_venue"
+    },
+    {
+      "id": 137,
+      "name": "radar_police_station_blue"
+    },
+    {
+      "id": 138,
+      "name": "radar_airport"
+    },
+    {
+      "id": 139,
+      "name": "radar_crim_saved_vehicle"
+    },
+    {
+      "id": 140,
+      "name": "radar_weed_stash"
+    },
+    {
+      "id": 141,
+      "name": "radar_hunting"
+    },
+    {
+      "id": 142,
+      "name": "radar_pool"
+    },
+    {
+      "id": 143,
+      "name": "radar_objective_blue"
+    },
+    {
+      "id": 144,
+      "name": "radar_objective_green"
+    },
+    {
+      "id": 145,
+      "name": "radar_objective_red"
+    },
+    {
+      "id": 146,
+      "name": "radar_objective_yellow"
+    },
+    {
+      "id": 147,
+      "name": "radar_arms_dealing"
+    },
+    {
+      "id": 148,
+      "name": "radar_mp_friend"
+    },
+    {
+      "id": 149,
+      "name": "radar_celebrity_theft"
+    },
+    {
+      "id": 150,
+      "name": "radar_weapon_assault_rifle"
+    },
+    {
+      "id": 151,
+      "name": "radar_weapon_bat"
+    },
+    {
+      "id": 152,
+      "name": "radar_weapon_grenade"
+    },
+    {
+      "id": 153,
+      "name": "radar_weapon_health"
+    },
+    {
+      "id": 154,
+      "name": "radar_weapon_knife"
+    },
+    {
+      "id": 155,
+      "name": "radar_weapon_molotov"
+    },
+    {
+      "id": 156,
+      "name": "radar_weapon_pistol"
+    },
+    {
+      "id": 157,
+      "name": "radar_weapon_rocket"
+    },
+    {
+      "id": 158,
+      "name": "radar_weapon_shotgun"
+    },
+    {
+      "id": 159,
+      "name": "radar_weapon_smg"
+    },
+    {
+      "id": 160,
+      "name": "radar_weapon_sniper"
+    },
+    {
+      "id": 161,
+      "name": "radar_mp_noise"
+    },
+    {
+      "id": 162,
+      "name": "radar_poi"
+    },
+    {
+      "id": 163,
+      "name": "radar_passive"
+    },
+    {
+      "id": 164,
+      "name": "radar_usingmenu"
+    },
+    {
+      "id": 165,
+      "name": "radar_friend_franklin_p"
+    },
+    {
+      "id": 166,
+      "name": "radar_friend_franklin_x"
+    },
+    {
+      "id": 167,
+      "name": "radar_friend_michael_p"
+    },
+    {
+      "id": 168,
+      "name": "radar_friend_michael_x"
+    },
+    {
+      "id": 169,
+      "name": "radar_friend_trevor_p"
+    },
+    {
+      "id": 170,
+      "name": "radar_friend_trevor_x-->"
+    },
+    {
+      "id": 171,
+      "name": "radar_gang_cops_partner"
+    },
+    {
+      "id": 172,
+      "name": "radar_friend_lamar-->"
+    },
+    {
+      "id": 173,
+      "name": "radar_weapon_minigun"
+    },
+    {
+      "id": 174,
+      "name": "radar_weapon_grenadeLauncher-->"
+    },
+    {
+      "id": 175,
+      "name": "radar_weapon_armour"
+    },
+    {
+      "id": 176,
+      "name": "radar_property_takeover"
+    },
+    {
+      "id": 177,
+      "name": "radar_gang_mexicans_highlight"
+    },
+    {
+      "id": 178,
+      "name": "radar_gang_bikers_highlight"
+    },
+    {
+      "id": 179,
+      "name": "radar_triathlon_cycling"
+    },
+    {
+      "id": 180,
+      "name": "radar_triathlon_swimming"
+    },
+    {
+      "id": 181,
+      "name": "radar_property_takeover_bikers"
+    },
+    {
+      "id": 182,
+      "name": "radar_property_takeover_cops"
+    },
+    {
+      "id": 183,
+      "name": "radar_property_takeover_vagos"
+    },
+    {
+      "id": 184,
+      "name": "radar_camera"
+    },
+    {
+      "id": 185,
+      "name": "radar_centre_red"
+    },
+    {
+      "id": 186,
+      "name": "radar_handcuff_keys_bikers"
+    },
+    {
+      "id": 187,
+      "name": "radar_handcuff_keys_vagos"
+    },
+    {
+      "id": 188,
+      "name": "radar_handcuffs_closed_bikers"
+    },
+    {
+      "id": 189,
+      "name": "radar_handcuffs_closed_vagos"
+    },
+    {
+      "id": 190,
+      "name": "radar_handcuffs_open_bikers"
+    },
+    {
+      "id": 191,
+      "name": "radar_handcuffs_open_vagos-->"
+    },
+    {
+      "id": 192,
+      "name": "radar_camera_badger"
+    },
+    {
+      "id": 193,
+      "name": "radar_camera_facade"
+    },
+    {
+      "id": 194,
+      "name": "radar_camera_ifruit"
+    },
+    {
+      "id": 195,
+      "name": "radar_crim_arrest_bikers"
+    },
+    {
+      "id": 196,
+      "name": "radar_crim_arrest_vagos-->"
+    },
+    {
+      "id": 197,
+      "name": "radar_yoga"
+    },
+    {
+      "id": 198,
+      "name": "radar_taxi"
+    },
+    {
+      "id": 199,
+      "name": "radar_numbered_11"
+    },
+    {
+      "id": 200,
+      "name": "radar_numbered_12"
+    },
+    {
+      "id": 201,
+      "name": "radar_numbered_13"
+    },
+    {
+      "id": 202,
+      "name": "radar_numbered_14"
+    },
+    {
+      "id": 203,
+      "name": "radar_numbered_15"
+    },
+    {
+      "id": 204,
+      "name": "radar_numbered_16-->"
+    },
+    {
+      "id": 205,
+      "name": "radar_shrink"
+    },
+    {
+      "id": 206,
+      "name": "radar_epsilon"
+    },
+    {
+      "id": 207,
+      "name": "radar_financier_strand_grey"
+    },
+    {
+      "id": 208,
+      "name": "radar_trevor_family_grey"
+    },
+    {
+      "id": 209,
+      "name": "radar_trevor_family_red"
+    },
+    {
+      "id": 210,
+      "name": "radar_franklin_family_grey"
+    },
+    {
+      "id": 211,
+      "name": "radar_franklin_family_blue"
+    },
+    {
+      "id": 212,
+      "name": "radar_franklin_a"
+    },
+    {
+      "id": 213,
+      "name": "radar_franklin_b"
+    },
+    {
+      "id": 214,
+      "name": "radar_franklin_c"
+    },
+    {
+      "id": 215,
+      "name": "radar_numbered_red_1"
+    },
+    {
+      "id": 216,
+      "name": "radar_numbered_red_2"
+    },
+    {
+      "id": 217,
+      "name": "radar_numbered_red_3"
+    },
+    {
+      "id": 218,
+      "name": "radar_numbered_red_4"
+    },
+    {
+      "id": 219,
+      "name": "radar_numbered_red_5"
+    },
+    {
+      "id": 220,
+      "name": "radar_numbered_red_6"
+    },
+    {
+      "id": 221,
+      "name": "radar_numbered_red_7"
+    },
+    {
+      "id": 222,
+      "name": "radar_numbered_red_8"
+    },
+    {
+      "id": 223,
+      "name": "radar_numbered_red_9"
+    },
+    {
+      "id": 224,
+      "name": "radar_numbered_red_10-->"
+    },
+    {
+      "id": 225,
+      "name": "radar_gang_vehicle"
+    },
+    {
+      "id": 226,
+      "name": "radar_gang_vehicle_bikers"
+    },
+    {
+      "id": 227,
+      "name": "radar_gang_vehicle_cops"
+    },
+    {
+      "id": 228,
+      "name": "radar_gang_vehicle_vagos"
+    },
+    {
+      "id": 229,
+      "name": "radar_guncar"
+    },
+    {
+      "id": 230,
+      "name": "radar_driving_bikers"
+    },
+    {
+      "id": 231,
+      "name": "radar_driving_cops"
+    },
+    {
+      "id": 232,
+      "name": "radar_driving_vagos"
+    },
+    {
+      "id": 233,
+      "name": "radar_gang_cops_highlight"
+    },
+    {
+      "id": 234,
+      "name": "radar_shield_bikers"
+    },
+    {
+      "id": 235,
+      "name": "radar_shield_cops"
+    },
+    {
+      "id": 236,
+      "name": "radar_shield_vagos"
+    },
+    {
+      "id": 237,
+      "name": "radar_custody_bikers"
+    },
+    {
+      "id": 238,
+      "name": "radar_custody_vagos"
+    },
+    {
+      "id": 239,
+      "name": "radar_gang_wanted_bikers"
+    },
+    {
+      "id": 240,
+      "name": "radar_gang_wanted_bikers_1"
+    },
+    {
+      "id": 241,
+      "name": "radar_gang_wanted_bikers_2"
+    },
+    {
+      "id": 242,
+      "name": "radar_gang_wanted_bikers_3"
+    },
+    {
+      "id": 243,
+      "name": "radar_gang_wanted_bikers_4"
+    },
+    {
+      "id": 244,
+      "name": "radar_gang_wanted_bikers_5"
+    },
+    {
+      "id": 245,
+      "name": "radar_gang_wanted_vagos"
+    },
+    {
+      "id": 246,
+      "name": "radar_gang_wanted_vagos_1"
+    },
+    {
+      "id": 247,
+      "name": "radar_gang_wanted_vagos_2"
+    },
+    {
+      "id": 248,
+      "name": "radar_gang_wanted_vagos_3"
+    },
+    {
+      "id": 249,
+      "name": "radar_gang_wanted_vagos_4"
+    },
+    {
+      "id": 250,
+      "name": "radar_gang_wanted_vagos_5-->"
+    },
+    {
+      "id": 251,
+      "name": "radar_arms_dealing_air"
+    },
+    {
+      "id": 252,
+      "name": "radar_playerstate_arrested"
+    },
+    {
+      "id": 253,
+      "name": "radar_playerstate_custody"
+    },
+    {
+      "id": 254,
+      "name": "radar_playerstate_driving"
+    },
+    {
+      "id": 255,
+      "name": "radar_playerstate_keyholder"
+    },
+    {
+      "id": 256,
+      "name": "radar_playerstate_partner"
+    },
+    {
+      "id": 257,
+      "name": "radar_gang_wanted_1"
+    },
+    {
+      "id": 258,
+      "name": "radar_gang_wanted_2"
+    },
+    {
+      "id": 259,
+      "name": "radar_gang_wanted_3"
+    },
+    {
+      "id": 260,
+      "name": "radar_gang_wanted_4"
+    },
+    {
+      "id": 261,
+      "name": "radar_gang_wanted_5-->"
+    },
+    {
+      "id": 262,
+      "name": "radar_ztype"
+    },
+    {
+      "id": 263,
+      "name": "radar_stinger"
+    },
+    {
+      "id": 264,
+      "name": "radar_packer"
+    },
+    {
+      "id": 265,
+      "name": "radar_monroe"
+    },
+    {
+      "id": 266,
+      "name": "radar_fairground"
+    },
+    {
+      "id": 267,
+      "name": "radar_property"
+    },
+    {
+      "id": 268,
+      "name": "radar_gang_highlight"
+    },
+    {
+      "id": 269,
+      "name": "radar_altruist"
+    },
+    {
+      "id": 270,
+      "name": "radar_ai"
+    },
+    {
+      "id": 271,
+      "name": "radar_on_mission"
+    },
+    {
+      "id": 272,
+      "name": "radar_cash_pickup"
+    },
+    {
+      "id": 273,
+      "name": "radar_chop"
+    },
+    {
+      "id": 274,
+      "name": "radar_dead"
+    },
+    {
+      "id": 275,
+      "name": "radar_territory_locked"
+    },
+    {
+      "id": 276,
+      "name": "radar_cash_lost"
+    },
+    {
+      "id": 277,
+      "name": "radar_cash_vagos"
+    },
+    {
+      "id": 278,
+      "name": "radar_cash_cops"
+    },
+    {
+      "id": 279,
+      "name": "radar_hooker"
+    },
+    {
+      "id": 280,
+      "name": "radar_friend"
+    },
+    {
+      "id": 281,
+      "name": "radar_mission_2to4"
+    },
+    {
+      "id": 282,
+      "name": "radar_mission_2to8"
+    },
+    {
+      "id": 283,
+      "name": "radar_mission_2to12"
+    },
+    {
+      "id": 284,
+      "name": "radar_mission_2to16"
+    },
+    {
+      "id": 285,
+      "name": "radar_custody_dropoff"
+    },
+    {
+      "id": 286,
+      "name": "radar_onmission_cops"
+    },
+    {
+      "id": 287,
+      "name": "radar_onmission_lost"
+    },
+    {
+      "id": 288,
+      "name": "radar_onmission_vagos"
+    },
+    {
+      "id": 289,
+      "name": "radar_crim_carsteal_cops"
+    },
+    {
+      "id": 290,
+      "name": "radar_crim_carsteal_bikers"
+    },
+    {
+      "id": 291,
+      "name": "radar_crim_carsteal_vagos"
+    },
+    {
+      "id": 292,
+      "name": "radar_band_strand"
+    },
+    {
+      "id": 293,
+      "name": "radar_simeon_family"
+    },
+    {
+      "id": 294,
+      "name": "radar_mission_1"
+    },
+    {
+      "id": 295,
+      "name": "radar_mission_2"
+    },
+    {
+      "id": 296,
+      "name": "radar_friend_darts"
+    },
+    {
+      "id": 297,
+      "name": "radar_friend_comedyclub"
+    },
+    {
+      "id": 298,
+      "name": "radar_friend_cinema"
+    },
+    {
+      "id": 299,
+      "name": "radar_friend_tennis"
+    },
+    {
+      "id": 300,
+      "name": "radar_friend_stripclub"
+    },
+    {
+      "id": 301,
+      "name": "radar_friend_livemusic"
+    },
+    {
+      "id": 302,
+      "name": "radar_friend_golf"
+    },
+    {
+      "id": 303,
+      "name": "radar_bounty_hit"
+    },
+    {
+      "id": 304,
+      "name": "radar_ugc_mission"
+    },
+    {
+      "id": 305,
+      "name": "radar_horde"
+    },
+    {
+      "id": 306,
+      "name": "radar_cratedrop"
+    },
+    {
+      "id": 307,
+      "name": "radar_plane_drop"
+    },
+    {
+      "id": 308,
+      "name": "radar_sub"
+    },
+    {
+      "id": 309,
+      "name": "radar_race"
+    },
+    {
+      "id": 310,
+      "name": "radar_deathmatch"
+    },
+    {
+      "id": 311,
+      "name": "radar_arm_wrestling"
+    },
+    {
+      "id": 312,
+      "name": "radar_mission_1to2"
+    },
+    {
+      "id": 313,
+      "name": "radar_shootingrange_gunshop"
+    },
+    {
+      "id": 314,
+      "name": "radar_race_air"
+    },
+    {
+      "id": 315,
+      "name": "radar_race_land"
+    },
+    {
+      "id": 316,
+      "name": "radar_race_sea"
+    },
+    {
+      "id": 317,
+      "name": "radar_tow"
+    },
+    {
+      "id": 318,
+      "name": "radar_garbage"
+    },
+    {
+      "id": 319,
+      "name": "radar_drill"
+    },
+    {
+      "id": 320,
+      "name": "radar_spikes"
+    },
+    {
+      "id": 321,
+      "name": "radar_firetruck"
+    },
+    {
+      "id": 322,
+      "name": "radar_minigun2"
+    },
+    {
+      "id": 323,
+      "name": "radar_bugstar"
+    },
+    {
+      "id": 324,
+      "name": "radar_submarine"
+    },
+    {
+      "id": 325,
+      "name": "radar_chinook"
+    },
+    {
+      "id": 326,
+      "name": "radar_getaway_car"
+    },
+    {
+      "id": 327,
+      "name": "radar_mission_bikers_1"
+    },
+    {
+      "id": 328,
+      "name": "radar_mission_bikers_1to2"
+    },
+    {
+      "id": 329,
+      "name": "radar_mission_bikers_2"
+    },
+    {
+      "id": 330,
+      "name": "radar_mission_bikers_2to4"
+    },
+    {
+      "id": 331,
+      "name": "radar_mission_bikers_2to8"
+    },
+    {
+      "id": 332,
+      "name": "radar_mission_bikers_2to12"
+    },
+    {
+      "id": 333,
+      "name": "radar_mission_bikers_2to16"
+    },
+    {
+      "id": 334,
+      "name": "radar_mission_cops_1"
+    },
+    {
+      "id": 335,
+      "name": "radar_mission_cops_1to2"
+    },
+    {
+      "id": 336,
+      "name": "radar_mission_cops_2"
+    },
+    {
+      "id": 337,
+      "name": "radar_mission_cops_2to4"
+    },
+    {
+      "id": 338,
+      "name": "radar_mission_cops_2to8"
+    },
+    {
+      "id": 339,
+      "name": "radar_mission_cops_2to12"
+    },
+    {
+      "id": 340,
+      "name": "radar_mission_cops_2to16"
+    },
+    {
+      "id": 341,
+      "name": "radar_mission_vagos_1"
+    },
+    {
+      "id": 342,
+      "name": "radar_mission_vagos_1to2"
+    },
+    {
+      "id": 343,
+      "name": "radar_mission_vagos_2"
+    },
+    {
+      "id": 344,
+      "name": "radar_mission_vagos_2to4"
+    },
+    {
+      "id": 345,
+      "name": "radar_mission_vagos_2to8"
+    },
+    {
+      "id": 346,
+      "name": "radar_mission_vagos_2to12"
+    },
+    {
+      "id": 347,
+      "name": "radar_mission_vagos_2to16"
+    },
+    {
+      "id": 348,
+      "name": "radar_gang_bike"
+    },
+    {
+      "id": 349,
+      "name": "radar_gas_grenade"
+    },
+    {
+      "id": 350,
+      "name": "radar_property_for_sale"
+    },
+    {
+      "id": 351,
+      "name": "radar_gang_attack_package"
+    },
+    {
+      "id": 352,
+      "name": "radar_martin_madrazzo"
+    },
+    {
+      "id": 353,
+      "name": "radar_enemy_heli_spin"
+    },
+    {
+      "id": 354,
+      "name": "radar_boost"
+    },
+    {
+      "id": 355,
+      "name": "radar_devin"
+    },
+    {
+      "id": 356,
+      "name": "radar_dock"
+    },
+    {
+      "id": 357,
+      "name": "radar_garage"
+    },
+    {
+      "id": 358,
+      "name": "radar_golf_flag"
+    },
+    {
+      "id": 359,
+      "name": "radar_hangar"
+    },
+    {
+      "id": 360,
+      "name": "radar_helipad"
+    },
+    {
+      "id": 361,
+      "name": "radar_jerry_can"
+    },
+    {
+      "id": 362,
+      "name": "radar_mask"
+    },
+    {
+      "id": 363,
+      "name": "radar_heist_prep"
+    },
+    {
+      "id": 364,
+      "name": "radar_incapacitated"
+    },
+    {
+      "id": 365,
+      "name": "radar_spawn_point_pickup"
+    },
+    {
+      "id": 366,
+      "name": "radar_boilersuit"
+    },
+    {
+      "id": 367,
+      "name": "radar_completed"
+    },
+    {
+      "id": 368,
+      "name": "radar_rockets"
+    },
+    {
+      "id": 369,
+      "name": "radar_garage_for_sale"
+    },
+    {
+      "id": 370,
+      "name": "radar_helipad_for_sale"
+    },
+    {
+      "id": 371,
+      "name": "radar_dock_for_sale"
+    },
+    {
+      "id": 372,
+      "name": "radar_hangar_for_sale"
+    },
+    {
+      "id": 373,
+      "name": "radar_placeholder_6"
+    },
+    {
+      "id": 374,
+      "name": "radar_business"
+    },
+    {
+      "id": 375,
+      "name": "radar_business_for_sale"
+    },
+    {
+      "id": 376,
+      "name": "radar_race_bike"
+    },
+    {
+      "id": 377,
+      "name": "radar_parachute"
+    },
+    {
+      "id": 378,
+      "name": "radar_team_deathmatch"
+    },
+    {
+      "id": 379,
+      "name": "radar_race_foot"
+    },
+    {
+      "id": 380,
+      "name": "radar_vehicle_deathmatch"
+    },
+    {
+      "id": 381,
+      "name": "radar_barry"
+    },
+    {
+      "id": 382,
+      "name": "radar_dom"
+    },
+    {
+      "id": 383,
+      "name": "radar_maryann"
+    },
+    {
+      "id": 384,
+      "name": "radar_cletus"
+    },
+    {
+      "id": 385,
+      "name": "radar_josh"
+    },
+    {
+      "id": 386,
+      "name": "radar_minute"
+    },
+    {
+      "id": 387,
+      "name": "radar_omega"
+    },
+    {
+      "id": 388,
+      "name": "radar_tonya"
+    },
+    {
+      "id": 389,
+      "name": "radar_paparazzo"
+    },
+    {
+      "id": 390,
+      "name": "radar_aim"
+    },
+    {
+      "id": 391,
+      "name": "radar_cratedrop_background"
+    },
+    {
+      "id": 392,
+      "name": "radar_green_and_net_player1"
+    },
+    {
+      "id": 393,
+      "name": "radar_green_and_net_player2"
+    },
+    {
+      "id": 394,
+      "name": "radar_green_and_net_player3"
+    },
+    {
+      "id": 395,
+      "name": "radar_green_and_friendly"
+    },
+    {
+      "id": 396,
+      "name": "radar_net_player1_and_net_player2"
+    },
+    {
+      "id": 397,
+      "name": "radar_net_player1_and_net_player3"
+    },
+    {
+      "id": 398,
+      "name": "radar_creator"
+    },
+    {
+      "id": 399,
+      "name": "radar_creator_direction"
+    },
+    {
+      "id": 400,
+      "name": "radar_abigail"
+    },
+    {
+      "id": 401,
+      "name": "radar_blimp"
+    },
+    {
+      "id": 402,
+      "name": "radar_repair"
+    },
+    {
+      "id": 403,
+      "name": "radar_testosterone"
+    },
+    {
+      "id": 404,
+      "name": "radar_dinghy"
+    },
+    {
+      "id": 405,
+      "name": "radar_fanatic"
+    },
+    {
+      "id": 406,
+      "name": "radar_invisible-->"
+    },
+    {
+      "id": 407,
+      "name": "radar_info_icon"
+    },
+    {
+      "id": 408,
+      "name": "radar_capture_the_flag"
+    },
+    {
+      "id": 409,
+      "name": "radar_last_team_standing"
+    },
+    {
+      "id": 410,
+      "name": "radar_boat"
+    },
+    {
+      "id": 411,
+      "name": "radar_capture_the_flag_base"
+    },
+    {
+      "id": 412,
+      "name": "radar_mp_crew"
+    },
+    {
+      "id": 413,
+      "name": "radar_capture_the_flag_outline"
+    },
+    {
+      "id": 414,
+      "name": "radar_capture_the_flag_base_nobag"
+    },
+    {
+      "id": 415,
+      "name": "radar_weapon_jerrycan"
+    },
+    {
+      "id": 416,
+      "name": "radar_rp"
+    },
+    {
+      "id": 417,
+      "name": "radar_level_inside"
+    },
+    {
+      "id": 418,
+      "name": "radar_bounty_hit_inside"
+    },
+    {
+      "id": 419,
+      "name": "radar_capture_the_usaflag"
+    },
+    {
+      "id": 420,
+      "name": "radar_capture_the_usaflag_outline"
+    },
+    {
+      "id": 421,
+      "name": "radar_tank"
+    },
+    {
+      "id": 422,
+      "name": "radar_player_heli"
+    },
+    {
+      "id": 423,
+      "name": "radar_player_plane"
+    },
+    {
+      "id": 424,
+      "name": "radar_player_jet"
+    },
+    {
+      "id": 425,
+      "name": "radar_centre_stroke"
+    },
+    {
+      "id": 426,
+      "name": "radar_player_guncar"
+    },
+    {
+      "id": 427,
+      "name": "radar_player_boat"
+    },
+    {
+      "id": 428,
+      "name": "radar_mp_heist"
+    },
+    {
+      "id": 429,
+      "name": "radar_temp_1"
+    },
+    {
+      "id": 430,
+      "name": "radar_temp_2"
+    },
+    {
+      "id": 431,
+      "name": "radar_temp_3"
+    },
+    {
+      "id": 432,
+      "name": "radar_temp_4"
+    },
+    {
+      "id": 433,
+      "name": "radar_temp_5"
+    },
+    {
+      "id": 434,
+      "name": "radar_temp_6"
+    },
+    {
+      "id": 435,
+      "name": "radar_race_stunt"
+    },
+    {
+      "id": 436,
+      "name": "radar_hot_property"
+    },
+    {
+      "id": 437,
+      "name": "radar_urbanwarfare_versus"
+    },
+    {
+      "id": 438,
+      "name": "radar_king_of_the_castle"
+    },
+    {
+      "id": 439,
+      "name": "radar_player_king"
+    },
+    {
+      "id": 440,
+      "name": "radar_dead_drop"
+    },
+    {
+      "id": 441,
+      "name": "radar_penned_in"
+    },
+    {
+      "id": 442,
+      "name": "radar_beast"
+    },
+    {
+      "id": 443,
+      "name": "radar_edge_pointer"
+    },
+    {
+      "id": 444,
+      "name": "radar_edge_crosstheline"
+    },
+    {
+      "id": 445,
+      "name": "radar_mp_lamar"
+    },
+    {
+      "id": 446,
+      "name": "radar_bennys"
+    },
+    {
+      "id": 447,
+      "name": "radar_corner_number_1"
+    },
+    {
+      "id": 448,
+      "name": "radar_corner_number_2"
+    },
+    {
+      "id": 449,
+      "name": "radar_corner_number_3"
+    },
+    {
+      "id": 450,
+      "name": "radar_corner_number_4"
+    },
+    {
+      "id": 451,
+      "name": "radar_corner_number_5"
+    },
+    {
+      "id": 452,
+      "name": "radar_corner_number_6"
+    },
+    {
+      "id": 453,
+      "name": "radar_corner_number_7"
+    },
+    {
+      "id": 454,
+      "name": "radar_corner_number_8"
+    },
+    {
+      "id": 455,
+      "name": "radar_yacht"
+    },
+    {
+      "id": 456,
+      "name": "radar_finders_keepers"
+    },
+    {
+      "id": 457,
+      "name": "radar_assault_package"
+    },
+    {
+      "id": 458,
+      "name": "radar_hunt_the_boss"
+    },
+    {
+      "id": 459,
+      "name": "radar_sightseer"
+    },
+    {
+      "id": 460,
+      "name": "radar_turreted_limo"
+    },
+    {
+      "id": 461,
+      "name": "radar_belly_of_the_beast"
+    },
+    {
+      "id": 462,
+      "name": "radar_yacht_location"
+    },
+    {
+      "id": 463,
+      "name": "radar_pickup_beast"
+    },
+    {
+      "id": 464,
+      "name": "radar_pickup_zoned"
+    },
+    {
+      "id": 465,
+      "name": "radar_pickup_random"
+    },
+    {
+      "id": 466,
+      "name": "radar_pickup_slow_time"
+    },
+    {
+      "id": 467,
+      "name": "radar_pickup_swap"
+    },
+    {
+      "id": 468,
+      "name": "radar_pickup_thermal"
+    },
+    {
+      "id": 469,
+      "name": "radar_pickup_weed"
+    },
+    {
+      "id": 470,
+      "name": "radar_weapon_railgun"
+    },
+    {
+      "id": 471,
+      "name": "radar_seashark"
+    },
+    {
+      "id": 472,
+      "name": "radar_pickup_hidden"
+    },
+    {
+      "id": 473,
+      "name": "radar_warehouse"
+    },
+    {
+      "id": 474,
+      "name": "radar_warehouse_for_sale"
+    },
+    {
+      "id": 475,
+      "name": "radar_office"
+    },
+    {
+      "id": 476,
+      "name": "radar_office_for_sale"
+    },
+    {
+      "id": 477,
+      "name": "radar_truck"
+    },
+    {
+      "id": 478,
+      "name": "radar_contraband"
+    },
+    {
+      "id": 479,
+      "name": "radar_trailer"
+    },
+    {
+      "id": 480,
+      "name": "radar_vip"
+    },
+    {
+      "id": 481,
+      "name": "radar_cargobob"
+    },
+    {
+      "id": 482,
+      "name": "radar_area_outline_blip"
+    },
+    {
+      "id": 483,
+      "name": "radar_pickup_accelerator"
+    },
+    {
+      "id": 484,
+      "name": "radar_pickup_ghost"
+    },
+    {
+      "id": 485,
+      "name": "radar_pickup_detonator"
+    },
+    {
+      "id": 486,
+      "name": "radar_pickup_bomb"
+    },
+    {
+      "id": 487,
+      "name": "radar_pickup_armoured"
+    },
+    {
+      "id": 488,
+      "name": "radar_stunt"
+    },
+    {
+      "id": 489,
+      "name": "radar_weapon_lives"
+    },
+    {
+      "id": 490,
+      "name": "radar_stunt_premium"
+    },
+    {
+      "id": 491,
+      "name": "radar_adversary"
+    },
+    {
+      "id": 492,
+      "name": "radar_biker_clubhouse"
+    },
+    {
+      "id": 493,
+      "name": "radar_biker_caged_in"
+    },
+    {
+      "id": 494,
+      "name": "radar_biker_turf_war"
+    },
+    {
+      "id": 495,
+      "name": "radar_biker_joust"
+    },
+    {
+      "id": 496,
+      "name": "radar_production_weed"
+    },
+    {
+      "id": 497,
+      "name": "radar_production_crack"
+    },
+    {
+      "id": 498,
+      "name": "radar_production_fake_id"
+    },
+    {
+      "id": 499,
+      "name": "radar_production_meth"
+    },
+    {
+      "id": 500,
+      "name": "radar_production_money"
+    },
+    {
+      "id": 501,
+      "name": "radar_package"
+    },
+    {
+      "id": 502,
+      "name": "radar_capture_1"
+    },
+    {
+      "id": 503,
+      "name": "radar_capture_2"
+    },
+    {
+      "id": 504,
+      "name": "radar_capture_3"
+    },
+    {
+      "id": 505,
+      "name": "radar_capture_4"
+    },
+    {
+      "id": 506,
+      "name": "radar_capture_5"
+    },
+    {
+      "id": 507,
+      "name": "radar_capture_6"
+    },
+    {
+      "id": 508,
+      "name": "radar_capture_7"
+    },
+    {
+      "id": 509,
+      "name": "radar_capture_8"
+    },
+    {
+      "id": 510,
+      "name": "radar_capture_9"
+    },
+    {
+      "id": 511,
+      "name": "radar_capture_10"
+    },
+    {
+      "id": 512,
+      "name": "radar_quad"
+    },
+    {
+      "id": 513,
+      "name": "radar_bus"
+    },
+    {
+      "id": 514,
+      "name": "radar_drugs_package"
+    },
+    {
+      "id": 515,
+      "name": "radar_pickup_jump"
+    },
+    {
+      "id": 516,
+      "name": "radar_adversary_4"
+    },
+    {
+      "id": 517,
+      "name": "radar_adversary_8"
+    },
+    {
+      "id": 518,
+      "name": "radar_adversary_10"
+    },
+    {
+      "id": 519,
+      "name": "radar_adversary_12"
+    },
+    {
+      "id": 520,
+      "name": "radar_adversary_16"
+    },
+    {
+      "id": 521,
+      "name": "radar_laptop"
+    },
+    {
+      "id": 522,
+      "name": "radar_pickup_deadline"
+    },
+    {
+      "id": 523,
+      "name": "radar_sports_car"
+    },
+    {
+      "id": 524,
+      "name": "radar_warehouse_vehicle"
+    },
+    {
+      "id": 525,
+      "name": "radar_reg_papers"
+    },
+    {
+      "id": 526,
+      "name": "radar_police_station_dropoff"
+    },
+    {
+      "id": 527,
+      "name": "radar_junkyard"
+    },
+    {
+      "id": 528,
+      "name": "radar_ex_vech_1"
+    },
+    {
+      "id": 529,
+      "name": "radar_ex_vech_2"
+    },
+    {
+      "id": 530,
+      "name": "radar_ex_vech_3"
+    },
+    {
+      "id": 531,
+      "name": "radar_ex_vech_4"
+    },
+    {
+      "id": 532,
+      "name": "radar_ex_vech_5"
+    },
+    {
+      "id": 533,
+      "name": "radar_ex_vech_6"
+    },
+    {
+      "id": 534,
+      "name": "radar_ex_vech_7"
+    },
+    {
+      "id": 535,
+      "name": "radar_target_a"
+    },
+    {
+      "id": 536,
+      "name": "radar_target_b"
+    },
+    {
+      "id": 537,
+      "name": "radar_target_c"
+    },
+    {
+      "id": 538,
+      "name": "radar_target_d"
+    },
+    {
+      "id": 539,
+      "name": "radar_target_e"
+    },
+    {
+      "id": 540,
+      "name": "radar_target_f"
+    },
+    {
+      "id": 541,
+      "name": "radar_target_g"
+    },
+    {
+      "id": 542,
+      "name": "radar_target_h"
+    },
+    {
+      "id": 543,
+      "name": "radar_jugg"
+    },
+    {
+      "id": 544,
+      "name": "radar_pickup_repair"
+    },
+    {
+      "id": 545,
+      "name": "radar_steeringwheel"
+    },
+    {
+      "id": 546,
+      "name": "radar_trophy"
+    },
+    {
+      "id": 547,
+      "name": "radar_pickup_rocket_boost"
+    },
+    {
+      "id": 548,
+      "name": "radar_pickup_homing_rocket"
+    },
+    {
+      "id": 549,
+      "name": "radar_pickup_machinegun"
+    },
+    {
+      "id": 550,
+      "name": "radar_pickup_parachute"
+    },
+    {
+      "id": 551,
+      "name": "radar_pickup_time_5"
+    },
+    {
+      "id": 552,
+      "name": "radar_pickup_time_10"
+    },
+    {
+      "id": 553,
+      "name": "radar_pickup_time_15"
+    },
+    {
+      "id": 554,
+      "name": "radar_pickup_time_20"
+    },
+    {
+      "id": 555,
+      "name": "radar_pickup_time_30"
+    },
+    {
+      "id": 556,
+      "name": "radar_supplies"
+    },
+    {
+      "id": 557,
+      "name": "radar_property_bunker"
+    },
+    {
+      "id": 558,
+      "name": "radar_gr_wvm_1"
+    },
+    {
+      "id": 559,
+      "name": "radar_gr_wvm_2"
+    },
+    {
+      "id": 560,
+      "name": "radar_gr_wvm_3"
+    },
+    {
+      "id": 561,
+      "name": "radar_gr_wvm_4"
+    },
+    {
+      "id": 562,
+      "name": "radar_gr_wvm_5"
+    },
+    {
+      "id": 563,
+      "name": "radar_gr_wvm_6"
+    },
+    {
+      "id": 564,
+      "name": "radar_gr_covert_ops"
+    },
+    {
+      "id": 565,
+      "name": "radar_adversary_bunker"
+    },
+    {
+      "id": 566,
+      "name": "radar_gr_moc_upgrade"
+    },
+    {
+      "id": 567,
+      "name": "radar_gr_w_upgrade"
+    },
+    {
+      "id": 568,
+      "name": "radar_sm_cargo"
+    },
+    {
+      "id": 569,
+      "name": "radar_sm_hangar"
+    },
+    {
+      "id": 570,
+      "name": "radar_tf_checkpoint"
+    },
+    {
+      "id": 571,
+      "name": "radar_race_tf"
+    },
+    {
+      "id": 572,
+      "name": "radar_sm_wp1"
+    },
+    {
+      "id": 573,
+      "name": "radar_sm_wp2"
+    },
+    {
+      "id": 574,
+      "name": "radar_sm_wp3"
+    },
+    {
+      "id": 575,
+      "name": "radar_sm_wp4"
+    },
+    {
+      "id": 576,
+      "name": "radar_sm_wp5"
+    },
+    {
+      "id": 577,
+      "name": "radar_sm_wp6"
+    },
+    {
+      "id": 578,
+      "name": "radar_sm_wp7"
+    },
+    {
+      "id": 579,
+      "name": "radar_sm_wp8"
+    },
+    {
+      "id": 580,
+      "name": "radar_sm_wp9"
+    },
+    {
+      "id": 581,
+      "name": "radar_sm_wp10"
+    },
+    {
+      "id": 582,
+      "name": "radar_sm_wp11"
+    },
+    {
+      "id": 583,
+      "name": "radar_sm_wp12"
+    },
+    {
+      "id": 584,
+      "name": "radar_sm_wp13"
+    },
+    {
+      "id": 585,
+      "name": "radar_sm_wp14"
+    },
+    {
+      "id": 586,
+      "name": "radar_nhp_bag"
+    },
+    {
+      "id": 587,
+      "name": "radar_nhp_chest"
+    },
+    {
+      "id": 588,
+      "name": "radar_nhp_orbit"
+    },
+    {
+      "id": 589,
+      "name": "radar_nhp_veh1"
+    },
+    {
+      "id": 590,
+      "name": "radar_nhp_base"
+    },
+    {
+      "id": 591,
+      "name": "radar_nhp_overlay"
+    },
+    {
+      "id": 592,
+      "name": "radar_nhp_turret"
+    },
+    {
+      "id": 593,
+      "name": "radar_nhp_mg_firewall"
+    },
+    {
+      "id": 594,
+      "name": "radar_nhp_mg_node"
+    },
+    {
+      "id": 595,
+      "name": "radar_nhp_wp1"
+    },
+    {
+      "id": 596,
+      "name": "radar_nhp_wp2"
+    },
+    {
+      "id": 597,
+      "name": "radar_nhp_wp3"
+    },
+    {
+      "id": 598,
+      "name": "radar_nhp_wp4"
+    },
+    {
+      "id": 599,
+      "name": "radar_nhp_wp5"
+    },
+    {
+      "id": 600,
+      "name": "radar_nhp_wp6"
+    },
+    {
+      "id": 601,
+      "name": "radar_nhp_wp7"
+    },
+    {
+      "id": 602,
+      "name": "radar_nhp_wp8"
+    },
+    {
+      "id": 603,
+      "name": "radar_nhp_wp9"
+    },
+    {
+      "id": 604,
+      "name": "radar_nhp_cctv"
+    },
+    {
+      "id": 605,
+      "name": "radar_nhp_starterpack"
+    },
+    {
+      "id": 606,
+      "name": "radar_nhp_turret_console"
+    },
+    {
+      "id": 607,
+      "name": "radar_nhp_mg_mir_rotate"
+    },
+    {
+      "id": 608,
+      "name": "radar_nhp_mg_mir_static"
+    },
+    {
+      "id": 609,
+      "name": "radar_nhp_mg_proxy"
+    },
+    {
+      "id": 610,
+      "name": "radar_acsr_race_target"
+    },
+    {
+      "id": 611,
+      "name": "radar_acsr_race_hotring"
+    },
+    {
+      "id": 612,
+      "name": "radar_acsr_wp1"
+    },
+    {
+      "id": 613,
+      "name": "radar_acsr_wp2"
+    },
+    {
+      "id": 614,
+      "name": "radar_bat_club_property"
+    },
+    {
+      "id": 615,
+      "name": "radar_bat_cargo"
+    },
+    {
+      "id": 616,
+      "name": "radar_bat_truck"
+    },
+    {
+      "id": 617,
+      "name": "radar_bat_hack_jewel"
+    },
+    {
+      "id": 618,
+      "name": "radar_bat_hack_gold"
+    },
+    {
+      "id": 619,
+      "name": "radar_bat_keypad"
+    },
+    {
+      "id": 620,
+      "name": "radar_bat_hack_target"
+    },
+    {
+      "id": 621,
+      "name": "radar_pickup_dtb_health"
+    },
+    {
+      "id": 622,
+      "name": "radar_pickup_dtb_blast_increase"
+    },
+    {
+      "id": 623,
+      "name": "radar_pickup_dtb_blast_decrease"
+    },
+    {
+      "id": 624,
+      "name": "radar_pickup_dtb_bomb_increase"
+    },
+    {
+      "id": 625,
+      "name": "radar_pickup_dtb_bomb_decrease"
+    },
+    {
+      "id": 626,
+      "name": "radar_bat_rival_club"
+    },
+    {
+      "id": 627,
+      "name": "radar_bat_drone"
+    },
+    {
+      "id": 628,
+      "name": "radar_bat_cash_reg"
+    },
+    {
+      "id": 629,
+      "name": "radar_cctv"
+    },
+    {
+      "id": 630,
+      "name": "radar_bat_assassinate"
+    },
+    {
+      "id": 631,
+      "name": "radar_bat_pbus"
+    },
+    {
+      "id": 632,
+      "name": "radar_bat_wp1"
+    },
+    {
+      "id": 633,
+      "name": "radar_bat_wp2"
+    },
+    {
+      "id": 634,
+      "name": "radar_bat_wp3"
+    },
+    {
+      "id": 635,
+      "name": "radar_bat_wp4"
+    },
+    {
+      "id": 636,
+      "name": "radar_bat_wp5"
+    },
+    {
+      "id": 637,
+      "name": "radar_bat_wp6"
+    },
+    {
+      "id": 638,
+      "name": "radar_blimp_2"
+    },
+    {
+      "id": 639,
+      "name": "radar_oppressor_2"
+    },
+    {
+      "id": 640,
+      "name": "radar_bat_wp7"
+    },
+    {
+      "id": 641,
+      "name": "radar_arena_series"
+    },
+    {
+      "id": 642,
+      "name": "radar_arena_premium"
+    },
+    {
+      "id": 643,
+      "name": "radar_arena_workshop"
+    },
+    {
+      "id": 644,
+      "name": "radar_race_wars"
+    },
+    {
+      "id": 645,
+      "name": "radar_arena_turret"
+    },
+    {
+      "id": 646,
+      "name": "radar_arena_rc_car"
+    },
+    {
+      "id": 647,
+      "name": "radar_arena_rc_workshop"
+    },
+    {
+      "id": 648,
+      "name": "radar_arena_trap_fire"
+    },
+    {
+      "id": 649,
+      "name": "radar_arena_trap_flip"
+    },
+    {
+      "id": 650,
+      "name": "radar_arena_trap_sea"
+    },
+    {
+      "id": 651,
+      "name": "radar_arena_trap_turn"
+    },
+    {
+      "id": 652,
+      "name": "radar_arena_trap_pit"
+    },
+    {
+      "id": 653,
+      "name": "radar_arena_trap_mine"
+    },
+    {
+      "id": 654,
+      "name": "radar_arena_trap_bomb"
+    },
+    {
+      "id": 655,
+      "name": "radar_arena_trap_wall"
+    },
+    {
+      "id": 656,
+      "name": "radar_arena_trap_brd"
+    },
+    {
+      "id": 657,
+      "name": "radar_arena_trap_sbrd"
+    },
+    {
+      "id": 658,
+      "name": "radar_arena_bruiser"
+    },
+    {
+      "id": 659,
+      "name": "radar_arena_brutus"
+    },
+    {
+      "id": 660,
+      "name": "radar_arena_cerberus"
+    },
+    {
+      "id": 661,
+      "name": "radar_arena_deathbike"
+    },
+    {
+      "id": 662,
+      "name": "radar_arena_dominator"
+    },
+    {
+      "id": 663,
+      "name": "radar_arena_impaler"
+    },
+    {
+      "id": 664,
+      "name": "radar_arena_imperator"
+    },
+    {
+      "id": 665,
+      "name": "radar_arena_issi"
+    },
+    {
+      "id": 666,
+      "name": "radar_arena_sasquatch"
+    },
+    {
+      "id": 667,
+      "name": "radar_arena_scarab"
+    },
+    {
+      "id": 668,
+      "name": "radar_arena_slamvan"
+    },
+    {
+      "id": 669,
+      "name": "radar_arena_zr380"
+    },
+    {
+      "id": 670,
+      "name": "radar_ap"
+    },
+    {
+      "id": 671,
+      "name": "radar_comic_store"
+    },
+    {
+      "id": 672,
+      "name": "radar_cop_car"
+    },
+    {
+      "id": 673,
+      "name": "radar_rc_time_trials"
+    },
+    {
+      "id": 674,
+      "name": "radar_king_of_the_hill"
+    },
+    {
+      "id": 675,
+      "name": "radar_king_of_the_hill_teams"
+    },
+    {
+      "id": 676,
+      "name": "radar_rucksack"
+    },
+    {
+      "id": 677,
+      "name": "radar_shipping_container"
+    },
+    {
+      "id": 678,
+      "name": "radar_agatha"
+    },
+    {
+      "id": 679,
+      "name": "radar_casino"
+    },
+    {
+      "id": 680,
+      "name": "radar_casino_table_games"
+    },
+    {
+      "id": 681,
+      "name": "radar_casino_wheel"
+    },
+    {
+      "id": 682,
+      "name": "radar_casino_concierge"
+    },
+    {
+      "id": 683,
+      "name": "radar_casino_chips"
+    },
+    {
+      "id": 684,
+      "name": "radar_casino_horse_racing"
+    },
+    {
+      "id": 685,
+      "name": "radar_adversary_featured"
+    },
+    {
+      "id": 686,
+      "name": "radar_roulette_1"
+    },
+    {
+      "id": 687,
+      "name": "radar_roulette_2"
+    },
+    {
+      "id": 688,
+      "name": "radar_roulette_3"
+    },
+    {
+      "id": 689,
+      "name": "radar_roulette_4"
+    },
+    {
+      "id": 690,
+      "name": "radar_roulette_5"
+    },
+    {
+      "id": 691,
+      "name": "radar_roulette_6"
+    },
+    {
+      "id": 692,
+      "name": "radar_roulette_7"
+    },
+    {
+      "id": 693,
+      "name": "radar_roulette_8"
+    },
+    {
+      "id": 694,
+      "name": "radar_roulette_9"
+    },
+    {
+      "id": 695,
+      "name": "radar_roulette_10"
+    },
+    {
+      "id": 696,
+      "name": "radar_roulette_11"
+    },
+    {
+      "id": 697,
+      "name": "radar_roulette_12"
+    },
+    {
+      "id": 698,
+      "name": "radar_roulette_13"
+    },
+    {
+      "id": 699,
+      "name": "radar_roulette_14"
+    },
+    {
+      "id": 700,
+      "name": "radar_roulette_15"
+    },
+    {
+      "id": 701,
+      "name": "radar_roulette_16"
+    },
+    {
+      "id": 702,
+      "name": "radar_roulette_17"
+    },
+    {
+      "id": 703,
+      "name": "radar_roulette_18"
+    },
+    {
+      "id": 704,
+      "name": "radar_roulette_19"
+    },
+    {
+      "id": 705,
+      "name": "radar_roulette_20"
+    },
+    {
+      "id": 706,
+      "name": "radar_roulette_21"
+    },
+    {
+      "id": 707,
+      "name": "radar_roulette_22"
+    },
+    {
+      "id": 708,
+      "name": "radar_roulette_23"
+    },
+    {
+      "id": 709,
+      "name": "radar_roulette_24"
+    },
+    {
+      "id": 710,
+      "name": "radar_roulette_25"
+    },
+    {
+      "id": 711,
+      "name": "radar_roulette_26"
+    },
+    {
+      "id": 712,
+      "name": "radar_roulette_27"
+    },
+    {
+      "id": 713,
+      "name": "radar_roulette_28"
+    },
+    {
+      "id": 714,
+      "name": "radar_roulette_29"
+    },
+    {
+      "id": 715,
+      "name": "radar_roulette_30"
+    },
+    {
+      "id": 716,
+      "name": "radar_roulette_31"
+    },
+    {
+      "id": 717,
+      "name": "radar_roulette_32"
+    },
+    {
+      "id": 718,
+      "name": "radar_roulette_33"
+    },
+    {
+      "id": 719,
+      "name": "radar_roulette_34"
+    },
+    {
+      "id": 720,
+      "name": "radar_roulette_35"
+    },
+    {
+      "id": 721,
+      "name": "radar_roulette_36"
+    },
+    {
+      "id": 722,
+      "name": "radar_roulette_0"
+    },
+    {
+      "id": 723,
+      "name": "radar_roulette_00"
+    },
+    {
+      "id": 724,
+      "name": "radar_limo"
+    },
+    {
+      "id": 725,
+      "name": "radar_weapon_alien"
+    },
+    {
+      "id": 726,
+      "name": "radar_race_open_wheel"
+    },
+    {
+      "id": 727,
+      "name": "radar_rappel"
+    },
+    {
+      "id": 728,
+      "name": "radar_swap_car"
+    },
+    {
+      "id": 729,
+      "name": "radar_scuba_gear"
+    },
+    {
+      "id": 730,
+      "name": "radar_cpanel_1"
+    },
+    {
+      "id": 731,
+      "name": "radar_cpanel_2"
+    },
+    {
+      "id": 732,
+      "name": "radar_cpanel_3"
+    },
+    {
+      "id": 733,
+      "name": "radar_cpanel_4"
+    },
+    {
+      "id": 734,
+      "name": "radar_snow_truck"
+    },
+    {
+      "id": 735,
+      "name": "radar_buggy_1"
+    },
+    {
+      "id": 736,
+      "name": "radar_buggy_2"
+    },
+    {
+      "id": 737,
+      "name": "radar_zhaba"
+    },
+    {
+      "id": 738,
+      "name": "radar_gerald"
+    },
+    {
+      "id": 739,
+      "name": "radar_ron"
+    },
+    {
+      "id": 740,
+      "name": "radar_arcade"
+    },
+    {
+      "id": 741,
+      "name": "radar_drone_controls"
+    },
+    {
+      "id": 742,
+      "name": "radar_rc_tank"
+    },
+    {
+      "id": 743,
+      "name": "radar_stairs"
+    },
+    {
+      "id": 744,
+      "name": "radar_camera_2"
+    },
+    {
+      "id": 745,
+      "name": "radar_winky"
+    },
+    {
+      "id": 746,
+      "name": "radar_mini_sub"
+    },
+    {
+      "id": 747,
+      "name": "radar_kart_retro"
+    },
+    {
+      "id": 748,
+      "name": "radar_kart_modern"
+    },
+    {
+      "id": 749,
+      "name": "radar_military_quad"
+    },
+    {
+      "id": 750,
+      "name": "radar_military_truck"
+    },
+    {
+      "id": 751,
+      "name": "radar_ship_wheel"
+    },
+    {
+      "id": 752,
+      "name": "radar_ufo"
+    },
+    {
+      "id": 753,
+      "name": "radar_seasparrow2"
+    },
+    {
+      "id": 754,
+      "name": "radar_dinghy2"
+    },
+    {
+      "id": 755,
+      "name": "radar_patrol_boat"
+    },
+    {
+      "id": 756,
+      "name": "radar_retro_sports_car"
+    },
+    {
+      "id": 757,
+      "name": "radar_squadee"
+    },
+    {
+      "id": 758,
+      "name": "radar_folding_wing_jet"
+    },
+    {
+      "id": 759,
+      "name": "radar_valkyrie2"
+    },
+    {
+      "id": 760,
+      "name": "radar_sub2"
+    },
+    {
+      "id": 761,
+      "name": "radar_bolt_cutters"
+    },
+    {
+      "id": 762,
+      "name": "radar_rappel_gear"
+    },
+    {
+      "id": 763,
+      "name": "radar_keycard"
+    },
+    {
+      "id": 764,
+      "name": "radar_password"
+    },
+    {
+      "id": 765,
+      "name": "radar_island_heist_prep"
+    },
+    {
+      "id": 766,
+      "name": "radar_island_party"
+    },
+    {
+      "id": 767,
+      "name": "radar_control_tower"
+    },
+    {
+      "id": 768,
+      "name": "radar_underwater_gate"
+    },
+    {
+      "id": 769,
+      "name": "radar_power_switch"
+    },
+    {
+      "id": 770,
+      "name": "radar_compound_gate"
+    },
+    {
+      "id": 771,
+      "name": "radar_rappel_point"
+    },
+    {
+      "id": 772,
+      "name": "radar_keypad"
+    },
+    {
+      "id": 773,
+      "name": "radar_sub_controls"
+    },
+    {
+      "id": 774,
+      "name": "radar_sub_periscope"
+    },
+    {
+      "id": 775,
+      "name": "radar_sub_missile"
+    },
+    {
+      "id": 776,
+      "name": "radar_painting"
+    },
+    {
+      "id": 777,
+      "name": "radar_car_meet"
+    },
+    {
+      "id": 778,
+      "name": "radar_car_test_area"
+    },
+    {
+      "id": 779,
+      "name": "radar_auto_shop_property"
+    },
+    {
+      "id": 780,
+      "name": "radar_docks_export"
+    },
+    {
+      "id": 781,
+      "name": "radar_prize_car"
+    },
+    {
+      "id": 782,
+      "name": "radar_test_car"
+    },
+    {
+      "id": 783,
+      "name": "radar_car_robbery_board"
+    },
+    {
+      "id": 784,
+      "name": "radar_car_robbery_prep"
+    },
+    {
+      "id": 785,
+      "name": "radar_street_race_series"
+    },
+    {
+      "id": 786,
+      "name": "radar_pursuit_series"
+    },
+    {
+      "id": 787,
+      "name": "radar_car_meet_organiser"
+    },
+    {
+      "id": 788,
+      "name": "radar_securoserv"
+    },
+    {
+      "id": 789,
+      "name": "radar_bounty_collectibles"
+    },
+    {
+      "id": 790,
+      "name": "radar_movie_collectibles"
+    },
+    {
+      "id": 791,
+      "name": "radar_trailer_ramp"
+    },
+    {
+      "id": 792,
+      "name": "radar_race_organiser"
+    },
+    {
+      "id": 793,
+      "name": "radar_chalkboard_list"
+    },
+    {
+      "id": 794,
+      "name": "radar_export_vehicle"
+    },
+    {
+      "id": 795,
+      "name": "radar_train"
+    },
+    {
+      "id": 796,
+      "name": "radar_heist_diamond"
+    },
+    {
+      "id": 797,
+      "name": "radar_heist_doomsday"
+    },
+    {
+      "id": 798,
+      "name": "radar_heist_island"
+    },
+    {
+      "id": 799,
+      "name": "radar_slamvan2"
+    },
+    {
+      "id": 800,
+      "name": "radar_crusader"
+    },
+    {
+      "id": 801,
+      "name": "radar_construction_outfit"
+    },
+    {
+      "id": 802,
+      "name": "radar_overlay_jammed"
+    },
+    {
+      "id": 803,
+      "name": "radar_heist_island_unavailable"
+    },
+    {
+      "id": 804,
+      "name": "radar_heist_diamond_unavailable"
+    },
+    {
+      "id": 805,
+      "name": "radar_heist_doomsday_unavailable"
+    },
+    {
+      "id": 806,
+      "name": "radar_placeholder_7"
+    },
+    {
+      "id": 807,
+      "name": "radar_placeholder_8"
+    },
+    {
+      "id": 808,
+      "name": "radar_placeholder_9"
+    },
+    {
+      "id": 809,
+      "name": "radar_featured_series"
+    },
+    {
+      "id": 810,
+      "name": "radar_vehicle_for_sale"
+    },
+    {
+      "id": 811,
+      "name": "radar_van_keys"
+    },
+    {
+      "id": 812,
+      "name": "radar_suv_service"
+    },
+    {
+      "id": 813,
+      "name": "radar_security_contract"
+    },
+    {
+      "id": 814,
+      "name": "radar_safe"
+    },
+    {
+      "id": 815,
+      "name": "radar_ped_r"
+    },
+    {
+      "id": 816,
+      "name": "radar_ped_e"
+    },
+    {
+      "id": 817,
+      "name": "radar_payphone"
+    },
+    {
+      "id": 818,
+      "name": "radar_patriot3"
+    },
+    {
+      "id": 819,
+      "name": "radar_music_studio"
+    },
+    {
+      "id": 820,
+      "name": "radar_jubilee"
+    },
+    {
+      "id": 821,
+      "name": "radar_granger2"
+    },
+    {
+      "id": 822,
+      "name": "radar_explosive_charge"
+    },
+    {
+      "id": 823,
+      "name": "radar_deity"
+    },
+    {
+      "id": 824,
+      "name": "radar_d_champion"
+    },
+    {
+      "id": 825,
+      "name": "radar_buffalo4"
+    },
+    {
+      "id": 826,
+      "name": "radar_agency"
+    },
+    {
+      "id": 827,
+      "name": "radar_biker_bar"
+    },
+    {
+      "id": 828,
+      "name": "radar_simeon_overlay"
+    },
+    {
+      "id": 829,
+      "name": "radar_junk_skydive"
+    },
+    {
+      "id": 830,
+      "name": "radar_luxury_car_showroom"
+    },
+    {
+      "id": 831,
+      "name": "radar_car_showroom"
+    },
+    {
+      "id": 832,
+      "name": "radar_car_showroom_simeon"
+    },
+    {
+      "id": 833,
+      "name": "radar_flaming_skull"
+    },
+    {
+      "id": 834,
+      "name": "radar_weapon_ammo"
+    },
+    {
+      "id": 835,
+      "name": "radar_community_series"
+    },
+    {
+      "id": 836,
+      "name": "radar_cayo_series"
+    },
+    {
+      "id": 837,
+      "name": "radar_clubhouse_contract"
+    },
+    {
+      "id": 838,
+      "name": "radar_agent_ulp"
+    },
+    {
+      "id": 839,
+      "name": "radar_acid"
+    },
+    {
+      "id": 840,
+      "name": "radar_acid_lab"
+    },
+    {
+      "id": 841,
+      "name": "radar_dax_overlay"
+    },
+    {
+      "id": 842,
+      "name": "radar_dead_drop_package"
+    },
+    {
+      "id": 843,
+      "name": "radar_downtown_cab"
+    },
+    {
+      "id": 844,
+      "name": "radar_gun_van"
+    },
+    {
+      "id": 845,
+      "name": "radar_stash_house"
+    },
+    {
+      "id": 846,
+      "name": "radar_tractor"
+    },
+    {
+      "id": 847,
+      "name": "radar_warehouse_juggalo"
+    },
+    {
+      "id": 848,
+      "name": "radar_warehouse_juggalo_dax"
+    },
+    {
+      "id": 849,
+      "name": "radar_weapon_crowbar"
+    },
+    {
+      "id": 850,
+      "name": "radar_duffel_bag"
+    },
+    {
+      "id": 851,
+      "name": "radar_oil_tanker"
+    },
+    {
+      "id": 852,
+      "name": "radar_acid_lab_tent"
+    },
+    {
+      "id": 853,
+      "name": "radar_van_burrito"
+    },
+    {
+      "id": 854,
+      "name": "radar_acid_boost"
+    },
+    {
+      "id": 855,
+      "name": "radar_ped_gang_leader"
+    },
+    {
+      "id": 856,
+      "name": "radar_multistorey_garage"
+    },
+    {
+      "id": 857,
+      "name": "radar_seized_asset_sales"
+    },
+    {
+      "id": 858,
+      "name": "radar_cayo_attrition"
+    },
+    {
+      "id": 859,
+      "name": "radar_bicycle"
+    },
+    {
+      "id": 860,
+      "name": "radar_bicycle_trial"
+    },
+    {
+      "id": 861,
+      "name": "radar_raiju"
+    },
+    {
+      "id": 862,
+      "name": "radar_conada2"
+    },
+    {
+      "id": 863,
+      "name": "radar_overlay_ready_for_sell"
+    },
+    {
+      "id": 864,
+      "name": "radar_overlay_missing_supplies"
+    },
+    {
+      "id": 865,
+      "name": "radar_streamer216"
+    },
+    {
+      "id": 866,
+      "name": "radar_signal_jammer"
+    },
+    {
+      "id": 867,
+      "name": "radar_salvage_yard"
+    },
+    {
+      "id": 868,
+      "name": "radar_robbery_prep_equipment"
+    },
+    {
+      "id": 869,
+      "name": "radar_robbery_prep_overlay"
+    },
+    {
+      "id": 870,
+      "name": "radar_yusuf"
+    },
+    {
+      "id": 871,
+      "name": "radar_vincent"
+    },
+    {
+      "id": 872,
+      "name": "radar_vinewood_garage"
+    },
+    {
+      "id": 873,
+      "name": "radar_lstb"
+    },
+    {
+      "id": 874,
+      "name": "radar_cctv_workstation"
+    },
+    {
+      "id": 875,
+      "name": "radar_hacking_device"
+    },
+    {
+      "id": 876,
+      "name": "radar_race_drag"
+    },
+    {
+      "id": 877,
+      "name": "radar_race_drift"
+    },
+    {
+      "id": 878,
+      "name": "radar_casino_prep"
+    },
+    {
+      "id": 879,
+      "name": "radar_planning_wall"
+    },
+    {
+      "id": 880,
+      "name": "radar_weapon_crate"
+    },
+    {
+      "id": 881,
+      "name": "radar_weapon_snowball"
+    },
+    {
+      "id": 882,
+      "name": "radar_train_signals_green"
+    },
+    {
+      "id": 883,
+      "name": "radar_train_signals_red"
+    },
+    {
+      "id": 884,
+      "name": "radar_office_transporter"
+    },
+    {
+      "id": 885,
+      "name": "radar_yankton_survival"
+    },
+    {
+      "id": 886,
+      "name": "radar_daily_bounty"
+    },
+    {
+      "id": 887,
+      "name": "radar_bounty_target"
+    },
+    {
+      "id": 888,
+      "name": "radar_filming_schedule"
+    },
+    {
+      "id": 889,
+      "name": "radar_pizza_this"
+    },
+    {
+      "id": 890,
+      "name": "radar_aircraft_carrier"
+    },
+    {
+      "id": 891,
+      "name": "radar_weapon_emp"
+    },
+    {
+      "id": 892,
+      "name": "radar_maude_eccles"
+    },
+    {
+      "id": 893,
+      "name": "radar_bail_bonds_office"
+    },
+    {
+      "id": 894,
+      "name": "radar_weapon_emp_mine"
+    },
+    {
+      "id": 895,
+      "name": "radar_zombie_disease"
+    },
+    {
+      "id": 896,
+      "name": "radar_zombie_proximity"
+    },
+    {
+      "id": 897,
+      "name": "radar_zombie_fire"
+    },
+    {
+      "id": 898,
+      "name": "radar_animal_possessed"
+    },
+    {
+      "id": 899,
+      "name": "radar_mobile_phone"
+    },
+    {
+      "id": 900,
+      "name": "radar_garment_factory"
+    },
+    {
+      "id": 901,
+      "name": "radar_garment_factory_for_sale"
+    },
+    {
+      "id": 902,
+      "name": "radar_garment_factory_equipment"
+    },
+    {
+      "id": 903,
+      "name": "radar_field_hangar"
+    },
+    {
+      "id": 904,
+      "name": "radar_field_hangar_for_sale"
+    },
+    {
+      "id": 905,
+      "name": "radar_cargobob_ch53"
+    },
+    {
+      "id": 906,
+      "name": "radar_chopper_lift_ammo"
+    },
+    {
+      "id": 907,
+      "name": "radar_chopper_lift_armor"
+    },
+    {
+      "id": 908,
+      "name": "radar_chopper_lift_explosives"
+    },
+    {
+      "id": 909,
+      "name": "radar_chopper_lift_upgrade"
+    },
+    {
+      "id": 910,
+      "name": "radar_chopper_lift_weapon"
+    },
+    {
+      "id": 911,
+      "name": "radar_cargo_ship"
+    },
+    {
+      "id": 912,
+      "name": "radar_submarine_missile"
+    },
+    {
+      "id": 913,
+      "name": "radar_propeller_engine"
+    },
+    {
+      "id": 914,
+      "name": "radar_shark"
+    },
+    {
+      "id": 915,
+      "name": "radar_fast_travel"
+    },
+    {
+      "id": 916,
+      "name": "radar_plane_duster2"
+    },
+    {
+      "id": 917,
+      "name": "radar_plane_titan2"
+    },
+    {
+      "id": 918,
+      "name": "radar_collectible"
+    },
+    {
+      "id": 919,
+      "name": "radar_field_hangar_discount"
+    },
+    {
+      "id": 920,
+      "name": "radar_garment_factory_discount"
+    },
+    {
+      "id": 921,
+      "name": "radar_weapon_gusenberg_sweeper"
+    },
+    {
+      "id": 922,
+      "name": "radar_weapon_tear_gas"
+    },
+    {
+      "id": 923,
+      "name": "radar_dog"
+    },
+    {
+      "id": 924,
+      "name": "radar_bobcat_security"
+    },
+    {
+      "id": 925,
+      "name": "radar_smoke_shop"
+    },
+    {
+      "id": 926,
+      "name": "radar_smoke_shop_for_sale"
+    },
+    {
+      "id": 927,
+      "name": "radar_smoke_shop_attention"
+    },
+    {
+      "id": 928,
+      "name": "radar_helitours"
+    },
+    {
+      "id": 929,
+      "name": "radar_helitours_for_sale"
+    },
+    {
+      "id": 930,
+      "name": "radar_helitours_attention"
+    },
+    {
+      "id": 931,
+      "name": "radar_car_wash_business"
+    },
+    {
+      "id": 932,
+      "name": "radar_car_wash_business_for_sale"
+    },
+    {
+      "id": 933,
+      "name": "radar_car_wash_business_attention"
+    },
+    {
+      "id": 934,
+      "name": "radar_attention"
+    },
+    {
+      "id": 935,
+      "name": "radar_alarm"
+    },
+    {
+      "id": 936,
+      "name": "radar_helitours_discount"
+    },
+    {
+      "id": 937,
+      "name": "radar_smoke_shop_discount"
+    },
+    {
+      "id": 938,
+      "name": "radar_car_wash_business_discount"
+    },
+    {
+      "id": 939,
+      "name": "radar_real_estate"
+    },
+    {
+      "id": 940,
+      "name": "radar_medical_courier"
+    },
+    {
+      "id": 941,
+      "name": "radar_gruppe_sechs"
+    },
+    {
+      "id": 942,
+      "name": "radar_fire_station"
+    },
+    {
+      "id": 943,
+      "name": "radar_fire_truck"
+    },
+    {
+      "id": 944,
+      "name": "radar_alpha_mail"
+    },
+    {
+      "id": 945,
+      "name": "radar_ls_meteor"
+    },
+    {
+      "id": 946,
+      "name": "radar_four20_survival"
+    },
+    {
+      "id": 947,
+      "name": "radar_community_mission_series"
+    },
+    {
+      "id": 948,
+      "name": "radar_property_mansion"
+    },
+    {
+      "id": 949,
+      "name": "radar_ai_keypad"
+    },
+    {
+      "id": 950,
+      "name": "radar_taxi_self_drive"
+    },
+    {
+      "id": 951,
+      "name": "radar_train_subway"
+    },
+    {
+      "id": 952,
+      "name": "radar_trashbag"
+    },
+    {
+      "id": 953,
+      "name": "radar_mission_creator"
+    },
+    {
+      "id": 954,
+      "name": "radar_cat"
+    },
+    {
+      "id": 955,
+      "name": "radar_mansion_ai_m"
+    },
+    {
+      "id": 956,
+      "name": "radar_mansion_ai_f"
+    },
+    {
+      "id": 957,
+      "name": "radar_mansion_ai_gang"
+    },
+    {
+      "id": 0,
+      "name": "White"
+    },
+    {
+      "id": 1,
+      "name": "Red"
+    },
+    {
+      "id": 2,
+      "name": "Green"
+    },
+    {
+      "id": 3,
+      "name": "Blue"
+    },
+    {
+      "id": 4,
+      "name": "White"
+    },
+    {
+      "id": 5,
+      "name": "Yellow"
+    },
+    {
+      "id": 6,
+      "name": "Light Red"
+    },
+    {
+      "id": 7,
+      "name": "Violet"
+    },
+    {
+      "id": 8,
+      "name": "Pink"
+    },
+    {
+      "id": 9,
+      "name": "Light Orange"
+    },
+    {
+      "id": 10,
+      "name": "Light Brown"
+    },
+    {
+      "id": 11,
+      "name": "Light Green"
+    },
+    {
+      "id": 12,
+      "name": "Light Blue"
+    },
+    {
+      "id": 13,
+      "name": "Light Purple"
+    },
+    {
+      "id": 14,
+      "name": "Dark Purple"
+    },
+    {
+      "id": 15,
+      "name": "Cyan"
+    },
+    {
+      "id": 16,
+      "name": "Light Yellow"
+    },
+    {
+      "id": 17,
+      "name": "Orange"
+    },
+    {
+      "id": 18,
+      "name": "Light Blue"
+    },
+    {
+      "id": 19,
+      "name": "Dark Pink"
+    },
+    {
+      "id": 20,
+      "name": "Dark Yellow"
+    },
+    {
+      "id": 21,
+      "name": "Dark Orange"
+    },
+    {
+      "id": 22,
+      "name": "Light Gray"
+    },
+    {
+      "id": 23,
+      "name": "Light Pink"
+    },
+    {
+      "id": 24,
+      "name": "Lemon Green"
+    },
+    {
+      "id": 25,
+      "name": "Forest Green"
+    },
+    {
+      "id": 26,
+      "name": "Electric Blue"
+    },
+    {
+      "id": 27,
+      "name": "Bright Purple"
+    },
+    {
+      "id": 28,
+      "name": "Dark Yellow"
+    },
+    {
+      "id": 29,
+      "name": "Dark Blue"
+    },
+    {
+      "id": 30,
+      "name": "Dark Cyan"
+    },
+    {
+      "id": 31,
+      "name": "Light Brown"
+    },
+    {
+      "id": 32,
+      "name": "Light Blue"
+    },
+    {
+      "id": 33,
+      "name": "Light Yellow"
+    },
+    {
+      "id": 34,
+      "name": "Light Pink"
+    },
+    {
+      "id": 35,
+      "name": "Light Red"
+    },
+    {
+      "id": 36,
+      "name": "Beige"
+    },
+    {
+      "id": 37,
+      "name": "White"
+    },
+    {
+      "id": 38,
+      "name": "Blue"
+    },
+    {
+      "id": 39,
+      "name": "Light Gray"
+    },
+    {
+      "id": 40,
+      "name": "Dark Gray"
+    },
+    {
+      "id": 41,
+      "name": "Pink Red"
+    },
+    {
+      "id": 42,
+      "name": "Blue"
+    },
+    {
+      "id": 43,
+      "name": "Light Green"
+    },
+    {
+      "id": 44,
+      "name": "Light Orange"
+    },
+    {
+      "id": 45,
+      "name": "White"
+    },
+    {
+      "id": 46,
+      "name": "Gold"
+    },
+    {
+      "id": 47,
+      "name": "Orange"
+    },
+    {
+      "id": 48,
+      "name": "Brilliant Rose"
+    },
+    {
+      "id": 49,
+      "name": "Red"
+    },
+    {
+      "id": 50,
+      "name": "Medium Purple"
+    },
+    {
+      "id": 51,
+      "name": "Salmon"
+    },
+    {
+      "id": 52,
+      "name": "Dark Green"
+    },
+    {
+      "id": 53,
+      "name": "Blizzard Blue"
+    },
+    {
+      "id": 54,
+      "name": "Oracle Blue"
+    },
+    {
+      "id": 55,
+      "name": "Silver"
+    },
+    {
+      "id": 56,
+      "name": "Brown"
+    },
+    {
+      "id": 57,
+      "name": "Blue"
+    },
+    {
+      "id": 58,
+      "name": "East Bay"
+    },
+    {
+      "id": 59,
+      "name": "Red"
+    },
+    {
+      "id": 60,
+      "name": "Yellow Orange"
+    },
+    {
+      "id": 61,
+      "name": "Mulberry Pink"
+    },
+    {
+      "id": 62,
+      "name": "Alto Gray"
+    },
+    {
+      "id": 63,
+      "name": "Jelly Bean Blue"
+    },
+    {
+      "id": 64,
+      "name": "Dark Orange"
+    },
+    {
+      "id": 65,
+      "name": "Mamba"
+    },
+    {
+      "id": 66,
+      "name": "Yellow Orange"
+    },
+    {
+      "id": 67,
+      "name": "Blue"
+    },
+    {
+      "id": 68,
+      "name": "Blue"
+    },
+    {
+      "id": 69,
+      "name": "Green"
+    },
+    {
+      "id": 70,
+      "name": "Yellow Orange"
+    },
+    {
+      "id": 71,
+      "name": "Yellow Orange"
+    },
+    {
+      "id": 72,
+      "name": "Transparent Black"
+    },
+    {
+      "id": 73,
+      "name": "Yellow Orange"
+    },
+    {
+      "id": 74,
+      "name": "Blue"
+    },
+    {
+      "id": 75,
+      "name": "Red"
+    },
+    {
+      "id": 76,
+      "name": "Deep red"
+    },
+    {
+      "id": 77,
+      "name": "Blue"
+    },
+    {
+      "id": 78,
+      "name": "Oracle Blue"
+    },
+    {
+      "id": 79,
+      "name": "Transparent Red"
+    },
+    {
+      "id": 80,
+      "name": "Transparent Blue"
+    },
+    {
+      "id": 81,
+      "name": "Orange"
+    },
+    {
+      "id": 82,
+      "name": "Light Green"
+    },
+    {
+      "id": 83,
+      "name": "Purple"
+    },
+    {
+      "id": 84,
+      "name": "Blue"
+    },
+    {
+      "id": 85,
+      "name": "Transparent Black"
+    }
+  ],
+  "css_item_count": 1044,
+  "markdown": "Blips\n-----\n\nA list of all game blips as of build 3258 are shown below.\n\n `**${idx}**\n${name}`).join('\\n') -->\n\n.blips {\n    display: grid;\n    grid-template-columns: repeat(auto-fill, calc(100% / 8));\n}\n\n.blip {\n    padding: 5px;\n    margin: 5px;\n\n    border: 1px solid #333;\n    background-color: #d4d4d4;\n\n    position: relative;\n\n    justify-content: center;\n    flex-direction: column;\n    display: flex;\n}\n\n.blip > div {\n    text-align: center;\n    flex-grow: 1;\n\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n}\n\n.blip span {\n    display: block;\n    text-align: center;\n    font-size: 10px;\n    overflow: hidden;\n    text-overflow: ellipsis;\n}\n\n.blip strong {\n    font-size: 12px;\n}\n\n.blip img {\n    max-height: 36px;\n}\n\n.blip_color {\n    height: 80px;\n}\n\n.blip-colors .blip span {\n    position: absolute;\n    display: block;\n    text-align: center;\n    bottom: 5px;\n    left: 5px;\n    right: 5px;\n}\n\n.blip.bcolor {\n    background-color: #fafafa;\n}\n\n**0**\nradar_higher\n**1**\nradar_level\n**2**\nradar_lower\n**3**\nradar_police_ped\n**4**\nradar_wanted_radius\n**5**\nradar_area_blip\n**6**\nradar_centre\n**7**\nradar_north\n**8**\nradar_waypoint\n**9**\nradar_radius_blip\n**10**\nradar_radius_outline_blip\n**11**\nradar_weapon_higher\n**12**\nradar_weapon_lower\n**13**\nradar_higher_ai\n**14**\nradar_lower_ai\n**15**\nradar_police_heli_spin\n**16**\nradar_police_plane_move\n**17**\nradar_numbered_1\n**18**\nradar_numbered_2\n**19**\nradar_numbered_3\n**20**\nradar_numbered_4\n**21**\nradar_numbered_5\n**22**\nradar_numbered_6\n**23**\nradar_numbered_7\n**24**\nradar_numbered_8\n**25**\nradar_numbered_9\n**26**\nradar_numbered_10-->\n**27**\nradar_mp_crew\n**28**\nradar_mp_friendlies\n**29**\nradar_empty\n**30**\nradar_empty\n**31**\nradar_empty\n**32**\nradar_script_objective\n**33**\nradar_empty\n**34**\nradar_empty\n**35**\nradar_station-->\n**36**\nradar_cable_car\n**37**\nradar_activities\n**38**\nradar_raceflag\n**39**\nradar_fire-->\n**40**\nradar_safehouse\n**41**\nradar_police\n**42**\nradar_police_chase\n**43**\nradar_police_heli\n**44**\nradar_bomb_a\n**45**\nradar_bomb_b\n**46**\nradar_bomb_c-->\n**47**\nradar_snitch\n**48**\nradar_planning_locations\n**49**\nradar_crim_arrest-->\n**50**\nradar_crim_carsteal\n**51**\nradar_crim_drugs\n**52**\nradar_crim_holdups\n**53**\nradar_crim_pimping-->\n**54**\nradar_crim_player\n**55**\nradar_fence-->\n**56**\nradar_cop_patrol\n**57**\nradar_cop_player\n**58**\nradar_crim_wanted\n**59**\nradar_heist\n**60**\nradar_police_station\n**61**\nradar_hospital\n**62**\nradar_assassins_mark\n**63**\nradar_elevator\n**64**\nradar_helicopter\n**65**\nradar_joyriders-->\n**66**\nradar_random_character\n**67**\nradar_security_van\n**68**\nradar_tow_truck\n**69**\nradar_drive_thru-->\n**70**\nradar_illegal_parking\n**71**\nradar_barber\n**72**\nradar_car_mod_shop\n**73**\nradar_clothes_store\n**74**\nradar_gym-->\n**75**\nradar_tattoo\n**76**\nradar_armenian_family\n**77**\nradar_lester_family\n**78**\nradar_michael_family\n**79**\nradar_trevor_family\n**80**\nradar_jewelry_heist\n**81**\nradar_drag_race-->\n**82**\nradar_drag_race_finish\n**83**\nradar_car_carrier-->\n**84**\nradar_rampage\n**85**\nradar_vinewood_tours\n**86**\nradar_lamar_family\n**87**\nradar_taco_van-->\n**88**\nradar_franklin_family\n**89**\nradar_chinese_strand\n**90**\nradar_flight_school\n**91**\nradar_eye_sky\n**92**\nradar_air_hockey\n**93**\nradar_bar\n**94**\nradar_base_jump\n**95**\nradar_basketball\n**96**\nradar_biolab_heist\n**97**\nradar_bowling\n**98**\nradar_burger_shot-->\n**99**\nradar_cabaret_club\n**100**\nradar_car_wash\n**101**\nradar_cluckin_bell-->\n**102**\nradar_comedy_club\n**103**\nradar_darts\n**104**\nradar_docks_heist\n**105**\nradar_fbi_heist\n**106**\nradar_fbi_officers_strand\n**107**\nradar_finale_bank_heist\n**108**\nradar_financier_strand\n**109**\nradar_golf\n**110**\nradar_gun_shop\n**111**\nradar_internet_cafe\n**112**\nradar_michael_family_exile\n**113**\nradar_nice_house_heist\n**114**\nradar_random_female\n**115**\nradar_random_male\n**116**\nradar_repo\n**117**\nradar_restaurant-->\n**118**\nradar_rural_bank_heist\n**119**\nradar_shooting_range\n**120**\nradar_solomon_strand\n**121**\nradar_strip_club\n**122**\nradar_tennis\n**123**\nradar_trevor_family_exile\n**124**\nradar_michael_trevor_family\n**125**\nradar_vehicle_spawn -->\n**126**\nradar_triathlon\n**127**\nradar_off_road_racing\n**128**\nradar_gang_cops\n**129**\nradar_gang_mexicans\n**130**\nradar_gang_bikers\n**131**\nradar_gang_families\n**132**\nradar_gang_professionals-->\n**133**\nradar_snitch_red\n**134**\nradar_crim_cuff_keys\n**135**\nradar_cinema\n**136**\nradar_music_venue\n**137**\nradar_police_station_blue\n**138**\nradar_airport\n**139**\nradar_crim_saved_vehicle\n**140**\nradar_weed_stash\n**141**\nradar_hunting\n**142**\nradar_pool\n**143**\nradar_objective_blue\n**144**\nradar_objective_green\n**145**\nradar_objective_red\n**146**\nradar_objective_yellow\n**147**\nradar_arms_dealing\n**148**\nradar_mp_friend\n**149**\nradar_celebrity_theft\n**150**\nradar_weapon_assault_rifle\n**151**\nradar_weapon_bat\n**152**\nradar_weapon_grenade\n**153**\nradar_weapon_health\n**154**\nradar_weapon_knife\n**155**\nradar_weapon_molotov\n**156**\nradar_weapon_pistol\n**157**\nradar_weapon_rocket\n**158**\nradar_weapon_shotgun\n**159**\nradar_weapon_smg\n**160**\nradar_weapon_sniper\n**161**\nradar_mp_noise\n**162**\nradar_poi\n**163**\nradar_passive\n**164**\nradar_usingmenu\n**165**\nradar_friend_franklin_p\n**166**\nradar_friend_franklin_x\n**167**\nradar_friend_michael_p\n**168**\nradar_friend_michael_x\n**169**\nradar_friend_trevor_p\n**170**\nradar_friend_trevor_x-->\n**171**\nradar_gang_cops_partner\n**172**\nradar_friend_lamar-->\n**173**\nradar_weapon_minigun\n**174**\nradar_weapon_grenadeLauncher-->\n**175**\nradar_weapon_armour\n**176**\nradar_property_takeover\n**177**\nradar_gang_mexicans_highlight\n**178**\nradar_gang_bikers_highlight\n**179**\nradar_triathlon_cycling\n**180**\nradar_triathlon_swimming\n**181**\nradar_property_takeover_bikers\n**182**\nradar_property_takeover_cops\n**183**\nradar_property_takeover_vagos\n**184**\nradar_camera\n**185**\nradar_centre_red\n**186**\nradar_handcuff_keys_bikers\n**187**\nradar_handcuff_keys_vagos\n**188**\nradar_handcuffs_closed_bikers\n**189**\nradar_handcuffs_closed_vagos\n**190**\nradar_handcuffs_open_bikers\n**191**\nradar_handcuffs_open_vagos-->\n**192**\nradar_camera_badger\n**193**\nradar_camera_facade\n**194**\nradar_camera_ifruit\n**195**\nradar_crim_arrest_bikers\n**196**\nradar_crim_arrest_vagos-->\n**197**\nradar_yoga\n**198**\nradar_taxi\n**199**\nradar_numbered_11\n**200**\nradar_numbered_12\n**201**\nradar_numbered_13\n**202**\nradar_numbered_14\n**203**\nradar_numbered_15\n**204**\nradar_numbered_16-->\n**205**\nradar_shrink\n**206**\nradar_epsilon\n**207**\nradar_financier_strand_grey\n**208**\nradar_trevor_family_grey\n**209**\nradar_trevor_family_red\n**210**\nradar_franklin_family_grey\n**211**\nradar_franklin_family_blue\n**212**\nradar_franklin_a\n**213**\nradar_franklin_b\n**214**\nradar_franklin_c\n**215**\nradar_numbered_red_1\n**216**\nradar_numbered_red_2\n**217**\nradar_numbered_red_3\n**218**\nradar_numbered_red_4\n**219**\nradar_numbered_red_5\n**220**\nradar_numbered_red_6\n**221**\nradar_numbered_red_7\n**222**\nradar_numbered_red_8\n**223**\nradar_numbered_red_9\n**224**\nradar_numbered_red_10-->\n**225**\nradar_gang_vehicle\n**226**\nradar_gang_vehicle_bikers\n**227**\nradar_gang_vehicle_cops\n**228**\nradar_gang_vehicle_vagos\n**229**\nradar_guncar\n**230**\nradar_driving_bikers\n**231**\nradar_driving_cops\n**232**\nradar_driving_vagos\n**233**\nradar_gang_cops_highlight\n**234**\nradar_shield_bikers\n**235**\nradar_shield_cops\n**236**\nradar_shield_vagos\n**237**\nradar_custody_bikers\n**238**\nradar_custody_vagos\n**239**\nradar_gang_wanted_bikers\n**240**\nradar_gang_wanted_bikers_1\n**241**\nradar_gang_wanted_bikers_2\n**242**\nradar_gang_wanted_bikers_3\n**243**\nradar_gang_wanted_bikers_4\n**244**\nradar_gang_wanted_bikers_5\n**245**\nradar_gang_wanted_vagos\n**246**\nradar_gang_wanted_vagos_1\n**247**\nradar_gang_wanted_vagos_2\n**248**\nradar_gang_wanted_vagos_3\n**249**\nradar_gang_wanted_vagos_4\n**250**\nradar_gang_wanted_vagos_5-->\n**251**\nradar_arms_dealing_air\n**252**\nradar_playerstate_arrested\n**253**\nradar_playerstate_custody\n**254**\nradar_playerstate_driving\n**255**\nradar_playerstate_keyholder\n**256**\nradar_playerstate_partner\n**257**\nradar_gang_wanted_1\n**258**\nradar_gang_wanted_2\n**259**\nradar_gang_wanted_3\n**260**\nradar_gang_wanted_4\n**261**\nradar_gang_wanted_5-->\n**262**\nradar_ztype\n**263**\nradar_stinger\n**264**\nradar_packer\n**265**\nradar_monroe\n**266**\nradar_fairground\n**267**\nradar_property\n**268**\nradar_gang_highlight\n**269**\nradar_altruist\n**270**\nradar_ai\n**271**\nradar_on_mission\n**272**\nradar_cash_pickup\n**273**\nradar_chop\n**274**\nradar_dead\n**275**\nradar_territory_locked\n**276**\nradar_cash_lost\n**277**\nradar_cash_vagos\n**278**\nradar_cash_cops\n**279**\nradar_hooker\n**280**\nradar_friend\n**281**\nradar_mission_2to4\n**282**\nradar_mission_2to8\n**283**\nradar_mission_2to12\n**284**\nradar_mission_2to16\n**285**\nradar_custody_dropoff\n**286**\nradar_onmission_cops\n**287**\nradar_onmission_lost\n**288**\nradar_onmission_vagos\n**289**\nradar_crim_carsteal_cops\n**290**\nradar_crim_carsteal_bikers\n**291**\nradar_crim_carsteal_vagos\n**292**\nradar_band_strand\n**293**\nradar_simeon_family\n**294**\nradar_mission_1\n**295**\nradar_mission_2\n**296**\nradar_friend_darts\n**297**\nradar_friend_comedyclub\n**298**\nradar_friend_cinema\n**299**\nradar_friend_tennis\n**300**\nradar_friend_stripclub\n**301**\nradar_friend_livemusic\n**302**\nradar_friend_golf\n**303**\nradar_bounty_hit\n**304**\nradar_ugc_mission\n**305**\nradar_horde\n**306**\nradar_cratedrop\n**307**\nradar_plane_drop\n**308**\nradar_sub\n**309**\nradar_race\n**310**\nradar_deathmatch\n**311**\nradar_arm_wrestling\n**312**\nradar_mission_1to2\n**313**\nradar_shootingrange_gunshop\n**314**\nradar_race_air\n**315**\nradar_race_land\n**316**\nradar_race_sea\n**317**\nradar_tow\n**318**\nradar_garbage\n**319**\nradar_drill\n**320**\nradar_spikes\n**321**\nradar_firetruck\n**322**\nradar_minigun2\n**323**\nradar_bugstar\n**324**\nradar_submarine\n**325**\nradar_chinook\n**326**\nradar_getaway_car\n**327**\nradar_mission_bikers_1\n**328**\nradar_mission_bikers_1to2\n**329**\nradar_mission_bikers_2\n**330**\nradar_mission_bikers_2to4\n**331**\nradar_mission_bikers_2to8\n**332**\nradar_mission_bikers_2to12\n**333**\nradar_mission_bikers_2to16\n**334**\nradar_mission_cops_1\n**335**\nradar_mission_cops_1to2\n**336**\nradar_mission_cops_2\n**337**\nradar_mission_cops_2to4\n**338**\nradar_mission_cops_2to8\n**339**\nradar_mission_cops_2to12\n**340**\nradar_mission_cops_2to16\n**341**\nradar_mission_vagos_1\n**342**\nradar_mission_vagos_1to2\n**343**\nradar_mission_vagos_2\n**344**\nradar_mission_vagos_2to4\n**345**\nradar_mission_vagos_2to8\n**346**\nradar_mission_vagos_2to12\n**347**\nradar_mission_vagos_2to16\n**348**\nradar_gang_bike\n**349**\nradar_gas_grenade\n**350**\nradar_property_for_sale\n**351**\nradar_gang_attack_package\n**352**\nradar_martin_madrazzo\n**353**\nradar_enemy_heli_spin\n**354**\nradar_boost\n**355**\nradar_devin\n**356**\nradar_dock\n**357**\nradar_garage\n**358**\nradar_golf_flag\n**359**\nradar_hangar\n**360**\nradar_helipad\n**361**\nradar_jerry_can\n**362**\nradar_mask\n**363**\nradar_heist_prep\n**364**\nradar_incapacitated\n**365**\nradar_spawn_point_pickup\n**366**\nradar_boilersuit\n**367**\nradar_completed\n**368**\nradar_rockets\n**369**\nradar_garage_for_sale\n**370**\nradar_helipad_for_sale\n**371**\nradar_dock_for_sale\n**372**\nradar_hangar_for_sale\n**373**\nradar_placeholder_6\n**374**\nradar_business\n**375**\nradar_business_for_sale\n**376**\nradar_race_bike\n**377**\nradar_parachute\n**378**\nradar_team_deathmatch\n**379**\nradar_race_foot\n**380**\nradar_vehicle_deathmatch\n**381**\nradar_barry\n**382**\nradar_dom\n**383**\nradar_maryann\n**384**\nradar_cletus\n**385**\nradar_josh\n**386**\nradar_minute\n**387**\nradar_omega\n**388**\nradar_tonya\n**389**\nradar_paparazzo\n**390**\nradar_aim\n**391**\nradar_cratedrop_background\n**392**\nradar_green_and_net_player1\n**393**\nradar_green_and_net_player2\n**394**\nradar_green_and_net_player3\n**395**\nradar_green_and_friendly\n**396**\nradar_net_player1_and_net_player2\n**397**\nradar_net_player1_and_net_player3\n**398**\nradar_creator\n**399**\nradar_creator_direction\n**400**\nradar_abigail\n**401**\nradar_blimp\n**402**\nradar_repair\n**403**\nradar_testosterone\n**404**\nradar_dinghy\n**405**\nradar_fanatic\n**406**\nradar_invisible-->\n**407**\nradar_info_icon\n**408**\nradar_capture_the_flag\n**409**\nradar_last_team_standing\n**410**\nradar_boat\n**411**\nradar_capture_the_flag_base\n**412**\nradar_mp_crew\n**413**\nradar_capture_the_flag_outline\n**414**\nradar_capture_the_flag_base_nobag\n**415**\nradar_weapon_jerrycan\n**416**\nradar_rp\n**417**\nradar_level_inside\n**418**\nradar_bounty_hit_inside\n**419**\nradar_capture_the_usaflag\n**420**\nradar_capture_the_usaflag_outline\n**421**\nradar_tank\n**422**\nradar_player_heli\n**423**\nradar_player_plane\n**424**\nradar_player_jet\n**425**\nradar_centre_stroke\n**426**\nradar_player_guncar\n**427**\nradar_player_boat\n**428**\nradar_mp_heist\n**429**\nradar_temp_1\n**430**\nradar_temp_2\n**431**\nradar_temp_3\n**432**\nradar_temp_4\n**433**\nradar_temp_5\n**434**\nradar_temp_6\n**435**\nradar_race_stunt\n**436**\nradar_hot_property\n**437**\nradar_urbanwarfare_versus\n**438**\nradar_king_of_the_castle\n**439**\nradar_player_king\n**440**\nradar_dead_drop\n**441**\nradar_penned_in\n**442**\nradar_beast\n**443**\nradar_edge_pointer\n**444**\nradar_edge_crosstheline\n**445**\nradar_mp_lamar\n**446**\nradar_bennys\n**447**\nradar_corner_number_1\n**448**\nradar_corner_number_2\n**449**\nradar_corner_number_3\n**450**\nradar_corner_number_4\n**451**\nradar_corner_number_5\n**452**\nradar_corner_number_6\n**453**\nradar_corner_number_7\n**454**\nradar_corner_number_8\n**455**\nradar_yacht\n**456**\nradar_finders_keepers\n**457**\nradar_assault_package\n**458**\nradar_hunt_the_boss\n**459**\nradar_sightseer\n**460**\nradar_turreted_limo\n**461**\nradar_belly_of_the_beast\n**462**\nradar_yacht_location\n**463**\nradar_pickup_beast\n**464**\nradar_pickup_zoned\n**465**\nradar_pickup_random\n**466**\nradar_pickup_slow_time\n**467**\nradar_pickup_swap\n**468**\nradar_pickup_thermal\n**469**\nradar_pickup_weed\n**470**\nradar_weapon_railgun\n**471**\nradar_seashark\n**472**\nradar_pickup_hidden\n**473**\nradar_warehouse\n**474**\nradar_warehouse_for_sale\n**475**\nradar_office\n**476**\nradar_office_for_sale\n**477**\nradar_truck\n**478**\nradar_contraband\n**479**\nradar_trailer\n**480**\nradar_vip\n**481**\nradar_cargobob\n**482**\nradar_area_outline_blip\n**483**\nradar_pickup_accelerator\n**484**\nradar_pickup_ghost\n**485**\nradar_pickup_detonator\n**486**\nradar_pickup_bomb\n**487**\nradar_pickup_armoured\n**488**\nradar_stunt\n**489**\nradar_weapon_lives\n**490**\nradar_stunt_premium\n**491**\nradar_adversary\n**492**\nradar_biker_clubhouse\n**493**\nradar_biker_caged_in\n**494**\nradar_biker_turf_war\n**495**\nradar_biker_joust\n**496**\nradar_production_weed\n**497**\nradar_production_crack\n**498**\nradar_production_fake_id\n**499**\nradar_production_meth\n**500**\nradar_production_money\n**501**\nradar_package\n**502**\nradar_capture_1\n**503**\nradar_capture_2\n**504**\nradar_capture_3\n**505**\nradar_capture_4\n**506**\nradar_capture_5\n**507**\nradar_capture_6\n**508**\nradar_capture_7\n**509**\nradar_capture_8\n**510**\nradar_capture_9\n**511**\nradar_capture_10\n**512**\nradar_quad\n**513**\nradar_bus\n**514**\nradar_drugs_package\n**515**\nradar_pickup_jump\n**516**\nradar_adversary_4\n**517**\nradar_adversary_8\n**518**\nradar_adversary_10\n**519**\nradar_adversary_12\n**520**\nradar_adversary_16\n**521**\nradar_laptop\n**522**\nradar_pickup_deadline\n**523**\nradar_sports_car\n**524**\nradar_warehouse_vehicle\n**525**\nradar_reg_papers\n**526**\nradar_police_station_dropoff\n**527**\nradar_junkyard\n**528**\nradar_ex_vech_1\n**529**\nradar_ex_vech_2\n**530**\nradar_ex_vech_3\n**531**\nradar_ex_vech_4\n**532**\nradar_ex_vech_5\n**533**\nradar_ex_vech_6\n**534**\nradar_ex_vech_7\n**535**\nradar_target_a\n**536**\nradar_target_b\n**537**\nradar_target_c\n**538**\nradar_target_d\n**539**\nradar_target_e\n**540**\nradar_target_f\n**541**\nradar_target_g\n**542**\nradar_target_h\n**543**\nradar_jugg\n**544**\nradar_pickup_repair\n**545**\nradar_steeringwheel\n**546**\nradar_trophy\n**547**\nradar_pickup_rocket_boost\n**548**\nradar_pickup_homing_rocket\n**549**\nradar_pickup_machinegun\n**550**\nradar_pickup_parachute\n**551**\nradar_pickup_time_5\n**552**\nradar_pickup_time_10\n**553**\nradar_pickup_time_15\n**554**\nradar_pickup_time_20\n**555**\nradar_pickup_time_30\n**556**\nradar_supplies\n**557**\nradar_property_bunker\n**558**\nradar_gr_wvm_1\n**559**\nradar_gr_wvm_2\n**560**\nradar_gr_wvm_3\n**561**\nradar_gr_wvm_4\n**562**\nradar_gr_wvm_5\n**563**\nradar_gr_wvm_6\n**564**\nradar_gr_covert_ops\n**565**\nradar_adversary_bunker\n**566**\nradar_gr_moc_upgrade\n**567**\nradar_gr_w_upgrade\n**568**\nradar_sm_cargo\n**569**\nradar_sm_hangar\n**570**\nradar_tf_checkpoint\n**571**\nradar_race_tf\n**572**\nradar_sm_wp1\n**573**\nradar_sm_wp2\n**574**\nradar_sm_wp3\n**575**\nradar_sm_wp4\n**576**\nradar_sm_wp5\n**577**\nradar_sm_wp6\n**578**\nradar_sm_wp7\n**579**\nradar_sm_wp8\n**580**\nradar_sm_wp9\n**581**\nradar_sm_wp10\n**582**\nradar_sm_wp11\n**583**\nradar_sm_wp12\n**584**\nradar_sm_wp13\n**585**\nradar_sm_wp14\n**586**\nradar_nhp_bag\n**587**\nradar_nhp_chest\n**588**\nradar_nhp_orbit\n**589**\nradar_nhp_veh1\n**590**\nradar_nhp_base\n**591**\nradar_nhp_overlay\n**592**\nradar_nhp_turret\n**593**\nradar_nhp_mg_firewall\n**594**\nradar_nhp_mg_node\n**595**\nradar_nhp_wp1\n**596**\nradar_nhp_wp2\n**597**\nradar_nhp_wp3\n**598**\nradar_nhp_wp4\n**599**\nradar_nhp_wp5\n**600**\nradar_nhp_wp6\n**601**\nradar_nhp_wp7\n**602**\nradar_nhp_wp8\n**603**\nradar_nhp_wp9\n**604**\nradar_nhp_cctv\n**605**\nradar_nhp_starterpack\n**606**\nradar_nhp_turret_console\n**607**\nradar_nhp_mg_mir_rotate\n**608**\nradar_nhp_mg_mir_static\n**609**\nradar_nhp_mg_proxy\n**610**\nradar_acsr_race_target\n**611**\nradar_acsr_race_hotring\n**612**\nradar_acsr_wp1\n**613**\nradar_acsr_wp2\n**614**\nradar_bat_club_property\n**615**\nradar_bat_cargo\n**616**\nradar_bat_truck\n**617**\nradar_bat_hack_jewel\n**618**\nradar_bat_hack_gold\n**619**\nradar_bat_keypad\n**620**\nradar_bat_hack_target\n**621**\nradar_pickup_dtb_health\n**622**\nradar_pickup_dtb_blast_increase\n**623**\nradar_pickup_dtb_blast_decrease\n**624**\nradar_pickup_dtb_bomb_increase\n**625**\nradar_pickup_dtb_bomb_decrease\n**626**\nradar_bat_rival_club\n**627**\nradar_bat_drone\n**628**\nradar_bat_cash_reg\n**629**\nradar_cctv\n**630**\nradar_bat_assassinate\n**631**\nradar_bat_pbus\n**632**\nradar_bat_wp1\n**633**\nradar_bat_wp2\n**634**\nradar_bat_wp3\n**635**\nradar_bat_wp4\n**636**\nradar_bat_wp5\n**637**\nradar_bat_wp6\n**638**\nradar_blimp_2\n**639**\nradar_oppressor_2\n**640**\nradar_bat_wp7\n**641**\nradar_arena_series\n**642**\nradar_arena_premium\n**643**\nradar_arena_workshop\n**644**\nradar_race_wars\n**645**\nradar_arena_turret\n**646**\nradar_arena_rc_car\n**647**\nradar_arena_rc_workshop\n**648**\nradar_arena_trap_fire\n**649**\nradar_arena_trap_flip\n**650**\nradar_arena_trap_sea\n**651**\nradar_arena_trap_turn\n**652**\nradar_arena_trap_pit\n**653**\nradar_arena_trap_mine\n**654**\nradar_arena_trap_bomb\n**655**\nradar_arena_trap_wall\n**656**\nradar_arena_trap_brd\n**657**\nradar_arena_trap_sbrd\n**658**\nradar_arena_bruiser\n**659**\nradar_arena_brutus\n**660**\nradar_arena_cerberus\n**661**\nradar_arena_deathbike\n**662**\nradar_arena_dominator\n**663**\nradar_arena_impaler\n**664**\nradar_arena_imperator\n**665**\nradar_arena_issi\n**666**\nradar_arena_sasquatch\n**667**\nradar_arena_scarab\n**668**\nradar_arena_slamvan\n**669**\nradar_arena_zr380\n**670**\nradar_ap\n**671**\nradar_comic_store\n**672**\nradar_cop_car\n**673**\nradar_rc_time_trials\n**674**\nradar_king_of_the_hill\n**675**\nradar_king_of_the_hill_teams\n**676**\nradar_rucksack\n**677**\nradar_shipping_container\n**678**\nradar_agatha\n**679**\nradar_casino\n**680**\nradar_casino_table_games\n**681**\nradar_casino_wheel\n**682**\nradar_casino_concierge\n**683**\nradar_casino_chips\n**684**\nradar_casino_horse_racing\n**685**\nradar_adversary_featured\n**686**\nradar_roulette_1\n**687**\nradar_roulette_2\n**688**\nradar_roulette_3\n**689**\nradar_roulette_4\n**690**\nradar_roulette_5\n**691**\nradar_roulette_6\n**692**\nradar_roulette_7\n**693**\nradar_roulette_8\n**694**\nradar_roulette_9\n**695**\nradar_roulette_10\n**696**\nradar_roulette_11\n**697**\nradar_roulette_12\n**698**\nradar_roulette_13\n**699**\nradar_roulette_14\n**700**\nradar_roulette_15\n**701**\nradar_roulette_16\n**702**\nradar_roulette_17\n**703**\nradar_roulette_18\n**704**\nradar_roulette_19\n**705**\nradar_roulette_20\n**706**\nradar_roulette_21\n**707**\nradar_roulette_22\n**708**\nradar_roulette_23\n**709**\nradar_roulette_24\n**710**\nradar_roulette_25\n**711**\nradar_roulette_26\n**712**\nradar_roulette_27\n**713**\nradar_roulette_28\n**714**\nradar_roulette_29\n**715**\nradar_roulette_30\n**716**\nradar_roulette_31\n**717**\nradar_roulette_32\n**718**\nradar_roulette_33\n**719**\nradar_roulette_34\n**720**\nradar_roulette_35\n**721**\nradar_roulette_36\n**722**\nradar_roulette_0\n**723**\nradar_roulette_00\n**724**\nradar_limo\n**725**\nradar_weapon_alien\n**726**\nradar_race_open_wheel\n**727**\nradar_rappel\n**728**\nradar_swap_car\n**729**\nradar_scuba_gear\n**730**\nradar_cpanel_1\n**731**\nradar_cpanel_2\n**732**\nradar_cpanel_3\n**733**\nradar_cpanel_4\n**734**\nradar_snow_truck\n**735**\nradar_buggy_1\n**736**\nradar_buggy_2\n**737**\nradar_zhaba\n**738**\nradar_gerald\n**739**\nradar_ron\n**740**\nradar_arcade\n**741**\nradar_drone_controls\n**742**\nradar_rc_tank\n**743**\nradar_stairs\n**744**\nradar_camera_2\n**745**\nradar_winky\n**746**\nradar_mini_sub\n**747**\nradar_kart_retro\n**748**\nradar_kart_modern\n**749**\nradar_military_quad\n**750**\nradar_military_truck\n**751**\nradar_ship_wheel\n**752**\nradar_ufo\n**753**\nradar_seasparrow2\n**754**\nradar_dinghy2\n**755**\nradar_patrol_boat\n**756**\nradar_retro_sports_car\n**757**\nradar_squadee\n**758**\nradar_folding_wing_jet\n**759**\nradar_valkyrie2\n**760**\nradar_sub2\n**761**\nradar_bolt_cutters\n**762**\nradar_rappel_gear\n**763**\nradar_keycard\n**764**\nradar_password\n**765**\nradar_island_heist_prep\n**766**\nradar_island_party\n**767**\nradar_control_tower\n**768**\nradar_underwater_gate\n**769**\nradar_power_switch\n**770**\nradar_compound_gate\n**771**\nradar_rappel_point\n**772**\nradar_keypad\n**773**\nradar_sub_controls\n**774**\nradar_sub_periscope\n**775**\nradar_sub_missile\n**776**\nradar_painting\n**777**\nradar_car_meet\n**778**\nradar_car_test_area\n**779**\nradar_auto_shop_property\n**780**\nradar_docks_export\n**781**\nradar_prize_car\n**782**\nradar_test_car\n**783**\nradar_car_robbery_board\n**784**\nradar_car_robbery_prep\n**785**\nradar_street_race_series\n**786**\nradar_pursuit_series\n**787**\nradar_car_meet_organiser\n**788**\nradar_securoserv\n**789**\nradar_bounty_collectibles\n**790**\nradar_movie_collectibles\n**791**\nradar_trailer_ramp\n**792**\nradar_race_organiser\n**793**\nradar_chalkboard_list\n**794**\nradar_export_vehicle\n**795**\nradar_train\n**796**\nradar_heist_diamond\n**797**\nradar_heist_doomsday\n**798**\nradar_heist_island\n**799**\nradar_slamvan2\n**800**\nradar_crusader\n**801**\nradar_construction_outfit\n**802**\nradar_overlay_jammed\n**803**\nradar_heist_island_unavailable\n**804**\nradar_heist_diamond_unavailable\n**805**\nradar_heist_doomsday_unavailable\n**806**\nradar_placeholder_7\n**807**\nradar_placeholder_8\n**808**\nradar_placeholder_9\n**809**\nradar_featured_series\n**810**\nradar_vehicle_for_sale\n**811**\nradar_van_keys\n**812**\nradar_suv_service\n**813**\nradar_security_contract\n**814**\nradar_safe\n**815**\nradar_ped_r\n**816**\nradar_ped_e\n**817**\nradar_payphone\n**818**\nradar_patriot3\n**819**\nradar_music_studio\n**820**\nradar_jubilee\n**821**\nradar_granger2\n**822**\nradar_explosive_charge\n**823**\nradar_deity\n**824**\nradar_d_champion\n**825**\nradar_buffalo4\n**826**\nradar_agency\n**827**\nradar_biker_bar\n**828**\nradar_simeon_overlay\n**829**\nradar_junk_skydive\n**830**\nradar_luxury_car_showroom\n**831**\nradar_car_showroom\n**832**\nradar_car_showroom_simeon\n**833**\nradar_flaming_skull\n**834**\nradar_weapon_ammo\n**835**\nradar_community_series\n**836**\nradar_cayo_series\n**837**\nradar_clubhouse_contract\n**838**\nradar_agent_ulp\n**839**\nradar_acid\n**840**\nradar_acid_lab\n**841**\nradar_dax_overlay\n**842**\nradar_dead_drop_package\n**843**\nradar_downtown_cab\n**844**\nradar_gun_van\n**845**\nradar_stash_house\n**846**\nradar_tractor\n**847**\nradar_warehouse_juggalo\n**848**\nradar_warehouse_juggalo_dax\n**849**\nradar_weapon_crowbar\n**850**\nradar_duffel_bag\n**851**\nradar_oil_tanker\n**852**\nradar_acid_lab_tent\n**853**\nradar_van_burrito\n**854**\nradar_acid_boost\n**855**\nradar_ped_gang_leader\n**856**\nradar_multistorey_garage\n**857**\nradar_seized_asset_sales\n**858**\nradar_cayo_attrition\n**859**\nradar_bicycle\n**860**\nradar_bicycle_trial\n**861**\nradar_raiju\n**862**\nradar_conada2\n**863**\nradar_overlay_ready_for_sell\n**864**\nradar_overlay_missing_supplies\n**865**\nradar_streamer216\n**866**\nradar_signal_jammer\n**867**\nradar_salvage_yard\n**868**\nradar_robbery_prep_equipment\n**869**\nradar_robbery_prep_overlay\n**870**\nradar_yusuf\n**871**\nradar_vincent\n**872**\nradar_vinewood_garage\n**873**\nradar_lstb\n**874**\nradar_cctv_workstation\n**875**\nradar_hacking_device\n**876**\nradar_race_drag\n**877**\nradar_race_drift\n**878**\nradar_casino_prep\n**879**\nradar_planning_wall\n**880**\nradar_weapon_crate\n**881**\nradar_weapon_snowball\n**882**\nradar_train_signals_green\n**883**\nradar_train_signals_red\n**884**\nradar_office_transporter\n**885**\nradar_yankton_survival\n**886**\nradar_daily_bounty\n**887**\nradar_bounty_target\n**888**\nradar_filming_schedule\n**889**\nradar_pizza_this\n**890**\nradar_aircraft_carrier\n**891**\nradar_weapon_emp\n**892**\nradar_maude_eccles\n**893**\nradar_bail_bonds_office\n**894**\nradar_weapon_emp_mine\n**895**\nradar_zombie_disease\n**896**\nradar_zombie_proximity\n**897**\nradar_zombie_fire\n**898**\nradar_animal_possessed\n**899**\nradar_mobile_phone\n**900**\nradar_garment_factory\n**901**\nradar_garment_factory_for_sale\n**902**\nradar_garment_factory_equipment\n**903**\nradar_field_hangar\n**904**\nradar_field_hangar_for_sale\n**905**\nradar_cargobob_ch53\n**906**\nradar_chopper_lift_ammo\n**907**\nradar_chopper_lift_armor\n**908**\nradar_chopper_lift_explosives\n**909**\nradar_chopper_lift_upgrade\n**910**\nradar_chopper_lift_weapon\n**911**\nradar_cargo_ship\n**912**\nradar_submarine_missile\n**913**\nradar_propeller_engine\n**914**\nradar_shark\n**915**\nradar_fast_travel\n**916**\nradar_plane_duster2\n**917**\nradar_plane_titan2\n**918**\nradar_collectible\n**919**\nradar_field_hangar_discount\n**920**\nradar_garment_factory_discount\n**921**\nradar_weapon_gusenberg_sweeper\n**922**\nradar_weapon_tear_gas\n**923**\nradar_dog\n**924**\nradar_bobcat_security\n**925**\nradar_smoke_shop\n**926**\nradar_smoke_shop_for_sale\n**927**\nradar_smoke_shop_attention\n**928**\nradar_helitours\n**929**\nradar_helitours_for_sale\n**930**\nradar_helitours_attention\n**931**\nradar_car_wash_business\n**932**\nradar_car_wash_business_for_sale\n**933**\nradar_car_wash_business_attention\n**934**\nradar_attention\n**935**\nradar_alarm\n**936**\nradar_helitours_discount\n**937**\nradar_smoke_shop_discount\n**938**\nradar_car_wash_business_discount\n**939**\nradar_real_estate\n**940**\nradar_medical_courier\n**941**\nradar_gruppe_sechs\n**942**\nradar_fire_station\n**943**\nradar_fire_truck\n**944**\nradar_alpha_mail\n**945**\nradar_ls_meteor\n**946**\nradar_four20_survival\n**947**\nradar_community_mission_series\n**948**\nradar_property_mansion\n**949**\nradar_ai_keypad\n**950**\nradar_taxi_self_drive\n**951**\nradar_train_subway\n**952**\nradar_trashbag\n**953**\nradar_mission_creator\n**954**\nradar_cat\n**955**\nradar_mansion_ai_m\n**956**\nradar_mansion_ai_f\n**957**\nradar_mansion_ai_gang\n\n---\n\nBlip colors\n-----\n\n[SET_BLIP_AS_FRIENDLY](https://docs.fivem.net/natives/?_0x6F6F290102C02AB4) is the native used to toggle friendly and enemy flags.\nUsed in decompiled scripts with friendly and enemy peds.\n\n**0**\nWhite\n**1**\nRed\n**2**\nGreen\n**2 (enemy)**\nRed\n**2 (friendly)**\nBlue\n**3**\nBlue\n**3 (enemy)**\nRed\n**4**\nWhite\n**4 (enemy)**\nRed\n**4 (friendly)**\nBlue\n**5**\nYellow\n**5 (enemy)**\nRed\n**5 (friendly)**\nBlue\n**6**\nLight Red\n**7**\nViolet\n**8**\nPink\n**9**\nLight Orange\n**10**\nLight Brown\n**11**\nLight Green\n**12**\nLight Blue\n**13**\nLight Purple\n**14**\nDark Purple\n**15**\nCyan\n**16**\nLight Yellow\n**17**\nOrange\n**18**\nLight Blue\n**19**\nDark Pink\n**20**\nDark Yellow\n**21**\nDark Orange\n**22**\nLight Gray\n**23**\nLight Pink\n**24**\nLemon Green\n**25**\nForest Green\n**26**\nElectric Blue\n**27**\nBright Purple\n**28**\nDark Yellow\n**29**\nDark Blue\n**30**\nDark Cyan\n**31**\nLight Brown\n**32**\nLight Blue\n**33**\nLight Yellow\n**34**\nLight Pink\n**35**\nLight Red\n**36**\nBeige\n**37**\nWhite\n**38**\nBlue\n**39**\nLight Gray\n**40**\nDark Gray\n**41**\nPink Red\n**42**\nBlue\n**43**\nLight Green\n**44**\nLight Orange\n**45**\nWhite\n**46**\nGold\n**47**\nOrange\n**48**\nBrilliant Rose\n**49**\nRed\n**49 (friendly)**\nBlue\n**50**\nMedium Purple\n**51**\nSalmon\n**52**\nDark Green\n**53**\nBlizzard Blue\n**54**\nOracle Blue\n**55**\nSilver\n**56**\nBrown\n**57**\nBlue\n**58**\nEast Bay\n**59**\nRed\n**60**\nYellow Orange\n**61**\nMulberry Pink\n**62**\nAlto Gray\n**63**\nJelly Bean Blue\n**64**\nDark Orange\n**65**\nMamba\n**66**\nYellow Orange\n**66 (enemy)**\nRed\n**66 (friendly)**\nBlue\n**67**\nBlue\n**67 (enemy)**\nRed\n**68**\nBlue\n**68 (enemy)**\nRed\n**69**\nGreen\n**69 (enemy)**\nRed\n**69 (friendly)**\nBlue\n**70**\nYellow Orange\n**71**\nYellow Orange\n**72**\nTransparent Black\n**73**\nYellow Orange\n**74**\nBlue\n**75**\nRed\n**76**\nDeep red\n**77**\nBlue\n**78**\nOracle Blue\n**79**\nTransparent Red\n**80**\nTransparent Blue\n**81**\nOrange\n**82**\nLight Green\n**83**\nPurple\n**84**\nBlue\n**85**\nTransparent Black",
+  "raw_html_length": 176959
+}

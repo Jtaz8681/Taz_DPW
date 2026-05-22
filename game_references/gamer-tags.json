@@ -1,0 +1,266 @@
+{
+  "url_path": "/docs/game-references/gamer-tags/",
+  "full_url": "https://docs.fivem.net/docs/game-references/gamer-tags/",
+  "title": "gamer-tags",
+  "slug": "gamer-tags",
+  "parent_category": null,
+  "toc": [],
+  "tables": [
+    {
+      "headers": [
+        "ID",
+        "Name"
+      ],
+      "rows": [
+        [
+          "0",
+          "GAMER\\_NAME"
+        ],
+        [
+          "1",
+          "CREW\\_TAG"
+        ],
+        [
+          "2",
+          "healthArmour"
+        ],
+        [
+          "3",
+          "BIG\\_TEXT"
+        ],
+        [
+          "4",
+          "AUDIO\\_ICON"
+        ],
+        [
+          "5",
+          "MP\\_USING\\_MENU"
+        ],
+        [
+          "6",
+          "MP\\_PASSIVE\\_MODE"
+        ],
+        [
+          "7",
+          "WANTED\\_STARS"
+        ],
+        [
+          "8",
+          "MP\\_DRIVER"
+        ],
+        [
+          "9",
+          "MP\\_CO\\_DRIVER"
+        ],
+        [
+          "10",
+          "MP\\_TAGGED"
+        ],
+        [
+          "11",
+          "GAMER\\_NAME\\_NEARBY"
+        ],
+        [
+          "12",
+          "ARROW"
+        ],
+        [
+          "13",
+          "MP\\_PACKAGES"
+        ],
+        [
+          "14",
+          "INV\\_IF\\_PED\\_FOLLOWING"
+        ],
+        [
+          "15",
+          "RANK\\_TEXT"
+        ],
+        [
+          "16",
+          "MP\\_TYPING"
+        ],
+        [
+          "17",
+          "MP\\_BAG\\_LARGE"
+        ],
+        [
+          "18",
+          "MP\\_TAG\\_ARROW"
+        ],
+        [
+          "19",
+          "MP\\_GANG\\_CEO"
+        ],
+        [
+          "20",
+          "MP\\_GANG\\_BIKER"
+        ],
+        [
+          "21",
+          "BIKER\\_ARROW"
+        ],
+        [
+          "22",
+          "MC\\_ROLE\\_PRESIDENT"
+        ],
+        [
+          "23",
+          "MC\\_ROLE\\_VICE\\_PRESIDENT"
+        ],
+        [
+          "24",
+          "MC\\_ROLE\\_ROAD\\_CAPTAIN"
+        ],
+        [
+          "25",
+          "MC\\_ROLE\\_SARGEANT"
+        ],
+        [
+          "26",
+          "MC\\_ROLE\\_ENFORCER"
+        ],
+        [
+          "27",
+          "MC\\_ROLE\\_PROSPECT"
+        ],
+        [
+          "28",
+          "MP\\_TRANSMITTER"
+        ],
+        [
+          "29",
+          "MP\\_BOMB"
+        ]
+      ],
+      "data": [
+        {
+          "ID": "0",
+          "Name": "GAMER\\_NAME"
+        },
+        {
+          "ID": "1",
+          "Name": "CREW\\_TAG"
+        },
+        {
+          "ID": "2",
+          "Name": "healthArmour"
+        },
+        {
+          "ID": "3",
+          "Name": "BIG\\_TEXT"
+        },
+        {
+          "ID": "4",
+          "Name": "AUDIO\\_ICON"
+        },
+        {
+          "ID": "5",
+          "Name": "MP\\_USING\\_MENU"
+        },
+        {
+          "ID": "6",
+          "Name": "MP\\_PASSIVE\\_MODE"
+        },
+        {
+          "ID": "7",
+          "Name": "WANTED\\_STARS"
+        },
+        {
+          "ID": "8",
+          "Name": "MP\\_DRIVER"
+        },
+        {
+          "ID": "9",
+          "Name": "MP\\_CO\\_DRIVER"
+        },
+        {
+          "ID": "10",
+          "Name": "MP\\_TAGGED"
+        },
+        {
+          "ID": "11",
+          "Name": "GAMER\\_NAME\\_NEARBY"
+        },
+        {
+          "ID": "12",
+          "Name": "ARROW"
+        },
+        {
+          "ID": "13",
+          "Name": "MP\\_PACKAGES"
+        },
+        {
+          "ID": "14",
+          "Name": "INV\\_IF\\_PED\\_FOLLOWING"
+        },
+        {
+          "ID": "15",
+          "Name": "RANK\\_TEXT"
+        },
+        {
+          "ID": "16",
+          "Name": "MP\\_TYPING"
+        },
+        {
+          "ID": "17",
+          "Name": "MP\\_BAG\\_LARGE"
+        },
+        {
+          "ID": "18",
+          "Name": "MP\\_TAG\\_ARROW"
+        },
+        {
+          "ID": "19",
+          "Name": "MP\\_GANG\\_CEO"
+        },
+        {
+          "ID": "20",
+          "Name": "MP\\_GANG\\_BIKER"
+        },
+        {
+          "ID": "21",
+          "Name": "BIKER\\_ARROW"
+        },
+        {
+          "ID": "22",
+          "Name": "MC\\_ROLE\\_PRESIDENT"
+        },
+        {
+          "ID": "23",
+          "Name": "MC\\_ROLE\\_VICE\\_PRESIDENT"
+        },
+        {
+          "ID": "24",
+          "Name": "MC\\_ROLE\\_ROAD\\_CAPTAIN"
+        },
+        {
+          "ID": "25",
+          "Name": "MC\\_ROLE\\_SARGEANT"
+        },
+        {
+          "ID": "26",
+          "Name": "MC\\_ROLE\\_ENFORCER"
+        },
+        {
+          "ID": "27",
+          "Name": "MC\\_ROLE\\_PROSPECT"
+        },
+        {
+          "ID": "28",
+          "Name": "MP\\_TRANSMITTER"
+        },
+        {
+          "ID": "29",
+          "Name": "MP\\_BOMB"
+        }
+      ]
+    }
+  ],
+  "table_count": 1,
+  "total_table_rows": 30,
+  "css_items": [],
+  "css_item_count": 0,
+  "markdown": "![All flags enabled](/HeadDisplayExample2.png \"All flags enabled\")\n\n**Gamer tag** (also known as **head display**) - is an UI element above player character, which can display text and various icons. The control is carried out by enabling components. Usually used to display player's name.\n\nFor each component you can: show/hide, change opacity, change color.\n\nComponents list\n---------------\n\n| ID  | Name                      |\n|-----|---------------------------|\n| 0   | GAMER\\_NAME               |\n| 1   | CREW\\_TAG                 |\n| 2   | healthArmour              |\n| 3   | BIG\\_TEXT                 |\n| 4   | AUDIO\\_ICON               |\n| 5   | MP\\_USING\\_MENU           |\n| 6   | MP\\_PASSIVE\\_MODE         |\n| 7   | WANTED\\_STARS             |\n| 8   | MP\\_DRIVER                |\n| 9   | MP\\_CO\\_DRIVER            |\n| 10  | MP\\_TAGGED                |\n| 11  | GAMER\\_NAME\\_NEARBY       |\n| 12  | ARROW                     |\n| 13  | MP\\_PACKAGES              |\n| 14  | INV\\_IF\\_PED\\_FOLLOWING   |\n| 15  | RANK\\_TEXT                |\n| 16  | MP\\_TYPING                |\n| 17  | MP\\_BAG\\_LARGE            |\n| 18  | MP\\_TAG\\_ARROW            |\n| 19  | MP\\_GANG\\_CEO             |\n| 20  | MP\\_GANG\\_BIKER           |\n| 21  | BIKER\\_ARROW              |\n| 22  | MC\\_ROLE\\_PRESIDENT       |\n| 23  | MC\\_ROLE\\_VICE\\_PRESIDENT |\n| 24  | MC\\_ROLE\\_ROAD\\_CAPTAIN   |\n| 25  | MC\\_ROLE\\_SARGEANT        |\n| 26  | MC\\_ROLE\\_ENFORCER        |\n| 27  | MC\\_ROLE\\_PROSPECT        |\n| 28  | MP\\_TRANSMITTER           |\n| 29  | MP\\_BOMB                  |\n\nSimple usage\n------------\n### Lua\nFor a more complete example, see the stock `playernames` resource included in the server package, or the documentation for the resource.\n\n``` lua\nlocal mpGamerTags = {}\n\nfor i = 0, 255 do\n  if NetworkIsPlayerActive(i) and i ~= PlayerId() then\n    local ped = GetPlayerPed(i)\n\n    -- change the ped, because changing player models may recreate the ped\n    if not mpGamerTags[i] or mpGamerTags[i].ped ~= ped then\n      local nameTag = ('%s [%d]'):format(GetPlayerName(i), GetPlayerServerId(i))\n\n      if mpGamerTags[i] then\n        RemoveMpGamerTag(mpGamerTags[i].tag)\n      end\n\n      mpGamerTags[i] = {\n        tag = CreateMpGamerTagWithCrewColor(i, nameTag, false, false, '', 0, 0, 0, 0),\n        ped = ped\n      }\n    end\n\n    SetMpGamerTagVisibility(mpGamerTags[i].tag, 4, NetworkIsPlayerTalking(i))\n  elseif mpGamerTags[i] then\n    RemoveMpGamerTag(mpGamerTags[i].tag)\n\n    mpGamerTags[i] = nil\n  end\nend\n```\n\nExample\n-------\n\n### Lua\n\n``` lua\n-- Create gamer info\nlocal gamerTagId = CreateMpGamerTagWithCrewColor(\n  ped, -- Ped to which gamer info will be assigned\n  \"User name\", -- String to display for flag \"\"\n  false, -- Is private crew\n  false, -- Is R* crew\n  \"\", -- Crew name\n  0, -- Crew rank\n  0, -- red\n  0, -- green\n  0 -- blue\n)\n```\n\n### C\\#\n\n``` csharp\n// Create gamer info\n// assuming using static CitizenFX.Core.API;\nint gamerTagId = CreateMpGamerTagWithCrewColor(\n  ped.Handle, // Ped to which gamer info will be assigned\n  \"User name\", // String to display for flag \"\"\n  false, // Is private crew\n  false, // Is R* crew\n  \"\", // Crew name\n  0, // Crew rank\n  0, // red\n  0, // green\n  0  // blue\n);\n```\n\nToggling flags\n--------------\n\n### Lua\n\n``` lua\n-- Toggle components\nSetMpGamerTagVisibility(\n  gamerTagId,\n  component,\n  bool -- Toggle\n)\n```\n\n### C\\#\n\n``` csharp\n// Toggle flags\nSetMpGamerTagVisibility(\n  gamerTagId,\n  component,\n  toggle\n);\n```\n\nChanging flags color\n--------------------\n\n### Lua\n\n``` lua\n-- Change component color\nSetMpGamerTagColour(\n  gamerTagId,\n  component,\n  colour -- 0 - 255\n)\n```\n\n### C\\#\n\n``` csharp\n// Change component color\nFunction.Call(\n  (Hash)0x613ED644950626AE,\n  (int)gamerTagId,\n  (int)component,\n  (int)colour // 0 - 255\n);\n```\n\nChanging flags opacity\n----------------------\n\n### Lua\n\n``` lua\n-- Change component opacity\nSetMpGamerTagAlpha(\n  gamerTagId,\n  component,\n  opacity -- 0 - 255\n)\n```\n\n### C\\#\n\n``` csharp\n// Changes flag opacity\nFunction.Call(\n  (Hash)0xD48FE545CD46F857,\n  (int)gamerTagId,\n  (int)component,\n  (int)opacity // 0 - 255\n);\n```\n\nSpecial flags controls\n----------------------\n\n### Wanted level\n\nFor the **WantedStar** flag you can set number that will be shown inside of star icon:\n\n### Lua\n\n``` lua\n-- Set the number that will be set inside the wanted star icon\nSetMpGamerTagWantedLevel(\n  gamerTagId,\n  wantedLevel -- 0 - 5\n)\n```\n\n### C\\#\n\n``` csharp\n// Set the number that will be set inside the wanted star icon\nFunction.Call(\n  Hash._SET_HEAD_DISPLAY_WANTED,\n  (int)gamerTagId,\n  (int)wantedLevel // 0 - 5\n);\n```\n\n### Health bar color\n\nHealth bar has 0 opacity by default. Color of health bar changes using its own native:\n\n### Lua\n\n``` lua\n-- Change health bar color\nSetMpGamerTagHealthBarColour(\n  gamerTagId,\n  colour -- 0 - 255\n)\n```\n\n### C\\#\n\n``` csharp\n// Change health bar color\nFunction.Call(\n  (Hash)0x3158C77A7E888AB4,\n  (int)gamerTagId,\n  (int)colour // 0 - 255\n);\n```",
+  "raw_html_length": 4965
+}

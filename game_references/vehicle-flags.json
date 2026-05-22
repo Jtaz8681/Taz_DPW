@@ -1,0 +1,2476 @@
+{
+  "url_path": "/docs/game-references/vehicle-references/vehicle-flags/",
+  "full_url": "https://docs.fivem.net/docs/game-references/vehicle-references/vehicle-flags/",
+  "title": "vehicle-flags",
+  "slug": "vehicle-flags",
+  "parent_category": "vehicle-references",
+  "toc": [],
+  "tables": [
+    {
+      "headers": [
+        "Flag Number",
+        "Flag Name",
+        "Description",
+        "Build Introduced"
+      ],
+      "rows": [
+        [
+          "0",
+          "FLAG_SMALL_WORKER",
+          "Vehicle can only spawn on path nodes flagged to allow small worker vehicles.",
+          ""
+        ],
+        [
+          "1",
+          "FLAG_BIG",
+          "Peds driving the vehicle will take wider turns, increase space between traffic, and avoid ramming during chases.",
+          ""
+        ],
+        [
+          "2",
+          "FLAG_NO_BOOT",
+          "Does nothing. Derivative from the IV flag noboot.",
+          ""
+        ],
+        [
+          "3",
+          "FLAG_ONLY_DURING_OFFICE_HOURS",
+          "Prevents spawning outside office hours, doesn't work correctly due to misconfigured time settings.",
+          ""
+        ],
+        [
+          "4",
+          "FLAG_BOOT_IN_FRONT",
+          "Does nothing. Use FLAG_FRONT_BOOT instead.",
+          ""
+        ],
+        [
+          "5",
+          "FLAG_IS_VAN",
+          "The vehicle never spawns in traffic with more than one passenger.",
+          ""
+        ],
+        [
+          "6",
+          "FLAG_AVOID_TURNS",
+          "AI avoids turns at intersections unless no other path is available. Spawns on multi-lane roads.",
+          ""
+        ],
+        [
+          "7",
+          "FLAG_HAS_LIVERY",
+          "Cycles liveries from vehicle's texture dictionary, up to 30 liveries.",
+          ""
+        ],
+        [
+          "8",
+          "FLAG_LIVERY_MATCH_EXTRA",
+          "Vehicle spawns with livery matching toggled on extra; defaults to last livery if more extras than liveries.",
+          ""
+        ],
+        [
+          "9",
+          "FLAG_SPORTS",
+          "Idle camera focuses on the vehicle if swankness > 4. Faster drivers, prioritized colors, alarms on parked vehicles.",
+          ""
+        ],
+        [
+          "10",
+          "FLAG_DELIVERY",
+          "Parked vehicles spawn with wheels at a much higher angle.",
+          ""
+        ],
+        [
+          "11",
+          "FLAG_NOAMBIENTOCCLUSION",
+          "Disables ground ambient occlusion.",
+          ""
+        ],
+        [
+          "12",
+          "FLAG_ONLY_ON_HIGHWAYS",
+          "Vehicle only spawns on highways. Derivative of an unused flag.",
+          ""
+        ],
+        [
+          "13",
+          "FLAG_TALL_SHIP",
+          "Prevents spawning under low bridges.",
+          ""
+        ],
+        [
+          "14",
+          "FLAG_SPAWN_ON_TRAILER",
+          "Vehicles have a 50% chance of spawning on trailers; disabled in multiplayer.",
+          ""
+        ],
+        [
+          "15",
+          "FLAG_SPAWN_BOAT_ON_TRAILER",
+          "Similar to FLAG_SPAWN_ON_TRAILER but for boats; positioning relative to boattrailer.",
+          ""
+        ],
+        [
+          "16",
+          "FLAG_EXTRAS_GANG",
+          "Vehicle spawns with extras 5-9 if driven by a gang member.",
+          ""
+        ],
+        [
+          "17",
+          "FLAG_EXTRAS_CONVERTIBLE",
+          "Cycles between extras 1-4, toggling roof status. Extras are unbreakable.",
+          ""
+        ],
+        [
+          "18",
+          "FLAG_EXTRAS_TAXI",
+          "Enables taxi logic, including cycling extras and setting lights.",
+          ""
+        ],
+        [
+          "19",
+          "FLAG_EXTRAS_RARE",
+          "Extras have a 25% chance of spawning.",
+          ""
+        ],
+        [
+          "20",
+          "FLAG_EXTRAS_REQUIRE",
+          "The vehicle always spawns with at least one extra.",
+          ""
+        ],
+        [
+          "21",
+          "FLAG_EXTRAS_STRONG",
+          "Prevents extras from breaking off during collisions.",
+          ""
+        ],
+        [
+          "22",
+          "FLAG_EXTRAS_ONLY_BREAK_WHEN_DESTROYED",
+          "Extras only break when the vehicle is completely destroyed.",
+          ""
+        ],
+        [
+          "23",
+          "FLAG_EXTRAS_SCRIPT",
+          "Specific extras only spawn when toggled by script.",
+          ""
+        ],
+        [
+          "24",
+          "FLAG_EXTRAS_ALL",
+          "Vehicle spawns with all extras toggled on.",
+          ""
+        ],
+        [
+          "25",
+          "FLAG_EXTRAS_MATCH_LIVERY",
+          "Vehicle spawns with extra matching livery ID.",
+          ""
+        ],
+        [
+          "26",
+          "FLAG_DONT_ROTATE_TAIL_ROTOR",
+          "Prevents helicopter tail rotor from rotating.",
+          ""
+        ],
+        [
+          "27",
+          "FLAG_PARKING_SENSORS",
+          "Vehicle has a parking sensor gadget.",
+          ""
+        ],
+        [
+          "28",
+          "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "Allows peds to stand on the vehicle without ragdolling.",
+          ""
+        ],
+        [
+          "29",
+          "FLAG_TAILGATE_TYPE_BOOT",
+          "Does nothing.",
+          ""
+        ],
+        [
+          "30",
+          "FLAG_GEN_NAVMESH",
+          "Generates navmesh, typically used on boats, trailers, and train cars.",
+          ""
+        ],
+        [
+          "31",
+          "FLAG_LAW_ENFORCEMENT",
+          "Multiple effects, including use of searchlights by helicopters and enhanced wanted level dynamics.",
+          ""
+        ],
+        [
+          "32",
+          "FLAG_EMERGENCY_SERVICE",
+          "Prevents certain responses from peds and alters how vehicle theft is perceived.",
+          ""
+        ],
+        [
+          "33",
+          "FLAG_DRIVER_NO_DRIVE_BY",
+          "Prevents the driver from using weapons.",
+          ""
+        ],
+        [
+          "34",
+          "FLAG_NO_RESPRAY",
+          "Disables the ability to respray the vehicle.",
+          ""
+        ],
+        [
+          "35",
+          "FLAG_IGNORE_ON_SIDE_CHECK",
+          "Player avoids pathfinding toward vehicles on their side.",
+          ""
+        ],
+        [
+          "36",
+          "FLAG_RICH_CAR",
+          "Seen driven by rich NPCs and triggers strong reactions upon collision.",
+          ""
+        ],
+        [
+          "37",
+          "FLAG_AVERAGE_CAR",
+          "Seen driven by average NPCs in traffic.",
+          ""
+        ],
+        [
+          "38",
+          "FLAG_POOR_CAR",
+          "Seen driven by poor NPCs in traffic.",
+          ""
+        ],
+        [
+          "39",
+          "FLAG_ALLOWS_RAPPEL",
+          "Allows peds to rappel from the vehicle.",
+          ""
+        ],
+        [
+          "40",
+          "FLAG_DONT_CLOSE_DOOR_UPON_EXIT",
+          "Peds don't close the door after exiting.",
+          ""
+        ],
+        [
+          "41",
+          "FLAG_USE_HIGHER_DOOR_TORQUE",
+          "Higher door torque setting.",
+          ""
+        ],
+        [
+          "42",
+          "FLAG_DISABLE_THROUGH_WINDSCREEN",
+          "Prevents peds from being ejected through the windshield during a crash.",
+          ""
+        ],
+        [
+          "43",
+          "FLAG_IS_ELECTRIC",
+          "Disables oil leaks and damage to the fuel tank. Trains with this flag will stop for vehicles blocking their path.",
+          ""
+        ],
+        [
+          "44",
+          "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "Vehicle will never spawn in a broken-down scenario.",
+          ""
+        ],
+        [
+          "45",
+          "FLAG_IS_JETSKI",
+          "Jetski classification flag.",
+          ""
+        ],
+        [
+          "46",
+          "FLAG_DAMPEN_STICKBOMB_DAMAGE",
+          "Takes less damage from sticky bomb explosions.",
+          ""
+        ],
+        [
+          "47",
+          "FLAG_DONT_SPAWN_IN_CARGEN",
+          "Prevents the vehicle from spawning in parked scenarios.",
+          ""
+        ],
+        [
+          "48",
+          "FLAG_IS_OFFROAD_VEHICLE",
+          "AI considers off-road paths as valid routes.",
+          ""
+        ],
+        [
+          "49",
+          "FLAG_INCREASE_PED_COMMENTS",
+          "Increases random comments about the vehicle.",
+          ""
+        ],
+        [
+          "50",
+          "FLAG_EXPLODE_ON_CONTACT",
+          "Explodes on contact setting.",
+          ""
+        ],
+        [
+          "51",
+          "FLAG_USE_FAT_INTERIOR_LIGHT",
+          "Increases the size and intensity of the vehicle's interior light.",
+          ""
+        ],
+        [
+          "52",
+          "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "Uses actual bone position for headlights.",
+          ""
+        ],
+        [
+          "53",
+          "FLAG_FAKE_EXTRALIGHTS",
+          "Treats extra lights as normal headlights.",
+          ""
+        ],
+        [
+          "54",
+          "FLAG_CANNOT_BE_MODDED",
+          "Vehicle cannot enter modification shops.",
+          ""
+        ],
+        [
+          "55",
+          "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "Prevents ambient spawning.",
+          ""
+        ],
+        [
+          "56",
+          "FLAG_IS_BULKY",
+          "Bulkiness classification.",
+          ""
+        ],
+        [
+          "57",
+          "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "Blocks spawning in WORLD_VEHICLE_ATTRACTOR scenarios.",
+          ""
+        ],
+        [
+          "58",
+          "FLAG_IS_BUS",
+          "Identifies the vehicle as a bus.",
+          ""
+        ],
+        [
+          "59",
+          "FLAG_USE_STEERING_PARAM_FOR_LEAN",
+          "Steering parameter affects leaning.",
+          ""
+        ],
+        [
+          "60",
+          "FLAG_CANNOT_BE_DRIVEN_BY_PLAYER",
+          "Player cannot enter the vehicle.",
+          ""
+        ],
+        [
+          "61",
+          "FLAG_SPRAY_PETROL_BEFORE_EXPLOSION",
+          "Spills gasoline before exploding.",
+          ""
+        ],
+        [
+          "62",
+          "FLAG_ATTACH_TRAILER_ON_HIGHWAY",
+          "Spawns with a trailer only on highways.",
+          ""
+        ],
+        [
+          "63",
+          "FLAG_ATTACH_TRAILER_IN_CITY",
+          "Spawns with a trailer only in the city.",
+          ""
+        ],
+        [
+          "64",
+          "FLAG_HAS_NO_ROOF",
+          "Ignores roof checks, allows hats with no roof.",
+          ""
+        ],
+        [
+          "65",
+          "FLAG_ALLOW_TARGETING_OF_OCCUPANTS",
+          "Allows targeting of vehicle occupants.",
+          ""
+        ],
+        [
+          "66",
+          "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "Recessed headlight coronas.",
+          ""
+        ],
+        [
+          "67",
+          "FLAG_RECESSED_TAILLIGHT_CORONAS",
+          "Recessed taillight coronas.",
+          ""
+        ],
+        [
+          "68",
+          "FLAG_IS_TRACKED_FOR_TRAILS",
+          "Does nothing.",
+          ""
+        ],
+        [
+          "69",
+          "FLAG_HEADLIGHTS_ON_LANDINGGEAR",
+          "Headlights on landing gear.",
+          ""
+        ],
+        [
+          "70",
+          "FLAG_CONSIDERED_FOR_VEHICLE_ENTRY_WHEN_STOOD_ON",
+          "Peds prioritize entry when standing on the vehicle.",
+          ""
+        ],
+        [
+          "71",
+          "FLAG_GIVE_SCUBA_GEAR_ON_EXIT",
+          "Provides scuba gear upon exit.",
+          ""
+        ],
+        [
+          "72",
+          "FLAG_IS_DIGGER",
+          "Digger classification flag.",
+          ""
+        ],
+        [
+          "73",
+          "FLAG_IS_TANK",
+          "Makes the vehicle fireproof and AI reacts as if it's a tank.",
+          ""
+        ],
+        [
+          "74",
+          "FLAG_USE_COVERBOUND_INFO_FOR_COVERGEN",
+          "Uses coverbound info for cover generation.",
+          ""
+        ],
+        [
+          "75",
+          "FLAG_CAN_BE_DRIVEN_ON",
+          "Other vehicles can drive on top of it.",
+          ""
+        ],
+        [
+          "76",
+          "FLAG_HAS_BULLETPROOF_GLASS",
+          "Prevents glass from breaking.",
+          ""
+        ],
+        [
+          "77",
+          "FLAG_CANNOT_TAKE_COVER_WHEN_STOOD_ON",
+          "Prevents peds from taking cover on the vehicle.",
+          ""
+        ],
+        [
+          "78",
+          "FLAG_INTERIOR_BLOCKED_BY_BOOT",
+          "Interior blocked by boot.",
+          ""
+        ],
+        [
+          "79",
+          "FLAG_DONT_TIMESLICE_WHEELS",
+          "Prevents time slicing effect on wheels.",
+          ""
+        ],
+        [
+          "80",
+          "FLAG_FLEE_FROM_COMBAT",
+          "AI driver always flees from combat areas.",
+          ""
+        ],
+        [
+          "81",
+          "FLAG_DRIVER_SHOULD_BE_FEMALE",
+          "Vehicle only spawns driven by female peds.",
+          ""
+        ],
+        [
+          "82",
+          "FLAG_DRIVER_SHOULD_BE_MALE",
+          "Vehicle only spawns driven by male peds.",
+          ""
+        ],
+        [
+          "83",
+          "FLAG_COUNT_AS_FACEBOOK_DRIVEN",
+          "Used for tracking vehicles driven by the player with Facebook integration (now unused).",
+          ""
+        ],
+        [
+          "84",
+          "FLAG_BIKE_CLAMP_PICKUP_LEAN_RATE",
+          "Clamps bike pickup lean rate.",
+          ""
+        ],
+        [
+          "85",
+          "FLAG_PLANE_WEAR_ALTERNATIVE_HELMET",
+          "Forces plane to wear an alternative helmet.",
+          ""
+        ],
+        [
+          "86",
+          "FLAG_USE_STRICTER_EXIT_COLLISION_TESTS",
+          "Uses stricter exit collision tests.",
+          ""
+        ],
+        [
+          "87",
+          "FLAG_TWO_DOORS_ONE_SEAT",
+          "Two doors but only one seat configuration.",
+          ""
+        ],
+        [
+          "88",
+          "FLAG_USE_LIGHTING_INTERIOR_OVERRIDE",
+          "Keeps interior lights on regardless of engine status.",
+          ""
+        ],
+        [
+          "89",
+          "FLAG_USE_RESTRICTED_DRIVEBY_HEIGHT",
+          "Restricts aiming height for weapons inside the vehicle.",
+          ""
+        ],
+        [
+          "90",
+          "FLAG_CAN_HONK_WHEN_FLEEING",
+          "AI uses horn when fleeing.",
+          ""
+        ],
+        [
+          "91",
+          "FLAG_PEDS_INSIDE_CAN_BE_SET_ON_FIRE_MP",
+          "Peds inside can be set on fire (GTA Online).",
+          ""
+        ],
+        [
+          "92",
+          "FLAG_REPORT_CRIME_IF_STANDING_ON",
+          "Gives player a wanted level if standing on top of the vehicle.",
+          ""
+        ],
+        [
+          "93",
+          "FLAG_HELI_USES_FIXUPS_ON_OPEN_DOOR",
+          "Fix-ups when a helicopter door is open.",
+          ""
+        ],
+        [
+          "94",
+          "FLAG_FORCE_ENABLE_CHASSIS_COLLISION",
+          "Forces enabling chassis collision.",
+          ""
+        ],
+        [
+          "95",
+          "FLAG_CANNOT_BE_PICKUP_BY_CARGOBOB",
+          "Prevents vehicle from being picked up by Cargobob.",
+          ""
+        ],
+        [
+          "96",
+          "FLAG_CAN_HAVE_NEONS",
+          "Allows neon lights to be equipped.",
+          ""
+        ],
+        [
+          "97",
+          "FLAG_HAS_INTERIOR_EXTRAS",
+          "Vehicle can spawn with certain interior extras.",
+          ""
+        ],
+        [
+          "98",
+          "FLAG_HAS_TURRET_SEAT_ON_VEHICLE",
+          "Turret seat functionality.",
+          ""
+        ],
+        [
+          "99",
+          "FLAG_ALLOW_OBJECT_LOW_LOD_COLLISION",
+          "Allows low LOD collision for objects.",
+          ""
+        ],
+        [
+          "100",
+          "FLAG_DISABLE_AUTO_VAULT_ON_VEHICLE",
+          "Disables automatic vaulting on this vehicle.",
+          ""
+        ],
+        [
+          "101",
+          "FLAG_USE_TURRET_RELATIVE_AIM_CALCULATION",
+          "Relative aim calculation for turrets.",
+          ""
+        ],
+        [
+          "102",
+          "FLAG_USE_FULL_ANIMS_FOR_MP_WARP_ENTRY_POINTS",
+          "Uses full animations for entry points marked as MP warp in/out.",
+          ""
+        ],
+        [
+          "103",
+          "FLAG_HAS_DIRECTIONAL_SHUFFLES",
+          "Directional shuffles functionality.",
+          ""
+        ],
+        [
+          "104",
+          "FLAG_DISABLE_WEAPON_WHEEL_IN_FIRST_PERSON",
+          "Disables weapon wheel in first-person mode.",
+          ""
+        ],
+        [
+          "105",
+          "FLAG_USE_PILOT_HELMET",
+          "Forces player and AI to wear pilot helmets.",
+          ""
+        ],
+        [
+          "106",
+          "FLAG_USE_WEAPON_WHEEL_WITHOUT_HELMET",
+          "Allows weapon wheel without a helmet.",
+          ""
+        ],
+        [
+          "107",
+          "FLAG_PREFER_ENTER_TURRET_AFTER_DRIVER",
+          "Prefers turret entry if driver is present.",
+          ""
+        ],
+        [
+          "108",
+          "FLAG_USE_SMALLER_OPEN_DOOR_RATIO_TOLERANCE",
+          "Uses smaller tolerance for door opening ratio.",
+          ""
+        ],
+        [
+          "109",
+          "FLAG_USE_HEADING_ONLY_IN_TURRET_MATRIX",
+          "Uses heading only in turret matrix calculations.",
+          ""
+        ],
+        [
+          "110",
+          "FLAG_DONT_STOP_WHEN_GOING_TO_CLIMB_UP_POINT",
+          "Prevents stopping when climbing up to a point.",
+          ""
+        ],
+        [
+          "111",
+          "FLAG_HAS_REAR_MOUNTED_TURRET",
+          "Rear-mounted turret.",
+          ""
+        ],
+        [
+          "112",
+          "FLAG_DISABLE_BUSTING",
+          "Player won't be busted while inside the vehicle.",
+          ""
+        ],
+        [
+          "113",
+          "FLAG_IGNORE_RWINDOW_COLLISION",
+          "Ignores collision through the rear window.",
+          ""
+        ],
+        [
+          "114",
+          "FLAG_HAS_GULL_WING_DOORS",
+          "Doors open upwards like gull-wing doors.",
+          ""
+        ],
+        [
+          "115",
+          "FLAG_CARGOBOB_HOOK_UP_CHASSIS",
+          "Uses chassis for Cargobob hook attachment.",
+          ""
+        ],
+        [
+          "116",
+          "FLAG_USE_FIVE_ANIM_THROW_FP",
+          "Uses wider throw animations in first-person.",
+          ""
+        ],
+        [
+          "117",
+          "FLAG_ALLOW_HATS_NO_ROOF",
+          "Allows hats to be worn in vehicles without roofs.",
+          ""
+        ],
+        [
+          "118",
+          "FLAG_HAS_REAR_SEAT_ACTIVITIES",
+          "Adds rear seat activities, used in GTA Online.",
+          ""
+        ],
+        [
+          "119",
+          "FLAG_HAS_LOWRIDER_HYDRAULICS",
+          "Vehicle has lowrider hydraulics.",
+          ""
+        ],
+        [
+          "120",
+          "FLAG_HAS_BULLET_RESISTANT_GLASS",
+          "Vehicle's glass is resistant to bullets.",
+          ""
+        ],
+        [
+          "121",
+          "FLAG_HAS_INCREASED_RAMMING_FORCE",
+          "Vehicle can ram others more effectively.",
+          ""
+        ],
+        [
+          "122",
+          "FLAG_HAS_CAPPED_EXPLOSION_DAMAGE",
+          "Vehicle takes less damage from explosions.",
+          ""
+        ],
+        [
+          "123",
+          "FLAG_HAS_LOWRIDER_DONK_HYDRAULICS",
+          "Vehicle has lowrider donk hydraulics.",
+          ""
+        ],
+        [
+          "124",
+          "FLAG_HELICOPTER_WITH_LANDING_GEAR",
+          "Helicopter has a landing gear.",
+          ""
+        ],
+        [
+          "125",
+          "FLAG_JUMPING_CAR",
+          "Vehicle can jump, with force modifiable in handling files.",
+          ""
+        ],
+        [
+          "126",
+          "FLAG_HAS_ROCKET_BOOST",
+          "Vehicle can use a rocket boost.",
+          ""
+        ],
+        [
+          "127",
+          "FLAG_RAMMING_SCOOP",
+          "Vehicle has a scoop to push vehicles away.",
+          ""
+        ],
+        [
+          "128",
+          "FLAG_HAS_PARACHUTE",
+          "Vehicle is equipped with a parachute.",
+          ""
+        ],
+        [
+          "129",
+          "FLAG_RAMP",
+          "Vehicle can eject other vehicles by driving under them.",
+          ""
+        ],
+        [
+          "130",
+          "FLAG_HAS_EXTRA_SHUFFLE_SEAT_ON_VEHICLE",
+          "Extra shuffle seats functionality.",
+          ""
+        ],
+        [
+          "131",
+          "FLAG_FRONT_BOOT",
+          "Allows front \"boot\" to detach at high speeds.",
+          ""
+        ],
+        [
+          "132",
+          "FLAG_HALF_TRACK",
+          "Half-track classification.",
+          ""
+        ],
+        [
+          "133",
+          "FLAG_RESET_TURRET_SEAT_HEADING",
+          "Resets turret seat heading when not in use.",
+          "b1011"
+        ],
+        [
+          "134",
+          "FLAG_TURRET_MODS_ON_ROOF",
+          "Turret mods on roof functionality.",
+          "b1103"
+        ],
+        [
+          "135",
+          "FLAG_UPDATE_WEAPON_BATTERY_BONES",
+          "Updates weapon battery bones.",
+          "b1103"
+        ],
+        [
+          "136",
+          "FLAG_DONT_HOLD_LOW_GEARS_WHEN_ENGINE_UNDER_LOAD",
+          "Prevents holding low gears when engine is under load.",
+          "b1103"
+        ],
+        [
+          "137",
+          "FLAG_HAS_GLIDER",
+          "Identifies vehicle as a glider.",
+          "b1103"
+        ],
+        [
+          "138",
+          "FLAG_INCREASE_LOW_SPEED_TORQUE",
+          "Increases torque at low speeds.",
+          "b1103"
+        ],
+        [
+          "139",
+          "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "Uses aircraft style for weapon targeting.",
+          "b1103"
+        ],
+        [
+          "140",
+          "FLAG_KEEP_ALL_TURRETS_SYNCHRONISED",
+          "Synchronizes all turrets.",
+          "b1103"
+        ],
+        [
+          "141",
+          "FLAG_SET_WANTED_FOR_ATTACHED_VEH",
+          "Sets wanted level for attached vehicle.",
+          "b1103"
+        ],
+        [
+          "142",
+          "FLAG_TURRET_ENTRY_ATTACH_TO_DRIVER_SEAT",
+          "Attaches turret entry to driver seat.",
+          "b1180"
+        ],
+        [
+          "143",
+          "FLAG_USE_STANDARD_FLIGHT_HELMET",
+          "Uses standard flight helmet.",
+          "b1180"
+        ],
+        [
+          "144",
+          "FLAG_SECOND_TURRET_MOD",
+          "Second turret modification.",
+          "b1180"
+        ],
+        [
+          "145",
+          "FLAG_THIRD_TURRET_MOD",
+          "Third turret modification.",
+          "b1180"
+        ],
+        [
+          "146",
+          "FLAG_HAS_EJECTOR_SEATS",
+          "Ejects ped from aircraft if bailing mid-air.",
+          "b1180"
+        ],
+        [
+          "147",
+          "FLAG_TURRET_MODS_ON_CHASSIS",
+          "Turret mods on chassis.",
+          "b1180"
+        ],
+        [
+          "148",
+          "FLAG_HAS_JATO_BOOST_MOD",
+          "Adds JATO boost mod to aircraft.",
+          "b1180"
+        ],
+        [
+          "149",
+          "FLAG_IGNORE_TRAPPED_HULL_CHECK",
+          "Prevents check if player is trapped in vehicle geometry.",
+          "b1180"
+        ],
+        [
+          "150",
+          "FLAG_HOLD_TO_SHUFFLE",
+          "Player shuffles seats when holding context button.",
+          "b1180"
+        ],
+        [
+          "151",
+          "FLAG_TURRET_MOD_WITH_NO_STOCK_TURRET",
+          "Modifies turret without stock turret.",
+          "b1180"
+        ],
+        [
+          "152",
+          "FLAG_EQUIP_UNARMED_ON_ENTER",
+          "Player equips \"Unarmed\" weapon on entry.",
+          "b1180"
+        ],
+        [
+          "153",
+          "FLAG_DISABLE_CAMERA_PUSH_BEYOND",
+          "Disables camera push beyond vehicle.",
+          "b1180"
+        ],
+        [
+          "154",
+          "FLAG_HAS_VERTICAL_FLIGHT_MODE",
+          "Vehicle has VTOL-like vertical takeoff and flight ability.",
+          "b1290"
+        ],
+        [
+          "155",
+          "FLAG_HAS_OUTRIGGER_LEGS",
+          "Vehicle has deployable legs, unable to drive while extended.",
+          "b1290"
+        ],
+        [
+          "156",
+          "FLAG_CAN_NAVIGATE_TO_ON_VEHICLE_ENTRY",
+          "Navigation settings for on-vehicle entry.",
+          "b1290"
+        ],
+        [
+          "157",
+          "FLAG_DROP_SUSPENSION_WHEN_STOPPED",
+          "Vehicle's suspension drops when stopped.",
+          "b1290"
+        ],
+        [
+          "158",
+          "FLAG_DONT_CRASH_ABANDONED_NEAR_GROUND",
+          "Prevents crash when abandoned near ground.",
+          "b1290"
+        ],
+        [
+          "159",
+          "FLAG_USE_INTERIOR_RED_LIGHT",
+          "Vehicle's interior light is red.",
+          "b1290"
+        ],
+        [
+          "160",
+          "FLAG_HAS_HELI_STRAFE_MODE",
+          "Helicopter can strafe like a helicopter.",
+          "b1290"
+        ],
+        [
+          "161",
+          "FLAG_HAS_VERTICAL_ROCKET_BOOST",
+          "Rocket propels vehicle upwards.",
+          "b1290"
+        ],
+        [
+          "162",
+          "FLAG_CREATE_WEAPON_MANAGER_ON_SPAWN",
+          "Creates weapon manager on spawn.",
+          "b1290"
+        ],
+        [
+          "163",
+          "FLAG_USE_ROOT_AS_BASE_LOCKON_POS",
+          "Uses vehicle root for lock-on positioning.",
+          "b1290"
+        ],
+        [
+          "164",
+          "FLAG_HEADLIGHTS_ON_TAP_ONLY",
+          "Headlights toggle on tap only.",
+          "b1290"
+        ],
+        [
+          "165",
+          "FLAG_CHECK_WARP_TASK_FLAG_DURING_ENTER",
+          "Checks warp task flag during entry.",
+          "b1290"
+        ],
+        [
+          "166",
+          "FLAG_USE_RESTRICTED_DRIVEBY_HEIGHT_HIGH",
+          "Restricts aim height inside vehicle more than the default.",
+          "b1290"
+        ],
+        [
+          "167",
+          "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD",
+          "Increases camber when suspension mods are equipped.",
+          "b1365"
+        ],
+        [
+          "168",
+          "FLAG_NO_HEAVY_BRAKE_ANIMATION",
+          "Prevents \"lean forward\" animation when braking heavily.",
+          "b1365"
+        ],
+        [
+          "169",
+          "FLAG_HAS_TWO_BONNET_BONES",
+          "Uses two bonnet bones simultaneously.",
+          "b1493"
+        ],
+        [
+          "170",
+          "FLAG_DONT_LINK_BOOT2",
+          "Does nothing.",
+          "b1493"
+        ],
+        [
+          "171",
+          "FLAG_HAS_INCREASED_RAMMING_FORCE_WITH_CHASSIS_MOD",
+          "Chassis mod increases ramming force.",
+          "b1493"
+        ],
+        [
+          "172",
+          "FLAG_HAS_INCREASED_RAMMING_FORCE_VS_ALL_VEHICLES",
+          "Ramming force increased against all vehicles.",
+          "b1604"
+        ],
+        [
+          "173",
+          "FLAG_HAS_EXTENDED_COLLISION_MODS",
+          "Extended collision mods functionality.",
+          "b1604"
+        ],
+        [
+          "174",
+          "FLAG_HAS_NITROUS_MOD",
+          "Enables nitro boost modifications.",
+          "b1604"
+        ],
+        [
+          "175",
+          "FLAG_HAS_JUMP_MOD",
+          "Enables jump boost modification.",
+          "b1604"
+        ],
+        [
+          "176",
+          "FLAG_HAS_RAMMING_SCOOP_MOD",
+          "Vehicle has ramming scoop modification.",
+          "b1604"
+        ],
+        [
+          "177",
+          "FLAG_HAS_SUPER_BRAKES_MOD",
+          "Vehicle has super brakes modification.",
+          "b1604"
+        ],
+        [
+          "178",
+          "FLAG_CRUSHES_OTHER_VEHICLES",
+          "Vehicle does more damage to vehicles it drives over.",
+          "b1604"
+        ],
+        [
+          "179",
+          "FLAG_HAS_WEAPON_BLADE_MODS",
+          "Vehicle equipped with sawblade modifications.",
+          "b1604"
+        ],
+        [
+          "180",
+          "FLAG_HAS_WEAPON_SPIKE_MODS",
+          "Equipped with spike modifications that harm on contact.",
+          "b1604"
+        ],
+        [
+          "181",
+          "FLAG_FORCE_BONNET_CAMERA_INSTEAD_OF_POV",
+          "Forces bonnet camera over POV.",
+          "b1604"
+        ],
+        [
+          "182",
+          "FLAG_RAMP_MOD",
+          "Equipped with ramp modification.",
+          "b1604"
+        ],
+        [
+          "183",
+          "FLAG_HAS_TOMBSTONE",
+          "Heavy part that can be ejected to stop pursuing vehicles.",
+          "b1604"
+        ],
+        [
+          "184",
+          "FLAG_HAS_SIDE_SHUNT",
+          "Can shunt vehicles sideways.",
+          "b1604"
+        ],
+        [
+          "185",
+          "FLAG_HAS_FRONT_SPIKE_MOD",
+          "Equipped with front spike modification.",
+          "b1604"
+        ],
+        [
+          "186",
+          "FLAG_HAS_RAMMING_BAR_MOD",
+          "Equipped with ramming bar modification.",
+          "b1604"
+        ],
+        [
+          "187",
+          "FLAG_TURRET_MODS_ON_CHASSIS5",
+          "Enables turret mods on VMT_CHASSIS5 category.",
+          "b1604"
+        ],
+        [
+          "188",
+          "FLAG_HAS_SUPERCHARGER",
+          "Permanently enables vacuum and blower/boost dials.",
+          "b1604"
+        ],
+        [
+          "189",
+          "FLAG_IS_TANK_WITH_FLAME_DAMAGE",
+          "Similar to FLAG_IS_TANK but not fireproof.",
+          "b1604"
+        ],
+        [
+          "190",
+          "FLAG_DISABLE_DEFORMATION",
+          "Disables visual deformation.",
+          "b1604"
+        ],
+        [
+          "191",
+          "FLAG_ALLOW_RAPPEL_AI_ONLY",
+          "Allows AI-only rappelling.",
+          "b1734"
+        ],
+        [
+          "192",
+          "FLAG_USE_RESTRICTED_DRIVEBY_HEIGHT_MID_ONLY",
+          "Restricts drive-by height in mid-only.",
+          "b1734"
+        ],
+        [
+          "193",
+          "FLAG_FORCE_AUTO_VAULT_ON_VEHICLE_WHEN_STUCK",
+          "Forces auto-vault when stuck.",
+          "b1734"
+        ],
+        [
+          "194",
+          "FLAG_SPOILER_MOD_DOESNT_INCREASE_GRIP",
+          "Spoiler mods do not add traction.",
+          "b1868"
+        ],
+        [
+          "195",
+          "FLAG_NO_REVERSING_ANIMATION",
+          "Disables \"look back\" animation when reversing.",
+          "b1868"
+        ],
+        [
+          "196",
+          "FLAG_IS_QUADBIKE_USING_BIKE_ANIMATIONS",
+          "Allows quadbikes to use bike layouts and animations.",
+          "b1868"
+        ],
+        [
+          "197",
+          "FLAG_IS_FORMULA_VEHICLE",
+          "Changes tire mark texture to slick tires.",
+          "b2060"
+        ],
+        [
+          "198",
+          "FLAG_LATCH_ALL_JOINTS",
+          "Latches all joints upon creation.",
+          "b2189"
+        ],
+        [
+          "199",
+          "FLAG_REJECT_ENTRY_TO_VEHICLE_WHEN_STOOD_ON",
+          "If the player is standing on top of the vehicle, the player character will not attempt to pathfind to the nearest vehicle door to enter and will not warp inside the vehicle.",
+          "b2189"
+        ],
+        [
+          "200",
+          "FLAG_CHECK_IF_DRIVER_SEAT_IS_CLOSER_THAN_TURRETS_WITH_ON_BOARD_ENTER",
+          "Checks whether the player character is closer to the driver's seat than the turret seat before deciding on which one to pathfind to. Added in.",
+          "b2189"
+        ],
+        [
+          "201",
+          "FLAG_RENDER_WHEELS_WITH_ZERO_COMPRESSION",
+          "Prevents the wheels and suspension from visually moving.",
+          "b2189"
+        ],
+        [
+          "202",
+          "FLAG_USE_LENGTH_OF_VEHICLE_BOUNDS_FOR_PLAYER_LOCKON_POS",
+          "Uses vehicle bounds for player lock-on.",
+          "b2189"
+        ],
+        [
+          "203",
+          "FLAG_PREFER_FRONT_SEAT",
+          "Prefers front seat over rear.",
+          "b2372"
+        ]
+      ],
+      "data": [
+        {
+          "Flag Number": "0",
+          "Flag Name": "FLAG_SMALL_WORKER",
+          "Description": "Vehicle can only spawn on path nodes flagged to allow small worker vehicles.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "1",
+          "Flag Name": "FLAG_BIG",
+          "Description": "Peds driving the vehicle will take wider turns, increase space between traffic, and avoid ramming during chases.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "2",
+          "Flag Name": "FLAG_NO_BOOT",
+          "Description": "Does nothing. Derivative from the IV flag noboot.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "3",
+          "Flag Name": "FLAG_ONLY_DURING_OFFICE_HOURS",
+          "Description": "Prevents spawning outside office hours, doesn't work correctly due to misconfigured time settings.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "4",
+          "Flag Name": "FLAG_BOOT_IN_FRONT",
+          "Description": "Does nothing. Use FLAG_FRONT_BOOT instead.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "5",
+          "Flag Name": "FLAG_IS_VAN",
+          "Description": "The vehicle never spawns in traffic with more than one passenger.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "6",
+          "Flag Name": "FLAG_AVOID_TURNS",
+          "Description": "AI avoids turns at intersections unless no other path is available. Spawns on multi-lane roads.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "7",
+          "Flag Name": "FLAG_HAS_LIVERY",
+          "Description": "Cycles liveries from vehicle's texture dictionary, up to 30 liveries.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "8",
+          "Flag Name": "FLAG_LIVERY_MATCH_EXTRA",
+          "Description": "Vehicle spawns with livery matching toggled on extra; defaults to last livery if more extras than liveries.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "9",
+          "Flag Name": "FLAG_SPORTS",
+          "Description": "Idle camera focuses on the vehicle if swankness > 4. Faster drivers, prioritized colors, alarms on parked vehicles.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "10",
+          "Flag Name": "FLAG_DELIVERY",
+          "Description": "Parked vehicles spawn with wheels at a much higher angle.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "11",
+          "Flag Name": "FLAG_NOAMBIENTOCCLUSION",
+          "Description": "Disables ground ambient occlusion.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "12",
+          "Flag Name": "FLAG_ONLY_ON_HIGHWAYS",
+          "Description": "Vehicle only spawns on highways. Derivative of an unused flag.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "13",
+          "Flag Name": "FLAG_TALL_SHIP",
+          "Description": "Prevents spawning under low bridges.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "14",
+          "Flag Name": "FLAG_SPAWN_ON_TRAILER",
+          "Description": "Vehicles have a 50% chance of spawning on trailers; disabled in multiplayer.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "15",
+          "Flag Name": "FLAG_SPAWN_BOAT_ON_TRAILER",
+          "Description": "Similar to FLAG_SPAWN_ON_TRAILER but for boats; positioning relative to boattrailer.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "16",
+          "Flag Name": "FLAG_EXTRAS_GANG",
+          "Description": "Vehicle spawns with extras 5-9 if driven by a gang member.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "17",
+          "Flag Name": "FLAG_EXTRAS_CONVERTIBLE",
+          "Description": "Cycles between extras 1-4, toggling roof status. Extras are unbreakable.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "18",
+          "Flag Name": "FLAG_EXTRAS_TAXI",
+          "Description": "Enables taxi logic, including cycling extras and setting lights.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "19",
+          "Flag Name": "FLAG_EXTRAS_RARE",
+          "Description": "Extras have a 25% chance of spawning.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "20",
+          "Flag Name": "FLAG_EXTRAS_REQUIRE",
+          "Description": "The vehicle always spawns with at least one extra.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "21",
+          "Flag Name": "FLAG_EXTRAS_STRONG",
+          "Description": "Prevents extras from breaking off during collisions.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "22",
+          "Flag Name": "FLAG_EXTRAS_ONLY_BREAK_WHEN_DESTROYED",
+          "Description": "Extras only break when the vehicle is completely destroyed.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "23",
+          "Flag Name": "FLAG_EXTRAS_SCRIPT",
+          "Description": "Specific extras only spawn when toggled by script.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "24",
+          "Flag Name": "FLAG_EXTRAS_ALL",
+          "Description": "Vehicle spawns with all extras toggled on.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "25",
+          "Flag Name": "FLAG_EXTRAS_MATCH_LIVERY",
+          "Description": "Vehicle spawns with extra matching livery ID.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "26",
+          "Flag Name": "FLAG_DONT_ROTATE_TAIL_ROTOR",
+          "Description": "Prevents helicopter tail rotor from rotating.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "27",
+          "Flag Name": "FLAG_PARKING_SENSORS",
+          "Description": "Vehicle has a parking sensor gadget.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "28",
+          "Flag Name": "FLAG_PEDS_CAN_STAND_ON_TOP",
+          "Description": "Allows peds to stand on the vehicle without ragdolling.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "29",
+          "Flag Name": "FLAG_TAILGATE_TYPE_BOOT",
+          "Description": "Does nothing.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "30",
+          "Flag Name": "FLAG_GEN_NAVMESH",
+          "Description": "Generates navmesh, typically used on boats, trailers, and train cars.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "31",
+          "Flag Name": "FLAG_LAW_ENFORCEMENT",
+          "Description": "Multiple effects, including use of searchlights by helicopters and enhanced wanted level dynamics.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "32",
+          "Flag Name": "FLAG_EMERGENCY_SERVICE",
+          "Description": "Prevents certain responses from peds and alters how vehicle theft is perceived.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "33",
+          "Flag Name": "FLAG_DRIVER_NO_DRIVE_BY",
+          "Description": "Prevents the driver from using weapons.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "34",
+          "Flag Name": "FLAG_NO_RESPRAY",
+          "Description": "Disables the ability to respray the vehicle.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "35",
+          "Flag Name": "FLAG_IGNORE_ON_SIDE_CHECK",
+          "Description": "Player avoids pathfinding toward vehicles on their side.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "36",
+          "Flag Name": "FLAG_RICH_CAR",
+          "Description": "Seen driven by rich NPCs and triggers strong reactions upon collision.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "37",
+          "Flag Name": "FLAG_AVERAGE_CAR",
+          "Description": "Seen driven by average NPCs in traffic.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "38",
+          "Flag Name": "FLAG_POOR_CAR",
+          "Description": "Seen driven by poor NPCs in traffic.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "39",
+          "Flag Name": "FLAG_ALLOWS_RAPPEL",
+          "Description": "Allows peds to rappel from the vehicle.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "40",
+          "Flag Name": "FLAG_DONT_CLOSE_DOOR_UPON_EXIT",
+          "Description": "Peds don't close the door after exiting.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "41",
+          "Flag Name": "FLAG_USE_HIGHER_DOOR_TORQUE",
+          "Description": "Higher door torque setting.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "42",
+          "Flag Name": "FLAG_DISABLE_THROUGH_WINDSCREEN",
+          "Description": "Prevents peds from being ejected through the windshield during a crash.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "43",
+          "Flag Name": "FLAG_IS_ELECTRIC",
+          "Description": "Disables oil leaks and damage to the fuel tank. Trains with this flag will stop for vehicles blocking their path.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "44",
+          "Flag Name": "FLAG_NO_BROKEN_DOWN_SCENARIO",
+          "Description": "Vehicle will never spawn in a broken-down scenario.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "45",
+          "Flag Name": "FLAG_IS_JETSKI",
+          "Description": "Jetski classification flag.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "46",
+          "Flag Name": "FLAG_DAMPEN_STICKBOMB_DAMAGE",
+          "Description": "Takes less damage from sticky bomb explosions.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "47",
+          "Flag Name": "FLAG_DONT_SPAWN_IN_CARGEN",
+          "Description": "Prevents the vehicle from spawning in parked scenarios.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "48",
+          "Flag Name": "FLAG_IS_OFFROAD_VEHICLE",
+          "Description": "AI considers off-road paths as valid routes.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "49",
+          "Flag Name": "FLAG_INCREASE_PED_COMMENTS",
+          "Description": "Increases random comments about the vehicle.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "50",
+          "Flag Name": "FLAG_EXPLODE_ON_CONTACT",
+          "Description": "Explodes on contact setting.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "51",
+          "Flag Name": "FLAG_USE_FAT_INTERIOR_LIGHT",
+          "Description": "Increases the size and intensity of the vehicle's interior light.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "52",
+          "Flag Name": "FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS",
+          "Description": "Uses actual bone position for headlights.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "53",
+          "Flag Name": "FLAG_FAKE_EXTRALIGHTS",
+          "Description": "Treats extra lights as normal headlights.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "54",
+          "Flag Name": "FLAG_CANNOT_BE_MODDED",
+          "Description": "Vehicle cannot enter modification shops.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "55",
+          "Flag Name": "FLAG_DONT_SPAWN_AS_AMBIENT",
+          "Description": "Prevents ambient spawning.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "56",
+          "Flag Name": "FLAG_IS_BULKY",
+          "Description": "Bulkiness classification.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "57",
+          "Flag Name": "FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO",
+          "Description": "Blocks spawning in WORLD_VEHICLE_ATTRACTOR scenarios.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "58",
+          "Flag Name": "FLAG_IS_BUS",
+          "Description": "Identifies the vehicle as a bus.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "59",
+          "Flag Name": "FLAG_USE_STEERING_PARAM_FOR_LEAN",
+          "Description": "Steering parameter affects leaning.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "60",
+          "Flag Name": "FLAG_CANNOT_BE_DRIVEN_BY_PLAYER",
+          "Description": "Player cannot enter the vehicle.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "61",
+          "Flag Name": "FLAG_SPRAY_PETROL_BEFORE_EXPLOSION",
+          "Description": "Spills gasoline before exploding.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "62",
+          "Flag Name": "FLAG_ATTACH_TRAILER_ON_HIGHWAY",
+          "Description": "Spawns with a trailer only on highways.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "63",
+          "Flag Name": "FLAG_ATTACH_TRAILER_IN_CITY",
+          "Description": "Spawns with a trailer only in the city.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "64",
+          "Flag Name": "FLAG_HAS_NO_ROOF",
+          "Description": "Ignores roof checks, allows hats with no roof.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "65",
+          "Flag Name": "FLAG_ALLOW_TARGETING_OF_OCCUPANTS",
+          "Description": "Allows targeting of vehicle occupants.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "66",
+          "Flag Name": "FLAG_RECESSED_HEADLIGHT_CORONAS",
+          "Description": "Recessed headlight coronas.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "67",
+          "Flag Name": "FLAG_RECESSED_TAILLIGHT_CORONAS",
+          "Description": "Recessed taillight coronas.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "68",
+          "Flag Name": "FLAG_IS_TRACKED_FOR_TRAILS",
+          "Description": "Does nothing.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "69",
+          "Flag Name": "FLAG_HEADLIGHTS_ON_LANDINGGEAR",
+          "Description": "Headlights on landing gear.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "70",
+          "Flag Name": "FLAG_CONSIDERED_FOR_VEHICLE_ENTRY_WHEN_STOOD_ON",
+          "Description": "Peds prioritize entry when standing on the vehicle.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "71",
+          "Flag Name": "FLAG_GIVE_SCUBA_GEAR_ON_EXIT",
+          "Description": "Provides scuba gear upon exit.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "72",
+          "Flag Name": "FLAG_IS_DIGGER",
+          "Description": "Digger classification flag.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "73",
+          "Flag Name": "FLAG_IS_TANK",
+          "Description": "Makes the vehicle fireproof and AI reacts as if it's a tank.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "74",
+          "Flag Name": "FLAG_USE_COVERBOUND_INFO_FOR_COVERGEN",
+          "Description": "Uses coverbound info for cover generation.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "75",
+          "Flag Name": "FLAG_CAN_BE_DRIVEN_ON",
+          "Description": "Other vehicles can drive on top of it.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "76",
+          "Flag Name": "FLAG_HAS_BULLETPROOF_GLASS",
+          "Description": "Prevents glass from breaking.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "77",
+          "Flag Name": "FLAG_CANNOT_TAKE_COVER_WHEN_STOOD_ON",
+          "Description": "Prevents peds from taking cover on the vehicle.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "78",
+          "Flag Name": "FLAG_INTERIOR_BLOCKED_BY_BOOT",
+          "Description": "Interior blocked by boot.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "79",
+          "Flag Name": "FLAG_DONT_TIMESLICE_WHEELS",
+          "Description": "Prevents time slicing effect on wheels.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "80",
+          "Flag Name": "FLAG_FLEE_FROM_COMBAT",
+          "Description": "AI driver always flees from combat areas.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "81",
+          "Flag Name": "FLAG_DRIVER_SHOULD_BE_FEMALE",
+          "Description": "Vehicle only spawns driven by female peds.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "82",
+          "Flag Name": "FLAG_DRIVER_SHOULD_BE_MALE",
+          "Description": "Vehicle only spawns driven by male peds.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "83",
+          "Flag Name": "FLAG_COUNT_AS_FACEBOOK_DRIVEN",
+          "Description": "Used for tracking vehicles driven by the player with Facebook integration (now unused).",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "84",
+          "Flag Name": "FLAG_BIKE_CLAMP_PICKUP_LEAN_RATE",
+          "Description": "Clamps bike pickup lean rate.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "85",
+          "Flag Name": "FLAG_PLANE_WEAR_ALTERNATIVE_HELMET",
+          "Description": "Forces plane to wear an alternative helmet.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "86",
+          "Flag Name": "FLAG_USE_STRICTER_EXIT_COLLISION_TESTS",
+          "Description": "Uses stricter exit collision tests.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "87",
+          "Flag Name": "FLAG_TWO_DOORS_ONE_SEAT",
+          "Description": "Two doors but only one seat configuration.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "88",
+          "Flag Name": "FLAG_USE_LIGHTING_INTERIOR_OVERRIDE",
+          "Description": "Keeps interior lights on regardless of engine status.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "89",
+          "Flag Name": "FLAG_USE_RESTRICTED_DRIVEBY_HEIGHT",
+          "Description": "Restricts aiming height for weapons inside the vehicle.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "90",
+          "Flag Name": "FLAG_CAN_HONK_WHEN_FLEEING",
+          "Description": "AI uses horn when fleeing.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "91",
+          "Flag Name": "FLAG_PEDS_INSIDE_CAN_BE_SET_ON_FIRE_MP",
+          "Description": "Peds inside can be set on fire (GTA Online).",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "92",
+          "Flag Name": "FLAG_REPORT_CRIME_IF_STANDING_ON",
+          "Description": "Gives player a wanted level if standing on top of the vehicle.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "93",
+          "Flag Name": "FLAG_HELI_USES_FIXUPS_ON_OPEN_DOOR",
+          "Description": "Fix-ups when a helicopter door is open.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "94",
+          "Flag Name": "FLAG_FORCE_ENABLE_CHASSIS_COLLISION",
+          "Description": "Forces enabling chassis collision.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "95",
+          "Flag Name": "FLAG_CANNOT_BE_PICKUP_BY_CARGOBOB",
+          "Description": "Prevents vehicle from being picked up by Cargobob.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "96",
+          "Flag Name": "FLAG_CAN_HAVE_NEONS",
+          "Description": "Allows neon lights to be equipped.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "97",
+          "Flag Name": "FLAG_HAS_INTERIOR_EXTRAS",
+          "Description": "Vehicle can spawn with certain interior extras.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "98",
+          "Flag Name": "FLAG_HAS_TURRET_SEAT_ON_VEHICLE",
+          "Description": "Turret seat functionality.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "99",
+          "Flag Name": "FLAG_ALLOW_OBJECT_LOW_LOD_COLLISION",
+          "Description": "Allows low LOD collision for objects.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "100",
+          "Flag Name": "FLAG_DISABLE_AUTO_VAULT_ON_VEHICLE",
+          "Description": "Disables automatic vaulting on this vehicle.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "101",
+          "Flag Name": "FLAG_USE_TURRET_RELATIVE_AIM_CALCULATION",
+          "Description": "Relative aim calculation for turrets.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "102",
+          "Flag Name": "FLAG_USE_FULL_ANIMS_FOR_MP_WARP_ENTRY_POINTS",
+          "Description": "Uses full animations for entry points marked as MP warp in/out.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "103",
+          "Flag Name": "FLAG_HAS_DIRECTIONAL_SHUFFLES",
+          "Description": "Directional shuffles functionality.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "104",
+          "Flag Name": "FLAG_DISABLE_WEAPON_WHEEL_IN_FIRST_PERSON",
+          "Description": "Disables weapon wheel in first-person mode.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "105",
+          "Flag Name": "FLAG_USE_PILOT_HELMET",
+          "Description": "Forces player and AI to wear pilot helmets.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "106",
+          "Flag Name": "FLAG_USE_WEAPON_WHEEL_WITHOUT_HELMET",
+          "Description": "Allows weapon wheel without a helmet.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "107",
+          "Flag Name": "FLAG_PREFER_ENTER_TURRET_AFTER_DRIVER",
+          "Description": "Prefers turret entry if driver is present.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "108",
+          "Flag Name": "FLAG_USE_SMALLER_OPEN_DOOR_RATIO_TOLERANCE",
+          "Description": "Uses smaller tolerance for door opening ratio.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "109",
+          "Flag Name": "FLAG_USE_HEADING_ONLY_IN_TURRET_MATRIX",
+          "Description": "Uses heading only in turret matrix calculations.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "110",
+          "Flag Name": "FLAG_DONT_STOP_WHEN_GOING_TO_CLIMB_UP_POINT",
+          "Description": "Prevents stopping when climbing up to a point.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "111",
+          "Flag Name": "FLAG_HAS_REAR_MOUNTED_TURRET",
+          "Description": "Rear-mounted turret.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "112",
+          "Flag Name": "FLAG_DISABLE_BUSTING",
+          "Description": "Player won't be busted while inside the vehicle.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "113",
+          "Flag Name": "FLAG_IGNORE_RWINDOW_COLLISION",
+          "Description": "Ignores collision through the rear window.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "114",
+          "Flag Name": "FLAG_HAS_GULL_WING_DOORS",
+          "Description": "Doors open upwards like gull-wing doors.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "115",
+          "Flag Name": "FLAG_CARGOBOB_HOOK_UP_CHASSIS",
+          "Description": "Uses chassis for Cargobob hook attachment.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "116",
+          "Flag Name": "FLAG_USE_FIVE_ANIM_THROW_FP",
+          "Description": "Uses wider throw animations in first-person.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "117",
+          "Flag Name": "FLAG_ALLOW_HATS_NO_ROOF",
+          "Description": "Allows hats to be worn in vehicles without roofs.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "118",
+          "Flag Name": "FLAG_HAS_REAR_SEAT_ACTIVITIES",
+          "Description": "Adds rear seat activities, used in GTA Online.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "119",
+          "Flag Name": "FLAG_HAS_LOWRIDER_HYDRAULICS",
+          "Description": "Vehicle has lowrider hydraulics.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "120",
+          "Flag Name": "FLAG_HAS_BULLET_RESISTANT_GLASS",
+          "Description": "Vehicle's glass is resistant to bullets.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "121",
+          "Flag Name": "FLAG_HAS_INCREASED_RAMMING_FORCE",
+          "Description": "Vehicle can ram others more effectively.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "122",
+          "Flag Name": "FLAG_HAS_CAPPED_EXPLOSION_DAMAGE",
+          "Description": "Vehicle takes less damage from explosions.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "123",
+          "Flag Name": "FLAG_HAS_LOWRIDER_DONK_HYDRAULICS",
+          "Description": "Vehicle has lowrider donk hydraulics.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "124",
+          "Flag Name": "FLAG_HELICOPTER_WITH_LANDING_GEAR",
+          "Description": "Helicopter has a landing gear.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "125",
+          "Flag Name": "FLAG_JUMPING_CAR",
+          "Description": "Vehicle can jump, with force modifiable in handling files.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "126",
+          "Flag Name": "FLAG_HAS_ROCKET_BOOST",
+          "Description": "Vehicle can use a rocket boost.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "127",
+          "Flag Name": "FLAG_RAMMING_SCOOP",
+          "Description": "Vehicle has a scoop to push vehicles away.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "128",
+          "Flag Name": "FLAG_HAS_PARACHUTE",
+          "Description": "Vehicle is equipped with a parachute.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "129",
+          "Flag Name": "FLAG_RAMP",
+          "Description": "Vehicle can eject other vehicles by driving under them.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "130",
+          "Flag Name": "FLAG_HAS_EXTRA_SHUFFLE_SEAT_ON_VEHICLE",
+          "Description": "Extra shuffle seats functionality.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "131",
+          "Flag Name": "FLAG_FRONT_BOOT",
+          "Description": "Allows front \"boot\" to detach at high speeds.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "132",
+          "Flag Name": "FLAG_HALF_TRACK",
+          "Description": "Half-track classification.",
+          "Build Introduced": ""
+        },
+        {
+          "Flag Number": "133",
+          "Flag Name": "FLAG_RESET_TURRET_SEAT_HEADING",
+          "Description": "Resets turret seat heading when not in use.",
+          "Build Introduced": "b1011"
+        },
+        {
+          "Flag Number": "134",
+          "Flag Name": "FLAG_TURRET_MODS_ON_ROOF",
+          "Description": "Turret mods on roof functionality.",
+          "Build Introduced": "b1103"
+        },
+        {
+          "Flag Number": "135",
+          "Flag Name": "FLAG_UPDATE_WEAPON_BATTERY_BONES",
+          "Description": "Updates weapon battery bones.",
+          "Build Introduced": "b1103"
+        },
+        {
+          "Flag Number": "136",
+          "Flag Name": "FLAG_DONT_HOLD_LOW_GEARS_WHEN_ENGINE_UNDER_LOAD",
+          "Description": "Prevents holding low gears when engine is under load.",
+          "Build Introduced": "b1103"
+        },
+        {
+          "Flag Number": "137",
+          "Flag Name": "FLAG_HAS_GLIDER",
+          "Description": "Identifies vehicle as a glider.",
+          "Build Introduced": "b1103"
+        },
+        {
+          "Flag Number": "138",
+          "Flag Name": "FLAG_INCREASE_LOW_SPEED_TORQUE",
+          "Description": "Increases torque at low speeds.",
+          "Build Introduced": "b1103"
+        },
+        {
+          "Flag Number": "139",
+          "Flag Name": "FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING",
+          "Description": "Uses aircraft style for weapon targeting.",
+          "Build Introduced": "b1103"
+        },
+        {
+          "Flag Number": "140",
+          "Flag Name": "FLAG_KEEP_ALL_TURRETS_SYNCHRONISED",
+          "Description": "Synchronizes all turrets.",
+          "Build Introduced": "b1103"
+        },
+        {
+          "Flag Number": "141",
+          "Flag Name": "FLAG_SET_WANTED_FOR_ATTACHED_VEH",
+          "Description": "Sets wanted level for attached vehicle.",
+          "Build Introduced": "b1103"
+        },
+        {
+          "Flag Number": "142",
+          "Flag Name": "FLAG_TURRET_ENTRY_ATTACH_TO_DRIVER_SEAT",
+          "Description": "Attaches turret entry to driver seat.",
+          "Build Introduced": "b1180"
+        },
+        {
+          "Flag Number": "143",
+          "Flag Name": "FLAG_USE_STANDARD_FLIGHT_HELMET",
+          "Description": "Uses standard flight helmet.",
+          "Build Introduced": "b1180"
+        },
+        {
+          "Flag Number": "144",
+          "Flag Name": "FLAG_SECOND_TURRET_MOD",
+          "Description": "Second turret modification.",
+          "Build Introduced": "b1180"
+        },
+        {
+          "Flag Number": "145",
+          "Flag Name": "FLAG_THIRD_TURRET_MOD",
+          "Description": "Third turret modification.",
+          "Build Introduced": "b1180"
+        },
+        {
+          "Flag Number": "146",
+          "Flag Name": "FLAG_HAS_EJECTOR_SEATS",
+          "Description": "Ejects ped from aircraft if bailing mid-air.",
+          "Build Introduced": "b1180"
+        },
+        {
+          "Flag Number": "147",
+          "Flag Name": "FLAG_TURRET_MODS_ON_CHASSIS",
+          "Description": "Turret mods on chassis.",
+          "Build Introduced": "b1180"
+        },
+        {
+          "Flag Number": "148",
+          "Flag Name": "FLAG_HAS_JATO_BOOST_MOD",
+          "Description": "Adds JATO boost mod to aircraft.",
+          "Build Introduced": "b1180"
+        },
+        {
+          "Flag Number": "149",
+          "Flag Name": "FLAG_IGNORE_TRAPPED_HULL_CHECK",
+          "Description": "Prevents check if player is trapped in vehicle geometry.",
+          "Build Introduced": "b1180"
+        },
+        {
+          "Flag Number": "150",
+          "Flag Name": "FLAG_HOLD_TO_SHUFFLE",
+          "Description": "Player shuffles seats when holding context button.",
+          "Build Introduced": "b1180"
+        },
+        {
+          "Flag Number": "151",
+          "Flag Name": "FLAG_TURRET_MOD_WITH_NO_STOCK_TURRET",
+          "Description": "Modifies turret without stock turret.",
+          "Build Introduced": "b1180"
+        },
+        {
+          "Flag Number": "152",
+          "Flag Name": "FLAG_EQUIP_UNARMED_ON_ENTER",
+          "Description": "Player equips \"Unarmed\" weapon on entry.",
+          "Build Introduced": "b1180"
+        },
+        {
+          "Flag Number": "153",
+          "Flag Name": "FLAG_DISABLE_CAMERA_PUSH_BEYOND",
+          "Description": "Disables camera push beyond vehicle.",
+          "Build Introduced": "b1180"
+        },
+        {
+          "Flag Number": "154",
+          "Flag Name": "FLAG_HAS_VERTICAL_FLIGHT_MODE",
+          "Description": "Vehicle has VTOL-like vertical takeoff and flight ability.",
+          "Build Introduced": "b1290"
+        },
+        {
+          "Flag Number": "155",
+          "Flag Name": "FLAG_HAS_OUTRIGGER_LEGS",
+          "Description": "Vehicle has deployable legs, unable to drive while extended.",
+          "Build Introduced": "b1290"
+        },
+        {
+          "Flag Number": "156",
+          "Flag Name": "FLAG_CAN_NAVIGATE_TO_ON_VEHICLE_ENTRY",
+          "Description": "Navigation settings for on-vehicle entry.",
+          "Build Introduced": "b1290"
+        },
+        {
+          "Flag Number": "157",
+          "Flag Name": "FLAG_DROP_SUSPENSION_WHEN_STOPPED",
+          "Description": "Vehicle's suspension drops when stopped.",
+          "Build Introduced": "b1290"
+        },
+        {
+          "Flag Number": "158",
+          "Flag Name": "FLAG_DONT_CRASH_ABANDONED_NEAR_GROUND",
+          "Description": "Prevents crash when abandoned near ground.",
+          "Build Introduced": "b1290"
+        },
+        {
+          "Flag Number": "159",
+          "Flag Name": "FLAG_USE_INTERIOR_RED_LIGHT",
+          "Description": "Vehicle's interior light is red.",
+          "Build Introduced": "b1290"
+        },
+        {
+          "Flag Number": "160",
+          "Flag Name": "FLAG_HAS_HELI_STRAFE_MODE",
+          "Description": "Helicopter can strafe like a helicopter.",
+          "Build Introduced": "b1290"
+        },
+        {
+          "Flag Number": "161",
+          "Flag Name": "FLAG_HAS_VERTICAL_ROCKET_BOOST",
+          "Description": "Rocket propels vehicle upwards.",
+          "Build Introduced": "b1290"
+        },
+        {
+          "Flag Number": "162",
+          "Flag Name": "FLAG_CREATE_WEAPON_MANAGER_ON_SPAWN",
+          "Description": "Creates weapon manager on spawn.",
+          "Build Introduced": "b1290"
+        },
+        {
+          "Flag Number": "163",
+          "Flag Name": "FLAG_USE_ROOT_AS_BASE_LOCKON_POS",
+          "Description": "Uses vehicle root for lock-on positioning.",
+          "Build Introduced": "b1290"
+        },
+        {
+          "Flag Number": "164",
+          "Flag Name": "FLAG_HEADLIGHTS_ON_TAP_ONLY",
+          "Description": "Headlights toggle on tap only.",
+          "Build Introduced": "b1290"
+        },
+        {
+          "Flag Number": "165",
+          "Flag Name": "FLAG_CHECK_WARP_TASK_FLAG_DURING_ENTER",
+          "Description": "Checks warp task flag during entry.",
+          "Build Introduced": "b1290"
+        },
+        {
+          "Flag Number": "166",
+          "Flag Name": "FLAG_USE_RESTRICTED_DRIVEBY_HEIGHT_HIGH",
+          "Description": "Restricts aim height inside vehicle more than the default.",
+          "Build Introduced": "b1290"
+        },
+        {
+          "Flag Number": "167",
+          "Flag Name": "FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD",
+          "Description": "Increases camber when suspension mods are equipped.",
+          "Build Introduced": "b1365"
+        },
+        {
+          "Flag Number": "168",
+          "Flag Name": "FLAG_NO_HEAVY_BRAKE_ANIMATION",
+          "Description": "Prevents \"lean forward\" animation when braking heavily.",
+          "Build Introduced": "b1365"
+        },
+        {
+          "Flag Number": "169",
+          "Flag Name": "FLAG_HAS_TWO_BONNET_BONES",
+          "Description": "Uses two bonnet bones simultaneously.",
+          "Build Introduced": "b1493"
+        },
+        {
+          "Flag Number": "170",
+          "Flag Name": "FLAG_DONT_LINK_BOOT2",
+          "Description": "Does nothing.",
+          "Build Introduced": "b1493"
+        },
+        {
+          "Flag Number": "171",
+          "Flag Name": "FLAG_HAS_INCREASED_RAMMING_FORCE_WITH_CHASSIS_MOD",
+          "Description": "Chassis mod increases ramming force.",
+          "Build Introduced": "b1493"
+        },
+        {
+          "Flag Number": "172",
+          "Flag Name": "FLAG_HAS_INCREASED_RAMMING_FORCE_VS_ALL_VEHICLES",
+          "Description": "Ramming force increased against all vehicles.",
+          "Build Introduced": "b1604"
+        },
+        {
+          "Flag Number": "173",
+          "Flag Name": "FLAG_HAS_EXTENDED_COLLISION_MODS",
+          "Description": "Extended collision mods functionality.",
+          "Build Introduced": "b1604"
+        },
+        {
+          "Flag Number": "174",
+          "Flag Name": "FLAG_HAS_NITROUS_MOD",
+          "Description": "Enables nitro boost modifications.",
+          "Build Introduced": "b1604"
+        },
+        {
+          "Flag Number": "175",
+          "Flag Name": "FLAG_HAS_JUMP_MOD",
+          "Description": "Enables jump boost modification.",
+          "Build Introduced": "b1604"
+        },
+        {
+          "Flag Number": "176",
+          "Flag Name": "FLAG_HAS_RAMMING_SCOOP_MOD",
+          "Description": "Vehicle has ramming scoop modification.",
+          "Build Introduced": "b1604"
+        },
+        {
+          "Flag Number": "177",
+          "Flag Name": "FLAG_HAS_SUPER_BRAKES_MOD",
+          "Description": "Vehicle has super brakes modification.",
+          "Build Introduced": "b1604"
+        },
+        {
+          "Flag Number": "178",
+          "Flag Name": "FLAG_CRUSHES_OTHER_VEHICLES",
+          "Description": "Vehicle does more damage to vehicles it drives over.",
+          "Build Introduced": "b1604"
+        },
+        {
+          "Flag Number": "179",
+          "Flag Name": "FLAG_HAS_WEAPON_BLADE_MODS",
+          "Description": "Vehicle equipped with sawblade modifications.",
+          "Build Introduced": "b1604"
+        },
+        {
+          "Flag Number": "180",
+          "Flag Name": "FLAG_HAS_WEAPON_SPIKE_MODS",
+          "Description": "Equipped with spike modifications that harm on contact.",
+          "Build Introduced": "b1604"
+        },
+        {
+          "Flag Number": "181",
+          "Flag Name": "FLAG_FORCE_BONNET_CAMERA_INSTEAD_OF_POV",
+          "Description": "Forces bonnet camera over POV.",
+          "Build Introduced": "b1604"
+        },
+        {
+          "Flag Number": "182",
+          "Flag Name": "FLAG_RAMP_MOD",
+          "Description": "Equipped with ramp modification.",
+          "Build Introduced": "b1604"
+        },
+        {
+          "Flag Number": "183",
+          "Flag Name": "FLAG_HAS_TOMBSTONE",
+          "Description": "Heavy part that can be ejected to stop pursuing vehicles.",
+          "Build Introduced": "b1604"
+        },
+        {
+          "Flag Number": "184",
+          "Flag Name": "FLAG_HAS_SIDE_SHUNT",
+          "Description": "Can shunt vehicles sideways.",
+          "Build Introduced": "b1604"
+        },
+        {
+          "Flag Number": "185",
+          "Flag Name": "FLAG_HAS_FRONT_SPIKE_MOD",
+          "Description": "Equipped with front spike modification.",
+          "Build Introduced": "b1604"
+        },
+        {
+          "Flag Number": "186",
+          "Flag Name": "FLAG_HAS_RAMMING_BAR_MOD",
+          "Description": "Equipped with ramming bar modification.",
+          "Build Introduced": "b1604"
+        },
+        {
+          "Flag Number": "187",
+          "Flag Name": "FLAG_TURRET_MODS_ON_CHASSIS5",
+          "Description": "Enables turret mods on VMT_CHASSIS5 category.",
+          "Build Introduced": "b1604"
+        },
+        {
+          "Flag Number": "188",
+          "Flag Name": "FLAG_HAS_SUPERCHARGER",
+          "Description": "Permanently enables vacuum and blower/boost dials.",
+          "Build Introduced": "b1604"
+        },
+        {
+          "Flag Number": "189",
+          "Flag Name": "FLAG_IS_TANK_WITH_FLAME_DAMAGE",
+          "Description": "Similar to FLAG_IS_TANK but not fireproof.",
+          "Build Introduced": "b1604"
+        },
+        {
+          "Flag Number": "190",
+          "Flag Name": "FLAG_DISABLE_DEFORMATION",
+          "Description": "Disables visual deformation.",
+          "Build Introduced": "b1604"
+        },
+        {
+          "Flag Number": "191",
+          "Flag Name": "FLAG_ALLOW_RAPPEL_AI_ONLY",
+          "Description": "Allows AI-only rappelling.",
+          "Build Introduced": "b1734"
+        },
+        {
+          "Flag Number": "192",
+          "Flag Name": "FLAG_USE_RESTRICTED_DRIVEBY_HEIGHT_MID_ONLY",
+          "Description": "Restricts drive-by height in mid-only.",
+          "Build Introduced": "b1734"
+        },
+        {
+          "Flag Number": "193",
+          "Flag Name": "FLAG_FORCE_AUTO_VAULT_ON_VEHICLE_WHEN_STUCK",
+          "Description": "Forces auto-vault when stuck.",
+          "Build Introduced": "b1734"
+        },
+        {
+          "Flag Number": "194",
+          "Flag Name": "FLAG_SPOILER_MOD_DOESNT_INCREASE_GRIP",
+          "Description": "Spoiler mods do not add traction.",
+          "Build Introduced": "b1868"
+        },
+        {
+          "Flag Number": "195",
+          "Flag Name": "FLAG_NO_REVERSING_ANIMATION",
+          "Description": "Disables \"look back\" animation when reversing.",
+          "Build Introduced": "b1868"
+        },
+        {
+          "Flag Number": "196",
+          "Flag Name": "FLAG_IS_QUADBIKE_USING_BIKE_ANIMATIONS",
+          "Description": "Allows quadbikes to use bike layouts and animations.",
+          "Build Introduced": "b1868"
+        },
+        {
+          "Flag Number": "197",
+          "Flag Name": "FLAG_IS_FORMULA_VEHICLE",
+          "Description": "Changes tire mark texture to slick tires.",
+          "Build Introduced": "b2060"
+        },
+        {
+          "Flag Number": "198",
+          "Flag Name": "FLAG_LATCH_ALL_JOINTS",
+          "Description": "Latches all joints upon creation.",
+          "Build Introduced": "b2189"
+        },
+        {
+          "Flag Number": "199",
+          "Flag Name": "FLAG_REJECT_ENTRY_TO_VEHICLE_WHEN_STOOD_ON",
+          "Description": "If the player is standing on top of the vehicle, the player character will not attempt to pathfind to the nearest vehicle door to enter and will not warp inside the vehicle.",
+          "Build Introduced": "b2189"
+        },
+        {
+          "Flag Number": "200",
+          "Flag Name": "FLAG_CHECK_IF_DRIVER_SEAT_IS_CLOSER_THAN_TURRETS_WITH_ON_BOARD_ENTER",
+          "Description": "Checks whether the player character is closer to the driver's seat than the turret seat before deciding on which one to pathfind to. Added in.",
+          "Build Introduced": "b2189"
+        },
+        {
+          "Flag Number": "201",
+          "Flag Name": "FLAG_RENDER_WHEELS_WITH_ZERO_COMPRESSION",
+          "Description": "Prevents the wheels and suspension from visually moving.",
+          "Build Introduced": "b2189"
+        },
+        {
+          "Flag Number": "202",
+          "Flag Name": "FLAG_USE_LENGTH_OF_VEHICLE_BOUNDS_FOR_PLAYER_LOCKON_POS",
+          "Description": "Uses vehicle bounds for player lock-on.",
+          "Build Introduced": "b2189"
+        },
+        {
+          "Flag Number": "203",
+          "Flag Name": "FLAG_PREFER_FRONT_SEAT",
+          "Description": "Prefers front seat over rear.",
+          "Build Introduced": "b2372"
+        }
+      ]
+    }
+  ],
+  "table_count": 1,
+  "total_table_rows": 204,
+  "css_items": [],
+  "css_item_count": 0,
+  "markdown": "| Flag Number | Flag Name | Description | Build Introduced |\n|-------------|-----------|-------------|-------------------|\n| 0 | FLAG_SMALL_WORKER | Vehicle can only spawn on path nodes flagged to allow small worker vehicles. |  |\n| 1 | FLAG_BIG | Peds driving the vehicle will take wider turns, increase space between traffic, and avoid ramming during chases. |  |\n| 2 | FLAG_NO_BOOT | Does nothing. Derivative from the IV flag noboot. |  |\n| 3 | FLAG_ONLY_DURING_OFFICE_HOURS | Prevents spawning outside office hours, doesn't work correctly due to misconfigured time settings. |  |\n| 4 | FLAG_BOOT_IN_FRONT | Does nothing. Use FLAG_FRONT_BOOT instead. |  |\n| 5 | FLAG_IS_VAN | The vehicle never spawns in traffic with more than one passenger. |  |\n| 6 | FLAG_AVOID_TURNS | AI avoids turns at intersections unless no other path is available. Spawns on multi-lane roads. |  |\n| 7 | FLAG_HAS_LIVERY | Cycles liveries from vehicle's texture dictionary, up to 30 liveries. |  |\n| 8 | FLAG_LIVERY_MATCH_EXTRA | Vehicle spawns with livery matching toggled on extra; defaults to last livery if more extras than liveries. |  |\n| 9 | FLAG_SPORTS | Idle camera focuses on the vehicle if swankness > 4. Faster drivers, prioritized colors, alarms on parked vehicles. |  |\n| 10 | FLAG_DELIVERY | Parked vehicles spawn with wheels at a much higher angle. |  |\n| 11 | FLAG_NOAMBIENTOCCLUSION | Disables ground ambient occlusion. |  |\n| 12 | FLAG_ONLY_ON_HIGHWAYS | Vehicle only spawns on highways. Derivative of an unused flag. |  |\n| 13 | FLAG_TALL_SHIP | Prevents spawning under low bridges. |  |\n| 14 | FLAG_SPAWN_ON_TRAILER | Vehicles have a 50% chance of spawning on trailers; disabled in multiplayer. |  |\n| 15 | FLAG_SPAWN_BOAT_ON_TRAILER | Similar to FLAG_SPAWN_ON_TRAILER but for boats; positioning relative to boattrailer. |  |\n| 16 | FLAG_EXTRAS_GANG | Vehicle spawns with extras 5-9 if driven by a gang member. |  |\n| 17 | FLAG_EXTRAS_CONVERTIBLE | Cycles between extras 1-4, toggling roof status. Extras are unbreakable. |  |\n| 18 | FLAG_EXTRAS_TAXI | Enables taxi logic, including cycling extras and setting lights. |  |\n| 19 | FLAG_EXTRAS_RARE | Extras have a 25% chance of spawning. |  |\n| 20 | FLAG_EXTRAS_REQUIRE | The vehicle always spawns with at least one extra. |  |\n| 21 | FLAG_EXTRAS_STRONG | Prevents extras from breaking off during collisions. |  |\n| 22 | FLAG_EXTRAS_ONLY_BREAK_WHEN_DESTROYED | Extras only break when the vehicle is completely destroyed. |  |\n| 23 | FLAG_EXTRAS_SCRIPT | Specific extras only spawn when toggled by script. |  |\n| 24 | FLAG_EXTRAS_ALL | Vehicle spawns with all extras toggled on. |  |\n| 25 | FLAG_EXTRAS_MATCH_LIVERY | Vehicle spawns with extra matching livery ID. |  |\n| 26 | FLAG_DONT_ROTATE_TAIL_ROTOR | Prevents helicopter tail rotor from rotating. |  |\n| 27 | FLAG_PARKING_SENSORS | Vehicle has a parking sensor gadget. |  |\n| 28 | FLAG_PEDS_CAN_STAND_ON_TOP | Allows peds to stand on the vehicle without ragdolling. |  |\n| 29 | FLAG_TAILGATE_TYPE_BOOT | Does nothing. |  |\n| 30 | FLAG_GEN_NAVMESH | Generates navmesh, typically used on boats, trailers, and train cars. |  |\n| 31 | FLAG_LAW_ENFORCEMENT | Multiple effects, including use of searchlights by helicopters and enhanced wanted level dynamics. |  |\n| 32 | FLAG_EMERGENCY_SERVICE | Prevents certain responses from peds and alters how vehicle theft is perceived. |  |\n| 33 | FLAG_DRIVER_NO_DRIVE_BY | Prevents the driver from using weapons. |  |\n| 34 | FLAG_NO_RESPRAY | Disables the ability to respray the vehicle. |  |\n| 35 | FLAG_IGNORE_ON_SIDE_CHECK | Player avoids pathfinding toward vehicles on their side. |  |\n| 36 | FLAG_RICH_CAR | Seen driven by rich NPCs and triggers strong reactions upon collision. |  |\n| 37 | FLAG_AVERAGE_CAR | Seen driven by average NPCs in traffic. |  |\n| 38 | FLAG_POOR_CAR | Seen driven by poor NPCs in traffic. |  |\n| 39 | FLAG_ALLOWS_RAPPEL | Allows peds to rappel from the vehicle. |  |\n| 40 | FLAG_DONT_CLOSE_DOOR_UPON_EXIT | Peds don't close the door after exiting. |  |\n| 41 | FLAG_USE_HIGHER_DOOR_TORQUE | Higher door torque setting. |  |\n| 42 | FLAG_DISABLE_THROUGH_WINDSCREEN | Prevents peds from being ejected through the windshield during a crash. |  |\n| 43 | FLAG_IS_ELECTRIC | Disables oil leaks and damage to the fuel tank. Trains with this flag will stop for vehicles blocking their path. |  |\n| 44 | FLAG_NO_BROKEN_DOWN_SCENARIO | Vehicle will never spawn in a broken-down scenario. |  |\n| 45 | FLAG_IS_JETSKI | Jetski classification flag. |  |\n| 46 | FLAG_DAMPEN_STICKBOMB_DAMAGE | Takes less damage from sticky bomb explosions. |  |\n| 47 | FLAG_DONT_SPAWN_IN_CARGEN | Prevents the vehicle from spawning in parked scenarios. |  |\n| 48 | FLAG_IS_OFFROAD_VEHICLE | AI considers off-road paths as valid routes. |  |\n| 49 | FLAG_INCREASE_PED_COMMENTS | Increases random comments about the vehicle. |  |\n| 50 | FLAG_EXPLODE_ON_CONTACT | Explodes on contact setting. |  |\n| 51 | FLAG_USE_FAT_INTERIOR_LIGHT | Increases the size and intensity of the vehicle's interior light. |  |\n| 52 | FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS | Uses actual bone position for headlights. |  |\n| 53 | FLAG_FAKE_EXTRALIGHTS | Treats extra lights as normal headlights. |  |\n| 54 | FLAG_CANNOT_BE_MODDED | Vehicle cannot enter modification shops. |  |\n| 55 | FLAG_DONT_SPAWN_AS_AMBIENT | Prevents ambient spawning. |  |\n| 56 | FLAG_IS_BULKY | Bulkiness classification. |  |\n| 57 | FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO | Blocks spawning in WORLD_VEHICLE_ATTRACTOR scenarios. |  |\n| 58 | FLAG_IS_BUS | Identifies the vehicle as a bus. |  |\n| 59 | FLAG_USE_STEERING_PARAM_FOR_LEAN | Steering parameter affects leaning. |  |\n| 60 | FLAG_CANNOT_BE_DRIVEN_BY_PLAYER | Player cannot enter the vehicle. |  |\n| 61 | FLAG_SPRAY_PETROL_BEFORE_EXPLOSION | Spills gasoline before exploding. |  |\n| 62 | FLAG_ATTACH_TRAILER_ON_HIGHWAY | Spawns with a trailer only on highways. |  |\n| 63 | FLAG_ATTACH_TRAILER_IN_CITY | Spawns with a trailer only in the city. |  |\n| 64 | FLAG_HAS_NO_ROOF | Ignores roof checks, allows hats with no roof. |  |\n| 65 | FLAG_ALLOW_TARGETING_OF_OCCUPANTS | Allows targeting of vehicle occupants. |  |\n| 66 | FLAG_RECESSED_HEADLIGHT_CORONAS | Recessed headlight coronas. |  |\n| 67 | FLAG_RECESSED_TAILLIGHT_CORONAS | Recessed taillight coronas. |  |\n| 68 | FLAG_IS_TRACKED_FOR_TRAILS | Does nothing. |  |\n| 69 | FLAG_HEADLIGHTS_ON_LANDINGGEAR | Headlights on landing gear. |  |\n| 70 | FLAG_CONSIDERED_FOR_VEHICLE_ENTRY_WHEN_STOOD_ON | Peds prioritize entry when standing on the vehicle. |  |\n| 71 | FLAG_GIVE_SCUBA_GEAR_ON_EXIT | Provides scuba gear upon exit. |  |\n| 72 | FLAG_IS_DIGGER | Digger classification flag. |  |\n| 73 | FLAG_IS_TANK | Makes the vehicle fireproof and AI reacts as if it's a tank. |  |\n| 74 | FLAG_USE_COVERBOUND_INFO_FOR_COVERGEN | Uses coverbound info for cover generation. |  |\n| 75 | FLAG_CAN_BE_DRIVEN_ON | Other vehicles can drive on top of it. |  |\n| 76 | FLAG_HAS_BULLETPROOF_GLASS | Prevents glass from breaking. |  |\n| 77 | FLAG_CANNOT_TAKE_COVER_WHEN_STOOD_ON | Prevents peds from taking cover on the vehicle. |  |\n| 78 | FLAG_INTERIOR_BLOCKED_BY_BOOT | Interior blocked by boot. |  |\n| 79 | FLAG_DONT_TIMESLICE_WHEELS | Prevents time slicing effect on wheels. |  |\n| 80 | FLAG_FLEE_FROM_COMBAT | AI driver always flees from combat areas. |  |\n| 81 | FLAG_DRIVER_SHOULD_BE_FEMALE | Vehicle only spawns driven by female peds. |  |\n| 82 | FLAG_DRIVER_SHOULD_BE_MALE | Vehicle only spawns driven by male peds. |  |\n| 83 | FLAG_COUNT_AS_FACEBOOK_DRIVEN | Used for tracking vehicles driven by the player with Facebook integration (now unused). |  |\n| 84 | FLAG_BIKE_CLAMP_PICKUP_LEAN_RATE | Clamps bike pickup lean rate. |  |\n| 85 | FLAG_PLANE_WEAR_ALTERNATIVE_HELMET | Forces plane to wear an alternative helmet. |  |\n| 86 | FLAG_USE_STRICTER_EXIT_COLLISION_TESTS | Uses stricter exit collision tests. |  |\n| 87 | FLAG_TWO_DOORS_ONE_SEAT | Two doors but only one seat configuration. |  |\n| 88 | FLAG_USE_LIGHTING_INTERIOR_OVERRIDE | Keeps interior lights on regardless of engine status. |  |\n| 89 | FLAG_USE_RESTRICTED_DRIVEBY_HEIGHT | Restricts aiming height for weapons inside the vehicle. |  |\n| 90 | FLAG_CAN_HONK_WHEN_FLEEING | AI uses horn when fleeing. |  |\n| 91 | FLAG_PEDS_INSIDE_CAN_BE_SET_ON_FIRE_MP | Peds inside can be set on fire (GTA Online). |  |\n| 92 | FLAG_REPORT_CRIME_IF_STANDING_ON | Gives player a wanted level if standing on top of the vehicle. |  |\n| 93 | FLAG_HELI_USES_FIXUPS_ON_OPEN_DOOR | Fix-ups when a helicopter door is open. |  |\n| 94 | FLAG_FORCE_ENABLE_CHASSIS_COLLISION | Forces enabling chassis collision. |  |\n| 95 | FLAG_CANNOT_BE_PICKUP_BY_CARGOBOB | Prevents vehicle from being picked up by Cargobob. |  |\n| 96 | FLAG_CAN_HAVE_NEONS | Allows neon lights to be equipped. |  |\n| 97 | FLAG_HAS_INTERIOR_EXTRAS | Vehicle can spawn with certain interior extras. |  |\n| 98 | FLAG_HAS_TURRET_SEAT_ON_VEHICLE | Turret seat functionality. |  |\n| 99 | FLAG_ALLOW_OBJECT_LOW_LOD_COLLISION | Allows low LOD collision for objects. |  |\n| 100 | FLAG_DISABLE_AUTO_VAULT_ON_VEHICLE | Disables automatic vaulting on this vehicle. |  |\n| 101 | FLAG_USE_TURRET_RELATIVE_AIM_CALCULATION | Relative aim calculation for turrets. |  |\n| 102 | FLAG_USE_FULL_ANIMS_FOR_MP_WARP_ENTRY_POINTS | Uses full animations for entry points marked as MP warp in/out. |  |\n| 103 | FLAG_HAS_DIRECTIONAL_SHUFFLES | Directional shuffles functionality. |  |\n| 104 | FLAG_DISABLE_WEAPON_WHEEL_IN_FIRST_PERSON | Disables weapon wheel in first-person mode. |  |\n| 105 | FLAG_USE_PILOT_HELMET | Forces player and AI to wear pilot helmets. |  |\n| 106 | FLAG_USE_WEAPON_WHEEL_WITHOUT_HELMET | Allows weapon wheel without a helmet. |  |\n| 107 | FLAG_PREFER_ENTER_TURRET_AFTER_DRIVER | Prefers turret entry if driver is present. |  |\n| 108 | FLAG_USE_SMALLER_OPEN_DOOR_RATIO_TOLERANCE | Uses smaller tolerance for door opening ratio. |  |\n| 109 | FLAG_USE_HEADING_ONLY_IN_TURRET_MATRIX | Uses heading only in turret matrix calculations. |  |\n| 110 | FLAG_DONT_STOP_WHEN_GOING_TO_CLIMB_UP_POINT | Prevents stopping when climbing up to a point. |  |\n| 111 | FLAG_HAS_REAR_MOUNTED_TURRET | Rear-mounted turret. |  |\n| 112 | FLAG_DISABLE_BUSTING | Player won't be busted while inside the vehicle. |  |\n| 113 | FLAG_IGNORE_RWINDOW_COLLISION | Ignores collision through the rear window. |  |\n| 114 | FLAG_HAS_GULL_WING_DOORS | Doors open upwards like gull-wing doors. |  |\n| 115 | FLAG_CARGOBOB_HOOK_UP_CHASSIS | Uses chassis for Cargobob hook attachment. |  |\n| 116 | FLAG_USE_FIVE_ANIM_THROW_FP | Uses wider throw animations in first-person. |  |\n| 117 | FLAG_ALLOW_HATS_NO_ROOF | Allows hats to be worn in vehicles without roofs. |  |\n| 118 | FLAG_HAS_REAR_SEAT_ACTIVITIES | Adds rear seat activities, used in GTA Online. |  |\n| 119 | FLAG_HAS_LOWRIDER_HYDRAULICS | Vehicle has lowrider hydraulics. |  |\n| 120 | FLAG_HAS_BULLET_RESISTANT_GLASS | Vehicle's glass is resistant to bullets. |  |\n| 121 | FLAG_HAS_INCREASED_RAMMING_FORCE | Vehicle can ram others more effectively. |  |\n| 122 | FLAG_HAS_CAPPED_EXPLOSION_DAMAGE | Vehicle takes less damage from explosions. |  |\n| 123 | FLAG_HAS_LOWRIDER_DONK_HYDRAULICS | Vehicle has lowrider donk hydraulics. |  |\n| 124 | FLAG_HELICOPTER_WITH_LANDING_GEAR | Helicopter has a landing gear. |  |\n| 125 | FLAG_JUMPING_CAR | Vehicle can jump, with force modifiable in handling files. |  |\n| 126 | FLAG_HAS_ROCKET_BOOST | Vehicle can use a rocket boost. |  |\n| 127 | FLAG_RAMMING_SCOOP | Vehicle has a scoop to push vehicles away. |  |\n| 128 | FLAG_HAS_PARACHUTE | Vehicle is equipped with a parachute. |  |\n| 129 | FLAG_RAMP | Vehicle can eject other vehicles by driving under them. |  |\n| 130 | FLAG_HAS_EXTRA_SHUFFLE_SEAT_ON_VEHICLE | Extra shuffle seats functionality. |  |\n| 131 | FLAG_FRONT_BOOT | Allows front \"boot\" to detach at high speeds. |  |\n| 132 | FLAG_HALF_TRACK | Half-track classification. |  |\n| 133 | FLAG_RESET_TURRET_SEAT_HEADING | Resets turret seat heading when not in use. | b1011 |\n| 134 | FLAG_TURRET_MODS_ON_ROOF | Turret mods on roof functionality. | b1103 |\n| 135 | FLAG_UPDATE_WEAPON_BATTERY_BONES | Updates weapon battery bones. | b1103 |\n| 136 | FLAG_DONT_HOLD_LOW_GEARS_WHEN_ENGINE_UNDER_LOAD | Prevents holding low gears when engine is under load. | b1103 |\n| 137 | FLAG_HAS_GLIDER | Identifies vehicle as a glider. | b1103 |\n| 138 | FLAG_INCREASE_LOW_SPEED_TORQUE | Increases torque at low speeds. | b1103 |\n| 139 | FLAG_USE_AIRCRAFT_STYLE_WEAPON_TARGETING | Uses aircraft style for weapon targeting. | b1103 |\n| 140 | FLAG_KEEP_ALL_TURRETS_SYNCHRONISED | Synchronizes all turrets. | b1103 |\n| 141 | FLAG_SET_WANTED_FOR_ATTACHED_VEH | Sets wanted level for attached vehicle. | b1103 |\n| 142 | FLAG_TURRET_ENTRY_ATTACH_TO_DRIVER_SEAT | Attaches turret entry to driver seat. | b1180 |\n| 143 | FLAG_USE_STANDARD_FLIGHT_HELMET | Uses standard flight helmet. | b1180 |\n| 144 | FLAG_SECOND_TURRET_MOD | Second turret modification. | b1180 |\n| 145 | FLAG_THIRD_TURRET_MOD | Third turret modification. | b1180 |\n| 146 | FLAG_HAS_EJECTOR_SEATS | Ejects ped from aircraft if bailing mid-air. | b1180 |\n| 147 | FLAG_TURRET_MODS_ON_CHASSIS | Turret mods on chassis. | b1180 |\n| 148 | FLAG_HAS_JATO_BOOST_MOD | Adds JATO boost mod to aircraft. | b1180 |\n| 149 | FLAG_IGNORE_TRAPPED_HULL_CHECK | Prevents check if player is trapped in vehicle geometry. | b1180 |\n| 150 | FLAG_HOLD_TO_SHUFFLE | Player shuffles seats when holding context button. | b1180 |\n| 151 | FLAG_TURRET_MOD_WITH_NO_STOCK_TURRET | Modifies turret without stock turret. | b1180 |\n| 152 | FLAG_EQUIP_UNARMED_ON_ENTER | Player equips \"Unarmed\" weapon on entry. | b1180 |\n| 153 | FLAG_DISABLE_CAMERA_PUSH_BEYOND | Disables camera push beyond vehicle. | b1180 |\n| 154 | FLAG_HAS_VERTICAL_FLIGHT_MODE | Vehicle has VTOL-like vertical takeoff and flight ability. | b1290 |\n| 155 | FLAG_HAS_OUTRIGGER_LEGS | Vehicle has deployable legs, unable to drive while extended. | b1290 |\n| 156 | FLAG_CAN_NAVIGATE_TO_ON_VEHICLE_ENTRY | Navigation settings for on-vehicle entry. | b1290 |\n| 157 | FLAG_DROP_SUSPENSION_WHEN_STOPPED | Vehicle's suspension drops when stopped. | b1290 |\n| 158 | FLAG_DONT_CRASH_ABANDONED_NEAR_GROUND | Prevents crash when abandoned near ground. | b1290 |\n| 159 | FLAG_USE_INTERIOR_RED_LIGHT | Vehicle's interior light is red. | b1290 |\n| 160 | FLAG_HAS_HELI_STRAFE_MODE | Helicopter can strafe like a helicopter. | b1290 |\n| 161 | FLAG_HAS_VERTICAL_ROCKET_BOOST | Rocket propels vehicle upwards. | b1290 |\n| 162 | FLAG_CREATE_WEAPON_MANAGER_ON_SPAWN | Creates weapon manager on spawn. | b1290 |\n| 163 | FLAG_USE_ROOT_AS_BASE_LOCKON_POS | Uses vehicle root for lock-on positioning. | b1290 |\n| 164 | FLAG_HEADLIGHTS_ON_TAP_ONLY | Headlights toggle on tap only. | b1290 |\n| 165 | FLAG_CHECK_WARP_TASK_FLAG_DURING_ENTER | Checks warp task flag during entry. | b1290 |\n| 166 | FLAG_USE_RESTRICTED_DRIVEBY_HEIGHT_HIGH | Restricts aim height inside vehicle more than the default. | b1290 |\n| 167 | FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD | Increases camber when suspension mods are equipped. | b1365 |\n| 168 | FLAG_NO_HEAVY_BRAKE_ANIMATION | Prevents \"lean forward\" animation when braking heavily. | b1365 |\n| 169 | FLAG_HAS_TWO_BONNET_BONES | Uses two bonnet bones simultaneously. | b1493 |\n| 170 | FLAG_DONT_LINK_BOOT2 | Does nothing. | b1493 |\n| 171 | FLAG_HAS_INCREASED_RAMMING_FORCE_WITH_CHASSIS_MOD | Chassis mod increases ramming force. | b1493 |\n| 172 | FLAG_HAS_INCREASED_RAMMING_FORCE_VS_ALL_VEHICLES | Ramming force increased against all vehicles. | b1604 |\n| 173 | FLAG_HAS_EXTENDED_COLLISION_MODS | Extended collision mods functionality. | b1604 |\n| 174 | FLAG_HAS_NITROUS_MOD | Enables nitro boost modifications. | b1604 |\n| 175 | FLAG_HAS_JUMP_MOD | Enables jump boost modification. | b1604 |\n| 176 | FLAG_HAS_RAMMING_SCOOP_MOD | Vehicle has ramming scoop modification. | b1604 |\n| 177 | FLAG_HAS_SUPER_BRAKES_MOD | Vehicle has super brakes modification. | b1604 |\n| 178 | FLAG_CRUSHES_OTHER_VEHICLES | Vehicle does more damage to vehicles it drives over. | b1604 |\n| 179 | FLAG_HAS_WEAPON_BLADE_MODS | Vehicle equipped with sawblade modifications. | b1604 |\n| 180 | FLAG_HAS_WEAPON_SPIKE_MODS | Equipped with spike modifications that harm on contact. | b1604 |\n| 181 | FLAG_FORCE_BONNET_CAMERA_INSTEAD_OF_POV | Forces bonnet camera over POV. | b1604 |\n| 182 | FLAG_RAMP_MOD | Equipped with ramp modification. | b1604 |\n| 183 | FLAG_HAS_TOMBSTONE | Heavy part that can be ejected to stop pursuing vehicles. | b1604 |\n| 184 | FLAG_HAS_SIDE_SHUNT | Can shunt vehicles sideways. | b1604 |\n| 185 | FLAG_HAS_FRONT_SPIKE_MOD | Equipped with front spike modification. | b1604 |\n| 186 | FLAG_HAS_RAMMING_BAR_MOD | Equipped with ramming bar modification. | b1604 |\n| 187 | FLAG_TURRET_MODS_ON_CHASSIS5 | Enables turret mods on VMT_CHASSIS5 category. | b1604 |\n| 188 | FLAG_HAS_SUPERCHARGER | Permanently enables vacuum and blower/boost dials. | b1604 |\n| 189 | FLAG_IS_TANK_WITH_FLAME_DAMAGE | Similar to FLAG_IS_TANK but not fireproof. | b1604 |\n| 190 | FLAG_DISABLE_DEFORMATION | Disables visual deformation. | b1604 |\n| 191 | FLAG_ALLOW_RAPPEL_AI_ONLY | Allows AI-only rappelling. | b1734 |\n| 192 | FLAG_USE_RESTRICTED_DRIVEBY_HEIGHT_MID_ONLY | Restricts drive-by height in mid-only. | b1734 |\n| 193 | FLAG_FORCE_AUTO_VAULT_ON_VEHICLE_WHEN_STUCK | Forces auto-vault when stuck. | b1734 |\n| 194 | FLAG_SPOILER_MOD_DOESNT_INCREASE_GRIP | Spoiler mods do not add traction. | b1868 |\n| 195 | FLAG_NO_REVERSING_ANIMATION | Disables \"look back\" animation when reversing. | b1868 |\n| 196 | FLAG_IS_QUADBIKE_USING_BIKE_ANIMATIONS | Allows quadbikes to use bike layouts and animations. | b1868 |\n| 197 | FLAG_IS_FORMULA_VEHICLE | Changes tire mark texture to slick tires. | b2060 |\n| 198 | FLAG_LATCH_ALL_JOINTS | Latches all joints upon creation. | b2189 |\n| 199 | FLAG_REJECT_ENTRY_TO_VEHICLE_WHEN_STOOD_ON | If the player is standing on top of the vehicle, the player character will not attempt to pathfind to the nearest vehicle door to enter and will not warp inside the vehicle. | b2189 |\n| 200 | FLAG_CHECK_IF_DRIVER_SEAT_IS_CLOSER_THAN_TURRETS_WITH_ON_BOARD_ENTER | Checks whether the player character is closer to the driver's seat than the turret seat before deciding on which one to pathfind to. Added in. | b2189 |\n| 201 | FLAG_RENDER_WHEELS_WITH_ZERO_COMPRESSION | Prevents the wheels and suspension from visually moving. | b2189 |\n| 202 | FLAG_USE_LENGTH_OF_VEHICLE_BOUNDS_FOR_PLAYER_LOCKON_POS | Uses vehicle bounds for player lock-on. | b2189 |\n| 203 | FLAG_PREFER_FRONT_SEAT | Prefers front seat over rear. | b2372 |",
+  "raw_html_length": 18636
+}

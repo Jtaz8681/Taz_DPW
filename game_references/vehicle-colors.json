@@ -1,0 +1,654 @@
+{
+  "url_path": "/docs/game-references/vehicle-references/vehicle-colors/",
+  "full_url": "https://docs.fivem.net/docs/game-references/vehicle-references/vehicle-colors/",
+  "title": "vehicle-colors",
+  "slug": "vehicle-colors",
+  "parent_category": "vehicle-references",
+  "toc": [],
+  "tables": [],
+  "table_count": 0,
+  "total_table_rows": 0,
+  "css_items": [],
+  "css_item_count": 0,
+  "markdown": "List of vehicle colors\n\n- [Metallic](#metallic)\n- [Matte](#matte)\n- [Metals](#metals)\n- [Unnamed Colors](#unnamed-colors)\n\n\t.colors {\n\t\tdisplay: grid;\n\t\tgrid-template-columns: repeat(auto-fill, 25%);\n\t}\n\n\t.color {\n\t\tpadding: 5px;\n\t\tmargin: 5px;\n\n\t\tborder: 1px solid #333;\n\t\tbackground-color: #fafafa;\n\n\t\tposition: relative;\n\t}\n\n\t.color span {\n\t\tdisplay: block;\n\t\ttext-align: center;\n\t\tbottom: 5px;\n\t\tleft: 5px;\n\t\tright: 5px;\n\t\tword-wrap: break-word;\n\t}\n\n\t.model img {\n\t\tmax-height: 150px;\n\t}\n\nMetallic\n-----\n\n\t\n**Index: 0**\nBlack\n\t\n**Index: 1**\nGraphite\n\t\n**Index: 2**\nBlack Steel\n\t\n**Index: 3**\nDark Steel\n\t\n**Index: 4**\nSilver\n\t\n**Index: 5**\nBluish Silver\n\t\n**Index: 6**\nRolled Steel\n\t\n**Index: 7**\nShadow Silver\n\t\n**Index: 8**\nStone Silver\n\t\n**Index: 9**\nMidnight Silver\n\t\n**Index: 10**\nCast Iron Silver\n\t\n**Index: 11**\nAnthracite Black\n\t\n**Index: 27**\nRed\n\t\n**Index: 28**\nTorino Red\n\t\n**Index: 29**\nFormula Red\n\t\n**Index: 30**\nBlaze Red\n\t\n**Index: 31**\nGrace Red\n\t\n**Index: 32**\nGarnet Red\n\t\n**Index: 33**\nSunset Red\n\t\n**Index: 34**\nCabernet Red\n\t\n**Index: 35**\nCandy Red\n\t\n**Index: 36**\nSunrise Orange\n\t\n**Index: 38**\nOrange\n\t\n**Index: 49**\nDark Green\n\t\n**Index: 50**\nRacing Green\n\t\n**Index: 51**\nSea Green\n\t\n**Index: 52**\nOlive Green\n\t\n**Index: 53**\nBright Green\n\t\n**Index: 54**\nGasoline Green\n\t\n**Index: 61**\nGalaxy Blue\n\t\n**Index: 62**\nDark Blue\n\t\n**Index: 63**\nSaxon Blue\n\t\n**Index: 64**\nBlue\n\t\n**Index: 65**\nMariner Blue\n\t\n**Index: 66**\nHarbor Blue\n\t\n**Index: 67**\nDiamond Blue\n\t\n**Index: 68**\nSurf Blue\n\t\n**Index: 69**\nNautical Blue\n\t\n**Index: 70**\nUltra Blue\n\t\n**Index: 71**\nSchafter Purple\n\t\n**Index: 72**\nSpinnaker Purple\n\t\n**Index: 73**\nRacing Blue\n\t\n**Index: 74**\nLight Blue\n\t\n**Index: 88**\nYellow\n\t\n**Index: 89**\nRace Yellow\n\t\n**Index: 90**\nBronze\n\t\n**Index: 91**\nDew Yellow\n\t\n**Index: 92**\nLime Green\n\t\n**Index: 94**\nFeltzer Brown\n\t\n**Index: 95**\nCreeen Brown\n\t\n**Index: 96**\nChocolate Brown\n\t\n**Index: 97**\nMaple Brown\n\t\n**Index: 98**\nSaddle Brown\n\t\n**Index: 99**\nStraw Brown\n\t\n**Index: 100**\nMoss Brown\n\t\n**Index: 101**\nBison Brown\n\t\n**Index: 102**\nWoodbeech Brown\n\t\n**Index: 103**\nBeechwood Brown\n\t\n**Index: 104**\nSienna Brown\n\t\n**Index: 105**\nSandy Brown\n\t\n**Index: 106**\nBleached Brown\n\t\n**Index: 107**\nCream\n\t\n**Index: 111**\nIce White\n\t\n**Index: 112**\nFrost White\n\t\n**Index: 135**\nHot Pink\n\t\n**Index: 136**\nSalmon Pink\n\t\n**Index: 137**\nPfsiter Pink\n\t\n**Index: 138**\nBright Orange\n\t\n**Index: 141**\nMidnight Blue\n\t\n**Index: 142**\nMidnight Purple\n\t\n**Index: 143**\nWine Red\n\t\n**Index: 145**\nBright Purple\n\t\n**Index: 147**\nCarbon Black\n\t\n**Index: 150**\nLava Red\n\nMatte\n-----\n\n\t\n**Index: 12**\nBlack\n\t\n**Index: 13**\nGray\n\t\n**Index: 14**\nLight Gray\n\t\n**Index: 39**\nRed\n\t\n**Index: 40**\nDark Red\n\t\n**Index: 41**\nOrange\n\t\n**Index: 42**\nYellow\n\t\n**Index: 55**\nLime Green\n\t\n**Index: 82**\nDark Blue\n\t\n**Index: 83**\nBlue\n\t\n**Index: 84**\nMidnight Blue\n\t\n**Index: 128**\nGreen\n\t\n**Index: 131**\nIce White\n\t\n**Index: 148**\nSchafter Purple\n\t\n**Index: 149**\nMidnight Purple\n\t\n**Index: 151**\nFrost Green\n\t\n**Index: 152**\nOlive Darb\n\t\n**Index: 154**\nDesert Tan\n\t\n**Index: 155**\nDark Earth\n\nMetals\n-----\n\n\t\n**Index: 117**\nBrushed Steel\n\t\n**Index: 118**\nBrushed Black Steel\n\t\n**Index: 119**\nBrushed Aluminum\n\t\n**Index: 158**\nPure Gold\n\t\n**Index: 159**\nBrushed Gold\n\nUnnamed colors\n-----\n\n\t\n**Index: 15**\nUnnamed\n\t\n**Index: 16**\nUnnamed\n\t\n**Index: 17**\nUnnamed\n\t\n**Index: 18**\nUnnamed\n\t\n**Index: 19**\nUnnamed\n\t\n**Index: 20**\nUnnamed\n\t\n**Index: 21**\nUnnamed\n\t\n**Index: 22**\nUnnamed\n\t\n**Index: 23**\nUnnamed\n\t\n**Index: 24**\nUnnamed\n\t\n**Index: 25**\nUnnamed\n\t\n**Index: 26**\nUnnamed\n\t\n**Index: 37**\nUnnamed\n\t\n**Index: 43**\nUnnamed\n\t\n**Index: 44**\nUnnamed\n\t\n**Index: 45**\nUnnamed\n\t\n**Index: 46**\nUnnamed\n\t\n**Index: 47**\nUnnamed\n\t\n**Index: 48**\nUnnamed\n\t\n**Index: 56**\nUnnamed\n\t\n**Index: 57**\nUnnamed\n\t\n**Index: 58**\nUnnamed\n\t\n**Index: 59**\nUnnamed\n\t\n**Index: 60**\nUnnamed\n\t\n**Index: 75**\nUnnamed\n\t\n**Index: 76**\nUnnamed\n\t\n**Index: 77**\nUnnamed\n\t\n**Index: 78**\nUnnamed\n\t\n**Index: 79**\nUnnamed\n\t\n**Index: 80**\nUnnamed\n\t\n**Index: 81**\nUnnamed\n\t\n**Index: 85**\nUnnamed\n\t\n**Index: 86**\nUnnamed\n\t\n**Index: 87**\nUnnamed\n\t\n**Index: 93**\nUnnamed\n\t\n**Index: 108**\nUnnamed\n\t\n**Index: 109**\nUnnamed\n\t\n**Index: 110**\nUnnamed\n\t\n**Index: 113**\nUnnamed\n\t\n**Index: 114**\nUnnamed\n\t\n**Index: 115**\nUnnamed\n\t\n**Index: 116**\nUnnamed\n\t\n**Index: 120**\nUnnamed\n\t\n**Index: 121**\nUnnamed\n\t\n**Index: 122**\nUnnamed\n\t\n**Index: 123**\nUnnamed\n\t\n**Index: 124**\nUnnamed\n\t\n**Index: 125**\nUnnamed\n\t\n**Index: 126**\nUnnamed\n\t\n**Index: 127**\nUnnamed\n\t\n**Index: 129**\nUnnamed\n\t\n**Index: 130**\nUnnamed\n\t\n**Index: 132**\nUnnamed\n\t\n**Index: 134**\nUnnamed\n\t\n**Index: 139**\nUnnamed\n\t\n**Index: 140**\nUnnamed\n\t\n**Index: 146**\nUnnamed\n\t\n**Index: 153**\nUnnamed\n\t\n**Index: 156**\nUnnamed\n\t\n**Index: 157**\nUnnamed\n\t\n**Index: 160**\nUnnamed",
+  "raw_html_length": 23464,
+  "vehicle_colors": [
+    {
+      "index": 0,
+      "name": "Black"
+    },
+    {
+      "index": 1,
+      "name": "Graphite"
+    },
+    {
+      "index": 2,
+      "name": "Black Steel"
+    },
+    {
+      "index": 3,
+      "name": "Dark Steel"
+    },
+    {
+      "index": 4,
+      "name": "Silver"
+    },
+    {
+      "index": 5,
+      "name": "Bluish Silver"
+    },
+    {
+      "index": 6,
+      "name": "Rolled Steel"
+    },
+    {
+      "index": 7,
+      "name": "Shadow Silver"
+    },
+    {
+      "index": 8,
+      "name": "Stone Silver"
+    },
+    {
+      "index": 9,
+      "name": "Midnight Silver"
+    },
+    {
+      "index": 10,
+      "name": "Cast Iron Silver"
+    },
+    {
+      "index": 11,
+      "name": "Anthracite Black"
+    },
+    {
+      "index": 27,
+      "name": "Red"
+    },
+    {
+      "index": 28,
+      "name": "Torino Red"
+    },
+    {
+      "index": 29,
+      "name": "Formula Red"
+    },
+    {
+      "index": 30,
+      "name": "Blaze Red"
+    },
+    {
+      "index": 31,
+      "name": "Grace Red"
+    },
+    {
+      "index": 32,
+      "name": "Garnet Red"
+    },
+    {
+      "index": 33,
+      "name": "Sunset Red"
+    },
+    {
+      "index": 34,
+      "name": "Cabernet Red"
+    },
+    {
+      "index": 35,
+      "name": "Candy Red"
+    },
+    {
+      "index": 36,
+      "name": "Sunrise Orange"
+    },
+    {
+      "index": 38,
+      "name": "Orange"
+    },
+    {
+      "index": 49,
+      "name": "Dark Green"
+    },
+    {
+      "index": 50,
+      "name": "Racing Green"
+    },
+    {
+      "index": 51,
+      "name": "Sea Green"
+    },
+    {
+      "index": 52,
+      "name": "Olive Green"
+    },
+    {
+      "index": 53,
+      "name": "Bright Green"
+    },
+    {
+      "index": 54,
+      "name": "Gasoline Green"
+    },
+    {
+      "index": 61,
+      "name": "Galaxy Blue"
+    },
+    {
+      "index": 62,
+      "name": "Dark Blue"
+    },
+    {
+      "index": 63,
+      "name": "Saxon Blue"
+    },
+    {
+      "index": 64,
+      "name": "Blue"
+    },
+    {
+      "index": 65,
+      "name": "Mariner Blue"
+    },
+    {
+      "index": 66,
+      "name": "Harbor Blue"
+    },
+    {
+      "index": 67,
+      "name": "Diamond Blue"
+    },
+    {
+      "index": 68,
+      "name": "Surf Blue"
+    },
+    {
+      "index": 69,
+      "name": "Nautical Blue"
+    },
+    {
+      "index": 70,
+      "name": "Ultra Blue"
+    },
+    {
+      "index": 71,
+      "name": "Schafter Purple"
+    },
+    {
+      "index": 72,
+      "name": "Spinnaker Purple"
+    },
+    {
+      "index": 73,
+      "name": "Racing Blue"
+    },
+    {
+      "index": 74,
+      "name": "Light Blue"
+    },
+    {
+      "index": 88,
+      "name": "Yellow"
+    },
+    {
+      "index": 89,
+      "name": "Race Yellow"
+    },
+    {
+      "index": 90,
+      "name": "Bronze"
+    },
+    {
+      "index": 91,
+      "name": "Dew Yellow"
+    },
+    {
+      "index": 92,
+      "name": "Lime Green"
+    },
+    {
+      "index": 94,
+      "name": "Feltzer Brown"
+    },
+    {
+      "index": 95,
+      "name": "Creeen Brown"
+    },
+    {
+      "index": 96,
+      "name": "Chocolate Brown"
+    },
+    {
+      "index": 97,
+      "name": "Maple Brown"
+    },
+    {
+      "index": 98,
+      "name": "Saddle Brown"
+    },
+    {
+      "index": 99,
+      "name": "Straw Brown"
+    },
+    {
+      "index": 100,
+      "name": "Moss Brown"
+    },
+    {
+      "index": 101,
+      "name": "Bison Brown"
+    },
+    {
+      "index": 102,
+      "name": "Woodbeech Brown"
+    },
+    {
+      "index": 103,
+      "name": "Beechwood Brown"
+    },
+    {
+      "index": 104,
+      "name": "Sienna Brown"
+    },
+    {
+      "index": 105,
+      "name": "Sandy Brown"
+    },
+    {
+      "index": 106,
+      "name": "Bleached Brown"
+    },
+    {
+      "index": 107,
+      "name": "Cream"
+    },
+    {
+      "index": 111,
+      "name": "Ice White"
+    },
+    {
+      "index": 112,
+      "name": "Frost White"
+    },
+    {
+      "index": 135,
+      "name": "Hot Pink"
+    },
+    {
+      "index": 136,
+      "name": "Salmon Pink"
+    },
+    {
+      "index": 137,
+      "name": "Pfsiter Pink"
+    },
+    {
+      "index": 138,
+      "name": "Bright Orange"
+    },
+    {
+      "index": 141,
+      "name": "Midnight Blue"
+    },
+    {
+      "index": 142,
+      "name": "Midnight Purple"
+    },
+    {
+      "index": 143,
+      "name": "Wine Red"
+    },
+    {
+      "index": 145,
+      "name": "Bright Purple"
+    },
+    {
+      "index": 147,
+      "name": "Carbon Black"
+    },
+    {
+      "index": 150,
+      "name": "Lava Red"
+    },
+    {
+      "index": 12,
+      "name": "Black"
+    },
+    {
+      "index": 13,
+      "name": "Gray"
+    },
+    {
+      "index": 14,
+      "name": "Light Gray"
+    },
+    {
+      "index": 39,
+      "name": "Red"
+    },
+    {
+      "index": 40,
+      "name": "Dark Red"
+    },
+    {
+      "index": 41,
+      "name": "Orange"
+    },
+    {
+      "index": 42,
+      "name": "Yellow"
+    },
+    {
+      "index": 55,
+      "name": "Lime Green"
+    },
+    {
+      "index": 82,
+      "name": "Dark Blue"
+    },
+    {
+      "index": 83,
+      "name": "Blue"
+    },
+    {
+      "index": 84,
+      "name": "Midnight Blue"
+    },
+    {
+      "index": 128,
+      "name": "Green"
+    },
+    {
+      "index": 131,
+      "name": "Ice White"
+    },
+    {
+      "index": 148,
+      "name": "Schafter Purple"
+    },
+    {
+      "index": 149,
+      "name": "Midnight Purple"
+    },
+    {
+      "index": 151,
+      "name": "Frost Green"
+    },
+    {
+      "index": 152,
+      "name": "Olive Darb"
+    },
+    {
+      "index": 154,
+      "name": "Desert Tan"
+    },
+    {
+      "index": 155,
+      "name": "Dark Earth"
+    },
+    {
+      "index": 117,
+      "name": "Brushed Steel"
+    },
+    {
+      "index": 118,
+      "name": "Brushed Black Steel"
+    },
+    {
+      "index": 119,
+      "name": "Brushed Aluminum"
+    },
+    {
+      "index": 158,
+      "name": "Pure Gold"
+    },
+    {
+      "index": 159,
+      "name": "Brushed Gold"
+    },
+    {
+      "index": 15,
+      "name": "Unnamed"
+    },
+    {
+      "index": 16,
+      "name": "Unnamed"
+    },
+    {
+      "index": 17,
+      "name": "Unnamed"
+    },
+    {
+      "index": 18,
+      "name": "Unnamed"
+    },
+    {
+      "index": 19,
+      "name": "Unnamed"
+    },
+    {
+      "index": 20,
+      "name": "Unnamed"
+    },
+    {
+      "index": 21,
+      "name": "Unnamed"
+    },
+    {
+      "index": 22,
+      "name": "Unnamed"
+    },
+    {
+      "index": 23,
+      "name": "Unnamed"
+    },
+    {
+      "index": 24,
+      "name": "Unnamed"
+    },
+    {
+      "index": 25,
+      "name": "Unnamed"
+    },
+    {
+      "index": 26,
+      "name": "Unnamed"
+    },
+    {
+      "index": 37,
+      "name": "Unnamed"
+    },
+    {
+      "index": 43,
+      "name": "Unnamed"
+    },
+    {
+      "index": 44,
+      "name": "Unnamed"
+    },
+    {
+      "index": 45,
+      "name": "Unnamed"
+    },
+    {
+      "index": 46,
+      "name": "Unnamed"
+    },
+    {
+      "index": 47,
+      "name": "Unnamed"
+    },
+    {
+      "index": 48,
+      "name": "Unnamed"
+    },
+    {
+      "index": 56,
+      "name": "Unnamed"
+    },
+    {
+      "index": 57,
+      "name": "Unnamed"
+    },
+    {
+      "index": 58,
+      "name": "Unnamed"
+    },
+    {
+      "index": 59,
+      "name": "Unnamed"
+    },
+    {
+      "index": 60,
+      "name": "Unnamed"
+    },
+    {
+      "index": 75,
+      "name": "Unnamed"
+    },
+    {
+      "index": 76,
+      "name": "Unnamed"
+    },
+    {
+      "index": 77,
+      "name": "Unnamed"
+    },
+    {
+      "index": 78,
+      "name": "Unnamed"
+    },
+    {
+      "index": 79,
+      "name": "Unnamed"
+    },
+    {
+      "index": 80,
+      "name": "Unnamed"
+    },
+    {
+      "index": 81,
+      "name": "Unnamed"
+    },
+    {
+      "index": 85,
+      "name": "Unnamed"
+    },
+    {
+      "index": 86,
+      "name": "Unnamed"
+    },
+    {
+      "index": 87,
+      "name": "Unnamed"
+    },
+    {
+      "index": 93,
+      "name": "Unnamed"
+    },
+    {
+      "index": 108,
+      "name": "Unnamed"
+    },
+    {
+      "index": 109,
+      "name": "Unnamed"
+    },
+    {
+      "index": 110,
+      "name": "Unnamed"
+    },
+    {
+      "index": 113,
+      "name": "Unnamed"
+    },
+    {
+      "index": 114,
+      "name": "Unnamed"
+    },
+    {
+      "index": 115,
+      "name": "Unnamed"
+    },
+    {
+      "index": 116,
+      "name": "Unnamed"
+    },
+    {
+      "index": 120,
+      "name": "Unnamed"
+    },
+    {
+      "index": 121,
+      "name": "Unnamed"
+    },
+    {
+      "index": 122,
+      "name": "Unnamed"
+    },
+    {
+      "index": 123,
+      "name": "Unnamed"
+    },
+    {
+      "index": 124,
+      "name": "Unnamed"
+    },
+    {
+      "index": 125,
+      "name": "Unnamed"
+    },
+    {
+      "index": 126,
+      "name": "Unnamed"
+    },
+    {
+      "index": 127,
+      "name": "Unnamed"
+    },
+    {
+      "index": 129,
+      "name": "Unnamed"
+    },
+    {
+      "index": 130,
+      "name": "Unnamed"
+    },
+    {
+      "index": 132,
+      "name": "Unnamed"
+    },
+    {
+      "index": 134,
+      "name": "Unnamed"
+    },
+    {
+      "index": 139,
+      "name": "Unnamed"
+    },
+    {
+      "index": 140,
+      "name": "Unnamed"
+    },
+    {
+      "index": 146,
+      "name": "Unnamed"
+    },
+    {
+      "index": 153,
+      "name": "Unnamed"
+    },
+    {
+      "index": 156,
+      "name": "Unnamed"
+    },
+    {
+      "index": 157,
+      "name": "Unnamed"
+    },
+    {
+      "index": 160,
+      "name": "Unnamed"
+    }
+  ],
+  "vehicle_colors_count": 159
+}
