@@ -219,7 +219,7 @@ Config.Tasks.TrafficSignal = {
     trafficLightModel = 'prop_traffic_01a',
     controlBoxModel = 'prop_traffic_light_02',
     -- Welding tool model (used during repair animations)
-    welderModel = 'prop_tool_welder',
+    welderModel = 'prop_weld_torch',
     -- Electronic component box to carry
     componentBoxModel = 'ex_prop_ex_toolchest_01',
     -- Spark particle
