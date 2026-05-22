@@ -281,7 +281,12 @@ function DPW.Tasks.SetupHydrant(task)
                     -- Install hydrant
                     DPW.Utils.DrawText3D(coords + vector3(0, 0, 1.0), Config.Labels.installHydrant)
                     if DPW.Utils.IsEPressed() then
-                        AttachToolToPed(ped, 'prop_weld_torch', 0.1, 0.0, 0.0, 280.0, 0.0, 225.0)
+                        -- Remove hydrant from hands before install animation
+                        if activeTaskData.attachedProp then
+                            DetachEntity(activeTaskData.attachedProp, false, false)
+                            DPW.Utils.DeleteEntitySafe(activeTaskData.attachedProp)
+                            activeTaskData.attachedProp = nil
+                        end
                         local success = DPW.Utils.ProgressBar('Installing new hydrant...', cfg.installAnim.duration, cfg.installAnim.dict, cfg.installAnim.anim)
                         if success then
                             if activeTaskData.attachedProp then

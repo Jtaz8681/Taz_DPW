@@ -154,8 +154,8 @@ Config.Tasks.Hydrant = {
         duration = 10000, -- 10 seconds
     },
     installAnim = {
-        dict = 'amb@world_human_welding@male@base',
-        anim = 'base',
+        dict = 'anim@amb@clubhouse@tutorial@bkr_tut_ig3@',
+        anim = 'machinic_loop_mechandplayer',
         duration = 15000, -- 15 seconds
     },
     -- Skill check for shut off
@@ -175,14 +175,14 @@ Config.Tasks.Hydrant = {
 Config.Tasks.Sidewalk = {
     enabled = true,
     locations = {
-        vector3(-545.0, -260.0, 35.0),
-        vector3(150.0, -1030.0, 29.0),
-        vector3(-1200.0, -900.0, 14.0),
-        vector3(900.0, -200.0, 74.0),
-        vector3(-300.0, -150.0, 44.0),
-        vector3(50.0, -1700.0, 29.0),
-        vector3(-1400.0, -500.0, 34.0),
-        vector3(600.0, -800.0, 26.0),
+        vector3(781.6926, -1122.977, 28.25486),
+        vector3(781.6926, -1122.977, 28.25486),
+        vector3(781.6926, -1122.977, 28.25486),
+        vector3(781.6926, -1122.977, 28.25486),
+        vector3(781.6926, -1122.977, 28.25486),
+        vector3(781.6926, -1122.977, 28.25486),
+        vector3(781.6926, -1122.977, 28.25486),
+        vector3(781.6926, -1122.977, 28.25486),
     },
     -- Props
     damagedProp = 'prop_rubble_03a',
