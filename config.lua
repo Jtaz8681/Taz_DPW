@@ -306,7 +306,7 @@ Config.Tasks.Pothole = {
     },
     -- Animations
     shovelAnim = {
-        dict = 'amb@world_human_gardener_plant@male@base',
+        dict = 'amb@mission@mrds@fred@using_shovel@base',
         anim = 'base',
         duration = 20000,
     },
