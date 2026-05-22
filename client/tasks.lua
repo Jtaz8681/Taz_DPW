@@ -281,20 +281,18 @@ function DPW.Tasks.SetupHydrant(task)
                     -- Install hydrant
                     DPW.Utils.DrawText3D(coords + vector3(0, 0, 1.0), Config.Labels.installHydrant)
                     if DPW.Utils.IsEPressed() then
-                        -- Remove hydrant from hands before install animation
+                        -- 1. Remove hydrant from player's hands
                         if activeTaskData.attachedProp then
                             DetachEntity(activeTaskData.attachedProp, false, false)
                             DPW.Utils.DeleteEntitySafe(activeTaskData.attachedProp)
                             activeTaskData.attachedProp = nil
                         end
+                        -- 2. Spawn hydrant in the world at the target coords (visible on ground)
+                        local replacementHydrant = DPW.Utils.SpawnNetworkedProp(cfg.hydrantModel, coords, true)
+                        -- 3. Play mechanic animation (hands free)
                         local success = DPW.Utils.ProgressBar('Installing new hydrant...', cfg.installAnim.duration, cfg.installAnim.dict, cfg.installAnim.anim)
                         if success then
-                            if activeTaskData.attachedProp then
-                                DetachEntity(activeTaskData.attachedProp, false, false)
-                                DPW.Utils.DeleteEntitySafe(activeTaskData.attachedProp)
-                                activeTaskData.attachedProp = nil
-                            end
-                            local replacementHydrant = DPW.Utils.SpawnNetworkedProp(cfg.hydrantModel, coords, true)
+                            -- Schedule despawn after configured duration
                             if replacementHydrant then
                                 SetTimeout(cfg.replacementHydrantDuration or 120000, function()
                                     if DoesEntityExist(replacementHydrant) then DPW.Utils.DeleteEntitySafe(replacementHydrant) end
@@ -303,6 +301,9 @@ function DPW.Tasks.SetupHydrant(task)
                             DPW.Utils.NotifySuccess('Hydrant repaired successfully!')
                             DPW.CompleteTask()
                             return
+                        else
+                            -- Animation cancelled — remove spawned hydrant
+                            if replacementHydrant then DPW.Utils.DeleteEntitySafe(replacementHydrant) end
                         end
                     end
                 end
