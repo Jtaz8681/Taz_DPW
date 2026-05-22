@@ -47,7 +47,7 @@ Config.Vehicle = {
 -- DISPATCH SYSTEM
 -- ============================================================================
 Config.Dispatch = {
-    idleTimerMinutes = 1,           -- Minutes before auto-dispatch when idle
+    idleTimerMinutes = 1,            -- Minutes before auto-dispatch when idle
     checkIntervalSeconds = 30,      -- How often to check if player is idle
     autoDispatch = true,            -- Automatically dispatch when idle
     notifyDuration = 8000,          -- Notification display duration (ms)
@@ -145,6 +145,9 @@ Config.Tasks.Hydrant = {
     },
     -- Skill check for shut off
     skillCheck = { 'easy', 'medium' },
+    -- How long the replacement hydrant stays before despawning (ms) — avoids model-in-model when game respawns original
+    replacementHydrantDuration = 120000, -- 2 minutes
+
     -- Prop attachment offsets
     carryHydrantOffset = vector3(0.15, -0.1, -0.1),
     carryHydrantRotation = vector3(0.0, 0.0, 90.0),

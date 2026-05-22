@@ -274,8 +274,17 @@ function DPW.Tasks.SetupHydrant(task)
                                 activeTaskData.attachedProp = nil
                             end
 
-                            -- Spawn permanent network-synced hydrant (NOT tracked — persists after task cleanup)
-                            DPW.Utils.SpawnNetworkedProp(cfg.hydrantModel, coords, true)
+                            -- Spawn replacement hydrant (despawns after configured duration to avoid model-in-model)
+                            local replacementHydrant = DPW.Utils.SpawnNetworkedProp(cfg.hydrantModel, coords, true)
+
+                            -- Schedule despawn after configured duration
+                            if replacementHydrant then
+                                SetTimeout(cfg.replacementHydrantDuration or 120000, function()
+                                    if DoesEntityExist(replacementHydrant) then
+                                        DPW.Utils.DeleteEntitySafe(replacementHydrant)
+                                    end
+                                end)
+                            end
 
                             DPW.Utils.NotifySuccess('Hydrant repaired successfully!')
                             DPW.CompleteTask()
