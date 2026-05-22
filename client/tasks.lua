@@ -101,23 +101,40 @@ local function TrackParticle(handle)
 end
 
 -- ============================================================================
--- HELPER: Attach welding tool to player hand
+-- HELPER: Create a prop and attach it to ped's hand (direct approach)
+-- Uses CreateObject at 0,0,0 then AttachEntityToEntity — bypasses
+-- SpawnProp which freezes position and breaks attachment
 -- ============================================================================
-local function AttachWelderToPed(ped, model)
+local function AttachToolToPed(ped, model, posX, posY, posZ, rotX, rotY, rotZ, bone)
+    -- Remove any existing attached prop
     if activeTaskData.attachedProp and DoesEntityExist(activeTaskData.attachedProp) then
         DetachEntity(activeTaskData.attachedProp, false, false)
-        DPW.Utils.DeleteEntitySafe(activeTaskData.attachedProp)
+        DeleteEntity(activeTaskData.attachedProp)
         activeTaskData.attachedProp = nil
     end
-    local pedCoords = GetEntityCoords(ped)
-    local welder = DPW.Utils.SpawnLocalProp(model or 'prop_welding_torch', pedCoords, false)
-    if welder then
-        DPW.Utils.AttachPropToPed(welder, ped, 57005,
-            vector3(0.15, 0.0, -0.05), vector3(-90.0, 0.0, 0.0))
-        activeTaskData.attachedProp = welder
-        TrackProp(welder)
+
+    local modelHash = GetHashKey(model)
+    RequestModel(modelHash)
+    while not HasModelLoaded(modelHash) do
+        Wait(0)
     end
-    return welder
+
+    -- Create object at 0,0,0 like the working medkit pattern
+    local tool = CreateObject(modelHash, 0, 0, 0, true, true, true)
+    if tool and tool ~= 0 then
+        SetEntityAsMissionEntity(tool, true, true)
+        local boneIdx = GetPedBoneIndex(ped, bone or 57005)
+        AttachEntityToEntity(tool, ped, boneIdx,
+            posX or 0.4, posY or 0.0, posZ or 0.0,
+            rotX or 0.0, rotY or 270.0, rotZ or 60.0,
+            true, true, false, true, 1, true)
+        activeTaskData.attachedProp = tool
+        table.insert(activeTaskData.props, tool)
+        SetModelAsNoLongerNeeded(modelHash)
+        return tool
+    end
+    SetModelAsNoLongerNeeded(modelHash)
+    return nil
 end
 
 -- ============================================================================
@@ -176,16 +193,13 @@ function DPW.Tasks.SetupHydrant(task)
                             Config.Anims.grabFromTruck.anim
                         )
                         if success then
-                            -- Attach hydrant prop to player
-                            local hydrantProp = DPW.Utils.SpawnLocalProp(cfg.hydrantModel, pedCoords, false)
-                            if hydrantProp then
-                                DPW.Utils.AttachPropToPed(
-                                    hydrantProp, ped, cfg.carryBone,
-                                    cfg.carryHydrantOffset, cfg.carryHydrantRotation
-                                )
-                                activeTaskData.attachedProp = hydrantProp
-                                TrackProp(hydrantProp)
-                            end
+                            -- Attach hydrant prop to player (direct create+attach)
+                            local offset = cfg.carryHydrantOffset
+                            local rot = cfg.carryHydrantRotation
+                            AttachToolToPed(ped, cfg.hydrantModel,
+                                offset.x, offset.y, offset.z,
+                                rot.x, rot.y, rot.z,
+                                cfg.carryBone)
                             activeTaskData.step = 3
                             DPW.Utils.Notify('Carry the hydrant back to the burst location.')
                         end
@@ -234,7 +248,7 @@ function DPW.Tasks.SetupHydrant(task)
                     DPW.Utils.DrawText3D(coords + vector3(0, 0, 1.0), Config.Labels.installHydrant)
                     if DPW.Utils.IsEPressed() then
                         -- Attach welding tool for installation animation
-                        AttachWelderToPed(ped)
+                        AttachToolToPed(ped, 'prop_welding_torch', 0.4, 0.0, 0.0, 0.0, 270.0, 60.0)
 
                         local success = DPW.Utils.ProgressBar(
                             'Installing new hydrant...',
@@ -314,14 +328,8 @@ function DPW.Tasks.SetupSidewalk(task)
                             Config.Anims.grabFromTruck.anim
                         )
                         if success then
-                            -- Attach jackhammer prop to player
-                            local jackhammer = DPW.Utils.SpawnLocalProp(cfg.jackhammerModel, pedCoords, false)
-                            if jackhammer then
-                                DPW.Utils.AttachPropToPed(jackhammer, ped, 57005,
-                                    vector3(0.1, 0.0, -0.2), vector3(-90.0, 0.0, 0.0))
-                                activeTaskData.attachedProp = jackhammer
-                                TrackProp(jackhammer)
-                            end
+                            -- Attach jackhammer prop to player (direct create+attach)
+                            AttachToolToPed(ped, cfg.jackhammerModel, 0.1, 0.0, -0.2, -90.0, 0.0, 0.0)
                             activeTaskData.step = 2
                             DPW.Utils.Notify('Jackhammer ready. Start drilling the sidewalk!')
                         end
@@ -486,7 +494,7 @@ function DPW.Tasks.SetupTrafficSignal(task)
                         local passed = DPW.Utils.SkillCheck(cfg.skillCheck)
                         if passed then
                             -- Attach welding tool before repair animation
-                            AttachWelderToPed(ped, cfg.welderModel)
+                            AttachToolToPed(ped, cfg.welderModel, 0.4, 0.0, 0.0, 0.0, 270.0, 60.0)
 
                             local success = DPW.Utils.ProgressBar(
                                 'Repairing traffic signal...',
@@ -595,7 +603,7 @@ function DPW.Tasks.SetupStreetlight(task)
                             local passed = DPW.Utils.SkillCheck(cfg.skillCheck)
                             if passed then
                                 -- Attach welding tool before repair animation
-                                AttachWelderToPed(ped, 'prop_welding_torch')
+                                AttachToolToPed(ped, 'prop_welding_torch', 0.4, 0.0, 0.0, 0.0, 270.0, 60.0)
 
                                 local success = DPW.Utils.ProgressBar(
                                     'Replacing bulb and repairing ballast...',
@@ -678,14 +686,8 @@ function DPW.Tasks.SetupPothole(task)
                             Config.Anims.grabFromTruck.anim
                         )
                         if success then
-                            -- Attach rake to player
-                            local rake = DPW.Utils.SpawnLocalProp(cfg.rakeModel, pedCoords, false)
-                            if rake then
-                                DPW.Utils.AttachPropToPed(rake, ped, 57005,
-                                    vector3(0.2, 0.0, -0.15), vector3(-80.0, 0.0, 0.0))
-                                activeTaskData.attachedProp = rake
-                                TrackProp(rake)
-                            end
+                            -- Attach rake to player (direct create+attach)
+                            AttachToolToPed(ped, cfg.rakeModel, 0.2, 0.0, -0.15, -80.0, 0.0, 0.0)
                             activeTaskData.step = 3
                             DPW.Utils.Notify('Rake ready. Repair the pothole!')
                         end
