@@ -339,7 +339,7 @@ function DPW.Tasks.SetupSidewalk(task)
                         )
                         if success then
                             -- Attach jackhammer prop to player (direct create+attach)
-                            AttachToolToPed(ped, cfg.jackhammerModel, 0.1, 0.0, -0.2, -90.0, 0.0, 0.0)
+                            AttachToolToPed(ped, cfg.jackhammerModel, 0.1, 0.0, 0.0, 280.0, 0.0, 0.0)
                             activeTaskData.step = 2
                             DPW.Utils.Notify('Jackhammer ready. Start drilling the sidewalk!')
                         end
@@ -730,8 +730,8 @@ function DPW.Tasks.SetupPothole(task)
                             Config.Anims.grabFromTruck.anim
                         )
                         if success then
-                            -- Attach rake to player (direct create+attach)
-                            AttachToolToPed(ped, cfg.rakeModel, 0.1, 0.0, 0.0, 0.0, 0.0, 0.0)
+                            -- Attach shovel to player (direct create+attach)
+                            AttachToolToPed(ped, cfg.rakeModel, 0.1, 0.0, 0.0, 280.0, 0.0, 0.0)
                             activeTaskData.step = 3
                             DPW.Utils.Notify('Rake ready. Repair the pothole!')
                         end
