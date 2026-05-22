@@ -47,7 +47,7 @@ Config.Vehicle = {
 -- DISPATCH SYSTEM
 -- ============================================================================
 Config.Dispatch = {
-    idleTimerMinutes = 2,           -- Minutes before auto-dispatch when idle
+    idleTimerMinutes = 1,           -- Minutes before auto-dispatch when idle
     checkIntervalSeconds = 30,      -- How often to check if player is idle
     autoDispatch = true,            -- Automatically dispatch when idle
     notifyDuration = 8000,          -- Notification display duration (ms)
