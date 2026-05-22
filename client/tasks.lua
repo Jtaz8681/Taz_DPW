@@ -553,7 +553,7 @@ end
 
 -- ============================================================================
 -- TASK D: DEAD STREETLIGHTS
--- Steps: 1=DeployLadder/Interact, 2=RepairLight
+-- Steps: 1=Inspect, 2=FetchParts (from truck), 3=RepairLight
 -- ============================================================================
 
 function DPW.Tasks.SetupStreetlight(task)
@@ -582,8 +582,38 @@ function DPW.Tasks.SetupStreetlight(task)
             local ped = PlayerPedId()
             local pedCoords = GetEntityCoords(ped)
             local dist = #(pedCoords - coords)
+            local step = activeTaskData.step
 
-            if dist < 30.0 then
+            -- STEP 2 is fetch from truck — handled OUTSIDE streetlight-distance check
+            if step == 2 then
+                sleep = Config.Optimization.activeInterval
+
+                if DPW.IsNearVehicleTrunk() then
+                    local vehCoords = DPW.GetDutyVehicleCoords()
+                    if vehCoords then
+                        DPW.Utils.DrawText3D(vehCoords + vector3(0, 0, 1.5), Config.Labels.fetchLightParts)
+                    end
+                    if DPW.Utils.IsEPressed() then
+                        local success = DPW.Utils.ProgressBar(
+                            'Grabbing replacement parts...',
+                            Config.Anims.grabFromTruck.duration,
+                            Config.Anims.grabFromTruck.dict,
+                            Config.Anims.grabFromTruck.anim
+                        )
+                        if success then
+                            activeTaskData.step = 3
+                            DPW.Utils.Notify('Got the parts! Head back to the streetlight and repair it.')
+                        end
+                    end
+                else
+                    local vehCoords = DPW.GetDutyVehicleCoords()
+                    if vehCoords then
+                        DPW.Utils.DrawText3D(vehCoords + vector3(0, 0, 1.5), '~y~Go to truck for replacement parts')
+                    end
+                end
+
+            -- Steps 1 and 3 require being near the streetlight
+            elseif dist < 30.0 then
                 sleep = Config.Optimization.activeInterval
 
                 -- Use base panel position for interaction
@@ -591,25 +621,23 @@ function DPW.Tasks.SetupStreetlight(task)
                 local distToBase = #(pedCoords - baseCoords)
 
                 if distToBase < Config.Optimization.interactionRange + 1.5 then
-                    local step = activeTaskData.step
-
                     if step == 1 then
-                        -- Deploy ladder / lower control panel
-                        DPW.Utils.DrawText3D(baseCoords + vector3(0, 0, 1.0), Config.Labels.deployLadder)
+                        -- Inspect the streetlight
+                        DPW.Utils.DrawText3D(baseCoords + vector3(0, 0, 1.0), Config.Labels.inspectStreetlight)
                         if DPW.Utils.IsEPressed() then
                             local success = DPW.Utils.ProgressBar(
-                                'Deploying ladder...',
+                                'Inspecting streetlight...',
                                 5000,
                                 Config.Anims.grabFromTruck.dict,
                                 Config.Anims.grabFromTruck.anim
                             )
                             if success then
                                 activeTaskData.step = 2
-                                DPW.Utils.Notify('Ladder deployed. Repair the streetlight now.')
+                                DPW.Utils.Notify('The bulb and ballast are dead. Get replacement parts from your truck.')
                             end
                         end
 
-                    elseif step == 2 then
+                    elseif step == 3 then
                         -- Repair light (skill check + animation)
                         DPW.Utils.DrawText3D(baseCoords + vector3(0, 0, 1.0), Config.Labels.repairLight)
                         if DPW.Utils.IsEPressed() then

@@ -352,7 +352,8 @@ Config.Labels = {
     fetchWiresRelays = '~g~[E]~w~ Get Wires & Relays',
     fixSignal = '~g~[E]~w~ Fix Traffic Signal',
     -- Task D
-    deployLadder = '~g~[E]~w~ Deploy Ladder',
+    inspectStreetlight = '~g~[E]~w~ Inspect Streetlight',
+    fetchLightParts = '~g~[E]~w~ Get Replacement Parts',
     repairLight = '~g~[E]~w~ Repair Light',
     -- Task E
     grabRake = '~g~[E]~w~ Grab Shovel',
