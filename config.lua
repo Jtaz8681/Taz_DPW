@@ -101,6 +101,21 @@ Config.Optimization = {
 }
 
 -- ============================================================================
+-- SHARED CONE CONFIG (used by all tasks)
+-- ============================================================================
+Config.SharedCones = {
+    model = 'prop_roadcone02a',
+    requiredCones = 4,
+    -- Standard 4-cone layout offsets (N/S/E/W around work area)
+    offsets = {
+        vector3(2.0, 0.0, 0.0),
+        vector3(-2.0, 0.0, 0.0),
+        vector3(0.0, 2.0, 0.0),
+        vector3(0.0, -2.0, 0.0),
+    },
+}
+
+-- ============================================================================
 -- TASK A: BURST FIRE HYDRANTS
 -- ============================================================================
 Config.Tasks = Config.Tasks or {}
@@ -145,7 +160,7 @@ Config.Tasks.Hydrant = {
     },
     -- Skill check for shut off
     skillCheck = { 'easy', 'medium' },
-    -- How long the replacement hydrant stays before despawning (ms) — avoids model-in-model when game respawns original
+    -- How long the replacement hydrant stays before despawning (ms)
     replacementHydrantDuration = 120000, -- 2 minutes
 
     -- Prop attachment offsets
@@ -170,17 +185,9 @@ Config.Tasks.Sidewalk = {
         vector3(600.0, -800.0, 26.0),
     },
     -- Props
-    coneModel = 'prop_roadcone02a',
     damagedProp = 'prop_rubble_03a',
     jackhammerModel = 'prop_tool_jackham',
     shovelModel = 'prop_ld_shovel',
-    -- Cone placement offsets around the damaged area
-    coneOffsets = {
-        vector3(2.0, 2.0, 0.0),
-        vector3(-2.0, 2.0, 0.0),
-        vector3(2.0, -2.0, 0.0),
-        vector3(-2.0, -2.0, 0.0),
-    },
     -- Animations
     drillAnim = {
         dict = 'amb@world_human_const_drill@male@drill@base',
@@ -263,7 +270,6 @@ Config.Tasks.Streetlight = {
         vector3(775.8523, -1068.495, 27.05835),
         vector3(775.8523, -1068.495, 27.05835),
         vector3(775.8523, -1068.495, 27.05835),
-        
     },
     -- Streetlight model
     streetlightModel = 'prop_streetlight_01b',
@@ -299,24 +305,13 @@ Config.Tasks.Pothole = {
     },
     -- Props
     potholeModel = 'bkr_prop_asphalt_cracks_01a',
-    coneModel = 'prop_roadcone02a',
     rakeModel = 'prop_ld_shovel',
-    -- Cone placement positions around pothole (3 cones)
-    coneOffsets = {
-        vector3(2.5, 0.0, 0.0),
-        vector3(-1.25, 2.0, 0.0),
-        vector3(-1.25, -2.0, 0.0),
-    },
     -- Animations
     shovelAnim = {
         dict = 'amb@world_human_gardener_plant@male@base',
         anim = 'base',
         duration = 20000,
     },
-    -- Cone placement range
-    placeConeRange = 5.0,
-    -- Number of cones to place
-    requiredCones = 3,
 }
 
 -- ============================================================================
@@ -342,26 +337,26 @@ Config.Labels = {
     clockIn = '~g~[E]~w~ Clock In',
     clockOut = '~r~[E]~w~ Clock Out',
     spawnVehicle = '~y~[E]~w~ Spawn DPW Truck',
+    -- Shared (all tasks)
+    inspectSite = '~g~[E]~w~ Inspect Site',
+    fetchCones = '~g~[E]~w~ Get Traffic Cones',
+    placeCones = '~g~[E]~w~ Place Cone',
     -- Task A
     shutOffValve = '~g~[E]~w~ Shut Off Main Valve',
     fetchHydrant = '~g~[E]~w~ Fetch New Hydrant',
     installHydrant = '~g~[E]~w~ Install New Hydrant',
     -- Task B
-    inspectSidewalk = '~g~[E]~w~ Inspect Sidewalk',
     fetchJackhammer = '~g~[E]~w~ Grab Jackhammer',
     startDrilling = '~g~[E]~w~ Start Drilling',
     startSmoothing = '~g~[E]~w~ Smooth Surface',
     -- Task C
-    investigateSignal = '~g~[E]~w~ Investigate Signal',
     fetchWiresRelays = '~g~[E]~w~ Get Wires & Relays',
     fixSignal = '~g~[E]~w~ Fix Traffic Signal',
     -- Task D
-    inspectStreetlight = '~g~[E]~w~ Inspect Streetlight',
     fetchLightParts = '~g~[E]~w~ Get Replacement Parts',
     repairLight = '~g~[E]~w~ Repair Light',
     -- Task E
     grabRake = '~g~[E]~w~ Grab Shovel',
-    placeCones = '~g~[E]~w~ Place Cones',
     startRepair = '~g~[E]~w~ Repair Pothole',
     -- Dispatch
     dispatchHydrant = 'Dispatch: Burst fire hydrant reported nearby!',
